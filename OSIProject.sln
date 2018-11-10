@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A13E84AC-DA16-43B6-93AD-4C72A8404633}") = "OSIProject", "OSIProject\OSIProject.osiproj", "{8880D70B-199E-4161-81E6-DFF7D9A183F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8880D70B-199E-4161-81E6-DFF7D9A183F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FEBF272-1FCF-411E-8210-B78EB003A19E}
+	EndGlobalSection
+EndGlobal
