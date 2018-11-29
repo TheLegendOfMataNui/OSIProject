@@ -1,0 +1,120 @@
+begin class "lego_area_ptv2", "gs_lego_area"
+	property "puzzle"
+
+	begin method "lego_area_ptv2"
+		; address: 0x6efb6
+		; source: 113 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv2.vbo" 26:27
+		MemberFunctionArgumentCheck 2
+		LineNumber                  44698, 4
+		LineNumberAlt1              26, 113
+		GetVariableValue            0              ; local
+		PushConstantStringString    "ptv2"
+		GetVariableValue            1              ; local
+		PushConstant0
+		PushConstant0
+		GetThisMemberFunctionString "gs_lego_area"
+		JumpAbsolute                5
+		Pop
+		LineNumber                  44699, 4
+		LineNumberAlt1              27, 113
+		CreateObjectString          "ptv2_puzzle"
+		Dup
+		GetVariableValue            0              ; local
+		Pull                        2
+		GetMemberFunctionString     "ptv2_puzzle"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  44699, 4
+		LineNumberAlt1              27, 113
+		SetThisMemberValueString    "puzzle"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0x6effb
+		; source: 113 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv2.vbo" 34:35
+		MemberFunctionArgumentCheck 1
+		LineNumber                  44706, 4
+		LineNumberAlt1              34, 113
+		CreateArray
+		Dup
+		PushConstanti16             180
+		AppendToArray
+		Dup
+		PushConstanti16             -356
+		AppendToArray
+		Dup
+		PushConstant0
+		PushConstantf32             51.400001525878906
+		Subtract
+		AppendToArray
+		Dup
+		PushConstanti16             689
+		AppendToArray
+		SetThisMemberValueString    "startingarea"
+		LineNumber                  44707, 4
+		LineNumberAlt1              35, 113
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0x6f039
+		; source: 113 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv2.vbo" 40:40
+		MemberFunctionArgumentCheck 1
+		LineNumber                  44712, 4
+		LineNumberAlt1              40, 113
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "process"
+		; address: 0x6f051
+		MemberFunctionArgumentCheck 2
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0x6f055
+		; source: 113 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv2.vbo" 50:50
+		MemberFunctionArgumentCheck 2
+		LineNumber                  44722, 4
+		LineNumberAlt1              50, 113
+		GetThisMemberValueString    "puzzle"
+		GetVariableValue            1         ; local
+		Pull                        2
+		GetMemberFunctionString     "onevent"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "input"
+		; address: 0x6f071
+		; source: 113 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv2.vbo" 55:55
+		MemberFunctionArgumentCheck 2
+		LineNumber                  44727, 4
+		LineNumberAlt1              55, 113
+		GetThisMemberValueString    "puzzle"
+		GetVariableValue            1        ; local
+		Pull                        2
+		GetMemberFunctionString     "input"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+end ; class

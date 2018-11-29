@@ -1,0 +1,261 @@
+begin class "lego_area_cvlg", "gs_lego_area"
+	property "parent"
+	property "cinema"
+	property "cinema_shown"
+	property "safecount"
+
+	begin method "lego_area_cvlg"
+		; address: 0xc643c
+		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 27:29
+		MemberFunctionArgumentCheck 2
+		LineNumber                  7098, 4
+		LineNumberAlt1              27, 186
+		GetVariableValue            1                    ; local
+		SetThisMemberValueString    "parent"
+		LineNumber                  7099, 4
+		LineNumberAlt1              28, 186
+		GetVariableValue            0                    ; local
+		PushConstantStringString    "cvlg"
+		GetVariableValue            1                    ; local
+		PushConstant0
+		PushConstant0
+		GetThisMemberFunctionString "gs_lego_area"
+		JumpAbsolute                5
+		Pop
+		LineNumber                  7100, 4
+		LineNumberAlt1              29, 186
+		GetVariableValue            0                    ; local
+		GetThisMemberFunctionString "lego_area_initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0xc647e
+		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 44:56
+		MemberFunctionArgumentCheck   1
+		CreateStackVariables          1
+		LineNumber                    17306, 4
+		LineNumberAlt1                44, 225
+		CreateArray
+		Dup
+		PushConstanti16               180
+		AppendToArray
+		Dup
+		PushConstanti16               -356
+		AppendToArray
+		Dup
+		PushConstant0
+		PushConstantf32               51.400001525878906
+		Subtract
+		AppendToArray
+		Dup
+		PushConstanti16               689
+		AppendToArray
+		SetThisMemberValueString      "startingarea"
+		LineNumber                    17308, 4
+		LineNumberAlt1                46, 225
+		PushConstantStringString      "cin2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    17308, 4
+		LineNumberAlt1                46, 225
+		CallGameFunctionString        "gcsaver", "findcinema", 1
+		LineNumber                    17308, 4
+		LineNumberAlt1                46, 225
+		SetVariableValue              1                                            ; local
+		LineNumber                    17309, 4
+		LineNumberAlt1                47, 225
+		GetVariableValue              1                                            ; local
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    17310, 4
+		LineNumberAlt1                48, 225
+		CallGameFunctionString        "gccinemaengine", "create", 0
+		LineNumber                    17310, 4
+		LineNumberAlt1                48, 225
+		SetThisMemberValueString      "cinema"
+		LineNumber                    17311, 4
+		LineNumberAlt1                49, 225
+		GetThisMemberValueString      "cinema"
+		PushConstantStringString      "cin2"
+		CallGameFunctionString        "gccinemaengine", "load", 2
+		Pop
+		LineNumber                    17315, 4
+		LineNumberAlt1                53, 225
+		GetThisMemberValueString      "cinema"
+		PushConstantStringString      "gvlg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    17315, 4
+		LineNumberAlt1                53, 225
+		CallGameFunctionString        "gccinemaengine", "setnextarea", 2
+		Pop
+		LineNumber                    17313, 4
+		LineNumberAlt1                51, 225
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    17314, 4
+		LineNumberAlt1                52, 225
+		GetThisMemberValueString      "cinema"
+		CallGameFunctionString        "gccinemaengine", "play", 1
+		Pop
+		; <-
+		BranchTarget                  0
+		LineNumber                    17318, 4
+		LineNumberAlt1                56, 225
+		PushConstant0
+		SetThisMemberValueString      "safecount"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0xc6580
+		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 57:58
+		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 140:140
+		MemberFunctionArgumentCheck 1
+		LineNumber                  7128, 4
+		LineNumberAlt1              57, 186
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_hide"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  7129, 4
+		LineNumberAlt1              58, 186
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  30360, 4
+		LineNumberAlt1              140, 83
+		PushNothing
+		SetThisMemberValueString    "cinema"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "process"
+		; address: 0xc65b8
+		MemberFunctionArgumentCheck 2
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0xc65bc
+		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 82:108
+		MemberFunctionArgumentCheck   2
+		CreateStackVariables          1
+		LineNumber                    17344, 4
+		LineNumberAlt1                82, 225
+		GetVariableValue              1             ; local
+		GetMemberValueString          "eventid"
+		PushConstanti8                44
+		EqualTo
+		GetThisMemberValueString      "cinema"
+		PushNothing
+		EqualTo
+		Not
+		And
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    17345, 4
+		LineNumberAlt1                83, 225
+		GetThisMemberValueString      "safecount"
+		PushConstanti8                3
+		LessThan
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    17346, 4
+		LineNumberAlt1                84, 225
+		GetThisMemberValueString      "safecount"
+		PushConstanti8                1
+		Add
+		SetThisMemberValueString      "safecount"
+		LineNumber                    17347, 4
+		LineNumberAlt1                85, 225
+		GetThisMemberValueString      "safecount"
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		Pop
+		; <-
+		BranchTarget                  0
+		LineNumber                    17369, 4
+		LineNumberAlt1                107, 225
+		GetVariableValue              1             ; local
+		GetMemberValueString          "eventid"
+		PushConstanti8                30
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    17370, 4
+		LineNumberAlt1                108, 225
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "show"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "input"
+		; address: 0xc6646
+		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 114:116
+		MemberFunctionArgumentCheck   2
+		LineNumber                    17376, 4
+		LineNumberAlt1                114, 225
+		GetVariableValue              1                           ; local
+		GetMemberValueString          "event"
+		PushConstanti8                2
+		EqualTo
+		GetVariableValue              1                           ; local
+		GetMemberValueString          "button"
+		PushConstanti16               251
+		EqualTo
+		And
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    17377, 4
+		LineNumberAlt1                115, 225
+		GetThisMemberValueString      "cinema"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    17378, 4
+		LineNumberAlt1                116, 225
+		GetThisMemberValueString      "cinema"
+		CallGameFunctionString        "gccinemaengine", "stop", 1
+		Pop
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0xc6692
+		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 84:84
+		MemberFunctionArgumentCheck 1
+		LineNumber                  7155, 4
+		LineNumberAlt1              84, 186
+		PushNothing
+		SetThisMemberValueString    "parent"
+		PushNothing
+		Return
+	end ; method
+end ; class
