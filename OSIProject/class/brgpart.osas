@@ -6,7 +6,7 @@ begin class "brgpart"
 	property "area"
 
 	begin method "brgpart"
-		; address: 0x3a07c
+		; address: 0x977d2
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 896:900
 		MemberFunctionArgumentCheck 5
 		LineNumber                  64692, 4
@@ -39,7 +39,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3a0d9
+		; address: 0x9782f
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 907:909
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64703, 4
@@ -58,7 +58,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "show"
-		; address: 0x3a100
+		; address: 0x97856
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 915:915
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64711, 4
@@ -73,7 +73,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3a118
+		; address: 0x9786e
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 920:925
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64716, 4
@@ -108,14 +108,14 @@ begin class "brgpart"
 	end ; method
 
 	begin method "process"
-		; address: 0x3a176
+		; address: 0x978cc
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3a17a
+		; address: 0x978d0
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 939:959
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -223,7 +223,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "hit"
-		; address: 0x3a26a
+		; address: 0x979c0
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 973:983
 		MemberFunctionArgumentCheck   1
 		LineNumber                    64769, 4
@@ -264,7 +264,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "drop"
-		; address: 0x3a2cf
+		; address: 0x97a25
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 992:996
 		MemberFunctionArgumentCheck   1
 		LineNumber                    64788, 4
@@ -286,7 +286,7 @@ begin class "brgpart"
 	end ; method
 
 	begin method "reset"
-		; address: 0x3a2f7
+		; address: 0x97a4d
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 1004:1005
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64800, 4

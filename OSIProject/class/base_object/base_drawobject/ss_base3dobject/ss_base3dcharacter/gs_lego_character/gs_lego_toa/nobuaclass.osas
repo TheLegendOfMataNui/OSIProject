@@ -9,7 +9,7 @@ begin class "nobuaclass", "gs_lego_toa"
 	property "bounce"
 
 	begin method "nobuaclass"
-		; address: 0xc7241
+		; address: 0x4cf59
 		; source: 56 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Onua.vbo" 47:56
 		MemberFunctionArgumentCheck 6
 		LineNumber                  23110, 4
@@ -60,7 +60,7 @@ begin class "nobuaclass", "gs_lego_toa"
 	end ; method
 
 	begin method "setupgrapplinghook"
-		; address: 0xc72dd
+		; address: 0x4cff5
 		; source: 56 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Onua.vbo" 134:146
 		MemberFunctionArgumentCheck 4
 		LineNumber                  23197, 4
@@ -153,7 +153,7 @@ begin class "nobuaclass", "gs_lego_toa"
 	end ; method
 
 	begin method "setgrapplinghookdistance"
-		; address: 0xc7401
+		; address: 0x4d119
 		; source: 56 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Onua.vbo" 151:151
 		MemberFunctionArgumentCheck 2
 		LineNumber                  23214, 4

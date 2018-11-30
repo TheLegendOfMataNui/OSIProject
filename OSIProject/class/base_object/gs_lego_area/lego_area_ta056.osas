@@ -2,7 +2,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ta056"
-		; address: 0xb05ff
+		; address: 0xb5d4d
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 51:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12729, 4
@@ -56,7 +56,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb067d
+		; address: 0xb5dcb
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 61:62
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta03.vbo" 124:125
 		MemberFunctionArgumentCheck  1
@@ -96,7 +96,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb06dd
+		; address: 0xb5e2b
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 67:68
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12745, 4
@@ -117,7 +117,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb0708
+		; address: 0xb5e56
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 73:73
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12751, 4
@@ -133,7 +133,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb0724
+		; address: 0xb5e72
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 78:78
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12756, 4
@@ -149,7 +149,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb0740
+		; address: 0xb5e8e
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 83:83
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12761, 4
@@ -165,7 +165,7 @@ begin class "lego_area_ta056", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb075c
+		; address: 0xb5eaa
 		; source: 211 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 88:89
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12766, 4

@@ -5,7 +5,7 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	property "safecount"
 
 	begin method "lego_area_cvlg"
-		; address: 0xa7944
+		; address: 0xc649f
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 27:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7098, 4
@@ -33,28 +33,10 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa7986
-		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 44:56
+		; address: 0xc64e1
+		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 46:56
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
-		LineNumber                    17306, 4
-		LineNumberAlt1                44, 225
-		CreateArray
-		Dup
-		PushConstanti16               180
-		AppendToArray
-		Dup
-		PushConstanti16               -356
-		AppendToArray
-		Dup
-		PushConstant0
-		PushConstantf32               51.400001525878906
-		Subtract
-		AppendToArray
-		Dup
-		PushConstanti16               689
-		AppendToArray
-		SetThisMemberValueString      "startingarea"
 		LineNumber                    17308, 4
 		LineNumberAlt1                46, 225
 		PushConstantStringString      "cin2"
@@ -117,7 +99,7 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa7a88
+		; address: 0xc65bd
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 57:58
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 140:140
 		MemberFunctionArgumentCheck 1
@@ -142,14 +124,14 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa7ac0
+		; address: 0xc65f5
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa7ac4
+		; address: 0xc65f9
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 82:108
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -212,7 +194,7 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa7b4e
+		; address: 0xc6683
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 114:116
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17376, 4
@@ -248,7 +230,7 @@ begin class "lego_area_cvlg", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa7b9a
+		; address: 0xc66cf
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 84:84
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7155, 4

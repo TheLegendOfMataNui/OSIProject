@@ -5,7 +5,7 @@ begin class "bldrpuzzle"
 	property "hitsecondplaneonce"
 
 	begin method "bldrpuzzle"
-		; address: 0x33d0d
+		; address: 0x8c516
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 82:82
 		MemberFunctionArgumentCheck 2
 		LineNumber                  59989, 4
@@ -17,7 +17,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x33d21
+		; address: 0x8c52a
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 90:119
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -385,7 +385,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x34106
+		; address: 0x8c90f
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 132:133
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -425,7 +425,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3414c
+		; address: 0x8c955
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 140:205
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -785,7 +785,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x344dd
+		; address: 0x8cce6
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 211:212
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -825,7 +825,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x34523
+		; address: 0x8cd2c
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 218:222
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -872,7 +872,7 @@ begin class "bldrpuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x34583
+		; address: 0x8cd8c
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 227:234
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

@@ -9,7 +9,7 @@ begin class "lego_puzzle_mtop2"
 	property "hive2handle"
 
 	begin method "lego_puzzle_mtop2"
-		; address: 0x5c5d3
+		; address: 0x84568
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 91:91
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54346, 4
@@ -21,7 +21,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5c5e7
+		; address: 0x8457c
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 99:146
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -359,7 +359,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x5c9ec
+		; address: 0x84981
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 153:154
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54408, 4
@@ -388,7 +388,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x5ca2e
+		; address: 0x849c3
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 159:174
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -494,7 +494,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "process"
-		; address: 0x5cb2a
+		; address: 0x84abf
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 180:182
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -531,7 +531,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x5cb81
+		; address: 0x84b16
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 189:198
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54444, 4
@@ -600,7 +600,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "input"
-		; address: 0x5cc08
+		; address: 0x84b9d
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 204:204
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54459, 4
@@ -632,7 +632,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "exit"
-		; address: 0x5cc4b
+		; address: 0x84be0
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 209:209
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54464, 4
@@ -644,7 +644,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x5cc5d
+		; address: 0x84bf2
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 214:215
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -679,7 +679,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "moveplatformout"
-		; address: 0x5cca4
+		; address: 0x84c39
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 220:220
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54475, 4
@@ -700,7 +700,7 @@ begin class "lego_puzzle_mtop2"
 	end ; method
 
 	begin method "moveplatformin"
-		; address: 0x5ccd3
+		; address: 0x84c68
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 225:225
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54480, 4

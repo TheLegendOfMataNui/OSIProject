@@ -1,7 +1,7 @@
 begin function "setupprintscreen", 0
-	; address: 0x2d575
+	; address: 0x2ce89
 	; source: 44 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_print_screen.vbo" 39:41
-	JumpTarget                   15
+	JumpTarget                   2
 	CreateStackVariables         1
 	LineNumber                   14187, 4
 	LineNumberAlt1               39, 44

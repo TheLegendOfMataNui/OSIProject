@@ -15,7 +15,7 @@ begin class "ta026_puzzle"
 	property "lowpoint"
 
 	begin method "ta026_puzzle"
-		; address: 0x7e321
+		; address: 0xb37d5
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 100:102
 		MemberFunctionArgumentCheck 2
 		LineNumber                  11627, 4
@@ -35,7 +35,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7e353
+		; address: 0xb3807
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 110:241
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -943,7 +943,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7ec82
+		; address: 0xb4136
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 253:286
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1149,7 +1149,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7ee65
+		; address: 0xb4319
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 293:300
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1230,14 +1230,14 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x7ef27
+		; address: 0xb43db
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x7ef2b
+		; address: 0xb43df
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 315:315
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11842, 4
@@ -1249,7 +1249,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x7ef3d
+		; address: 0xb43f1
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 321:326
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11848, 4
@@ -1306,7 +1306,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7efce
+		; address: 0xb4482
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 334:410
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1652,7 +1652,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7f32b
+		; address: 0xb47df
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 451:461
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11978, 4
@@ -1745,7 +1745,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x7f406
+		; address: 0xb48ba
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 467:472
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11994, 4
@@ -1778,7 +1778,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "setup_hot_or_cold"
-		; address: 0x7f44d
+		; address: 0xb4901
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 479:502
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1990,7 +1990,7 @@ begin class "ta026_puzzle"
 	end ; method
 
 	begin method "setstate"
-		; address: 0x7f5f8
+		; address: 0xb4aac
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 512:516
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12039, 4

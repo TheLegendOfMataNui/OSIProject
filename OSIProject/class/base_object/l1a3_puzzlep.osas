@@ -4,7 +4,7 @@ begin class "l1a3_puzzlep", "base_object"
 	property "largeplats"
 
 	begin method "l1a3_puzzlep"
-		; address: 0x94aa4
+		; address: 0x709c1
 		; source: 117 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 91:91
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45674, 4
@@ -16,7 +16,7 @@ begin class "l1a3_puzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x94ab8
+		; address: 0x709d5
 		; source: 117 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 98:155
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -550,7 +550,7 @@ begin class "l1a3_puzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x950fb
+		; address: 0x71018
 		; source: 117 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 163:219
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -943,7 +943,7 @@ begin class "l1a3_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x954a7
+		; address: 0x713c4
 		; source: 117 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 228:243
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1068,7 +1068,7 @@ begin class "l1a3_puzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x955bb
+		; address: 0x714d8
 		; source: 117 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 250:250
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45833, 4

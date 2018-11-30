@@ -2,7 +2,7 @@ begin class "ss_shoefitterkeyboardclass", "gs_legotext"
 	property "stringsize"
 
 	begin method "ss_shoefitterkeyboardclass"
-		; address: 0xc0406
+		; address: 0x7b7ad
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1729:1729
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50156, 4
@@ -21,7 +21,7 @@ begin class "ss_shoefitterkeyboardclass", "gs_legotext"
 	end ; method
 
 	begin method "ss_shoefitterkeyboardinitfull"
-		; address: 0xc042a
+		; address: 0x7b7d1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1734:1738
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50161, 4
@@ -51,7 +51,7 @@ begin class "ss_shoefitterkeyboardclass", "gs_legotext"
 	end ; method
 
 	begin method "ss_shoefitterkeyboardcleanupfull"
-		; address: 0xc0475
+		; address: 0x7b81c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1743:1746
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50170, 4
@@ -84,7 +84,7 @@ begin class "ss_shoefitterkeyboardclass", "gs_legotext"
 	end ; method
 
 	begin method "capturestring"
-		; address: 0xc04c8
+		; address: 0x7b86f
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1751:1764
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1

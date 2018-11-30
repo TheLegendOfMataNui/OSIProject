@@ -4,7 +4,7 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	property "doorshone"
 
 	begin method "lego_area_vllg4"
-		; address: 0xb3b95
+		; address: 0x9b72b
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 31:33
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1043, 4
@@ -32,7 +32,7 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb3bd7
+		; address: 0x9b76d
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 43:121
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   1
@@ -560,14 +560,14 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb4314
+		; address: 0x9beaa
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb4318
+		; address: 0x9beae
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 132:145
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        9
@@ -623,11 +623,13 @@ begin class "lego_area_vllg4", "gs_lego_area"
 		PushNothing
 		SetVariableValue            9              ; local
 		PushNothing
+		SetThisMemberValueString    "deadhives"
+		PushNothing
 		Return
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb43cc
+		; address: 0x9bf66
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 151:155
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -678,14 +680,14 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xb4450
+		; address: 0x9bfea
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb4454
+		; address: 0x9bfee
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 169:218
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   2
@@ -928,7 +930,7 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	end ; method
 
 	begin method "opencoindoor"
-		; address: 0xb46a7
+		; address: 0x9c241
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 229:229
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1241, 4
@@ -944,7 +946,7 @@ begin class "lego_area_vllg4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb46c5
+		; address: 0x9c25f
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 234:235
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1246, 4

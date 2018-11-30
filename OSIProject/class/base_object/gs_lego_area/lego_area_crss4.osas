@@ -4,7 +4,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	property "skatespickup"
 
 	begin method "lego_area_crss4"
-		; address: 0xa76a3
+		; address: 0x9d54b
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 22:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1877, 4
@@ -44,7 +44,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa770b
+		; address: 0x9d5b3
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 33:46
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -149,7 +149,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa7835
+		; address: 0x9d6dd
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 53:59
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1908, 4
@@ -198,7 +198,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa78a9
+		; address: 0x9d751
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1921, 4
@@ -214,7 +214,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa78c5
+		; address: 0x9d76d
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 71:71
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1926, 4
@@ -230,7 +230,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa78e1
+		; address: 0x9d789
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 76:76
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1931, 4
@@ -246,7 +246,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa78fd
+		; address: 0x9d7a5
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 81:85
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1936, 4

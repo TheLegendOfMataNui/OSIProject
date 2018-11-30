@@ -2798,6 +2798,7 @@ begin strings
 	string "lep3"
 	string "Writer"
 	string "Root/data/art/status/stNOBUA"
+	string "Sound Test"
 	string "Root/Data/cinematics/LegendFMV.bik"
 	string "Welcome to my nightmare! Hie the hench though spongey freak."
 end ; strings

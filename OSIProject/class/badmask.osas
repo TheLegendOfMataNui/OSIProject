@@ -6,7 +6,7 @@ begin class "badmask"
 	property "fireballround"
 
 	begin method "badmask"
-		; address: 0x30c55
+		; address: 0xb829b
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 713:734
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13926, 4
@@ -161,7 +161,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x30dbc
+		; address: 0xb8402
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 743:746
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13956, 4
@@ -185,7 +185,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x30dfc
+		; address: 0xb8442
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 752:760
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -246,7 +246,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "process"
-		; address: 0x30e88
+		; address: 0xb84ce
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 765:772
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -317,7 +317,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x30f30
+		; address: 0xb8576
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 781:782
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -357,7 +357,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "reset"
-		; address: 0x30f76
+		; address: 0xb85bc
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 788:791
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -400,7 +400,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "input"
-		; address: 0x30fc6
+		; address: 0xb860c
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 796:796
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14009, 4
@@ -432,7 +432,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x31009
+		; address: 0xb867d
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 808:811
 		MemberFunctionArgumentCheck   1
 		LineNumber                    14021, 4
@@ -459,7 +459,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "startfight"
-		; address: 0x3103d
+		; address: 0xb86b1
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 818:818
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14031, 4
@@ -471,7 +471,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "stopfight"
-		; address: 0x31050
+		; address: 0xb86c4
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 823:824
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14036, 4
@@ -487,7 +487,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "firedirector"
-		; address: 0x31070
+		; address: 0xb86e4
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 830:862
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -762,7 +762,7 @@ begin class "badmask"
 	end ; method
 
 	begin method "fire"
-		; address: 0x31342
+		; address: 0xb89b6
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 873:879
 		MemberFunctionArgumentCheck   4
 		LineNumber                    14086, 4

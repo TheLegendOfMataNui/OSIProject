@@ -13,7 +13,7 @@ begin class "l4_maz1_puzzle"
 	property "seconddrop"
 
 	begin method "l4_maz1_puzzle"
-		; address: 0x55a08
+		; address: 0x9efda
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 123:123
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2459, 4
@@ -25,7 +25,7 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x55a1c
+		; address: 0x9efee
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 130:194
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          6
@@ -317,7 +317,7 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x55de3
+		; address: 0x9f3b5
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 200:218
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -429,7 +429,7 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x55ef3
+		; address: 0x9f4c5
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 224:224
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2560, 4
@@ -444,14 +444,14 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x55f0b
+		; address: 0x9f4dd
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x55f0f
+		; address: 0x9f4e1
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 234:358
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -967,7 +967,7 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x5641e
+		; address: 0x9f9f0
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 366:367
 		MemberFunctionArgumentCheck   2
 		LineNumber                    2702, 4
@@ -1024,7 +1024,7 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x564a3
+		; address: 0x9fa75
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 372:372
 		MemberFunctionArgumentCheck   2
 		LineNumber                    2708, 4
@@ -1039,14 +1039,14 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "nextice"
-		; address: 0x564b7
+		; address: 0x9fa89
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "dropboulder"
-		; address: 0x564bb
+		; address: 0x9fa8d
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 393:405
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          6
@@ -1203,14 +1203,14 @@ begin class "l4_maz1_puzzle"
 	end ; method
 
 	begin method "iceshake"
-		; address: 0x5667d
+		; address: 0x9fc4f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x56681
+		; address: 0x9fc53
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 418:418
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2754, 4

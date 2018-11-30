@@ -13,7 +13,7 @@ begin class "snowballclass"
 	property "smlsound"
 
 	begin method "snowballclass"
-		; address: 0x7256a
+		; address: 0xa64b1
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 663:672
 		MemberFunctionArgumentCheck 5
 		LineNumber                  5768, 4
@@ -86,7 +86,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7264f
+		; address: 0xa6596
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 679:688
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5784, 4
@@ -147,7 +147,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x726ea
+		; address: 0xa6631
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 693:699
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5798, 4
@@ -188,7 +188,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "process"
-		; address: 0x72754
+		; address: 0xa669b
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 704:708
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5809, 4
@@ -232,7 +232,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "show"
-		; address: 0x727be
+		; address: 0xa6705
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 713:715
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5818, 4
@@ -261,7 +261,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "hide"
-		; address: 0x727fe
+		; address: 0xa6745
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 720:722
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5825, 4
@@ -290,7 +290,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "startdropping"
-		; address: 0x7283e
+		; address: 0xa6785
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 728:739
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -419,7 +419,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "stopdropping"
-		; address: 0x729c2
+		; address: 0xa6909
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 745:747
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5850, 4
@@ -458,7 +458,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x72a11
+		; address: 0xa6958
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 752:774
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5857, 4
@@ -529,7 +529,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "hit"
-		; address: 0x72aa0
+		; address: 0xa69e7
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 780:784
 		MemberFunctionArgumentCheck   1
 		LineNumber                    5885, 4
@@ -575,7 +575,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "input"
-		; address: 0x72b08
+		; address: 0xa6a4f
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 793:806
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5898, 4
@@ -647,7 +647,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "split"
-		; address: 0x72bba
+		; address: 0xa6b01
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 816:831
 		MemberFunctionArgumentCheck   1
 		LineNumber                    5921, 4
@@ -715,7 +715,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "dropsmallsnowball_1"
-		; address: 0x72c5c
+		; address: 0xa6ba3
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 838:838
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5943, 4
@@ -750,7 +750,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "dropsmallsnowball_2"
-		; address: 0x72cb1
+		; address: 0xa6bf8
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 843:843
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5948, 4
@@ -785,7 +785,7 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "killsmallsnowball"
-		; address: 0x72d06
+		; address: 0xa6c4d
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 848:851
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5953, 4

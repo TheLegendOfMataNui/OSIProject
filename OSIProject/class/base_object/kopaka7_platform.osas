@@ -10,7 +10,7 @@ begin class "kopaka7_platform", "base_object"
 	property "y2"
 
 	begin method "kopaka7_platform"
-		; address: 0x944d5
+		; address: 0xc2c26
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 331:340
 		MemberFunctionArgumentCheck 6
 		LineNumber                  18854, 4
@@ -83,7 +83,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x945e7
+		; address: 0xc2d38
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 346:346
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18869, 4
@@ -95,7 +95,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x945fa
+		; address: 0xc2d4b
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 351:351
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18874, 4
@@ -107,7 +107,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "toggle"
-		; address: 0x9460c
+		; address: 0xc2d5d
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 356:377
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -229,7 +229,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "offsety"
-		; address: 0x9474c
+		; address: 0xc2e9d
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 383:384
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18906, 4
@@ -252,7 +252,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "reset"
-		; address: 0x94786
+		; address: 0xc2ed7
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 389:391
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18912, 4

@@ -47,7 +47,7 @@ begin class "snowfallpuzzle"
 	property "ringz"
 
 	begin method "snowfallpuzzle"
-		; address: 0x72ffc
+		; address: 0xa4c74
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 149:155
 		MemberFunctionArgumentCheck 2
 		LineNumber                  5254, 4
@@ -75,7 +75,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7304f
+		; address: 0xa4cc7
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 164:261
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -770,7 +770,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x73838
+		; address: 0xa54b0
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 269:328
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1050,7 +1050,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x73b59
+		; address: 0xa57d1
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 334:334
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5439, 4
@@ -1063,7 +1063,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x73b71
+		; address: 0xa57e9
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 339:339
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5444, 4
@@ -1076,7 +1076,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x73b89
+		; address: 0xa5801
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 344:349
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1154,7 +1154,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x73c1f
+		; address: 0xa5897
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 357:391
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1336,7 +1336,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x73dcf
+		; address: 0xa5a47
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 401:492
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1755,7 +1755,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x741db
+		; address: 0xa5e53
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 503:509
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5608, 4
@@ -1811,7 +1811,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x74279
+		; address: 0xa5ef1
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 516:526
 		MemberFunctionArgumentCheck  1
 		LineNumber                   5621, 4
@@ -1899,7 +1899,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0x74378
+		; address: 0xa5ff0
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 535:551
 		MemberFunctionArgumentCheck   1
 		LineNumber                    5640, 4
@@ -2049,7 +2049,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "platformhit"
-		; address: 0x74505
+		; address: 0xa617d
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 561:569
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2116,7 +2116,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x7459b
+		; address: 0xa6213
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 579:606
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2304,7 +2304,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "startcam"
-		; address: 0x74774
+		; address: 0xa63ec
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 615:619
 		MemberFunctionArgumentCheck  1
 		LineNumber                   5720, 4
@@ -2376,7 +2376,7 @@ begin class "snowfallpuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x74827
+		; address: 0xa649f
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 625:625
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5730, 4

@@ -2,7 +2,7 @@ begin class "lego_area_gali", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_gali"
-		; address: 0xa8231
+		; address: 0xc0e47
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18033, 4
@@ -20,7 +20,7 @@ begin class "lego_area_gali", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa8250
+		; address: 0xc0e66
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 27:40
 		MemberFunctionArgumentCheck   1
 		LineNumber                    18040, 4
@@ -111,7 +111,7 @@ begin class "lego_area_gali", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa8347
+		; address: 0xc0f5d
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 46:48
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18059, 4
@@ -139,7 +139,7 @@ begin class "lego_area_gali", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa8387
+		; address: 0xc0f9d
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 54:58
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -195,7 +195,7 @@ begin class "lego_area_gali", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa8431
+		; address: 0xc1047
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 66:74
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -291,14 +291,14 @@ begin class "lego_area_gali", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa8540
+		; address: 0xc1156
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xa8544
+		; address: 0xc115a
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

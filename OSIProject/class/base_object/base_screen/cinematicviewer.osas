@@ -2,7 +2,7 @@ begin class "cinematicviewer", "base_screen"
 	property "cam"
 
 	begin method "cinematicviewer"
-		; address: 0xa2dc6
+		; address: 0xc4a27
 		; source: 236 "C:\\projects\\lego\\Scripting\\VBO\\CinematicViewer.vbo" 27:27
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19699, 4
@@ -31,7 +31,7 @@ begin class "cinematicviewer", "base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa2e0f
+		; address: 0xc4a70
 		; source: 236 "C:\\projects\\lego\\Scripting\\VBO\\CinematicViewer.vbo" 34:45
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -136,7 +136,7 @@ begin class "cinematicviewer", "base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0xa2f9b
+		; address: 0xc4bfc
 		; source: 236 "C:\\projects\\lego\\Scripting\\VBO\\CinematicViewer.vbo" 50:50
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19722, 4

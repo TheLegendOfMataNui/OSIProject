@@ -1,6 +1,6 @@
 begin class "slosi_extendedfileio", "slosi_fileio"
 	begin method "slosi_extendedfileio"
-		; address: 0x9dad5
+		; address: 0x76f43
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 96:96
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47998, 4
@@ -12,7 +12,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "write"
-		; address: 0x9dae9
+		; address: 0x76f57
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 108:108
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48010, 4
@@ -26,7 +26,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "writeln"
-		; address: 0x9db04
+		; address: 0x76f72
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 118:118
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48020, 4
@@ -42,7 +42,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "eol"
-		; address: 0x9db23
+		; address: 0x76f91
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 122:122
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48024, 4
@@ -56,7 +56,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "is_eof"
-		; address: 0x9db3e
+		; address: 0x76fac
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 126:126
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48028, 4
@@ -69,7 +69,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "clearfile"
-		; address: 0x9db5e
+		; address: 0x76fcc
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 130:145
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2

@@ -2733,7 +2733,6 @@ begin symbols
 	symbol "lev5_shrn_puzzle"
 	symbol "lev5_gly1_puzzle"
 	symbol "lev5_gly3_puzzle"
-	symbol "angrywindelemental"
 	symbol "ta016_puzzle"
 	symbol "ta026_puzzle"
 	symbol "ta036_puzzle"
@@ -3992,4 +3991,5 @@ begin symbols
 	symbol "lego_area_tp03"
 	symbol "lego_area_endg"
 	symbol "endgm_puzzle"
+	symbol "loadgame"
 end ; symbols

@@ -2,7 +2,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_tmbl"
-		; address: 0xb17ce
+		; address: 0x6b08c
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 53:55
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42500, 4
@@ -38,7 +38,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb1826
+		; address: 0x6b0e4
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 62:71
 		MemberFunctionArgumentCheck  1
 		LineNumber                   42509, 4
@@ -102,7 +102,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb18d5
+		; address: 0x6b193
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 77:77
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42524, 4
@@ -118,7 +118,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb18f1
+		; address: 0x6b1af
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 82:82
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42529, 4
@@ -134,7 +134,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb190d
+		; address: 0x6b1cb
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 87:87
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42534, 4
@@ -150,7 +150,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb1929
+		; address: 0x6b1e7
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 92:97
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42539, 4
@@ -171,7 +171,7 @@ begin class "lego_area_tmbl", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb1954
+		; address: 0x6b212
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 102:103
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42549, 4

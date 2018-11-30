@@ -4,7 +4,7 @@ begin class "mtup_class"
 	property "door"
 
 	begin method "mtup_class"
-		; address: 0x616c9
+		; address: 0x94868
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 86:86
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63386, 4
@@ -16,7 +16,7 @@ begin class "mtup_class"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x616dd
+		; address: 0x9487c
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 94:122
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 120:123
 		MemberFunctionArgumentCheck   1
@@ -202,21 +202,21 @@ begin class "mtup_class"
 	end ; method
 
 	begin method "show"
-		; address: 0x61940
+		; address: 0x94adf
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x61944
+		; address: 0x94ae3
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x61948
+		; address: 0x94ae7
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 138:148
 		MemberFunctionArgumentCheck   2
 		LineNumber                    63438, 4
@@ -298,7 +298,7 @@ begin class "mtup_class"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x619ff
+		; address: 0x94b9e
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 157:189
 		MemberFunctionArgumentCheck   2
 		LineNumber                    63457, 4
@@ -481,7 +481,7 @@ begin class "mtup_class"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x61bd1
+		; address: 0x94d70
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 196:199
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63496, 4
@@ -504,7 +504,7 @@ begin class "mtup_class"
 	end ; method
 
 	begin method "exit"
-		; address: 0x61c05
+		; address: 0x94da4
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 204:204
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63504, 4

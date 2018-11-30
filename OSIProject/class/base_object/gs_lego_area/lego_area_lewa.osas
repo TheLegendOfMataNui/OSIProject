@@ -2,7 +2,7 @@ begin class "lego_area_lewa", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_lewa"
-		; address: 0xac294
+		; address: 0xc2f1b
 		; source: 233 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_lewa.vbo" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18946, 4
@@ -20,7 +20,7 @@ begin class "lego_area_lewa", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xac2b3
+		; address: 0xc2f3a
 		; source: 233 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_lewa.vbo" 27:34
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18953, 4
@@ -80,7 +80,7 @@ begin class "lego_area_lewa", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xac358
+		; address: 0xc2fdf
 		; source: 233 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_lewa.vbo" 40:42
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18966, 4
@@ -108,7 +108,7 @@ begin class "lego_area_lewa", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xac398
+		; address: 0xc301f
 		; source: 233 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_lewa.vbo" 48:51
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -156,7 +156,7 @@ begin class "lego_area_lewa", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xac425
+		; address: 0xc30ac
 		; source: 233 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_lewa.vbo" 59:66
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -224,14 +224,14 @@ begin class "lego_area_lewa", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xac4e1
+		; address: 0xc3168
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xac4e5
+		; address: 0xc316c
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

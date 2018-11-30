@@ -2,7 +2,7 @@ begin class "lego_area_ptv1", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ptv1"
-		; address: 0xae353
+		; address: 0x6ebc8
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 19:21
 		MemberFunctionArgumentCheck 2
 		LineNumber                  44553, 4
@@ -38,7 +38,7 @@ begin class "lego_area_ptv1", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xae3ab
+		; address: 0x6ec20
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 27:37
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44561, 4
@@ -86,7 +86,7 @@ begin class "lego_area_ptv1", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xae437
+		; address: 0x6ecac
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 42:43
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44576, 4
@@ -107,7 +107,7 @@ begin class "lego_area_ptv1", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xae462
+		; address: 0x6ecd7
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 48:48
 		MemberFunctionArgumentCheck 2
 		LineNumber                  44582, 4
@@ -123,7 +123,7 @@ begin class "lego_area_ptv1", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xae47e
+		; address: 0x6ecf3
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 53:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44587, 4

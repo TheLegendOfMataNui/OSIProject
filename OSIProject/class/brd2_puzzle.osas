@@ -2,7 +2,7 @@ begin class "brd2_puzzle"
 	property "parent"
 
 	begin method "brd2_puzzle"
-		; address: 0x388ff
+		; address: 0xa2a7f
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 96:96
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4189, 4
@@ -14,7 +14,7 @@ begin class "brd2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x38913
+		; address: 0xa2a93
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 104:110
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4197, 4
@@ -62,7 +62,7 @@ begin class "brd2_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3899b
+		; address: 0xa2b1b
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 117:117
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4210, 4
@@ -84,14 +84,14 @@ begin class "brd2_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x389ce
+		; address: 0xa2b4e
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x389d2
+		; address: 0xa2b52
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 128:128
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4221, 4
@@ -110,14 +110,14 @@ begin class "brd2_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x389f7
+		; address: 0xa2b77
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x389fb
+		; address: 0xa2b7b
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 140:169
 		MemberFunctionArgumentCheck   2
 		LineNumber                    4233, 4
@@ -302,14 +302,14 @@ begin class "brd2_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x38be5
+		; address: 0xa2d65
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x38be9
+		; address: 0xa2d69
 		; source: 179 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd2.vbo" 182:182
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4275, 4

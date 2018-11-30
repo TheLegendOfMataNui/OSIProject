@@ -6,7 +6,7 @@ begin class "hydr_lev2_puzzle"
 	property "hasstone"
 
 	begin method "hydr_lev2_puzzle"
-		; address: 0x54ec0
+		; address: 0x89fdd
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hydr.vbo" 138:138
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56810, 4
@@ -18,7 +18,7 @@ begin class "hydr_lev2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x54ed4
+		; address: 0x89ff1
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hydr.vbo" 146:163
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
@@ -124,21 +124,21 @@ begin class "hydr_lev2_puzzle"
 	end ; method
 
 	begin method "playintro"
-		; address: 0x5502d
+		; address: 0x8a14a
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "playextro"
-		; address: 0x55031
+		; address: 0x8a14e
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x55035
+		; address: 0x8a152
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hydr.vbo" 315:326
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -204,21 +204,21 @@ begin class "hydr_lev2_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x550e2
+		; address: 0x8a1ff
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initshort"
-		; address: 0x550e6
+		; address: 0x8a203
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "resetplayer"
-		; address: 0x550ea
+		; address: 0x8a207
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hydr.vbo" 430:436
 		MemberFunctionArgumentCheck  1
 		LineNumber                   57102, 4
@@ -276,7 +276,7 @@ begin class "hydr_lev2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x55195
+		; address: 0x8a2b2
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hydr.vbo" 443:470
 		MemberFunctionArgumentCheck   2
 		LineNumber                    57115, 4
@@ -451,91 +451,91 @@ begin class "hydr_lev2_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x5534a
+		; address: 0x8a467
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hitbldr"
-		; address: 0x5534e
+		; address: 0x8a46b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "suck"
-		; address: 0x55352
+		; address: 0x8a46f
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "getinmybelly"
-		; address: 0x55356
+		; address: 0x8a473
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "shootgaly_a"
-		; address: 0x5535a
+		; address: 0x8a477
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "shootgaly_b"
-		; address: 0x5535e
+		; address: 0x8a47b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "startfight"
-		; address: 0x55362
+		; address: 0x8a47f
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "atack"
-		; address: 0x55366
+		; address: 0x8a483
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "spit"
-		; address: 0x5536a
+		; address: 0x8a487
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "splat"
-		; address: 0x5536e
+		; address: 0x8a48b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "physics"
-		; address: 0x55372
+		; address: 0x8a48f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "intro_interpcam"
-		; address: 0x55376
+		; address: 0x8a493
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x5537a
+		; address: 0x8a497
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

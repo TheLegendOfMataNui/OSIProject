@@ -1,6 +1,6 @@
 begin class "lego_area_hutt", "gs_lego_area"
 	begin method "lego_area_hutt"
-		; address: 0xa9ea7
+		; address: 0x94513
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 20:21
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63236, 4
@@ -24,7 +24,7 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa9ed9
+		; address: 0x94545
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 27:47
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 56:57
 		MemberFunctionArgumentCheck   1
@@ -138,28 +138,28 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xaa03e
+		; address: 0x946aa
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0xaa042
+		; address: 0x946ae
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaa046
+		; address: 0x946b2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaa04a
+		; address: 0x946b6
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 68:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63284, 4
@@ -179,7 +179,7 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaa074
+		; address: 0x946e0
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

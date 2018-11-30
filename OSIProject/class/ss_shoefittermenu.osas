@@ -10,7 +10,7 @@ begin class "ss_shoefittermenu"
 	property "scrollmoveamount"
 
 	begin method "ss_shoefittermenu"
-		; address: 0x793f0
+		; address: 0x7bd44
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1820:1854
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -169,7 +169,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x79584
+		; address: 0x7bed8
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1859:1868
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -263,7 +263,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x79667
+		; address: 0x7bfbb
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1873:1873
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50300, 4
@@ -277,7 +277,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "hide"
-		; address: 0x7967e
+		; address: 0x7bfd2
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1878:1880
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -327,7 +327,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x796de
+		; address: 0x7c032
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1886:1895
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -416,7 +416,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x797a8
+		; address: 0x7c0fc
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1900:1900
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50327, 4
@@ -430,7 +430,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "input"
-		; address: 0x797bf
+		; address: 0x7c113
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1906:1908
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50333, 4
@@ -459,7 +459,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "keyboardinput"
-		; address: 0x79801
+		; address: 0x7c155
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1924:1928
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50351, 4
@@ -574,7 +574,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "setpointer"
-		; address: 0x7991f
+		; address: 0x7c273
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1934:1938
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50361, 4
@@ -624,7 +624,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "process"
-		; address: 0x79987
+		; address: 0x7c2db
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1945:1962
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -750,7 +750,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "scroll"
-		; address: 0x79ab3
+		; address: 0x7c407
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1969:1976
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -847,7 +847,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "switchitems"
-		; address: 0x79b90
+		; address: 0x7c4e4
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1982:1987
 		MemberFunctionArgumentCheck   4
 		LineNumber                    50409, 4
@@ -901,7 +901,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "adjustforscrollmarker"
-		; address: 0x79c15
+		; address: 0x7c569
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1993:2001
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -991,7 +991,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "setupscrollbar"
-		; address: 0x79cea
+		; address: 0x7c63e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2007:2009
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50434, 4
@@ -1038,7 +1038,7 @@ begin class "ss_shoefittermenu"
 	end ; method
 
 	begin method "movescrollbar"
-		; address: 0x79d58
+		; address: 0x7c6ac
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2014:2014
 		MemberFunctionArgumentCheck 2
 		LineNumber                  50441, 4

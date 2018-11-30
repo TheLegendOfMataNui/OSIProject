@@ -10,7 +10,7 @@ begin class "boulderclass"
 	property "rockhitsound"
 
 	begin method "boulderclass"
-		; address: 0x37e0a
+		; address: 0x97222
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 719:723
 		MemberFunctionArgumentCheck 3
 		LineNumber                  64515, 4
@@ -51,7 +51,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x37e8c
+		; address: 0x972a4
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 730:746
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64526, 4
@@ -117,7 +117,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "process"
-		; address: 0x37f3b
+		; address: 0x97353
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 757:758
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64553, 4
@@ -145,7 +145,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "show"
-		; address: 0x37f75
+		; address: 0x9738d
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 764:764
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64560, 4
@@ -160,7 +160,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x37f8d
+		; address: 0x973a5
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 769:780
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64565, 4
@@ -225,7 +225,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "startdropping"
-		; address: 0x3804b
+		; address: 0x97463
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 786:798
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -354,7 +354,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "stopdropping"
-		; address: 0x381cf
+		; address: 0x975e7
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 804:806
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64600, 4
@@ -393,7 +393,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3821e
+		; address: 0x97636
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 811:840
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64607, 4
@@ -484,7 +484,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "hit"
-		; address: 0x382d2
+		; address: 0x976ea
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 850:857
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -552,7 +552,7 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "input"
-		; address: 0x38377
+		; address: 0x9778f
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 865:868
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64661, 4

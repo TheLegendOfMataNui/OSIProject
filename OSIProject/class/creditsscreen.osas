@@ -6,7 +6,7 @@ begin class "creditsscreen"
 	property "scrolltime"
 
 	begin method "creditsscreen"
-		; address: 0x4309b
+		; address: 0x592fb
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 42:45
 		MemberFunctionArgumentCheck 2
 		LineNumber                  31801, 4
@@ -1098,7 +1098,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x4369c
+		; address: 0x598fc
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 210:265
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          7
@@ -1337,7 +1337,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x43940
+		; address: 0x59ba0
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 272:288
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1453,7 +1453,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x43a62
+		; address: 0x59cc2
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 294:306
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1529,7 +1529,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "process"
-		; address: 0x43b07
+		; address: 0x59d67
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 312:320
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1613,7 +1613,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "input"
-		; address: 0x43bba
+		; address: 0x59e1a
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 327:330
 		MemberFunctionArgumentCheck   2
 		LineNumber                    32086, 4
@@ -1655,7 +1655,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x43c17
+		; address: 0x59e77
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 338:342
 		MemberFunctionArgumentCheck   2
 		LineNumber                    32097, 4
@@ -1698,7 +1698,7 @@ begin class "creditsscreen"
 	end ; method
 
 	begin method "back"
-		; address: 0x43c6e
+		; address: 0x59ece
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 37:37
 		; source: 84 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_credits.vbo" 350:353
 		MemberFunctionArgumentCheck  1

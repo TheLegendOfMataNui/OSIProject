@@ -2,7 +2,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_l1a7"
-		; address: 0xab1a0
+		; address: 0x7292d
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 37:39
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46382, 4
@@ -38,7 +38,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xab1f8
+		; address: 0x72985
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 45:53
 		MemberFunctionArgumentCheck  1
 		LineNumber                   46390, 4
@@ -104,7 +104,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xab2b9
+		; address: 0x72a46
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 57:57
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46402, 4
@@ -120,7 +120,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xab2d5
+		; address: 0x72a62
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46406, 4
@@ -136,7 +136,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xab2f1
+		; address: 0x72a7e
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46411, 4
@@ -152,7 +152,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xab30d
+		; address: 0x72a9a
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 71:72
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46416, 4
@@ -173,7 +173,7 @@ begin class "lego_area_l1a7", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xab338
+		; address: 0x72ac5
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 77:79
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46422, 4

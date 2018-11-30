@@ -9,7 +9,7 @@ begin class "shrine_puzzle2"
 	property "bdoorz"
 
 	begin method "shrine_puzzle2"
-		; address: 0x6f6e7
+		; address: 0x87417
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 89:89
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55567, 4
@@ -21,7 +21,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6f6fb
+		; address: 0x8742b
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 96:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -230,7 +230,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6f95b
+		; address: 0x8768b
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 131:135
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -279,7 +279,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "process"
-		; address: 0x6f9bd
+		; address: 0x876ed
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 141:150
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -370,7 +370,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6faaf
+		; address: 0x877df
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 161:203
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -641,7 +641,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "input"
-		; address: 0x6fd73
+		; address: 0x87aa3
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 209:211
 		MemberFunctionArgumentCheck   2
 		LineNumber                    55687, 4
@@ -724,7 +724,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "movedoorsdown"
-		; address: 0x6fe39
+		; address: 0x87b69
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 216:243
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -881,7 +881,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x6ffd4
+		; address: 0x87d04
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 251:270
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1010,7 +1010,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "exit"
-		; address: 0x700f3
+		; address: 0x87e23
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 276:276
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55754, 4

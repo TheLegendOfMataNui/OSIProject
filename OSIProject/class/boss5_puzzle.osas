@@ -8,7 +8,7 @@ begin class "boss5_puzzle"
 	property "playing"
 
 	begin method "boss5_puzzle"
-		; address: 0x3460f
+		; address: 0xb0891
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10361, 4
@@ -20,7 +20,7 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x34623
+		; address: 0xb08a5
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 101:117
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -128,7 +128,7 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x34787
+		; address: 0xb0a09
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 125:133
 		MemberFunctionArgumentCheck  1
 		LineNumber                   10394, 4
@@ -195,7 +195,7 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "playintro"
-		; address: 0x3484b
+		; address: 0xb0acd
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 139:146
 		MemberFunctionArgumentCheck  1
 		LineNumber                   10408, 4
@@ -269,7 +269,7 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x34917
+		; address: 0xb0b99
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 153:164
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -335,14 +335,14 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x349c4
+		; address: 0xb0c46
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x349c8
+		; address: 0xb0c4a
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 175:224
 		MemberFunctionArgumentCheck   2
 		LineNumber                    10444, 4
@@ -610,7 +610,7 @@ begin class "boss5_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x34c4e
+		; address: 0xb0ed0
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

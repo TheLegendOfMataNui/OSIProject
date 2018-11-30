@@ -11,7 +11,7 @@ begin class "vtnl2_puzzle"
 	property "passedtrigplane"
 
 	begin method "vtnl2_puzzle"
-		; address: 0x8b6e1
+		; address: 0x84de4
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 84:84
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54579, 4
@@ -23,7 +23,7 @@ begin class "vtnl2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8b6f5
+		; address: 0x84df8
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 92:166
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -794,14 +794,14 @@ begin class "vtnl2_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x8bf75
+		; address: 0x85678
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8bf79
+		; address: 0x8567c
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 177:195
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -931,7 +931,7 @@ begin class "vtnl2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8c0b2
+		; address: 0x857b5
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 202:239
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54697, 4
@@ -1197,7 +1197,7 @@ begin class "vtnl2_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8c376
+		; address: 0x85a79
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 246:246
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54741, 4

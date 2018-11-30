@@ -5,7 +5,7 @@ begin class "ta096_puzzle"
 	property "camlocked"
 
 	begin method "ta096_puzzle"
-		; address: 0x828cf
+		; address: 0xb964a
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 82:82
 		MemberFunctionArgumentCheck 2
 		LineNumber                  14627, 4
@@ -17,7 +17,7 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x828e3
+		; address: 0xb965e
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 90:100
 		MemberFunctionArgumentCheck  1
 		LineNumber                   14635, 4
@@ -66,14 +66,14 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x82964
+		; address: 0xb96df
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x82968
+		; address: 0xb96e3
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 112:112
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14657, 4
@@ -88,7 +88,7 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x82980
+		; address: 0xb96fb
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 117:117
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14662, 4
@@ -100,7 +100,7 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x82992
+		; address: 0xb970d
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 123:127
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14668, 4
@@ -158,7 +158,7 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "lockcampitch"
-		; address: 0x82a1c
+		; address: 0xb9797
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 136:144
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14681, 4
@@ -221,7 +221,7 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x82ab1
+		; address: 0xb982c
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 153:192
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14698, 4
@@ -397,14 +397,14 @@ begin class "ta096_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x82c84
+		; address: 0xb99ff
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setsurfmode"
-		; address: 0x82c88
+		; address: 0xb9a03
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 207:237
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14752, 4

@@ -6,7 +6,7 @@ begin class "ss_baseline", "base_drawobject"
 	property "lident"
 
 	begin method "ss_baseline"
-		; address: 0x9e7e9
+		; address: 0x76753
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 334:352
 		MemberFunctionArgumentCheck   9
 		LineNumber                    47780, 4
@@ -198,7 +198,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9e9a1
+		; address: 0x7690b
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 358:361
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47804, 4
@@ -235,7 +235,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x9ea16
+		; address: 0x76980
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 365:365
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47811, 4
@@ -249,7 +249,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9ea2d
+		; address: 0x76997
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 369:369
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47815, 4
@@ -261,7 +261,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x9ea3f
+		; address: 0x769a9
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 373:373
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47819, 4
@@ -273,7 +273,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "add"
-		; address: 0x9ea51
+		; address: 0x769bb
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 377:377
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47823, 4
@@ -288,7 +288,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "show"
-		; address: 0x9ea75
+		; address: 0x769df
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 381:382
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47827, 4
@@ -305,7 +305,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "hide"
-		; address: 0x9ea9c
+		; address: 0x76a06
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 386:387
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47832, 4
@@ -322,7 +322,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "remove"
-		; address: 0x9eac2
+		; address: 0x76a2c
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 391:391
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47837, 4
@@ -335,7 +335,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "setpos"
-		; address: 0x9eada
+		; address: 0x76a44
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 395:403
 		MemberFunctionArgumentCheck   7
 		LineNumber                    47841, 4
@@ -438,7 +438,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "changepos"
-		; address: 0x9ebd6
+		; address: 0x76b40
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 407:415
 		MemberFunctionArgumentCheck   7
 		LineNumber                    47853, 4
@@ -553,7 +553,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "setcolor"
-		; address: 0x9ecea
+		; address: 0x76c54
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 419:424
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47865, 4
@@ -631,7 +631,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "changecolor"
-		; address: 0x9eda1
+		; address: 0x76d0b
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 428:433
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47874, 4
@@ -721,7 +721,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "setwidth"
-		; address: 0x9ee6c
+		; address: 0x76dd6
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 437:439
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47883, 4
@@ -749,7 +749,7 @@ begin class "ss_baseline", "base_drawobject"
 	end ; method
 
 	begin method "changewidth"
-		; address: 0x9eeaa
+		; address: 0x76e14
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 443:445
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47889, 4

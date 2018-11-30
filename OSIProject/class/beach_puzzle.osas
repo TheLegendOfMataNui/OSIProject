@@ -7,7 +7,7 @@ begin class "beach_puzzle"
 	property "upgradefruit"
 
 	begin method "beach_puzzle"
-		; address: 0x32882
+		; address: 0x62a92
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 93:93
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37116, 4
@@ -19,7 +19,7 @@ begin class "beach_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x32896
+		; address: 0x62aa6
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tp01.vbo" 97:98
 		; source: 188 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 45:46
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 40:43
@@ -190,7 +190,7 @@ begin class "beach_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x32aa6
+		; address: 0x62cb6
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 138:140
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -214,7 +214,7 @@ begin class "beach_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x32adc
+		; address: 0x62cec
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 108:108
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37131, 4
@@ -226,7 +226,7 @@ begin class "beach_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x32aee
+		; address: 0x62cfe
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 158:197
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 51:52
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 227:228
@@ -537,7 +537,7 @@ begin class "beach_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x32e30
+		; address: 0x63040
 		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 110:112
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47167, 4

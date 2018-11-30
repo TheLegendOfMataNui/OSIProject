@@ -10,7 +10,7 @@ begin class "target_class"
 	property "rotatetargetsound"
 
 	begin method "target_class"
-		; address: 0x869c7
+		; address: 0x93ad2
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 470:473
 		MemberFunctionArgumentCheck 9
 		LineNumber                  62887, 4
@@ -53,7 +53,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x86a3e
+		; address: 0x93b49
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 482:490
 		MemberFunctionArgumentCheck 4
 		LineNumber                  62899, 4
@@ -112,14 +112,14 @@ begin class "target_class"
 	end ; method
 
 	begin method "show"
-		; address: 0x86ae3
+		; address: 0x93bee
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x86ae7
+		; address: 0x93bf2
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 501:509
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62918, 4
@@ -169,7 +169,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "process"
-		; address: 0x86b75
+		; address: 0x93c80
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 515:529
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -279,7 +279,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "input"
-		; address: 0x86c74
+		; address: 0x93d7f
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 537:543
 		MemberFunctionArgumentCheck   2
 		LineNumber                    62954, 4
@@ -321,7 +321,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x86ccd
+		; address: 0x93dd8
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 552:571
 		MemberFunctionArgumentCheck   2
 		LineNumber                    62969, 4
@@ -395,7 +395,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "hit"
-		; address: 0x86d5b
+		; address: 0x93e66
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 580:605
 		MemberFunctionArgumentCheck   1
 		LineNumber                    62997, 4
@@ -528,7 +528,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "targerreset"
-		; address: 0x86ef1
+		; address: 0x93ffc
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 613:619
 		MemberFunctionArgumentCheck   1
 		LineNumber                    63030, 4
@@ -570,7 +570,7 @@ begin class "target_class"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x86f5e
+		; address: 0x94069
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 626:626
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63043, 4

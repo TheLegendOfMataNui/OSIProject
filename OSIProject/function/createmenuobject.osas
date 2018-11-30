@@ -1,5 +1,5 @@
 begin function "createmenuobject", 0
-	; address: 0x2ccaf
+	; address: 0x2cccf
 	; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 52:79
 	JumpTarget               0
 	CreateStackVariables     2

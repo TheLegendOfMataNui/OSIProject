@@ -33,14 +33,14 @@ begin class "global_class", "base_object"
 	property "newlevel"
 
 	begin method "global_class"
-		; address: 0x90d12
+		; address: 0x5516b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x90d16
+		; address: 0x5516f
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 105:196
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -505,7 +505,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x91297
+		; address: 0x556f0
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 203:296
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -879,7 +879,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x91642
+		; address: 0x55a9b
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 304:306
 		MemberFunctionArgumentCheck 1
 		LineNumber                  28939, 4
@@ -905,7 +905,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x9167c
+		; address: 0x55ad5
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 311:325
 		MemberFunctionArgumentCheck   1
 		LineNumber                    28946, 4
@@ -964,7 +964,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x91716
+		; address: 0x55b6f
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 332:347
 		MemberFunctionArgumentCheck   1
 		LineNumber                    28967, 4
@@ -1034,7 +1034,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "settestforlavacollisions"
-		; address: 0x917e5
+		; address: 0x55c3e
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 357:357
 		MemberFunctionArgumentCheck 2
 		LineNumber                  28992, 4
@@ -1046,7 +1046,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "setexitflag"
-		; address: 0x917f9
+		; address: 0x55c52
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 366:366
 		MemberFunctionArgumentCheck 1
 		LineNumber                  29001, 4
@@ -1058,7 +1058,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "setbackflag"
-		; address: 0x9180c
+		; address: 0x55c65
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 374:374
 		MemberFunctionArgumentCheck 1
 		LineNumber                  29009, 4
@@ -1070,7 +1070,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "setnextlevel"
-		; address: 0x9181f
+		; address: 0x55c78
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 383:391
 		MemberFunctionArgumentCheck   3
 		CallGameFunctionString        "gcsaver", "resetdata", 0
@@ -1105,7 +1105,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x9186e
+		; address: 0x55cc7
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 397:405
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1185,7 +1185,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x91909
+		; address: 0x55d62
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 415:437
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1316,7 +1316,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "toggleinput"
-		; address: 0x91a22
+		; address: 0x55e7b
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 449:455
 		MemberFunctionArgumentCheck   2
 		LineNumber                    29084, 4
@@ -1361,7 +1361,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x91a7f
+		; address: 0x55ed8
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 465:530
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1778,7 +1778,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "setcurrentlevel"
-		; address: 0x91e28
+		; address: 0x56281
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 539:539
 		MemberFunctionArgumentCheck 2
 		LineNumber                  29174, 4
@@ -1790,7 +1790,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "setlanguage"
-		; address: 0x91e3c
+		; address: 0x56295
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 545:545
 		MemberFunctionArgumentCheck 2
 		LineNumber                  29180, 4
@@ -1802,7 +1802,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "scriptmessage"
-		; address: 0x91e50
+		; address: 0x562a9
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 551:578
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          3
@@ -1989,7 +1989,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "getgamefont"
-		; address: 0x9204f
+		; address: 0x564a8
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 588:596
 		MemberFunctionArgumentCheck   2
 		LineNumber                    29223, 4
@@ -2051,7 +2051,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "addtoeventlist"
-		; address: 0x920c2
+		; address: 0x5651b
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 607:610
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -2086,7 +2086,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "addtoinputlist"
-		; address: 0x92115
+		; address: 0x5656e
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 620:623
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -2121,7 +2121,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "addtoprocesslist"
-		; address: 0x92166
+		; address: 0x565bf
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 633:636
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -2156,7 +2156,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "removefromeventlist"
-		; address: 0x921b7
+		; address: 0x56610
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 644:653
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -2213,7 +2213,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "removefrominputlist"
-		; address: 0x92232
+		; address: 0x5668b
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 661:670
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -2270,7 +2270,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "removefromprocesslist"
-		; address: 0x922ad
+		; address: 0x56706
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 678:687
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -2327,7 +2327,7 @@ begin class "global_class", "base_object"
 	end ; method
 
 	begin method "getnewid"
-		; address: 0x92328
+		; address: 0x56781
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 696:701
 		MemberFunctionArgumentCheck   1
 		LineNumber                    29331, 4
@@ -2360,6 +2360,48 @@ begin class "global_class", "base_object"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    29336, 4
 		LineNumberAlt1                701, 48
+		Return
+	end ; method
+
+	begin method "loadgame"
+		; address: 0xc75b7
+		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 383:391
+		MemberFunctionArgumentCheck   3
+		LineNumber                    29018, 4
+		LineNumberAlt1                383, 48
+		GetVariableValue              1           ; local
+		PushNothing
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    29019, 4
+		LineNumberAlt1                384, 48
+		PushConstantStringString      "lev1"
+		SetThisMemberValueString      "newlevel"
+		BranchAlwaysTarget            1, 0
+		; ->
+		; <-
+		BranchTarget                  0
+		LineNumber                    29021, 4
+		LineNumberAlt1                386, 48
+		GetVariableValue              1           ; local
+		SetThisMemberValueString      "newlevel"
+		; <-
+		BranchTarget                  1
+		LineNumber                    29023, 4
+		LineNumberAlt1                388, 48
+		GetVariableValue              2           ; local
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		LineNumber                    29026, 4
+		LineNumberAlt1                391, 48
+		PushConstanti8                1
+		SetThisMemberValueString      "whatsnext"
+		PushNothing
 		Return
 	end ; method
 end ; class

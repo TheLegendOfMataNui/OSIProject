@@ -2,7 +2,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_tahu"
-		; address: 0xb1251
+		; address: 0xc32b3
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19097, 4
@@ -20,7 +20,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb1270
+		; address: 0xc32d2
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 27:34
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19104, 4
@@ -80,7 +80,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb1315
+		; address: 0xc3377
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 40:42
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19117, 4
@@ -108,7 +108,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb1355
+		; address: 0xc33b7
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 48:52
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -163,7 +163,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb13f6
+		; address: 0xc3458
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 60:67
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -231,14 +231,14 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb14b2
+		; address: 0xc3514
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xb14b6
+		; address: 0xc3518
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

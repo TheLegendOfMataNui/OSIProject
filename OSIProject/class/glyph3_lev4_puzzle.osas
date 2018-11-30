@@ -27,7 +27,7 @@ begin class "glyph3_lev4_puzzle"
 	property "rotation"
 
 	begin method "glyph3_lev4_puzzle"
-		; address: 0x4797c
+		; address: 0x8847a
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 116:122
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56067, 4
@@ -63,7 +63,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x479ea
+		; address: 0x884e8
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 129:200
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -560,7 +560,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x47f87
+		; address: 0x88a85
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 206:206
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56157, 4
@@ -574,7 +574,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x47f9e
+		; address: 0x88a9c
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 211:244
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -776,7 +776,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "showtext"
-		; address: 0x481bf
+		; address: 0x88cbd
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 251:260
 		MemberFunctionArgumentCheck  1
 		LineNumber                   56202, 4
@@ -855,7 +855,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "removetext"
-		; address: 0x48293
+		; address: 0x88d91
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 265:273
 		MemberFunctionArgumentCheck   1
 		LineNumber                    56216, 4
@@ -919,7 +919,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x48329
+		; address: 0x88e27
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 279:299
 		MemberFunctionArgumentCheck   2
 		LineNumber                    56230, 4
@@ -1016,7 +1016,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x48419
+		; address: 0x88f17
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 306:376
 		MemberFunctionArgumentCheck   2
 		LineNumber                    56257, 4
@@ -1458,7 +1458,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x488b8
+		; address: 0x893b6
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 388:388
 		MemberFunctionArgumentCheck   2
 		LineNumber                    56339, 4
@@ -1490,7 +1490,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "cheaton"
-		; address: 0x488fb
+		; address: 0x893f9
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 393:398
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56344, 4
@@ -1524,7 +1524,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "settostartingpositions"
-		; address: 0x48958
+		; address: 0x89456
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 404:429
 		MemberFunctionArgumentCheck   1
 		LineNumber                    56355, 4
@@ -1663,7 +1663,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "test"
-		; address: 0x48aa5
+		; address: 0x895a3
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 437:444
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1758,7 +1758,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "opendoors"
-		; address: 0x48ba3
+		; address: 0x896a1
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 451:459
 		MemberFunctionArgumentCheck   1
 		LineNumber                    56402, 4
@@ -1851,7 +1851,7 @@ begin class "glyph3_lev4_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x48c72
+		; address: 0x89770
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 467:467
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56418, 4

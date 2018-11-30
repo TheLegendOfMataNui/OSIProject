@@ -6,7 +6,7 @@ begin class "takv_puzzle"
 	property "call_ev_safe_time_once"
 
 	begin method "takv_puzzle"
-		; address: 0x86433
+		; address: 0x8990c
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 100:100
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56534, 4
@@ -18,7 +18,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x86447
+		; address: 0x89920
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 109:121
 		MemberFunctionArgumentCheck  1
 		LineNumber                   56543, 4
@@ -119,7 +119,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x86566
+		; address: 0x89a3f
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 127:130
 		MemberFunctionArgumentCheck  1
 		LineNumber                   56561, 4
@@ -164,7 +164,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x865d8
+		; address: 0x89ab1
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 135:138
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56569, 4
@@ -194,14 +194,14 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x86620
+		; address: 0x89af9
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x86624
+		; address: 0x89afd
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 149:175
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -374,7 +374,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "opendoors"
-		; address: 0x867c1
+		; address: 0x89c9a
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 181:182
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56615, 4
@@ -394,7 +394,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "closedoors"
-		; address: 0x867eb
+		; address: 0x89cc4
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 187:188
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56621, 4
@@ -414,7 +414,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "opendoor1"
-		; address: 0x86815
+		; address: 0x89cee
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 193:194
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56627, 4
@@ -438,7 +438,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "opendoor2"
-		; address: 0x86856
+		; address: 0x89d2f
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 199:200
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56633, 4
@@ -464,7 +464,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "closedoor1"
-		; address: 0x86899
+		; address: 0x89d72
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 205:206
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56639, 4
@@ -488,7 +488,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "closedoor2"
-		; address: 0x868da
+		; address: 0x89db3
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 211:212
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56645, 4
@@ -514,7 +514,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x8691d
+		; address: 0x89df6
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 217:217
 		MemberFunctionArgumentCheck   2
 		LineNumber                    56651, 4
@@ -546,7 +546,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x86960
+		; address: 0x89e39
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 222:223
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -581,7 +581,7 @@ begin class "takv_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x869b5
+		; address: 0x89e8e
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 228:228
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56662, 4

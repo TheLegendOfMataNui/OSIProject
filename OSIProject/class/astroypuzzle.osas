@@ -38,7 +38,7 @@ begin class "astroypuzzle"
 	property "musichasstarted"
 
 	begin method "astroypuzzle"
-		; address: 0x2f3b4
+		; address: 0x95981
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 138:143
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63934, 4
@@ -66,7 +66,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x2f407
+		; address: 0x959d4
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 151:261
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -866,7 +866,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x2fd15
+		; address: 0x962e2
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 267:267
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64063, 4
@@ -879,7 +879,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x2fd2d
+		; address: 0x962fa
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 272:340
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1160,7 +1160,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x30067
+		; address: 0x96634
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 347:352
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1232,7 +1232,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x300f5
+		; address: 0x966c2
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 360:379
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1346,14 +1346,14 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x301f0
+		; address: 0x967bd
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x301f4
+		; address: 0x967c1
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 411:518
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1766,7 +1766,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x305fc
+		; address: 0x96bc9
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 549:554
 		MemberFunctionArgumentCheck  1
 		LineNumber                   64345, 4
@@ -1820,7 +1820,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x3068a
+		; address: 0x96c57
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 560:572
 		MemberFunctionArgumentCheck  1
 		LineNumber                   64356, 4
@@ -1934,7 +1934,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0x307e2
+		; address: 0x96daf
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 580:598
 		MemberFunctionArgumentCheck   1
 		LineNumber                    64376, 4
@@ -2112,7 +2112,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "platformhit"
-		; address: 0x309d3
+		; address: 0x96fa0
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 607:619
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2170,7 +2170,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x30a56
+		; address: 0x97023
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 630:659
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2364,7 +2364,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x30c43
+		; address: 0x97210
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 682:682
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64478, 4

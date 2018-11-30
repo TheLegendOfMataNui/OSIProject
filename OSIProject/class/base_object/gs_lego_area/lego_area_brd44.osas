@@ -3,7 +3,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_brd44"
-		; address: 0xa69de
+		; address: 0xa39b3
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 29:32
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4617, 4
@@ -43,7 +43,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa6a46
+		; address: 0xa3a1b
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 40:46
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4628, 4
@@ -89,7 +89,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa6aba
+		; address: 0xa3a8f
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 52:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4640, 4
@@ -117,7 +117,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa6af9
+		; address: 0xa3ace
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4649, 4
@@ -133,7 +133,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa6b15
+		; address: 0xa3aea
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4654, 4
@@ -149,7 +149,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa6b31
+		; address: 0xa3b06
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 71:71
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4659, 4
@@ -165,7 +165,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa6b4d
+		; address: 0xa3b22
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 76:80
 		MemberFunctionArgumentCheck   1
 		LineNumber                    4664, 4

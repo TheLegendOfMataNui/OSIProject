@@ -9,7 +9,7 @@ begin class "vllg_puzzle"
 	property "callev_safe_time_once"
 
 	begin method "vllg_puzzle"
-		; address: 0x8a967
+		; address: 0xaeb1c
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 93:93
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9625, 4
@@ -21,7 +21,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8a97b
+		; address: 0xaeb30
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 101:170
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   1
@@ -716,7 +716,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8b290
+		; address: 0xaf445
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 176:182
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9708, 4
@@ -762,11 +762,13 @@ begin class "vllg_puzzle"
 		; <-
 		BranchTarget                  1
 		PushNothing
+		SetThisMemberValueString      "deadhives"
+		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x8b2fe
+		; address: 0xaf4b7
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 188:188
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9720, 4
@@ -778,7 +780,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x8b310
+		; address: 0xaf4c9
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 194:202
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -862,7 +864,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8b3ef
+		; address: 0xaf5a8
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 213:253
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   2
@@ -1146,14 +1148,14 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x8b6bf
+		; address: 0xaf878
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "openvllgdoor"
-		; address: 0x8b6c3
+		; address: 0xaf87c
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 264:264
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9796, 4

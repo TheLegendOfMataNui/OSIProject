@@ -5,7 +5,7 @@ begin class "tmbl_doorway"
 	property "gotodoor"
 
 	begin method "tmbl_doorway"
-		; address: 0x87745
+		; address: 0x6b238
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 128:131
 		MemberFunctionArgumentCheck 5
 		LineNumber                  42575, 4
@@ -45,7 +45,7 @@ begin class "tmbl_doorway"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x877c2
+		; address: 0x6b2b5
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 136:137
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42583, 4
@@ -64,7 +64,7 @@ begin class "tmbl_doorway"
 	end ; method
 
 	begin method "setgotodoor"
-		; address: 0x877e8
+		; address: 0x6b2db
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 141:141
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42588, 4

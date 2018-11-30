@@ -2,7 +2,7 @@ begin class "lego_area_l1a2", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_l1a2"
-		; address: 0xaab92
+		; address: 0x7001b
 		; source: 116 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a2p.vbo" 34:95
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45311, 4
@@ -46,7 +46,7 @@ begin class "lego_area_l1a2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xaabfc
+		; address: 0x70085
 		; source: 116 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a2p.vbo" 44:49
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 53:53
 		MemberFunctionArgumentCheck  1
@@ -99,7 +99,7 @@ begin class "lego_area_l1a2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaac8d
+		; address: 0x70116
 		; source: 116 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a2p.vbo" 107:129
 		; source: 115 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a1p.vbo" 54:58
 		MemberFunctionArgumentCheck   2
@@ -246,7 +246,7 @@ begin class "lego_area_l1a2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaae1d
+		; address: 0x702a6
 		; source: 116 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a2p.vbo" 67:67
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45283, 4
@@ -260,7 +260,7 @@ begin class "lego_area_l1a2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaae34
+		; address: 0x702bd
 		; source: 116 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a2p.vbo" 165:165
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45381, 4

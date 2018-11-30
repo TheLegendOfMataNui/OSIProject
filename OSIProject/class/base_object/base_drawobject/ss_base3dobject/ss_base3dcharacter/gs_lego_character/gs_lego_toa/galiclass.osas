@@ -11,7 +11,7 @@ begin class "galiclass", "gs_lego_toa"
 	property "inputhandle"
 
 	begin method "galiclass"
-		; address: 0xc6b67
+		; address: 0x4c4cd
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 42:54
 		MemberFunctionArgumentCheck 6
 		LineNumber                  23278, 4
@@ -82,7 +82,7 @@ begin class "galiclass", "gs_lego_toa"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc6c52
+		; address: 0x4c5b8
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 60:61
 		MemberFunctionArgumentCheck  1
 		LineNumber                   23296, 4
@@ -106,7 +106,7 @@ begin class "galiclass", "gs_lego_toa"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc6c8d
+		; address: 0x4c5f3
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 67:69
 		MemberFunctionArgumentCheck  1
 		LineNumber                   23303, 4
@@ -132,7 +132,7 @@ begin class "galiclass", "gs_lego_toa"
 	end ; method
 
 	begin method "setcontext"
-		; address: 0xc6cca
+		; address: 0x4c630
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 95:102
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -185,7 +185,7 @@ begin class "galiclass", "gs_lego_toa"
 	end ; method
 
 	begin method "setupgrapplinghook"
-		; address: 0xc6d4f
+		; address: 0x4c6b5
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 109:120
 		MemberFunctionArgumentCheck 4
 		LineNumber                  23345, 4
@@ -281,7 +281,7 @@ begin class "galiclass", "gs_lego_toa"
 	end ; method
 
 	begin method "setgrapplinghookdistance"
-		; address: 0xc6e75
+		; address: 0x4c7db
 		; source: 58 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Gali.vbo" 125:125
 		MemberFunctionArgumentCheck 2
 		LineNumber                  23361, 4

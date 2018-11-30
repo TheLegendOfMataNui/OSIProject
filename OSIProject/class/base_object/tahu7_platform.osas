@@ -9,7 +9,7 @@ begin class "tahu7_platform", "base_object"
 	property "moveup"
 
 	begin method "tahu7_platform"
-		; address: 0x9ce3c
+		; address: 0xc3e76
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 273:281
 		MemberFunctionArgumentCheck 6
 		LineNumber                  19350, 4
@@ -80,7 +80,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9cf44
+		; address: 0xc3f7e
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 287:288
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19364, 4
@@ -103,7 +103,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9cf7a
+		; address: 0xc3fb4
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 293:293
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19370, 4
@@ -115,7 +115,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "offsetposition"
-		; address: 0x9cf8c
+		; address: 0xc3fc6
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 298:301
 		MemberFunctionArgumentCheck 4
 		LineNumber                  19375, 4
@@ -149,7 +149,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9cfe9
+		; address: 0xc4023
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 305:315
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19382, 4
@@ -216,7 +216,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "reset"
-		; address: 0x9d092
+		; address: 0xc40cc
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 323:324
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19400, 4
@@ -237,7 +237,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "reset2"
-		; address: 0x9d0c7
+		; address: 0xc4101
 		; source: 234 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_tahu.vbo" 329:332
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19406, 4

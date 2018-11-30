@@ -3,7 +3,7 @@ begin class "lego_area_mtup5", "gs_lego_area"
 	property "call_ev_safe_time_once"
 
 	begin method "lego_area_mtup5"
-		; address: 0xacefa
+		; address: 0xadffc
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 29:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9258, 4
@@ -21,7 +21,7 @@ begin class "lego_area_mtup5", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xacf19
+		; address: 0xae01b
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 37:63
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -188,7 +188,7 @@ begin class "lego_area_mtup5", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xad178
+		; address: 0xae27a
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 69:71
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        2
@@ -209,21 +209,21 @@ begin class "lego_area_mtup5", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xad1a8
+		; address: 0xae2aa
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0xad1ac
+		; address: 0xae2ae
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xad1b0
+		; address: 0xae2b2
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 87:109
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9316, 4
@@ -406,7 +406,7 @@ begin class "lego_area_mtup5", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xad38d
+		; address: 0xae48f
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 116:120
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9345, 4

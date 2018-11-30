@@ -1,6 +1,6 @@
 begin class "ss_basefilledrect", "ss_baserect"
 	begin method "ss_basefilledrect"
-		; address: 0xb95ba
+		; address: 0x760fb
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 188:188
 		MemberFunctionArgumentCheck 7
 		LineNumber                  47634, 4
@@ -20,7 +20,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb95e3
+		; address: 0x76124
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 193:196
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47639, 4
@@ -55,7 +55,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb9652
+		; address: 0x76193
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 200:200
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47646, 4
@@ -69,7 +69,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "add"
-		; address: 0xb9669
+		; address: 0x761aa
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 204:204
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47650, 4
@@ -84,7 +84,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "setpos"
-		; address: 0xb968d
+		; address: 0x761ce
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 208:213
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47654, 4
@@ -157,7 +157,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "setzvalue"
-		; address: 0xb973d
+		; address: 0x7627e
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 217:219
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47663, 4
@@ -185,7 +185,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "changepos"
-		; address: 0xb977b
+		; address: 0x762bc
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 224:229
 		MemberFunctionArgumentCheck   3
 		LineNumber                    47670, 4
@@ -266,7 +266,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "setcolor"
-		; address: 0xb983b
+		; address: 0x7637c
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 233:238
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47679, 4
@@ -344,7 +344,7 @@ begin class "ss_basefilledrect", "ss_baserect"
 	end ; method
 
 	begin method "changecolor"
-		; address: 0xb98f2
+		; address: 0x76433
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo" 242:247
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47688, 4

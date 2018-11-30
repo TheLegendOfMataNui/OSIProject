@@ -2,7 +2,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	property "when"
 
 	begin method "lego_area_tura1"
-		; address: 0xb1d1b
+		; address: 0x75257
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 29:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47217, 4
@@ -26,7 +26,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb1d4d
+		; address: 0x75289
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 37:37
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 166:166
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 36:57
@@ -162,7 +162,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb1f05
+		; address: 0x75441
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 62:63
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47250, 4
@@ -180,7 +180,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb1f2a
+		; address: 0x75466
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 68:68
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47256, 4

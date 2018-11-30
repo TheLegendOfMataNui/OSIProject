@@ -6,7 +6,7 @@ begin class "endgm_puzzle"
 	property "safecount"
 
 	begin method "endgm_puzzle"
-		; address: 0x46573
+		; address: 0xc7093
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 93:93
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37116, 4
@@ -18,7 +18,7 @@ begin class "endgm_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x46587
+		; address: 0xc70a7
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 40:43
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 37:37
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 106:134
@@ -159,7 +159,7 @@ begin class "endgm_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4673b
+		; address: 0xc725b
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 138:140
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -183,7 +183,7 @@ begin class "endgm_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x46771
+		; address: 0xc7291
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 108:108
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37131, 4
@@ -195,7 +195,7 @@ begin class "endgm_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x46783
+		; address: 0xc72a3
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 158:195
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 51:52
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 227:228
@@ -468,7 +468,7 @@ begin class "endgm_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x46a4b
+		; address: 0xc756b
 		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 110:112
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47167, 4

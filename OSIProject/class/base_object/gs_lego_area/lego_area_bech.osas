@@ -4,7 +4,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_bech"
-		; address: 0xa5a1b
+		; address: 0x628e8
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 27:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37050, 4
@@ -40,7 +40,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa5a73
+		; address: 0x62940
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 37:49
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        2
@@ -94,7 +94,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa5b32
+		; address: 0x629ff
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37086, 4
@@ -110,7 +110,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa5b4e
+		; address: 0x62a1b
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 68:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37091, 4
@@ -132,7 +132,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa5b7a
+		; address: 0x62a47
 		; source: 92 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_bech.vbo" 74:76
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37097, 4
@@ -157,7 +157,7 @@ begin class "lego_area_bech", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa5bb3
+		; address: 0x62a80
 		MemberFunctionArgumentCheck 2
 		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1        ; local

@@ -2,7 +2,7 @@ begin class "lev4_iceexploder"
 	property "icebitsarray"
 
 	begin method "lev4_iceexploder"
-		; address: 0x5f654
+		; address: 0xa234a
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 301:316
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4010, 4
@@ -190,7 +190,7 @@ begin class "lev4_iceexploder"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5f816
+		; address: 0xa250c
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 323:330
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -308,7 +308,7 @@ begin class "lev4_iceexploder"
 	end ; method
 
 	begin method "explode"
-		; address: 0x5f93b
+		; address: 0xa2631
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 339:355
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          11
@@ -504,7 +504,7 @@ begin class "lev4_iceexploder"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x5fb85
+		; address: 0xa287b
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 363:367
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

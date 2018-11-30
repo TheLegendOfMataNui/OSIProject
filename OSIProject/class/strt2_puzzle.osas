@@ -8,7 +8,7 @@ begin class "strt2_puzzle"
 	property "hive2handle"
 
 	begin method "strt2_puzzle"
-		; address: 0x7c8e8
+		; address: 0x80b88
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53039, 4
@@ -20,7 +20,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7c8fc
+		; address: 0x80b9c
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 100:123
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -200,7 +200,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7cb82
+		; address: 0x80e22
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 129:131
 		MemberFunctionArgumentCheck  1
 		LineNumber                   53076, 4
@@ -233,7 +233,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7cbd3
+		; address: 0x80e73
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 136:138
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53083, 4
@@ -256,7 +256,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x7cc07
+		; address: 0x80ea7
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 144:146
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -295,7 +295,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7cc62
+		; address: 0x80f02
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 153:175
 		MemberFunctionArgumentCheck   2
 		LineNumber                    53100, 4
@@ -437,7 +437,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7cda2
+		; address: 0x81042
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 182:183
 		MemberFunctionArgumentCheck   2
 		LineNumber                    53129, 4
@@ -493,7 +493,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x7ce24
+		; address: 0x810c4
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 188:189
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -528,7 +528,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "movedoorup"
-		; address: 0x7ce6b
+		; address: 0x8110b
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 195:199
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        3
@@ -577,7 +577,7 @@ begin class "strt2_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7cefa
+		; address: 0x8119a
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_strt.vbo" 204:204
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53151, 4

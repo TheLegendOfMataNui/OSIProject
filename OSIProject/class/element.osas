@@ -10,7 +10,7 @@ begin class "element"
 	property "kboulder3"
 
 	begin method "element"
-		; address: 0x45221
+		; address: 0x4dbd1
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 363:369
 		MemberFunctionArgumentCheck 3
 		LineNumber                  24920, 4
@@ -48,7 +48,7 @@ begin class "element"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4528e
+		; address: 0x4dc3e
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 373:390
 		MemberFunctionArgumentCheck   1
 		LineNumber                    24930, 4
@@ -143,7 +143,7 @@ begin class "element"
 	end ; method
 
 	begin method "setup"
-		; address: 0x45385
+		; address: 0x4dd35
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 399:530
 		MemberFunctionArgumentCheck   1
 		LineNumber                    24956, 4
@@ -964,7 +964,7 @@ begin class "element"
 	end ; method
 
 	begin method "add"
-		; address: 0x45c26
+		; address: 0x4e5d6
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 537:636
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1930,7 +1930,7 @@ begin class "element"
 	end ; method
 
 	begin method "activate"
-		; address: 0x46466
+		; address: 0x4ee16
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 647:650
 		MemberFunctionArgumentCheck   1
 		LineNumber                    25204, 4
@@ -1979,7 +1979,7 @@ begin class "element"
 	end ; method
 
 	begin method "deactivate"
-		; address: 0x464e8
+		; address: 0x4ee98
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 957:961
 		MemberFunctionArgumentCheck   1
 		LineNumber                    25514, 4
@@ -2014,7 +2014,7 @@ begin class "element"
 	end ; method
 
 	begin method "setselectable"
-		; address: 0x4653b
+		; address: 0x4eeeb
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 968:968
 		MemberFunctionArgumentCheck 2
 		LineNumber                  25525, 4
@@ -2026,7 +2026,7 @@ begin class "element"
 	end ; method
 
 	begin method "isactive"
-		; address: 0x4654f
+		; address: 0x4eeff
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 976:976
 		MemberFunctionArgumentCheck 1
 		LineNumber                  25533, 4
@@ -2036,7 +2036,7 @@ begin class "element"
 	end ; method
 
 	begin method "isselectable"
-		; address: 0x4655f
+		; address: 0x4ef0f
 		; source: 65 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_elements.vbo" 985:985
 		MemberFunctionArgumentCheck 1
 		LineNumber                  25542, 4
@@ -2046,7 +2046,7 @@ begin class "element"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x4656f
+		; address: 0x4ef1f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

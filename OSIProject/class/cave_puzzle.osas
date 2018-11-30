@@ -4,7 +4,7 @@ begin class "cave_puzzle"
 	property "maskx"
 
 	begin method "cave_puzzle"
-		; address: 0x3e570
+		; address: 0xae664
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 86:86
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9450, 4
@@ -16,7 +16,7 @@ begin class "cave_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3e584
+		; address: 0xae678
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 94:116
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -167,7 +167,7 @@ begin class "cave_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3e788
+		; address: 0xae87c
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 122:127
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -205,7 +205,7 @@ begin class "cave_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x3e7df
+		; address: 0xae8d3
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 133:133
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9497, 4
@@ -217,14 +217,14 @@ begin class "cave_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x3e7f1
+		; address: 0xae8e5
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3e7f5
+		; address: 0xae8e9
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 144:151
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9508, 4
@@ -299,7 +299,7 @@ begin class "cave_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x3e8a9
+		; address: 0xae99d
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

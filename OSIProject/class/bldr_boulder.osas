@@ -18,7 +18,7 @@ begin class "bldr_boulder"
 	property "soundonce"
 
 	begin method "bldr_boulder"
-		; address: 0x33691
+		; address: 0x8ce18
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 264:274
 		MemberFunctionArgumentCheck 8
 		LineNumber                  60171, 4
@@ -82,7 +82,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3376c
+		; address: 0x8cef3
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 280:298
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60187, 4
@@ -170,14 +170,14 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "process"
-		; address: 0x33858
+		; address: 0x8cfdf
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0x3385c
+		; address: 0x8cfe3
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 310:312
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60217, 4
@@ -203,7 +203,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "hide"
-		; address: 0x33898
+		; address: 0x8d01f
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 317:333
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60224, 4
@@ -282,7 +282,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "roll"
-		; address: 0x33990
+		; address: 0x8d117
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 346:346
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60253, 4
@@ -301,7 +301,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "stop"
-		; address: 0x339b0
+		; address: 0x8d137
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 352:352
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60259, 4
@@ -320,7 +320,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "resettostart"
-		; address: 0x339cd
+		; address: 0x8d154
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 358:360
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60265, 4
@@ -346,7 +346,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "input"
-		; address: 0x33a0d
+		; address: 0x8d194
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 370:370
 		MemberFunctionArgumentCheck   2
 		LineNumber                    60277, 4
@@ -378,7 +378,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x33a50
+		; address: 0x8d1d7
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 377:418
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          8
@@ -603,7 +603,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "shake"
-		; address: 0x33cca
+		; address: 0x8d451
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 429:429
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60336, 4
@@ -623,7 +623,7 @@ begin class "bldr_boulder"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x33cf6
+		; address: 0x8d47d
 		; source: 155 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 434:434
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60341, 4

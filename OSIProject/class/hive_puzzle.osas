@@ -6,7 +6,7 @@ begin class "hive_puzzle"
 	property "mask"
 
 	begin method "hive_puzzle"
-		; address: 0x51c55
+		; address: 0xaf9f9
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 88:90
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9895, 4
@@ -26,7 +26,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x51c86
+		; address: 0xafa2a
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 98:109
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9905, 4
@@ -112,7 +112,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x51d90
+		; address: 0xafb34
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 115:119
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9922, 4
@@ -150,7 +150,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x51dea
+		; address: 0xafb8e
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 125:125
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9932, 4
@@ -162,7 +162,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x51dfc
+		; address: 0xafba0
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 132:144
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9939, 4
@@ -264,7 +264,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x51eec
+		; address: 0xafc90
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 151:155
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9958, 4
@@ -307,7 +307,7 @@ begin class "hive_puzzle"
 	end ; method
 
 	begin method "playcinema"
-		; address: 0x51f46
+		; address: 0xafcea
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 164:167
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9971, 4

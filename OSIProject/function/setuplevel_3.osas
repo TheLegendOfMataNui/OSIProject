@@ -1,5 +1,5 @@
 begin function "setuplevel_3", 0
-	; address: 0x2d3e1
+	; address: 0x2e1e6
 	; source: 152 "C:\\projects\\lego\\Scripting\\VBO\\lev3/level_3.vbo" 221:221
 	JumpTarget                   7
 	LineNumber                   184, 4

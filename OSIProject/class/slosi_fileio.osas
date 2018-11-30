@@ -3,7 +3,7 @@ begin class "slosi_fileio"
 	property "handle"
 
 	begin method "slosi_fileio"
-		; address: 0x7153c
+		; address: 0x76e56
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 33:33
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47935, 4
@@ -15,7 +15,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "create"
-		; address: 0x71550
+		; address: 0x76e6a
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 39:39
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47941, 4
@@ -30,7 +30,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "open"
-		; address: 0x71574
+		; address: 0x76e8e
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 43:43
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47945, 4
@@ -45,7 +45,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "close"
-		; address: 0x71598
+		; address: 0x76eb2
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 48:48
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47950, 4
@@ -57,7 +57,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "write"
-		; address: 0x715aa
+		; address: 0x76ec4
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47961, 4
@@ -73,7 +73,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "read"
-		; address: 0x715c9
+		; address: 0x76ee3
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 64:64
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47966, 4
@@ -86,7 +86,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "fileexist"
-		; address: 0x715e9
+		; address: 0x76f03
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 69:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47971, 4
@@ -99,7 +99,7 @@ begin class "slosi_fileio"
 	end ; method
 
 	begin method "iseof"
-		; address: 0x71609
+		; address: 0x76f23
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 74:74
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47976, 4

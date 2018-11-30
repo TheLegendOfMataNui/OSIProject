@@ -7,7 +7,7 @@ begin class "bridge_puzzle"
 	property "firstcollisionwithtp"
 
 	begin method "bridge_puzzle"
-		; address: 0x3a31e
+		; address: 0x716d6
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 134:135
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45978, 4
@@ -23,7 +23,7 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3a341
+		; address: 0x716f9
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 141:251
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -655,7 +655,7 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3a97d
+		; address: 0x71d35
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 262:269
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -708,7 +708,7 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3a9ea
+		; address: 0x71da2
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 275:283
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -769,7 +769,7 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x3aa76
+		; address: 0x71e2e
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 287:288
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46131, 4
@@ -785,14 +785,14 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x3aa96
+		; address: 0x71e4e
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3aa9a
+		; address: 0x71e52
 		; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 312:479
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1868,7 +1868,7 @@ begin class "bridge_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x3b571
+		; address: 0x72929
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

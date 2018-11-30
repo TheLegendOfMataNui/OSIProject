@@ -1,6 +1,6 @@
 begin class "lego_level_2", "gs_lego_level"
 	begin method "lego_level_2"
-		; address: 0xc16a4
+		; address: 0x8a49b
 		; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/level_2.vbo" 43:77
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 92:93
 		MemberFunctionArgumentCheck 1
@@ -308,7 +308,7 @@ begin class "lego_level_2", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc1a6d
+		; address: 0x8a864
 		; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/level_2.vbo" 88:117
 		MemberFunctionArgumentCheck   2
 		LineNumber                    58892, 4
@@ -475,7 +475,7 @@ begin class "lego_level_2", "gs_lego_level"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc1c85
+		; address: 0x8aa7c
 		; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/level_2.vbo" 126:163
 		MemberFunctionArgumentCheck   2
 		LineNumber                    58930, 4
@@ -750,7 +750,7 @@ begin class "lego_level_2", "gs_lego_level"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xc1f0c
+		; address: 0x8ad03
 		; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/level_2.vbo" 170:173
 		MemberFunctionArgumentCheck  1
 		LineNumber                   58974, 4

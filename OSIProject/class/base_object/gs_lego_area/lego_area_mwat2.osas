@@ -2,7 +2,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_mwat2"
-		; address: 0xad785
+		; address: 0x864b8
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 40:43
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55166, 4
@@ -43,7 +43,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xad7f0
+		; address: 0x86523
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 50:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55176, 4
@@ -91,7 +91,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xad87d
+		; address: 0x865b0
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 60:60
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55186, 4
@@ -107,7 +107,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xad899
+		; address: 0x865cc
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 65:65
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55191, 4
@@ -123,7 +123,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xad8b5
+		; address: 0x865e8
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 70:70
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55196, 4
@@ -139,7 +139,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xad8d1
+		; address: 0x86604
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 75:76
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55201, 4
@@ -160,7 +160,7 @@ begin class "lego_area_mwat2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xad8fc
+		; address: 0x8662f
 		; source: 145 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 81:82
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55207, 4

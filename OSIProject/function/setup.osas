@@ -1,5 +1,5 @@
 begin function "setup", 0
-	; address: 0x2d061
+	; address: 0x2e454
 	; source: 2 "C:\\projects\\lego\\Scripting\\VBO\\base.vbo" 35:58
 	LineNumber                    19942, 4
 	LineNumberAlt1                35, 2
@@ -50,7 +50,7 @@ begin function "setup", 0
 	SetVariableValueGlobalString  "screenlist"
 	LineNumber                    19950, 4
 	LineNumberAlt1                43, 2
-	PushConstanti32JumpTarget     4, 0
+	PushConstanti32JumpTarget     14, 0
 	JumpRelative                  0
 	Pop
 	LineNumber                    19956, 4

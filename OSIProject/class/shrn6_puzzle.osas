@@ -6,7 +6,7 @@ begin class "shrn6_puzzle"
 	property "portalactive"
 
 	begin method "shrn6_puzzle"
-		; address: 0x70105
+		; address: 0xbe093
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 78:78
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16710, 4
@@ -18,7 +18,7 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x70119
+		; address: 0xbe0a7
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 89:144
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -299,21 +299,21 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x70452
+		; address: 0xbe3e0
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x70456
+		; address: 0xbe3e4
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7045a
+		; address: 0xbe3e8
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 163:168
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -366,7 +366,7 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x704ca
+		; address: 0xbe458
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 175:175
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16807, 4
@@ -378,14 +378,14 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x704dc
+		; address: 0xbe46a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x704e0
+		; address: 0xbe46e
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 186:242
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 165:165
 		MemberFunctionArgumentCheck   2
@@ -706,7 +706,7 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7081f
+		; address: 0xbe7ad
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 138:138
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 60:63
 		MemberFunctionArgumentCheck   2

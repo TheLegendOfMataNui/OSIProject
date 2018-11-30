@@ -4,7 +4,7 @@ begin class "ta016_puzzle"
 	property "fireballarray"
 
 	begin method "ta016_puzzle"
-		; address: 0x7d1a8
+		; address: 0xb24e5
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 80:80
 		MemberFunctionArgumentCheck 2
 		LineNumber                  11061, 4
@@ -16,7 +16,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7d1bc
+		; address: 0xb24f9
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 89:156
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -467,7 +467,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7d617
+		; address: 0xb2954
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 163:169
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -537,14 +537,14 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x7d6b5
+		; address: 0xb29f2
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7d6b9
+		; address: 0xb29f6
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 179:189
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -597,7 +597,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7d729
+		; address: 0xb2a66
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 195:195
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11176, 4
@@ -609,7 +609,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x7d73b
+		; address: 0xb2a78
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 201:206
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -680,7 +680,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7d7c1
+		; address: 0xb2afe
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 212:237
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -831,7 +831,7 @@ begin class "ta016_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7d8ed
+		; address: 0xb2c2a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

@@ -2,7 +2,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_room5"
-		; address: 0xae89e
+		; address: 0xab818
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 28:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8144, 4
@@ -38,7 +38,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xae8f6
+		; address: 0xab870
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 37:42
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8153, 4
@@ -86,7 +86,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xae983
+		; address: 0xab8fd
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 47:48
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8163, 4
@@ -107,7 +107,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xae9ae
+		; address: 0xab928
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 53:53
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8169, 4
@@ -123,7 +123,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xae9ca
+		; address: 0xab944
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 58:58
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8174, 4
@@ -139,7 +139,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xae9e6
+		; address: 0xab960
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8179, 4
@@ -155,7 +155,7 @@ begin class "lego_area_room5", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaea02
+		; address: 0xab97c
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 68:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8184, 4

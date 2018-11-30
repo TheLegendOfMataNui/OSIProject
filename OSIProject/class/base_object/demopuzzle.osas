@@ -11,7 +11,7 @@ begin class "demopuzzle", "base_object"
 	property "puzzle3"
 
 	begin method "demopuzzle"
-		; address: 0x8ffa4
+		; address: 0x7de81
 		; source: 132 "C:\\projects\\lego\\Scripting\\VBO\\demopuzzle.vbo" 32:46
 		MemberFunctionArgumentCheck 1
 		LineNumber                  51851, 4
@@ -221,7 +221,7 @@ begin class "demopuzzle", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9019e
+		; address: 0x7e07b
 		; source: 132 "C:\\projects\\lego\\Scripting\\VBO\\demopuzzle.vbo" 53:78
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -414,7 +414,7 @@ begin class "demopuzzle", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x90385
+		; address: 0x7e262
 		; source: 132 "C:\\projects\\lego\\Scripting\\VBO\\demopuzzle.vbo" 83:223
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -1076,7 +1076,7 @@ begin class "demopuzzle", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x90a2f
+		; address: 0x7e90c
 		; source: 132 "C:\\projects\\lego\\Scripting\\VBO\\demopuzzle.vbo" 233:284
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1387,14 +1387,14 @@ begin class "demopuzzle", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x90cd8
+		; address: 0x7ebb5
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "closedoor3"
-		; address: 0x90cdc
+		; address: 0x7ebb9
 		; source: 132 "C:\\projects\\lego\\Scripting\\VBO\\demopuzzle.vbo" 295:296
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52114, 4

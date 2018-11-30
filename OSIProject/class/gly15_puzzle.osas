@@ -2,7 +2,7 @@ begin class "gly15_puzzle"
 	property "parent"
 
 	begin method "gly15_puzzle"
-		; address: 0x47403
+		; address: 0xad8fa
 		; source: 196 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_gly1.vbo" 84:85
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -19,7 +19,7 @@ begin class "gly15_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x47428
+		; address: 0xad91f
 		; source: 196 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_gly1.vbo" 93:94
 		MemberFunctionArgumentCheck  1
 		LineNumber                   8984, 4
@@ -44,14 +44,14 @@ begin class "gly15_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4745e
+		; address: 0xad955
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x47462
+		; address: 0xad959
 		; source: 196 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_gly1.vbo" 104:104
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8995, 4
@@ -63,14 +63,14 @@ begin class "gly15_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x47474
+		; address: 0xad96b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x47478
+		; address: 0xad96f
 		; source: 196 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_gly1.vbo" 114:121
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9005, 4
@@ -145,7 +145,7 @@ begin class "gly15_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x4752c
+		; address: 0xada23
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

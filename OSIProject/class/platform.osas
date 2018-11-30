@@ -49,7 +49,7 @@ begin class "platform"
 	property "dropsoundonce"
 
 	begin method "platform"
-		; address: 0x6640d
+		; address: 0x4770b
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 105:165
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -356,7 +356,7 @@ begin class "platform"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6682f
+		; address: 0x47b2d
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 174:184
 		MemberFunctionArgumentCheck 9
 		LineNumber                  20790, 4
@@ -456,7 +456,7 @@ begin class "platform"
 	end ; method
 
 	begin method "show"
-		; address: 0x66953
+		; address: 0x47c51
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 189:189
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20805, 4
@@ -471,7 +471,7 @@ begin class "platform"
 	end ; method
 
 	begin method "hide"
-		; address: 0x6696b
+		; address: 0x47c69
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 193:193
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20809, 4
@@ -486,7 +486,7 @@ begin class "platform"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x66983
+		; address: 0x47c81
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 197:199
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20813, 4
@@ -508,7 +508,7 @@ begin class "platform"
 	end ; method
 
 	begin method "remove"
-		; address: 0x669b6
+		; address: 0x47cb4
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 203:209
 		MemberFunctionArgumentCheck   1
 		LineNumber                    20819, 4
@@ -561,7 +561,7 @@ begin class "platform"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x66a2a
+		; address: 0x47d28
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 215:243
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20831, 4
@@ -681,7 +681,7 @@ begin class "platform"
 	end ; method
 
 	begin method "pause"
-		; address: 0x66b31
+		; address: 0x47e2f
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 250:253
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20866, 4
@@ -708,7 +708,7 @@ begin class "platform"
 	end ; method
 
 	begin method "process"
-		; address: 0x66b65
+		; address: 0x47e63
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 261:305
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -914,7 +914,7 @@ begin class "platform"
 	end ; method
 
 	begin method "moveobj"
-		; address: 0x66d8d
+		; address: 0x4808b
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 314:342
 		MemberFunctionArgumentCheck   1
 		LineNumber                    20930, 4
@@ -1024,7 +1024,7 @@ begin class "platform"
 	end ; method
 
 	begin method "drop"
-		; address: 0x66ea0
+		; address: 0x4819e
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 349:364
 		MemberFunctionArgumentCheck   1
 		LineNumber                    20965, 4
@@ -1114,7 +1114,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setposition"
-		; address: 0x66f7f
+		; address: 0x4827d
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 373:373
 		MemberFunctionArgumentCheck 4
 		LineNumber                  20989, 4
@@ -1132,7 +1132,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setpos"
-		; address: 0x66fa1
+		; address: 0x4829f
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 378:378
 		MemberFunctionArgumentCheck 4
 		LineNumber                  20994, 4
@@ -1150,7 +1150,7 @@ begin class "platform"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x66fc3
+		; address: 0x482c1
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 383:383
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20999, 4
@@ -1165,7 +1165,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setresponse"
-		; address: 0x66fdb
+		; address: 0x482d9
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 388:388
 		MemberFunctionArgumentCheck 4
 		LineNumber                  21004, 4
@@ -1183,7 +1183,7 @@ begin class "platform"
 	end ; method
 
 	begin method "explode"
-		; address: 0x66ffd
+		; address: 0x482fb
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 393:393
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21009, 4
@@ -1195,7 +1195,7 @@ begin class "platform"
 	end ; method
 
 	begin method "reset"
-		; address: 0x67010
+		; address: 0x4830e
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 408:424
 		MemberFunctionArgumentCheck   1
 		LineNumber                    21024, 4
@@ -1294,7 +1294,7 @@ begin class "platform"
 	end ; method
 
 	begin method "touch"
-		; address: 0x6712b
+		; address: 0x48429
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 431:445
 		MemberFunctionArgumentCheck   1
 		LineNumber                    21047, 4
@@ -1364,7 +1364,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setuppath"
-		; address: 0x671df
+		; address: 0x484dd
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 454:478
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          7
@@ -1594,7 +1594,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setupbounce"
-		; address: 0x6742d
+		; address: 0x4872b
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 485:515
 		MemberFunctionArgumentCheck   8
 		CreateStackVariables          11
@@ -1878,7 +1878,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setuptouchshakerotate"
-		; address: 0x67709
+		; address: 0x48a07
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 523:552
 		MemberFunctionArgumentCheck   5
 		CreateStackVariables          8
@@ -2162,7 +2162,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setuptouchshakevector"
-		; address: 0x679e5
+		; address: 0x48ce3
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 560:589
 		MemberFunctionArgumentCheck   5
 		CreateStackVariables          8
@@ -2446,7 +2446,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setupfall"
-		; address: 0x67cc1
+		; address: 0x48fbf
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 597:608
 		MemberFunctionArgumentCheck   5
 		LineNumber                    21213, 4
@@ -2538,7 +2538,7 @@ begin class "platform"
 	end ; method
 
 	begin method "setupsounds"
-		; address: 0x67dd6
+		; address: 0x490d4
 		; source: 55 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_platform.vbo" 612:626
 		MemberFunctionArgumentCheck   3
 		LineNumber                    21228, 4

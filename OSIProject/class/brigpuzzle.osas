@@ -23,7 +23,7 @@ begin class "brigpuzzle"
 	property "doorz"
 
 	begin method "brigpuzzle"
-		; address: 0x3b575
+		; address: 0x92833
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 110:112
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62527, 4
@@ -43,7 +43,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3b5a7
+		; address: 0x92865
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 119:190
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          8
@@ -710,7 +710,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x3bdba
+		; address: 0x93078
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 196:197
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -749,7 +749,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3bdfc
+		; address: 0x930ba
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 205:250
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -980,7 +980,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x3c095
+		; address: 0x93353
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 256:257
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1020,7 +1020,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x3c0db
+		; address: 0x93399
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 263:264
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1060,7 +1060,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3c121
+		; address: 0x933df
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 271:339
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1342,7 +1342,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x3c3b5
+		; address: 0x93673
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 347:349
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62764, 4
@@ -1374,7 +1374,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x3c3fe
+		; address: 0x936bc
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 355:355
 		MemberFunctionArgumentCheck  1
 		LineNumber                   62772, 4
@@ -1390,7 +1390,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "resetc"
-		; address: 0x3c419
+		; address: 0x936d7
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 361:372
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1506,7 +1506,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "hitatarget"
-		; address: 0x3c554
+		; address: 0x93812
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 378:381
 		MemberFunctionArgumentCheck   1
 		LineNumber                    62795, 4
@@ -1543,7 +1543,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "targertback"
-		; address: 0x3c5aa
+		; address: 0x93868
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 387:388
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62804, 4
@@ -1563,7 +1563,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "lowerbrg"
-		; address: 0x3c5d4
+		; address: 0x93892
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 393:396
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62810, 4
@@ -1618,7 +1618,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "slamdoor"
-		; address: 0x3c667
+		; address: 0x93925
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 406:412
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         2
@@ -1701,7 +1701,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "rasebrg"
-		; address: 0x3c754
+		; address: 0x93a12
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 418:421
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62835, 4
@@ -1756,7 +1756,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "startcam"
-		; address: 0x3c7e7
+		; address: 0x93aa5
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 427:427
 		MemberFunctionArgumentCheck  1
 		LineNumber                   62844, 4
@@ -1772,7 +1772,7 @@ begin class "brigpuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x3c802
+		; address: 0x93ac0
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 439:439
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62856, 4

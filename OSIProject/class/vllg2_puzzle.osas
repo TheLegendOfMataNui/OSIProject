@@ -28,7 +28,7 @@ begin class "vllg2_puzzle"
 	property "gatestone"
 
 	begin method "vllg2_puzzle"
-		; address: 0x88ebd
+		; address: 0x81383
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 128:128
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53295, 4
@@ -40,7 +40,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x88ed1
+		; address: 0x81397
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 137:229
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   1
@@ -642,7 +642,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x89665
+		; address: 0x81b2b
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 235:256
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -762,11 +762,13 @@ begin class "vllg2_puzzle"
 		; <-
 		BranchTarget                  3
 		PushNothing
+		SetThisMemberValueString      "deadhives"
+		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x897a9
+		; address: 0x81c73
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 267:284
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -898,7 +900,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x898f7
+		; address: 0x81dc1
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 295:425
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 313:314
 		MemberFunctionArgumentCheck   2
@@ -1615,7 +1617,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x8a024
+		; address: 0x824ee
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 435:438
 		MemberFunctionArgumentCheck   2
 		LineNumber                    53602, 4
@@ -1722,7 +1724,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x8a12b
+		; address: 0x825f5
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 443:449
 		MemberFunctionArgumentCheck   2
 		LineNumber                    53610, 4
@@ -1790,7 +1792,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "blowtheconch"
-		; address: 0x8a1b3
+		; address: 0x8267d
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 462:558
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -2360,7 +2362,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "openvtnldoor"
-		; address: 0x8a809
+		; address: 0x82cd3
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 566:566
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53733, 4
@@ -2376,7 +2378,7 @@ begin class "vllg2_puzzle"
 	end ; method
 
 	begin method "opendoortoevac"
-		; address: 0x8a827
+		; address: 0x82cf1
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 572:582
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         3

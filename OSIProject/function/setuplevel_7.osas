@@ -1,5 +1,5 @@
 begin function "setuplevel_7", 0
-	; address: 0x2d499
+	; address: 0x2e29e
 	; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 100:100
 	JumpTarget                   11
 	LineNumber                   19511, 4
