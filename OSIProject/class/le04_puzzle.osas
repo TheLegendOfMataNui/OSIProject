@@ -4,7 +4,7 @@ begin class "le04_puzzle"
 	property "hookarray"
 
 	begin method "le04_puzzle"
-		; address: 0xaae4d
+		; address: 0x58b29
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 84:84
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7828, 4
@@ -16,7 +16,7 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xaae61
+		; address: 0x58b3d
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 92:119
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -145,7 +145,7 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaaf9c
+		; address: 0x58c78
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 124:132
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -215,7 +215,7 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xab033
+		; address: 0x58d0f
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 137:137
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7881, 4
@@ -227,14 +227,14 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xab045
+		; address: 0x58d21
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xab049
+		; address: 0x58d25
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 149:161
 		MemberFunctionArgumentCheck   2
 		LineNumber                    7893, 4
@@ -350,7 +350,7 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xab16c
+		; address: 0x58e48
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 167:167
 		MemberFunctionArgumentCheck   2
 		LineNumber                    7911, 4
@@ -382,7 +382,7 @@ begin class "le04_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0xab1af
+		; address: 0x58e8b
 		; source: 191 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 173:174
 		MemberFunctionArgumentCheck  1
 		LineNumber                   7917, 4

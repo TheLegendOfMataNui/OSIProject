@@ -7,14 +7,14 @@ begin class "puzzle_kopa7"
 	property "buttonpressed"
 
 	begin method "puzzle_kopa7"
-		; address: 0xc21dc
+		; address: 0x6c7b6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc21e0
+		; address: 0x6c7ba
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 108:140
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -347,7 +347,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc2536
+		; address: 0x6cb10
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 147:163
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -458,7 +458,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc2638
+		; address: 0x6cc12
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 169:199
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -631,7 +631,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0xc27b5
+		; address: 0x6cd8f
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 207:210
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18730, 4
@@ -671,7 +671,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0xc2828
+		; address: 0x6ce02
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 216:219
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18739, 4
@@ -714,7 +714,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "resetpuzzle"
-		; address: 0xc28a7
+		; address: 0x6ce81
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 224:237
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

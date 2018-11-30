@@ -10,7 +10,7 @@ begin class "l1a7_puzzlep", "base_object"
 	property "lastid"
 
 	begin method "l1a7_puzzlep"
-		; address: 0x72aa7
+		; address: 0x955cd
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 108:108
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46453, 4
@@ -22,7 +22,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x72abb
+		; address: 0x955e1
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 115:189
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -758,7 +758,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7321c
+		; address: 0x95d42
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 198:250
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -1089,21 +1089,21 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x73551
+		; address: 0x96077
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x73555
+		; address: 0x9607b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x73559
+		; address: 0x9607f
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 277:321
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1382,7 +1382,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x737db
+		; address: 0x96301
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 328:328
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46673, 4
@@ -1396,7 +1396,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x737f2
+		; address: 0x96318
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 333:333
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46678, 4
@@ -1408,7 +1408,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "resetallplats"
-		; address: 0x73804
+		; address: 0x9632a
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 338:341
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1465,7 +1465,7 @@ begin class "l1a7_puzzlep", "base_object"
 	end ; method
 
 	begin method "opendoor"
-		; address: 0x73876
+		; address: 0x9639c
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 347:347
 		MemberFunctionArgumentCheck 1
 		LineNumber                  46692, 4

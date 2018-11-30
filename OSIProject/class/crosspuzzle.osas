@@ -17,7 +17,7 @@ begin class "crosspuzzle"
 	property "hookbox"
 
 	begin method "crosspuzzle"
-		; address: 0x9d78d
+		; address: 0x43cd4
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 124:132
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1979, 4
@@ -61,7 +61,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9d817
+		; address: 0x43d5e
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 139:215
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 189:192
 		MemberFunctionArgumentCheck   1
@@ -623,7 +623,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9de0e
+		; address: 0x44355
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 220:243
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vllg.vbo" 258:260
 		MemberFunctionArgumentCheck   1
@@ -794,7 +794,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x9dfa3
+		; address: 0x444ea
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 248:259
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -899,7 +899,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x9e070
+		; address: 0x445b7
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 265:274
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -998,7 +998,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x9e12a
+		; address: 0x44671
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 280:289
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1100,7 +1100,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9e1f0
+		; address: 0x44737
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 296:424
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -1916,14 +1916,14 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x9ea6f
+		; address: 0x44fb6
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setstartingpos"
-		; address: 0x9ea73
+		; address: 0x44fba
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 437:459
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2292, 4
@@ -2161,7 +2161,7 @@ begin class "crosspuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9ecc8
+		; address: 0x4520f
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_crss.vbo" 466:466
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2321, 4

@@ -2,7 +2,7 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	property "swrd"
 
 	begin method "lego_area_vllg6"
-		; address: 0xbe7a6
+		; address: 0xb4865
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 26:28
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16931, 4
@@ -44,7 +44,7 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbe7fe
+		; address: 0xb48bd
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 35:78
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -493,7 +493,7 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xbeda2
+		; address: 0xb4e61
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 85:86
 		MemberFunctionArgumentCheck  1
 		LineNumber                   16990, 4
@@ -520,14 +520,14 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xbedde
+		; address: 0xb4e9d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbede2
+		; address: 0xb4ea1
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 97:99
 		MemberFunctionArgumentCheck   1
 		LineNumber                    17002, 4
@@ -556,14 +556,14 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xbee1b
+		; address: 0xb4eda
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbee1f
+		; address: 0xb4ede
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 111:121
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17016, 4
@@ -609,14 +609,14 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xbee81
+		; address: 0xb4f40
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xbee85
+		; address: 0xb4f44
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

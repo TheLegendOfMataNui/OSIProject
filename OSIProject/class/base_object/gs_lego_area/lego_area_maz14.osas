@@ -4,7 +4,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	property "discpickup"
 
 	begin method "lego_area_maz14"
-		; address: 0x9ecda
+		; address: 0xac4e9
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 29:32
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2365, 4
@@ -44,7 +44,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9ed42
+		; address: 0xac551
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 41:54
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -149,7 +149,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9ee6c
+		; address: 0xac67b
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 60:66
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2396, 4
@@ -198,7 +198,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9eee0
+		; address: 0xac6ef
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 74:74
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2410, 4
@@ -214,7 +214,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x9eefc
+		; address: 0xac70b
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 79:79
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2415, 4
@@ -230,7 +230,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x9ef18
+		; address: 0xac727
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 84:84
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2420, 4
@@ -246,7 +246,7 @@ begin class "lego_area_maz14", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9ef34
+		; address: 0xac743
 		; source: 174 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 89:93
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2425, 4

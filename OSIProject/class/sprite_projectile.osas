@@ -9,7 +9,7 @@ begin class "sprite_projectile"
 	property "detonateradius"
 
 	begin method "sprite_projectile"
-		; address: 0x54da7
+		; address: 0x75f8a
 		; source: 70 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_SpriteProjectile.vbo" 31:63
 		MemberFunctionArgumentCheck   9
 		LineNumber                    28232, 4
@@ -149,14 +149,14 @@ begin class "sprite_projectile"
 	end ; method
 
 	begin method "process"
-		; address: 0x54f2b
+		; address: 0x7610e
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x54f2f
+		; address: 0x76112
 		; source: 70 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_SpriteProjectile.vbo" 75:82
 		MemberFunctionArgumentCheck 1
 		LineNumber                  28276, 4
@@ -196,7 +196,7 @@ begin class "sprite_projectile"
 	end ; method
 
 	begin method "launch"
-		; address: 0x54fa3
+		; address: 0x76186
 		; source: 70 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_SpriteProjectile.vbo" 90:95
 		MemberFunctionArgumentCheck   3
 		LineNumber                    28291, 4
@@ -235,7 +235,7 @@ begin class "sprite_projectile"
 	end ; method
 
 	begin method "hasdied"
-		; address: 0x55005
+		; address: 0x761e8
 		; source: 70 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_SpriteProjectile.vbo" 103:103
 		MemberFunctionArgumentCheck 1
 		LineNumber                  28304, 4
@@ -248,7 +248,7 @@ begin class "sprite_projectile"
 	end ; method
 
 	begin method "detonate"
-		; address: 0x55025
+		; address: 0x76208
 		; source: 70 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_SpriteProjectile.vbo" 108:108
 		MemberFunctionArgumentCheck 1
 		LineNumber                  28309, 4
@@ -261,7 +261,7 @@ begin class "sprite_projectile"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x5503d
+		; address: 0x76220
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

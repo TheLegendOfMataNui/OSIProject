@@ -10,7 +10,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	property "runninganimation"
 
 	begin method "ss_shoefitterscreen"
-		; address: 0x770a9
+		; address: 0xbd239
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 94:99
 		MemberFunctionArgumentCheck 7
 		LineNumber                  48521, 4
@@ -42,7 +42,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7710d
+		; address: 0xbd29d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 108:128
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48535, 4
@@ -129,7 +129,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7721b
+		; address: 0xbd3ab
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 132:132
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48559, 4
@@ -143,7 +143,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x77232
+		; address: 0xbd3c2
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 137:145
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48564, 4
@@ -201,7 +201,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x772ca
+		; address: 0xbd45a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 151:151
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48578, 4
@@ -215,7 +215,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0x772e1
+		; address: 0xbd471
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 155:177
 		MemberFunctionArgumentCheck   2
 		LineNumber                    48582, 4
@@ -345,7 +345,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "input"
-		; address: 0x77424
+		; address: 0xbd5b4
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 185:194
 		MemberFunctionArgumentCheck   2
 		LineNumber                    48612, 4
@@ -443,7 +443,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "resetpause"
-		; address: 0x77508
+		; address: 0xbd698
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 199:199
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48626, 4
@@ -455,7 +455,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "selectanimation"
-		; address: 0x7751e
+		; address: 0xbd6ae
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 204:205
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48631, 4
@@ -482,7 +482,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "checkanimation"
-		; address: 0x7755a
+		; address: 0xbd6ea
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 210:212
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48637, 4
@@ -523,7 +523,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "switchoptions"
-		; address: 0x775bd
+		; address: 0xbd74d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 218:235
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48645, 4
@@ -671,7 +671,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "playsounds"
-		; address: 0x776fd
+		; address: 0xbd88d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 241:261
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -858,7 +858,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "switchwindows"
-		; address: 0x778c4
+		; address: 0xbda54
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 270:283
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48697, 4

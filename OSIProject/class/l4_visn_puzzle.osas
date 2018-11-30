@@ -11,7 +11,7 @@ begin class "l4_visn_puzzle"
 	property "door2b"
 
 	begin method "l4_visn_puzzle"
-		; address: 0x9c3c7
+		; address: 0x57a0c
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 107:108
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -28,7 +28,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9c3ec
+		; address: 0x57a31
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 115:166
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 97:105
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 120:123
@@ -391,7 +391,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x9c7b3
+		; address: 0x57df8
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 174:192
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -610,7 +610,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x9c9b5
+		; address: 0x57ffa
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 198:225
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -771,14 +771,14 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x9cb44
+		; address: 0x58189
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x9cb48
+		; address: 0x5818d
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 236:237
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -817,7 +817,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9cb8a
+		; address: 0x581cf
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 245:255
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -898,21 +898,21 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "moveset"
-		; address: 0x9cc30
+		; address: 0x58275
 		MemberFunctionArgumentCheck 3
 		PushNothing
 		Return
 	end ; method
 
 	begin method "movetele"
-		; address: 0x9cc34
+		; address: 0x58279
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "startpushblocks"
-		; address: 0x9cc38
+		; address: 0x5827d
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 320:329
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1044,7 +1044,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "openmaskdoor"
-		; address: 0x9cd68
+		; address: 0x583ad
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 336:344
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1599, 4
@@ -1144,7 +1144,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "openenddoor"
-		; address: 0x9ce69
+		; address: 0x584ae
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 350:352
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1613, 4
@@ -1188,7 +1188,7 @@ begin class "l4_visn_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9cedb
+		; address: 0x58520
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 357:357
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1620, 4

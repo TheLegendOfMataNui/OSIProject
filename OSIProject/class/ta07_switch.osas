@@ -6,7 +6,7 @@ begin class "ta07_switch"
 	property "up"
 
 	begin method "ta07_switch"
-		; address: 0xb7e7f
+		; address: 0x82095
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 525:529
 		MemberFunctionArgumentCheck 3
 		LineNumber                  13738, 4
@@ -45,7 +45,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb7ef8
+		; address: 0x8210e
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 536:537
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13749, 4
@@ -70,14 +70,14 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "process"
-		; address: 0xb7f28
+		; address: 0x8213e
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb7f2c
+		; address: 0x82142
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 548:552
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13761, 4
@@ -108,7 +108,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb7f7c
+		; address: 0x82192
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 558:558
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13771, 4
@@ -120,7 +120,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb7f8e
+		; address: 0x821a4
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 563:569
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13776, 4
@@ -179,7 +179,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "reset"
-		; address: 0xb8011
+		; address: 0x82227
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 579:579
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13792, 4
@@ -194,7 +194,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "rase"
-		; address: 0xb802a
+		; address: 0x82240
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 584:595
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13797, 4
@@ -279,7 +279,7 @@ begin class "ta07_switch"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0xb8104
+		; address: 0x8231a
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 605:605
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13818, 4

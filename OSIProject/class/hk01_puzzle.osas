@@ -5,7 +5,7 @@ begin class "hk01_puzzle"
 	property "hive2handle"
 
 	begin method "hk01_puzzle"
-		; address: 0x83eb4
+		; address: 0x51f96
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 87:87
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54149, 4
@@ -17,7 +17,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x83ec8
+		; address: 0x51faa
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 95:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -262,7 +262,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x841a8
+		; address: 0x5228a
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 131:133
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54193, 4
@@ -304,7 +304,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x84218
+		; address: 0x522fa
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 138:144
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -361,14 +361,14 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x84296
+		; address: 0x52378
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8429a
+		; address: 0x5237c
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 154:159
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54216, 4
@@ -413,7 +413,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x842fd
+		; address: 0x523df
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 165:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54227, 4
@@ -445,7 +445,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x84340
+		; address: 0x52422
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 170:170
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54232, 4
@@ -457,7 +457,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x84352
+		; address: 0x52434
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 176:177
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54238, 4

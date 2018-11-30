@@ -6,7 +6,7 @@ begin class "snowbrgpart"
 	property "area"
 
 	begin method "snowbrgpart"
-		; address: 0xa6fda
+		; address: 0x72d44
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1019:1023
 		MemberFunctionArgumentCheck 5
 		LineNumber                  6124, 4
@@ -39,7 +39,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa7037
+		; address: 0x72da1
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1030:1033
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6135, 4
@@ -67,7 +67,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa7077
+		; address: 0x72de1
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1039:1039
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6144, 4
@@ -82,7 +82,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "show"
-		; address: 0xa708f
+		; address: 0x72df9
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1044:1044
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6149, 4
@@ -97,14 +97,14 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "hide"
-		; address: 0xa70a7
+		; address: 0x72e11
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0xa70ab
+		; address: 0x72e15
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1054:1056
 		MemberFunctionArgumentCheck   2
 		LineNumber                    6159, 4
@@ -147,7 +147,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa7109
+		; address: 0x72e73
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1062:1081
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -255,7 +255,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "hit"
-		; address: 0xa71f9
+		; address: 0x72f63
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1095:1101
 		MemberFunctionArgumentCheck   1
 		LineNumber                    6200, 4
@@ -288,7 +288,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "drop"
-		; address: 0xa7243
+		; address: 0x72fad
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1110:1111
 		MemberFunctionArgumentCheck   1
 		LineNumber                    6215, 4
@@ -310,7 +310,7 @@ begin class "snowbrgpart"
 	end ; method
 
 	begin method "reset"
-		; address: 0xa726b
+		; address: 0x72fd5
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 1119:1120
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6224, 4

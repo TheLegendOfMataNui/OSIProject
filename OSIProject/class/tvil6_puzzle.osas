@@ -2,7 +2,7 @@ begin class "tvil6_puzzle"
 	property "parent"
 
 	begin method "tvil6_puzzle"
-		; address: 0xbdd6e
+		; address: 0x87df3
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 77:77
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16551, 4
@@ -14,7 +14,7 @@ begin class "tvil6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbdd82
+		; address: 0x87e07
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 86:87
 		MemberFunctionArgumentCheck  1
 		LineNumber                   16560, 4
@@ -40,14 +40,14 @@ begin class "tvil6_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbddbb
+		; address: 0x87e40
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initshort"
-		; address: 0xbddbf
+		; address: 0x87e44
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 98:101
 		MemberFunctionArgumentCheck  1
 		LineNumber                   16572, 4
@@ -86,14 +86,14 @@ begin class "tvil6_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xbde1f
+		; address: 0x87ea4
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xbde23
+		; address: 0x87ea8
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 113:113
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16587, 4
@@ -105,14 +105,14 @@ begin class "tvil6_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xbde35
+		; address: 0x87eba
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbde39
+		; address: 0x87ebe
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 123:141
 		MemberFunctionArgumentCheck   2
 		LineNumber                    16597, 4
@@ -182,7 +182,7 @@ begin class "tvil6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xbdecf
+		; address: 0x87f54
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

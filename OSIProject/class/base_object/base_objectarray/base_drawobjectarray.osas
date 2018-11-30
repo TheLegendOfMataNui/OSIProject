@@ -1,6 +1,6 @@
 begin class "base_drawobjectarray", "base_objectarray"
 	begin method "base_drawobjectarray"
-		; address: 0x2ffe3
+		; address: 0xa0050
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 154:154
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1554, 4
@@ -12,7 +12,7 @@ begin class "base_drawobjectarray", "base_objectarray"
 	end ; method
 
 	begin method "enablealphachannel"
-		; address: 0x2fff7
+		; address: 0xa0064
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 160:161
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -52,7 +52,7 @@ begin class "base_drawobjectarray", "base_objectarray"
 	end ; method
 
 	begin method "enabletransparency"
-		; address: 0x3003d
+		; address: 0xa00aa
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 166:167
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -92,7 +92,7 @@ begin class "base_drawobjectarray", "base_objectarray"
 	end ; method
 
 	begin method "settransparentvalue"
-		; address: 0x30083
+		; address: 0xa00f0
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 172:173
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -132,7 +132,7 @@ begin class "base_drawobjectarray", "base_objectarray"
 	end ; method
 
 	begin method "transitionin"
-		; address: 0x300c9
+		; address: 0xa0136
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 178:181
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -175,7 +175,7 @@ begin class "base_drawobjectarray", "base_objectarray"
 	end ; method
 
 	begin method "transitionout"
-		; address: 0x30123
+		; address: 0xa0190
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 185:188
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2

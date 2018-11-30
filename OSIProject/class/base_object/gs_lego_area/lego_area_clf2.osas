@@ -3,7 +3,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_clf2"
-		; address: 0x6665a
+		; address: 0xa74b4
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 27:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  39990, 4
@@ -43,7 +43,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x666c2
+		; address: 0xa751c
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 37:45
 		MemberFunctionArgumentCheck  1
 		LineNumber                   40000, 4
@@ -109,7 +109,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x66783
+		; address: 0xa75dd
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 50:50
 		MemberFunctionArgumentCheck 2
 		LineNumber                  40013, 4
@@ -125,7 +125,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x6679f
+		; address: 0xa75f9
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 56:56
 		MemberFunctionArgumentCheck 2
 		LineNumber                  40019, 4
@@ -141,7 +141,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x667bb
+		; address: 0xa7615
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  40024, 4
@@ -157,7 +157,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x667d7
+		; address: 0xa7631
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 66:67
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40029, 4
@@ -178,7 +178,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x66802
+		; address: 0xa765c
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 72:75
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40035, 4

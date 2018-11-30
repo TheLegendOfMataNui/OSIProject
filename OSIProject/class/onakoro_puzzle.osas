@@ -10,7 +10,7 @@ begin class "onakoro_puzzle"
 	property "arrowhandle"
 
 	begin method "onakoro_puzzle"
-		; address: 0x63737
+		; address: 0x6456d
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 131:135
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37299, 4
@@ -38,7 +38,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x63785
+		; address: 0x645bb
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 143:241
 		; source: 86 "C:\\projects\\lego\\Scripting\\VBO\\ArtHeaders/Print_Screen_1.h" 66:106
 		MemberFunctionArgumentCheck   1
@@ -754,7 +754,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x640ef
+		; address: 0x64f25
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 256:274
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
@@ -836,7 +836,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x641c7
+		; address: 0x64ffd
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 280:280
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37448, 4
@@ -848,7 +848,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x641d9
+		; address: 0x6500f
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 286:290
 		MemberFunctionArgumentCheck   2
 		LineNumber                    37454, 4
@@ -891,7 +891,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x64233
+		; address: 0x65069
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 300:339
 		MemberFunctionArgumentCheck   2
 		LineNumber                    37468, 4
@@ -1074,7 +1074,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x6440a
+		; address: 0x65240
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

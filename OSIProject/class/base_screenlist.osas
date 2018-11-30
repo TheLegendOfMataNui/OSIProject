@@ -7,7 +7,7 @@ begin class "base_screenlist"
 	property "goingback"
 
 	begin method "base_screenlist"
-		; address: 0x2f1f8
+		; address: 0x3172c
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 153:158
 		MemberFunctionArgumentCheck 1
 		LineNumber                  882, 4
@@ -39,7 +39,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "process"
-		; address: 0x2f250
+		; address: 0x31784
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 165:183
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -181,7 +181,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "safecallback"
-		; address: 0x2f39c
+		; address: 0x318d0
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 192:250
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -465,7 +465,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "input"
-		; address: 0x2f630
+		; address: 0x31b64
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 257:265
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -559,7 +559,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x2f6ec
+		; address: 0x31c20
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 272:280
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -653,7 +653,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x2f7a8
+		; address: 0x31cdc
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 288:292
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -693,7 +693,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x2f7ee
+		; address: 0x31d22
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 298:302
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -733,7 +733,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x2f834
+		; address: 0x31d68
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 311:327
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -844,7 +844,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x2f936
+		; address: 0x31e6a
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 336:337
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -884,7 +884,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "addscreen"
-		; address: 0x2f97c
+		; address: 0x31eb0
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 347:349
 		MemberFunctionArgumentCheck 3
 		CreateStackVariables        1
@@ -916,7 +916,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "getscreen"
-		; address: 0x2f9cd
+		; address: 0x31f01
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 357:368
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -966,7 +966,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "setactive"
-		; address: 0x2fa2f
+		; address: 0x31f63
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 383:392
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1014,7 +1014,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "appendstack"
-		; address: 0x2faa3
+		; address: 0x31fd7
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 398:399
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1052,7 +1052,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "forward"
-		; address: 0x2fae5
+		; address: 0x32019
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 411:436
 		MemberFunctionArgumentCheck   4
 		CreateStackVariables          2
@@ -1205,7 +1205,7 @@ begin class "base_screenlist"
 	end ; method
 
 	begin method "backward"
-		; address: 0x2fc4a
+		; address: 0x3217e
 		; source: 6 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base_screen.vbo" 443:500
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          7

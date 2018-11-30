@@ -47,7 +47,7 @@ begin class "gs_lego_screenfrontend"
 	property "rotatedir"
 
 	begin method "gs_lego_screenfrontend"
-		; address: 0x5f5b6
+		; address: 0x4a5b9
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 285:287
 		MemberFunctionArgumentCheck 2
 		LineNumber                  35500, 4
@@ -67,7 +67,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setupmainscreen"
-		; address: 0x5f5e7
+		; address: 0x4a5ea
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 293:307
 		MemberFunctionArgumentCheck 1
 		LineNumber                  35508, 4
@@ -166,7 +166,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setupoptionscreen"
-		; address: 0x5f6c5
+		; address: 0x4a6c8
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 318:374
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -491,7 +491,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setuplanguagescreen"
-		; address: 0x5f9bd
+		; address: 0x4a9c0
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 381:444
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -864,7 +864,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setupcontrolsscreen"
-		; address: 0x5fd3a
+		; address: 0x4ad3d
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 450:473
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -981,7 +981,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setupoutsidescreens"
-		; address: 0x5fe29
+		; address: 0x4ae2c
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 480:485
 		MemberFunctionArgumentCheck 1
 		LineNumber                  35695, 4
@@ -1061,7 +1061,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5ff11
+		; address: 0x4af14
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 499:536
 		MemberFunctionArgumentCheck  1
 		LineNumber                   35714, 4
@@ -1228,7 +1228,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6010a
+		; address: 0x4b10d
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 543:641
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1809,7 +1809,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "exit"
-		; address: 0x60679
+		; address: 0x4b67c
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 648:648
 		MemberFunctionArgumentCheck 1
 		LineNumber                  35863, 4
@@ -1821,7 +1821,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6068b
+		; address: 0x4b68e
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 653:694
 		MemberFunctionArgumentCheck   2
 		LineNumber                    35868, 4
@@ -2028,7 +2028,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "process"
-		; address: 0x60840
+		; address: 0x4b843
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 704:748
 		MemberFunctionArgumentCheck   2
 		LineNumber                    35919, 4
@@ -2226,7 +2226,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "input"
-		; address: 0x60a2f
+		; address: 0x4ba32
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 756:793
 		MemberFunctionArgumentCheck   2
 		LineNumber                    35971, 4
@@ -2519,7 +2519,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "updatestrings"
-		; address: 0x60cb6
+		; address: 0x4bcb9
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 803:806
 		MemberFunctionArgumentCheck 1
 		LineNumber                  36018, 4
@@ -2551,7 +2551,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "mousebuttonreleased"
-		; address: 0x60d06
+		; address: 0x4bd09
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 814:910
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -3123,7 +3123,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "forward"
-		; address: 0x612cc
+		; address: 0x4c2cf
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 921:924
 		MemberFunctionArgumentCheck 1
 		LineNumber                  36136, 4
@@ -3147,7 +3147,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "back"
-		; address: 0x61309
+		; address: 0x4c30c
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 932:934
 		MemberFunctionArgumentCheck 1
 		LineNumber                  36147, 4
@@ -3167,14 +3167,14 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "startgame"
-		; address: 0x61338
+		; address: 0x4c33b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "adjustcamera"
-		; address: 0x6133c
+		; address: 0x4c33f
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 953:1005
 		MemberFunctionArgumentCheck   5
 		LineNumber                    36168, 4
@@ -3716,7 +3716,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setcameraback"
-		; address: 0x618a3
+		; address: 0x4c8a6
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1028:1030
 		MemberFunctionArgumentCheck  1
 		LineNumber                   36243, 4
@@ -3742,7 +3742,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "addyaw"
-		; address: 0x618df
+		; address: 0x4c8e2
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1036:1050
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3850,7 +3850,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "advancetonextscreen"
-		; address: 0x61a00
+		; address: 0x4ca03
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1062:1114
 		MemberFunctionArgumentCheck   2
 		LineNumber                    36277, 4
@@ -4102,7 +4102,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "advancetonextarea"
-		; address: 0x61be7
+		; address: 0x4cbea
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1127:1171
 		MemberFunctionArgumentCheck   2
 		LineNumber                    36342, 4
@@ -4385,7 +4385,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "backtolastscreen"
-		; address: 0x61e2c
+		; address: 0x4ce2f
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1183:1201
 		MemberFunctionArgumentCheck   1
 		LineNumber                    36398, 4
@@ -4548,7 +4548,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "backtolastarea"
-		; address: 0x61f65
+		; address: 0x4cf68
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1211:1230
 		MemberFunctionArgumentCheck   1
 		LineNumber                    36426, 4
@@ -4721,7 +4721,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "resetactivemenu"
-		; address: 0x620be
+		; address: 0x4d0c1
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1241:1256
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -4826,7 +4826,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "gotodifferentscreen"
-		; address: 0x621b7
+		; address: 0x4d1ba
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1267:1300
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          2
@@ -5036,7 +5036,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "resetcamera"
-		; address: 0x623ba
+		; address: 0x4d3bd
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1305:1308
 		MemberFunctionArgumentCheck   1
 		LineNumber                    36520, 4
@@ -5063,28 +5063,28 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setthecursor"
-		; address: 0x623f2
+		; address: 0x4d3f5
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "scrolldown"
-		; address: 0x623f6
+		; address: 0x4d3f9
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "scrollup"
-		; address: 0x623fa
+		; address: 0x4d3fd
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "checkrealhighlights"
-		; address: 0x623fe
+		; address: 0x4d401
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1422:1441
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -5249,7 +5249,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "checkhighlites"
-		; address: 0x62577
+		; address: 0x4d57a
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1450:1468
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -5412,7 +5412,7 @@ begin class "gs_lego_screenfrontend"
 	end ; method
 
 	begin method "setmenupointer"
-		; address: 0x626a3
+		; address: 0x4d6a6
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 1476:1476
 		MemberFunctionArgumentCheck 1
 		LineNumber                  36691, 4

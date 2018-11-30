@@ -13,7 +13,7 @@ begin class "acmaskpuzzle"
 	property "blockplane"
 
 	begin method "acmaskpuzzle"
-		; address: 0x8b79e
+		; address: 0x2e7e5
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 125:132
 		MemberFunctionArgumentCheck 2
 		LineNumber                  59597, 4
@@ -41,7 +41,7 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8b7eb
+		; address: 0x2e832
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 140:212
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -469,14 +469,14 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x8bce6
+		; address: 0x2ed2d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8bcea
+		; address: 0x2ed31
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 236:255
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blr2.vbo" 135:137
 		MemberFunctionArgumentCheck   1
@@ -598,7 +598,7 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x8be21
+		; address: 0x2ee68
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 262:281
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -733,7 +733,7 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x8bf89
+		; address: 0x2efd0
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 292:329
 		MemberFunctionArgumentCheck   2
 		LineNumber                    59764, 4
@@ -800,7 +800,7 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8c022
+		; address: 0x2f069
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 140:414
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1095,7 +1095,7 @@ begin class "acmaskpuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8c35b
+		; address: 0x2f3a2
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 423:423
 		MemberFunctionArgumentCheck 1
 		LineNumber                  59895, 4

@@ -2,7 +2,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_wthk2"
-		; address: 0x87dda
+		; address: 0xb523c
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 23:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55786, 4
@@ -38,7 +38,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x87e32
+		; address: 0xb5294
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 31:37
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55794, 4
@@ -93,7 +93,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x87ed3
+		; address: 0xb5335
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 42:42
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55805, 4
@@ -109,7 +109,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x87eef
+		; address: 0xb5351
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 47:47
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55810, 4
@@ -125,7 +125,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x87f0b
+		; address: 0xb536d
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 52:53
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55815, 4
@@ -146,7 +146,7 @@ begin class "lego_area_wthk2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x87f36
+		; address: 0xb5398
 		; source: 147 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_wthk.vbo" 58:59
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55821, 4

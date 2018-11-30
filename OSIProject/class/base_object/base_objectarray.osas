@@ -2,7 +2,7 @@ begin class "base_objectarray", "base_object"
 	property "items"
 
 	begin method "base_objectarray"
-		; address: 0x2ec93
+		; address: 0x8e1ab
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 86:86
 		MemberFunctionArgumentCheck 2
 		LineNumber                  630, 4
@@ -14,7 +14,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x2eca7
+		; address: 0x8e1bf
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 91:92
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -53,7 +53,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x2ece9
+		; address: 0x8e201
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 98:99
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -92,7 +92,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x2ed2b
+		; address: 0x8e243
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 105:106
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -131,7 +131,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x2ed6d
+		; address: 0x8e285
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 112:113
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -170,7 +170,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "add"
-		; address: 0x2edaf
+		; address: 0x8e2c7
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 119:120
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -209,7 +209,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "remove"
-		; address: 0x2edf1
+		; address: 0x8e309
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 126:127
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -248,7 +248,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "hide"
-		; address: 0x2ee33
+		; address: 0x8e34b
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 133:134
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -287,7 +287,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "show"
-		; address: 0x2ee75
+		; address: 0x8e38d
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 140:141
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -326,7 +326,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x2eeb7
+		; address: 0x8e3cf
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 147:148
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -366,7 +366,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x2eefd
+		; address: 0x8e415
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 154:155
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -406,7 +406,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x2ef43
+		; address: 0x8e45b
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 161:162
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -446,7 +446,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "safecallback"
-		; address: 0x2ef89
+		; address: 0x8e4a1
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 167:168
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -485,7 +485,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "get"
-		; address: 0x2efcb
+		; address: 0x8e4e3
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 174:175
 		MemberFunctionArgumentCheck   2
 		LineNumber                    718, 4
@@ -515,7 +515,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "getubound"
-		; address: 0x2f000
+		; address: 0x8e518
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 185:185
 		MemberFunctionArgumentCheck 1
 		LineNumber                  729, 4
@@ -528,7 +528,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "getlbound"
-		; address: 0x2f014
+		; address: 0x8e52c
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 190:190
 		MemberFunctionArgumentCheck 1
 		LineNumber                  734, 4
@@ -538,7 +538,7 @@ begin class "base_objectarray", "base_object"
 	end ; method
 
 	begin method "getsize"
-		; address: 0x2f023
+		; address: 0x8e53b
 		; source: 7 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_object.vbo" 195:195
 		MemberFunctionArgumentCheck 1
 		LineNumber                  739, 4

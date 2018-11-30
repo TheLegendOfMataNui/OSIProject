@@ -4,7 +4,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	property "ishookenabled"
 
 	begin method "gs_lego_toa"
-		; address: 0x4b836
+		; address: 0xc48f2
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 42:57
 		MemberFunctionArgumentCheck   6
 		LineNumber                    22722, 4
@@ -121,7 +121,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "lego_toa_initfull"
-		; address: 0x4b981
+		; address: 0xc4a3d
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 63:68
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -164,7 +164,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x4ba18
+		; address: 0xc4ad4
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 73:73
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22753, 4
@@ -178,7 +178,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "lego_toa_cleanupfull"
-		; address: 0x4ba2f
+		; address: 0xc4aeb
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 78:104
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22758, 4
@@ -280,7 +280,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4bb7a
+		; address: 0xc4c36
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 109:109
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22789, 4
@@ -294,21 +294,21 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x4bb91
+		; address: 0xc4c4d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x4bb95
+		; address: 0xc4c51
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "add"
-		; address: 0x4bb99
+		; address: 0xc4c55
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 124:125
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22804, 4
@@ -332,7 +332,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setclimbable"
-		; address: 0x4bbcf
+		; address: 0xc4c8b
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 140:140
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22820, 4
@@ -346,7 +346,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setupdraggertipgeometry"
-		; address: 0x4bbea
+		; address: 0xc4ca6
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 150:150
 		MemberFunctionArgumentCheck 5
 		LineNumber                  22830, 4
@@ -363,7 +363,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setupdraggertip"
-		; address: 0x4bc0e
+		; address: 0xc4cca
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 155:164
 		MemberFunctionArgumentCheck   8
 		LineNumber                    22835, 4
@@ -422,7 +422,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setupdraggerspeeds"
-		; address: 0x4bca1
+		; address: 0xc4d5d
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 169:169
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22849, 4
@@ -437,7 +437,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setupdraggermaxrange"
-		; address: 0x4bcbf
+		; address: 0xc4d7b
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 174:174
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22854, 4
@@ -451,7 +451,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setdraggerreaction"
-		; address: 0x4bcda
+		; address: 0xc4d96
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 179:179
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22859, 4
@@ -465,7 +465,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setmydraggerreactionanimation"
-		; address: 0x4bcf5
+		; address: 0xc4db1
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 184:184
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22864, 4
@@ -479,7 +479,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "restrictdraggercameramode"
-		; address: 0x4bd10
+		; address: 0xc4dcc
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 189:189
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22869, 4
@@ -493,7 +493,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "shootdragger"
-		; address: 0x4bd2b
+		; address: 0xc4de7
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 194:194
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22874, 4
@@ -506,7 +506,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "deactivatedragger"
-		; address: 0x4bd43
+		; address: 0xc4dff
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 199:200
 		MemberFunctionArgumentCheck   1
 		LineNumber                    22879, 4
@@ -527,7 +527,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setupelementalpower"
-		; address: 0x4bd75
+		; address: 0xc4e31
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 210:210
 		MemberFunctionArgumentCheck 6
 		LineNumber                  22890, 4
@@ -545,7 +545,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "launchelementalpower"
-		; address: 0x4bd9c
+		; address: 0xc4e58
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 216:216
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22896, 4
@@ -560,7 +560,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "idle"
-		; address: 0x4bdba
+		; address: 0xc4e76
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 223:223
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22903, 4
@@ -573,7 +573,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "gotopos"
-		; address: 0x4bdd2
+		; address: 0xc4e8e
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 232:236
 		MemberFunctionArgumentCheck   3
 		LineNumber                    22912, 4
@@ -612,7 +612,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "activateconcealment"
-		; address: 0x4be39
+		; address: 0xc4ef5
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 243:243
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22923, 4
@@ -625,7 +625,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "dectivateconcealment"
-		; address: 0x4be51
+		; address: 0xc4f0d
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 248:248
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22928, 4
@@ -638,7 +638,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "activateshield"
-		; address: 0x4be69
+		; address: 0xc4f25
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 256:256
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22936, 4
@@ -652,7 +652,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "deactivateshield"
-		; address: 0x4be83
+		; address: 0xc4f3f
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 261:261
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22941, 4
@@ -665,7 +665,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "activatetelekinesis"
-		; address: 0x4be9b
+		; address: 0xc4f57
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 266:266
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22946, 4
@@ -678,7 +678,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "deactivatetelekinesis"
-		; address: 0x4beb3
+		; address: 0xc4f6f
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 271:271
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22951, 4
@@ -691,7 +691,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "telekineticgrab"
-		; address: 0x4becb
+		; address: 0xc4f87
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 277:277
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22957, 4
@@ -704,7 +704,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "telekineticdrop"
-		; address: 0x4bee3
+		; address: 0xc4f9f
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 282:282
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22962, 4
@@ -717,7 +717,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "telekineticpush"
-		; address: 0x4befb
+		; address: 0xc4fb7
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 287:287
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22967, 4
@@ -731,7 +731,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "telekineticpull"
-		; address: 0x4bf16
+		; address: 0xc4fd2
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 292:292
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22972, 4
@@ -745,7 +745,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "pickup"
-		; address: 0x4bf31
+		; address: 0xc4fed
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 297:297
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22977, 4
@@ -759,7 +759,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "recordhakasequence"
-		; address: 0x4bf4c
+		; address: 0xc5008
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 301:301
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22981, 4
@@ -772,7 +772,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "stoprecordinghaka"
-		; address: 0x4bf64
+		; address: 0xc5020
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 305:305
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22985, 4
@@ -785,7 +785,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "ishakarecording"
-		; address: 0x4bf7c
+		; address: 0xc5038
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 309:309
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22989, 4
@@ -798,7 +798,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "compareagainstsequence"
-		; address: 0x4bf9c
+		; address: 0xc5058
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 313:313
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22993, 4
@@ -812,7 +812,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "toamustdie"
-		; address: 0x4bfbf
+		; address: 0xc507b
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 317:317
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22997, 4
@@ -825,7 +825,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "toaisalive"
-		; address: 0x4bfd7
+		; address: 0xc5093
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 321:321
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23001, 4
@@ -838,7 +838,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setswimming"
-		; address: 0x4bfef
+		; address: 0xc50ab
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 325:333
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -893,7 +893,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setunderwater"
-		; address: 0x4c06a
+		; address: 0xc5126
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 340:343
 		MemberFunctionArgumentCheck   2
 		LineNumber                    23020, 4
@@ -920,7 +920,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setcodelife"
-		; address: 0x4c0a6
+		; address: 0xc5162
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 348:348
 		MemberFunctionArgumentCheck 2
 		LineNumber                  23028, 4
@@ -934,7 +934,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "replenishair"
-		; address: 0x4c0c1
+		; address: 0xc517d
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 354:354
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23034, 4
@@ -947,7 +947,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "userealtime"
-		; address: 0x4c0d9
+		; address: 0xc5195
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 360:360
 		MemberFunctionArgumentCheck 2
 		LineNumber                  23040, 4
@@ -961,7 +961,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "activateillusion"
-		; address: 0x4c0f4
+		; address: 0xc51b0
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 365:365
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23045, 4
@@ -974,7 +974,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "deactivateillusion"
-		; address: 0x4c10c
+		; address: 0xc51c8
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 370:370
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23050, 4
@@ -987,7 +987,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "activatestrength"
-		; address: 0x4c124
+		; address: 0xc51e0
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 375:375
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23055, 4
@@ -1000,7 +1000,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "deactivatestrength"
-		; address: 0x4c13c
+		; address: 0xc51f8
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 380:380
 		MemberFunctionArgumentCheck 1
 		LineNumber                  23060, 4
@@ -1013,7 +1013,7 @@ begin class "gs_lego_toa", "gs_lego_character"
 	end ; method
 
 	begin method "setclimbability"
-		; address: 0x4c154
+		; address: 0xc5210
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 385:385
 		MemberFunctionArgumentCheck 2
 		LineNumber                  23065, 4

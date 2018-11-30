@@ -4,7 +4,7 @@ begin class "characterobj_tweakable", "base_object"
 	property "desc"
 
 	begin method "characterobj_tweakable"
-		; address: 0x39df5
+		; address: 0x8edd1
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 690:697
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9709, 4
@@ -51,14 +51,14 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x39e6f
+		; address: 0x8ee4b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setpos"
-		; address: 0x39e73
+		; address: 0x8ee4f
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 709:709
 		MemberFunctionArgumentCheck 4
 		LineNumber                  9728, 4
@@ -76,7 +76,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "getx"
-		; address: 0x39e95
+		; address: 0x8ee71
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 714:714
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9733, 4
@@ -92,7 +92,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "gety"
-		; address: 0x39eb8
+		; address: 0x8ee94
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 719:719
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9738, 4
@@ -108,7 +108,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "getz"
-		; address: 0x39edb
+		; address: 0x8eeb7
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 724:724
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9743, 4
@@ -124,7 +124,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "getorientationx"
-		; address: 0x39efe
+		; address: 0x8eeda
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 728:728
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9747, 4
@@ -134,7 +134,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "getorientationy"
-		; address: 0x39f0c
+		; address: 0x8eee8
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 733:733
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9752, 4
@@ -149,7 +149,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "getorientationz"
-		; address: 0x39f2c
+		; address: 0x8ef08
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 738:738
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9757, 4
@@ -159,7 +159,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "setorientation"
-		; address: 0x39f3a
+		; address: 0x8ef16
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 743:743
 		MemberFunctionArgumentCheck 4
 		LineNumber                  9762, 4
@@ -175,7 +175,7 @@ begin class "characterobj_tweakable", "base_object"
 	end ; method
 
 	begin method "zap"
-		; address: 0x39f56
+		; address: 0x8ef32
 		; source: 38 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_tweak.vbo" 749:749
 		MemberFunctionArgumentCheck  1
 		LineNumber                   9768, 4

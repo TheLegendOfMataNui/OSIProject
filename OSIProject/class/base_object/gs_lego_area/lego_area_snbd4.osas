@@ -3,7 +3,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_snbd4"
-		; address: 0xa17ff
+		; address: 0xaf49c
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 26:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3735, 4
@@ -43,7 +43,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa1867
+		; address: 0xaf504
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 38:44
 		MemberFunctionArgumentCheck  1
 		LineNumber                   3747, 4
@@ -89,7 +89,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa18db
+		; address: 0xaf578
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 50:53
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3759, 4
@@ -117,7 +117,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa191a
+		; address: 0xaf5b7
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3768, 4
@@ -133,7 +133,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa1936
+		; address: 0xaf5d3
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 64:64
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3773, 4
@@ -149,7 +149,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa1952
+		; address: 0xaf5ef
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 69:69
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3778, 4
@@ -165,7 +165,7 @@ begin class "lego_area_snbd4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa196e
+		; address: 0xaf60b
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 74:78
 		MemberFunctionArgumentCheck   1
 		LineNumber                    3783, 4

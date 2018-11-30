@@ -3,7 +3,7 @@ begin class "base_standardonevent"
 	property "args"
 
 	begin method "base_standardonevent"
-		; address: 0x2e819
+		; address: 0x32496
 		; source: 3 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base/base.vbo" 81:82
 		MemberFunctionArgumentCheck 11
 		LineNumber                  93, 4

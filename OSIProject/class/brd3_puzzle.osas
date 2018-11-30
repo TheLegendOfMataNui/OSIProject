@@ -4,7 +4,7 @@ begin class "brd3_puzzle"
 	property "explotion"
 
 	begin method "brd3_puzzle"
-		; address: 0xa2e89
+		; address: 0x38bfb
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4386, 4
@@ -16,7 +16,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa2e9d
+		; address: 0x38c0f
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 100:141
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -489,7 +489,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xa3361
+		; address: 0x390d3
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 153:156
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -542,7 +542,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa33d2
+		; address: 0x39144
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 161:165
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -591,14 +591,14 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xa3434
+		; address: 0x391a6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xa3438
+		; address: 0x391aa
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 176:176
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4470, 4
@@ -617,14 +617,14 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa345d
+		; address: 0x391cf
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa3461
+		; address: 0x391d3
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 188:241
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1024,7 +1024,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "icewallcollision"
-		; address: 0xa38ae
+		; address: 0x39620
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 254:257
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -1082,7 +1082,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "explode"
-		; address: 0xa3920
+		; address: 0x39692
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd3.vbo" 271:272
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4565, 4
@@ -1105,7 +1105,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa3950
+		; address: 0x396c2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

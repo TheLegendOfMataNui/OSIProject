@@ -5,7 +5,7 @@ begin class "shrine_puzzle"
 	property "bossdoorshone"
 
 	begin method "shrine_puzzle"
-		; address: 0xa4646
+		; address: 0x6f299
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 100:100
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4984, 4
@@ -17,7 +17,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa465a
+		; address: 0x6f2ad
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 107:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -132,7 +132,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa47d6
+		; address: 0x6f429
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 131:132
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5015, 4
@@ -151,21 +151,21 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xa47fc
+		; address: 0x6f44f
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xa4800
+		; address: 0x6f453
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa4804
+		; address: 0x6f457
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 148:186
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 183:183
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 208:214
@@ -399,7 +399,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa4a82
+		; address: 0x6f6d5
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 210:210
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5094, 4

@@ -5,7 +5,7 @@ begin class "ta086_puzzle"
 	property "tiggerboxid"
 
 	begin method "ta086_puzzle"
-		; address: 0xb8ee8
+		; address: 0x82332
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 79:79
 		MemberFunctionArgumentCheck 2
 		LineNumber                  14295, 4
@@ -17,7 +17,7 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb8efc
+		; address: 0x82346
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 88:98
 		MemberFunctionArgumentCheck  1
 		LineNumber                   14304, 4
@@ -70,7 +70,7 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb8f8b
+		; address: 0x823d5
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 105:108
 		MemberFunctionArgumentCheck  1
 		LineNumber                   14321, 4
@@ -109,14 +109,14 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xb8fed
+		; address: 0x82437
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xb8ff1
+		; address: 0x8243b
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 119:127
 		MemberFunctionArgumentCheck  1
 		LineNumber                   14335, 4
@@ -181,7 +181,7 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb90a9
+		; address: 0x824f3
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 133:133
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14349, 4
@@ -193,14 +193,14 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xb90bb
+		; address: 0x82505
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setsurfmode"
-		; address: 0xb90bf
+		; address: 0x82509
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 159:178
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14375, 4
@@ -330,7 +330,7 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb9244
+		; address: 0x8268e
 		; source: 213 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 185:255
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -542,7 +542,7 @@ begin class "ta086_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb9481
+		; address: 0x828cb
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

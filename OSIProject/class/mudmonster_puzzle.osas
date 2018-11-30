@@ -15,7 +15,7 @@ begin class "mudmonster_puzzle"
 	property "stone"
 
 	begin method "mudmonster_puzzle"
-		; address: 0x6ce7a
+		; address: 0x628eb
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 224:224
 		MemberFunctionArgumentCheck 2
 		LineNumber                  43509, 4
@@ -27,7 +27,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6ce8e
+		; address: 0x628ff
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 232:266
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -189,7 +189,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x6d089
+		; address: 0x62afa
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 273:283
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43558, 4
@@ -234,7 +234,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6d109
+		; address: 0x62b7a
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 289:289
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43574, 4
@@ -246,7 +246,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6d11b
+		; address: 0x62b8c
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 295:315
 		MemberFunctionArgumentCheck   1
 		LineNumber                    43580, 4
@@ -349,7 +349,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "setupstrings"
-		; address: 0x6d22c
+		; address: 0x62c9d
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 326:336
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -436,7 +436,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "showstrings"
-		; address: 0x6d329
+		; address: 0x62d9a
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 342:347
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43627, 4
@@ -486,7 +486,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "cleanupstrings"
-		; address: 0x6d3a5
+		; address: 0x62e16
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 357:362
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43642, 4
@@ -530,7 +530,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x6d415
+		; address: 0x62e86
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 382:406
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -694,14 +694,14 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x6d5db
+		; address: 0x6304c
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6d5df
+		; address: 0x63050
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 433:620
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          7
@@ -1197,7 +1197,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "resetarea"
-		; address: 0x6db09
+		; address: 0x6357a
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 641:647
 		MemberFunctionArgumentCheck  1
 		LineNumber                   43926, 4
@@ -1266,7 +1266,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "endarea"
-		; address: 0x6dbcc
+		; address: 0x6363d
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 656:683
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -1395,7 +1395,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "startconversation"
-		; address: 0x6dd64
+		; address: 0x637d5
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 691:693
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -1426,7 +1426,7 @@ begin class "mudmonster_puzzle"
 	end ; method
 
 	begin method "finishconversation"
-		; address: 0x6ddbd
+		; address: 0x6382e
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_mud0.vbo" 701:709
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         3

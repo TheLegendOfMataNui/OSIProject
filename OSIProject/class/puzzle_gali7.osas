@@ -2,14 +2,14 @@ begin class "puzzle_gali7"
 	property "targetarray"
 
 	begin method "puzzle_gali7"
-		; address: 0xc10fb
+		; address: 0x6c66c
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc10ff
+		; address: 0x6c670
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 113:122
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -110,7 +110,7 @@ begin class "puzzle_gali7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc11e3
+		; address: 0x6c754
 		; source: 230 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 129:133
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

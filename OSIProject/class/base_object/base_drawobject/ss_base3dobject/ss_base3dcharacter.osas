@@ -4,7 +4,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	property "currentanimation"
 
 	begin method "ss_base3dcharacter"
-		; address: 0x32f90
+		; address: 0xb7330
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 225:251
 		MemberFunctionArgumentCheck   8
 		LineNumber                    3441, 4
@@ -129,7 +129,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "add"
-		; address: 0x330d3
+		; address: 0xb7473
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 257:265
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -210,7 +210,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "setinputstate"
-		; address: 0x331e0
+		; address: 0xb7580
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 276:278
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -232,7 +232,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getnumanimations"
-		; address: 0x3321d
+		; address: 0xb75bd
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 282:283
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3498, 4
@@ -249,7 +249,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getanimid"
-		; address: 0x3324d
+		; address: 0xb75ed
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 287:292
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -289,7 +289,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "switchanimation"
-		; address: 0x332ad
+		; address: 0xb764d
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 302:303
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3518, 4
@@ -307,7 +307,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "disableanimation"
-		; address: 0x332d8
+		; address: 0xb7678
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 313:314
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3529, 4
@@ -325,7 +325,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "enableanimation"
-		; address: 0x33303
+		; address: 0xb76a3
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 324:325
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3540, 4
@@ -343,7 +343,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "play"
-		; address: 0x3332e
+		; address: 0xb76ce
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 329:329
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3545, 4
@@ -356,7 +356,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "stop"
-		; address: 0x33346
+		; address: 0xb76e6
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 333:333
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3549, 4
@@ -369,7 +369,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "pause"
-		; address: 0x3335e
+		; address: 0xb76fe
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 337:337
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3553, 4
@@ -382,7 +382,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "startattime"
-		; address: 0x33376
+		; address: 0xb7716
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 347:347
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3563, 4
@@ -396,7 +396,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "startatframe"
-		; address: 0x33391
+		; address: 0xb7731
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 357:357
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3573, 4
@@ -410,7 +410,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "gettime"
-		; address: 0x333ac
+		; address: 0xb774c
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 361:362
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -428,7 +428,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getframe"
-		; address: 0x333de
+		; address: 0xb777e
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 366:367
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -446,7 +446,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getduration"
-		; address: 0x33410
+		; address: 0xb77b0
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 371:372
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -464,7 +464,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getnumframes"
-		; address: 0x33442
+		; address: 0xb77e2
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 376:377
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -482,7 +482,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "disablecollisions"
-		; address: 0x33474
+		; address: 0xb7814
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 381:381
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3597, 4
@@ -495,7 +495,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getbonepos"
-		; address: 0x3348c
+		; address: 0xb782c
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 386:390
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        4
@@ -547,7 +547,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "setteamid"
-		; address: 0x33543
+		; address: 0xb78e3
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 395:395
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3611, 4
@@ -561,7 +561,7 @@ begin class "ss_base3dcharacter", "ss_base3dobject"
 	end ; method
 
 	begin method "getteamid"
-		; address: 0x3355e
+		; address: 0xb78fe
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 400:400
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3616, 4

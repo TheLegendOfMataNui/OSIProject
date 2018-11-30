@@ -12,7 +12,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	property "lineposition"
 
 	begin method "gs_lego_screenmenu"
-		; address: 0x3e915
+		; address: 0x934c1
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 120:121
 		MemberFunctionArgumentCheck  2
 		LineNumber                   13549, 4
@@ -41,7 +41,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3e959
+		; address: 0x93505
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 127:164
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          6
@@ -273,7 +273,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3ebce
+		; address: 0x9377a
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 169:169
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13598, 4
@@ -287,7 +287,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3ebe5
+		; address: 0x93791
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 174:184
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -397,7 +397,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3ecda
+		; address: 0x93886
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 191:191
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13620, 4
@@ -411,7 +411,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x3ecf1
+		; address: 0x9389d
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 197:200
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13626, 4
@@ -519,7 +519,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "setpointer"
-		; address: 0x3edf9
+		; address: 0x939a5
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 206:233
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13635, 4
@@ -687,7 +687,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "setforscreen"
-		; address: 0x3ef8e
+		; address: 0x93b3a
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 240:241
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13669, 4
@@ -711,7 +711,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "scroll"
-		; address: 0x3efc0
+		; address: 0x93b6c
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 246:257
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -861,7 +861,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "setscroll"
-		; address: 0x3f0ee
+		; address: 0x93c9a
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 263:278
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1004,7 +1004,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "hidenonselected"
-		; address: 0x3f22c
+		; address: 0x93dd8
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 285:287
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1056,7 +1056,7 @@ begin class "gs_lego_screenmenu", "base_object"
 	end ; method
 
 	begin method "hideall"
-		; address: 0x3f289
+		; address: 0x93e35
 		; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 297:300
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

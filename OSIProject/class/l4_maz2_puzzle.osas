@@ -6,7 +6,7 @@ begin class "l4_maz2_puzzle"
 	property "icicles"
 
 	begin method "l4_maz2_puzzle"
-		; address: 0x9fe45
+		; address: 0x56693
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 110:110
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2877, 4
@@ -18,7 +18,7 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9fe59
+		; address: 0x566a7
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 116:149
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -140,7 +140,7 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9ffec
+		; address: 0x5683a
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 156:162
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -197,7 +197,7 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa006a
+		; address: 0x568b8
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 169:176
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 210:235
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 228:228
@@ -341,7 +341,7 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa01e7
+		; address: 0x56a35
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 205:205
 		MemberFunctionArgumentCheck   2
 		LineNumber                    2972, 4
@@ -373,14 +373,14 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa022a
+		; address: 0x56a78
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cheat"
-		; address: 0xa022e
+		; address: 0x56a7c
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 216:216
 		MemberFunctionArgumentCheck  1
 		LineNumber                   2983, 4
@@ -398,7 +398,7 @@ begin class "l4_maz2_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa024f
+		; address: 0x56a9d
 		; source: 175 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 221:221
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2988, 4

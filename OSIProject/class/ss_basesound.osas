@@ -7,7 +7,7 @@ begin class "ss_basesound"
 	property "restart"
 
 	begin method "ss_basesound"
-		; address: 0x375de
+		; address: 0x76224
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 57:63
 		MemberFunctionArgumentCheck   5
 		LineNumber                    8411, 4
@@ -72,7 +72,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3767e
+		; address: 0x762c4
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 69:71
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8423, 4
@@ -100,7 +100,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x376d1
+		; address: 0x76317
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 75:75
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8429, 4
@@ -114,7 +114,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x376e8
+		; address: 0x7632e
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 79:79
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8433, 4
@@ -126,7 +126,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x376fa
+		; address: 0x76340
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 83:83
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8437, 4
@@ -140,7 +140,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "opensound"
-		; address: 0x37711
+		; address: 0x76357
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 87:87
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8441, 4
@@ -156,7 +156,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "setplaytype"
-		; address: 0x37730
+		; address: 0x76376
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 91:91
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8445, 4
@@ -168,7 +168,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "play"
-		; address: 0x37744
+		; address: 0x7638a
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 95:99
 		MemberFunctionArgumentCheck   1
 		LineNumber                    8449, 4
@@ -209,7 +209,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "pause"
-		; address: 0x377a9
+		; address: 0x763ef
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 105:106
 		MemberFunctionArgumentCheck   1
 		LineNumber                    8459, 4
@@ -233,7 +233,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "stop"
-		; address: 0x377e0
+		; address: 0x76426
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 111:112
 		MemberFunctionArgumentCheck   1
 		LineNumber                    8465, 4
@@ -257,7 +257,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "getlength"
-		; address: 0x37817
+		; address: 0x7645d
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 117:117
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8471, 4
@@ -270,7 +270,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "isplaying"
-		; address: 0x37837
+		; address: 0x7647d
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 121:121
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8475, 4
@@ -283,7 +283,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "getvolume"
-		; address: 0x37857
+		; address: 0x7649d
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 126:126
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8480, 4
@@ -296,7 +296,7 @@ begin class "ss_basesound"
 	end ; method
 
 	begin method "setvolume"
-		; address: 0x37877
+		; address: 0x764bd
 		; source: 35 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_BaseSound.vbo" 131:131
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8485, 4

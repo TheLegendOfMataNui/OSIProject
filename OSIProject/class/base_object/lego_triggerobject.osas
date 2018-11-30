@@ -10,7 +10,7 @@ begin class "lego_triggerobject", "base_object"
 	property "collidetimer"
 
 	begin method "lego_triggerobject"
-		; address: 0x649ce
+		; address: 0x9a724
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 37:48
 		MemberFunctionArgumentCheck   4
 		LineNumber                    37720, 4
@@ -65,7 +65,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x64a74
+		; address: 0x9a7ca
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 53:65
 		MemberFunctionArgumentCheck   1
 		LineNumber                    37736, 4
@@ -112,14 +112,14 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x64af0
+		; address: 0x9a846
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setresponse"
-		; address: 0x64af4
+		; address: 0x9a84a
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 83:84
 		MemberFunctionArgumentCheck   3
 		LineNumber                    37766, 4
@@ -143,7 +143,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "setcollide"
-		; address: 0x64b24
+		; address: 0x9a87a
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 91:91
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37774, 4
@@ -155,7 +155,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x64b38
+		; address: 0x9a88e
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 97:98
 		MemberFunctionArgumentCheck   2
 		LineNumber                    37780, 4
@@ -178,7 +178,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "show"
-		; address: 0x64b61
+		; address: 0x9a8b7
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 104:110
 		MemberFunctionArgumentCheck   1
 		LineNumber                    37787, 4
@@ -224,7 +224,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "hide"
-		; address: 0x64bc7
+		; address: 0x9a91d
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 115:122
 		MemberFunctionArgumentCheck   1
 		LineNumber                    37798, 4
@@ -270,7 +270,7 @@ begin class "lego_triggerobject", "base_object"
 	end ; method
 
 	begin method "toggle"
-		; address: 0x64c2b
+		; address: 0x9a981
 		; source: 98 "C:\\projects\\lego\\Scripting\\VBO\\legobase/Lego_TriggerObj.vbo" 127:130
 		MemberFunctionArgumentCheck   1
 		LineNumber                    37810, 4

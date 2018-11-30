@@ -6,7 +6,7 @@ begin class "boss6_puzzle"
 	property "isdead"
 
 	begin method "boss6_puzzle"
-		; address: 0xbefa2
+		; address: 0x34c52
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 88:88
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17137, 4
@@ -18,7 +18,7 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbefb6
+		; address: 0x34c66
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 102:115
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -115,7 +115,7 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbf0ec
+		; address: 0x34d9c
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 124:136
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -185,7 +185,7 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0xbf1a7
+		; address: 0x34e57
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 142:148
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17191, 4
@@ -237,14 +237,14 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xbf234
+		; address: 0x34ee4
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbf238
+		; address: 0x34ee8
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 159:191
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17208, 4
@@ -448,7 +448,7 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xbf435
+		; address: 0x350e5
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 198:198
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17247, 4

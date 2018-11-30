@@ -2,7 +2,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_hk012"
-		; address: 0x83d2a
+		; address: 0xa9d1d
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 26:28
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54088, 4
@@ -38,7 +38,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x83d82
+		; address: 0xa9d75
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 35:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54097, 4
@@ -86,7 +86,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x83e0f
+		; address: 0xa9e02
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 45:46
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54107, 4
@@ -107,7 +107,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x83e3a
+		; address: 0xa9e2d
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 51:51
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54113, 4
@@ -123,7 +123,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x83e56
+		; address: 0xa9e49
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 56:56
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54118, 4
@@ -139,7 +139,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x83e72
+		; address: 0xa9e65
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54123, 4
@@ -155,7 +155,7 @@ begin class "lego_area_hk012", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x83e8e
+		; address: 0xa9e81
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 66:67
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54128, 4

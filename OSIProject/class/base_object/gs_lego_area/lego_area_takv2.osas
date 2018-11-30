@@ -2,7 +2,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_takv2"
-		; address: 0x89727
+		; address: 0xb14ba
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 38:40
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56472, 4
@@ -38,7 +38,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8977f
+		; address: 0xb1512
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 47:52
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56481, 4
@@ -86,7 +86,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8980c
+		; address: 0xb159f
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 57:58
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56491, 4
@@ -107,7 +107,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x89837
+		; address: 0xb15ca
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56497, 4
@@ -123,7 +123,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x89853
+		; address: 0xb15e6
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 68:68
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56502, 4
@@ -139,7 +139,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x8986f
+		; address: 0xb1602
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 73:73
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56507, 4
@@ -155,7 +155,7 @@ begin class "lego_area_takv2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8988b
+		; address: 0xb161e
 		; source: 149 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_takv.vbo" 78:79
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56512, 4

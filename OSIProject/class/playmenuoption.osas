@@ -13,7 +13,7 @@ begin class "playmenuoption"
 	property "newgame"
 
 	begin method "playmenuoption"
-		; address: 0x5c73b
+		; address: 0x69fb5
 		; source: 88 "C:\\projects\\lego\\Scripting\\VBO\\frend_load.vbo" 36:114
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          6
@@ -370,7 +370,7 @@ begin class "playmenuoption"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5cb45
+		; address: 0x6a3bf
 		; source: 88 "C:\\projects\\lego\\Scripting\\VBO\\frend_load.vbo" 121:124
 		MemberFunctionArgumentCheck   1
 		LineNumber                    34368, 4
@@ -450,7 +450,7 @@ begin class "playmenuoption"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x5cc0f
+		; address: 0x6a489
 		; source: 88 "C:\\projects\\lego\\Scripting\\VBO\\frend_load.vbo" 130:142
 		MemberFunctionArgumentCheck   1
 		LineNumber                    34377, 4
@@ -563,7 +563,7 @@ begin class "playmenuoption"
 	end ; method
 
 	begin method "eraseentry"
-		; address: 0x5cd2a
+		; address: 0x6a5a4
 		; source: 88 "C:\\projects\\lego\\Scripting\\VBO\\frend_load.vbo" 148:158
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -647,7 +647,7 @@ begin class "playmenuoption"
 	end ; method
 
 	begin method "check"
-		; address: 0x5ce25
+		; address: 0x6a69f
 		; source: 88 "C:\\projects\\lego\\Scripting\\VBO\\frend_load.vbo" 166:179
 		MemberFunctionArgumentCheck   3
 		LineNumber                    34413, 4

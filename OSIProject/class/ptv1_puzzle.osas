@@ -5,7 +5,7 @@ begin class "ptv1_puzzle"
 	property "morphobj"
 
 	begin method "ptv1_puzzle"
-		; address: 0x6ecd5
+		; address: 0x6b475
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 76:76
 		MemberFunctionArgumentCheck 2
 		LineNumber                  44610, 4
@@ -17,7 +17,7 @@ begin class "ptv1_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6ece9
+		; address: 0x6b489
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 83:97
 		MemberFunctionArgumentCheck   1
 		LineNumber                    44617, 4
@@ -140,7 +140,7 @@ begin class "ptv1_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6ee93
+		; address: 0x6b633
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 103:105
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44637, 4
@@ -160,7 +160,7 @@ begin class "ptv1_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6eec1
+		; address: 0x6b661
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 112:121
 		MemberFunctionArgumentCheck   2
 		LineNumber                    44646, 4
@@ -248,7 +248,7 @@ begin class "ptv1_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6efa4
+		; address: 0x6b744
 		; source: 112 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 128:128
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44662, 4

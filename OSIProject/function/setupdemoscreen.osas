@@ -1,5 +1,5 @@
 begin function "setupdemoscreen", 0
-	; address: 0x2e13c
+	; address: 0x2d1f6
 	; source: 131 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 143:143
 	LineNumber                   52247, 4
 	LineNumberAlt1               143, 131

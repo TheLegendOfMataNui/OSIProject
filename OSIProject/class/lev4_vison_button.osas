@@ -6,7 +6,7 @@ begin class "lev4_vison_button"
 	property "downpos"
 
 	begin method "lev4_vison_button"
-		; address: 0x9d189
+		; address: 0x5fda5
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 494:496
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1757, 4
@@ -37,7 +37,7 @@ begin class "lev4_vison_button"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9d1e3
+		; address: 0x5fdff
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 504:509
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1767, 4
@@ -130,7 +130,7 @@ begin class "lev4_vison_button"
 	end ; method
 
 	begin method "triggerd"
-		; address: 0x9d2e7
+		; address: 0x5ff03
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 515:520
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1778, 4

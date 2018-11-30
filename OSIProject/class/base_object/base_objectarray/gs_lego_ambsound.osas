@@ -2,7 +2,7 @@ begin class "gs_lego_ambsound", "base_objectarray"
 	property "cur"
 
 	begin method "gs_lego_ambsound"
-		; address: 0x37a17
+		; address: 0xa01ea
 		; source: 34 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sound.vbo" 60:63
 		MemberFunctionArgumentCheck 6
 		LineNumber                  8594, 4
@@ -36,14 +36,14 @@ begin class "gs_lego_ambsound", "base_objectarray"
 	end ; method
 
 	begin method "show"
-		; address: 0x37a64
+		; address: 0xa0237
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x37a68
+		; address: 0xa023b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

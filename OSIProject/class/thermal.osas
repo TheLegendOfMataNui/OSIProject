@@ -10,7 +10,7 @@ begin class "thermal"
 	property "drifttofull"
 
 	begin method "thermal"
-		; address: 0x45ef0
+		; address: 0x8728b
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1337:1354
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19973, 4
@@ -113,7 +113,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "process"
-		; address: 0x46027
+		; address: 0x873c2
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1362:1369
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19998, 4
@@ -164,7 +164,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x460a4
+		; address: 0x8743f
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1380:1414
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20016, 4
@@ -294,7 +294,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "sounddriftto_full"
-		; address: 0x461dc
+		; address: 0x87577
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1423:1431
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20059, 4
@@ -350,7 +350,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "switchlevitation"
-		; address: 0x4625a
+		; address: 0x875f5
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1442:1452
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20078, 4
@@ -415,7 +415,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x462ef
+		; address: 0x8768a
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1463:1468
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20099, 4
@@ -450,7 +450,7 @@ begin class "thermal"
 	end ; method
 
 	begin method "spin"
-		; address: 0x4634d
+		; address: 0x876e8
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1474:1479
 		MemberFunctionArgumentCheck   1
 		LineNumber                    20110, 4

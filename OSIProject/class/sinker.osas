@@ -10,7 +10,7 @@ begin class "sinker"
 	property "upsound"
 
 	begin method "sinker"
-		; address: 0xba497
+		; address: 0x71145
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 260:274
 		MemberFunctionArgumentCheck 3
 		LineNumber                  15067, 4
@@ -171,14 +171,14 @@ begin class "sinker"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xba681
+		; address: 0x7132f
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xba685
+		; address: 0x71333
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 288:290
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15095, 4
@@ -201,7 +201,7 @@ begin class "sinker"
 	end ; method
 
 	begin method "link"
-		; address: 0xba6b9
+		; address: 0x71367
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 295:295
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15102, 4
@@ -213,7 +213,7 @@ begin class "sinker"
 	end ; method
 
 	begin method "reset"
-		; address: 0xba6cd
+		; address: 0x7137b
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 300:302
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15107, 4
@@ -245,7 +245,7 @@ begin class "sinker"
 	end ; method
 
 	begin method "goup"
-		; address: 0xba71b
+		; address: 0x713c9
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 307:309
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15114, 4
@@ -278,7 +278,7 @@ begin class "sinker"
 	end ; method
 
 	begin method "godown"
-		; address: 0xba76d
+		; address: 0x7141b
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 314:314
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15121, 4
@@ -300,14 +300,14 @@ begin class "sinker"
 	end ; method
 
 	begin method "process"
-		; address: 0xba79a
+		; address: 0x71448
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xba79e
+		; address: 0x7144c
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 325:349
 		MemberFunctionArgumentCheck   2
 		LineNumber                    15132, 4

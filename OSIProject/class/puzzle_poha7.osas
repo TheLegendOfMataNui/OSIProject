@@ -3,14 +3,14 @@ begin class "puzzle_poha7"
 	property "targets"
 
 	begin method "puzzle_poha7"
-		; address: 0xc14ae
+		; address: 0x6d4e5
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc14b2
+		; address: 0x6d4e9
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 104:131
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -360,7 +360,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc17d6
+		; address: 0x6d80d
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 138:148
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -449,7 +449,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc1894
+		; address: 0x6d8cb
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 153:169
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -537,7 +537,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0xc194b
+		; address: 0x6d982
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 176:179
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18335, 4
@@ -577,7 +577,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0xc19be
+		; address: 0x6d9f5
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 185:187
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18344, 4
@@ -614,7 +614,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "resetpuzzle"
-		; address: 0xc1a2a
+		; address: 0x6da61
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 192:196
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

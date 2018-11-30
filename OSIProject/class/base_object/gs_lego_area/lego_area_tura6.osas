@@ -1,6 +1,6 @@
 begin class "lego_area_tura6", "gs_lego_area"
 	begin method "lego_area_tura6"
-		; address: 0xbfad1
+		; address: 0xb2403
 		; source: 227 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tura.vbo" 26:27
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17512, 4
@@ -24,7 +24,7 @@ begin class "lego_area_tura6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbfb03
+		; address: 0xb2435
 		; source: 227 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tura.vbo" 32:49
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 56:57
 		MemberFunctionArgumentCheck   1
@@ -111,7 +111,7 @@ begin class "lego_area_tura6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbfc09
+		; address: 0xb253b
 		; source: 227 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tura.vbo" 55:56
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17541, 4
@@ -131,28 +131,28 @@ begin class "lego_area_tura6", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xbfc33
+		; address: 0xb2565
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbfc37
+		; address: 0xb2569
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0xbfc3b
+		; address: 0xb256d
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xbfc3f
+		; address: 0xb2571
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

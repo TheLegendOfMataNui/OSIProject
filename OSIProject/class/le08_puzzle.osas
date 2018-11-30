@@ -3,7 +3,7 @@ begin class "le08_puzzle"
 	property "thermalarray"
 
 	begin method "le08_puzzle"
-		; address: 0xab36a
+		; address: 0x58ebd
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 85:85
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8014, 4
@@ -15,7 +15,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xab37e
+		; address: 0x58ed1
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 93:114
 		MemberFunctionArgumentCheck  1
 		LineNumber                   8022, 4
@@ -242,7 +242,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xab5a8
+		; address: 0x590fb
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 123:126
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -285,7 +285,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xab5f8
+		; address: 0x5914b
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 131:131
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8060, 4
@@ -297,7 +297,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xab60a
+		; address: 0x5915d
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 136:137
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -337,7 +337,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xab650
+		; address: 0x591a3
 		; source: 192 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le08.vbo" 144:162
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -485,7 +485,7 @@ begin class "le08_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xab7b5
+		; address: 0x59308
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

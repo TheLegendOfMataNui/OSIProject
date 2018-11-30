@@ -10,14 +10,14 @@ begin class "hudmask"
 	property "ydiff"
 
 	begin method "hudmask"
-		; address: 0x3bc79
+		; address: 0x53219
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3bc7d
+		; address: 0x5321d
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 868:872
 		MemberFunctionArgumentCheck  1
 		LineNumber                   12127, 4
@@ -47,7 +47,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3bcce
+		; address: 0x5326e
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 877:887
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -145,7 +145,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3bda5
+		; address: 0x53345
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 892:892
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12151, 4
@@ -157,7 +157,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3bdb7
+		; address: 0x53357
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 898:905
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -217,7 +217,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "setshow"
-		; address: 0x3be44
+		; address: 0x533e4
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 910:914
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12169, 4
@@ -254,14 +254,14 @@ begin class "hudmask"
 	end ; method
 
 	begin method "add"
-		; address: 0x3be94
+		; address: 0x53434
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "addmask"
-		; address: 0x3be98
+		; address: 0x53438
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 925:925
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12184, 4
@@ -286,14 +286,14 @@ begin class "hudmask"
 	end ; method
 
 	begin method "removemask"
-		; address: 0x3becb
+		; address: 0x5346b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "addmasktoarray"
-		; address: 0x3becf
+		; address: 0x5346f
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 935:939
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12194, 4
@@ -342,7 +342,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "selectmask"
-		; address: 0x3bf47
+		; address: 0x534e7
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 944:950
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12203, 4
@@ -396,7 +396,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "show"
-		; address: 0x3bfc3
+		; address: 0x53563
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 957:961
 		MemberFunctionArgumentCheck   1
 		LineNumber                    12216, 4
@@ -447,7 +447,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3c035
+		; address: 0x535d5
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 969:972
 		MemberFunctionArgumentCheck   1
 		LineNumber                    12228, 4
@@ -474,21 +474,21 @@ begin class "hudmask"
 	end ; method
 
 	begin method "changepos"
-		; address: 0x3c064
+		; address: 0x53604
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setxpos"
-		; address: 0x3c068
+		; address: 0x53608
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "animate"
-		; address: 0x3c06c
+		; address: 0x5360c
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 997:999
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12256, 4
@@ -517,7 +517,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "process"
-		; address: 0x3c0ac
+		; address: 0x5364c
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1005:1008
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12264, 4
@@ -553,7 +553,7 @@ begin class "hudmask"
 	end ; method
 
 	begin method "slide"
-		; address: 0x3c0f2
+		; address: 0x53692
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

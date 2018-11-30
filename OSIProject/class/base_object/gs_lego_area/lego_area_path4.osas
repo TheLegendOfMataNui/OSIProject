@@ -4,7 +4,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	property "crystalpickup"
 
 	begin method "lego_area_path4"
-		; address: 0x9aa23
+		; address: 0xadc38
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 24:27
 		MemberFunctionArgumentCheck 2
 		LineNumber                  704, 4
@@ -44,7 +44,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9aa8b
+		; address: 0xadca0
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 36:48
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -149,7 +149,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9abb3
+		; address: 0xaddc8
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 54:60
 		MemberFunctionArgumentCheck   1
 		LineNumber                    734, 4
@@ -198,7 +198,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x9ac27
+		; address: 0xade3c
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 67:67
 		MemberFunctionArgumentCheck 2
 		LineNumber                  747, 4
@@ -214,7 +214,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x9ac43
+		; address: 0xade58
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 72:72
 		MemberFunctionArgumentCheck 2
 		LineNumber                  752, 4
@@ -230,7 +230,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9ac5f
+		; address: 0xade74
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 77:77
 		MemberFunctionArgumentCheck 2
 		LineNumber                  757, 4
@@ -246,7 +246,7 @@ begin class "lego_area_path4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9ac7b
+		; address: 0xade90
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 82:86
 		MemberFunctionArgumentCheck   1
 		LineNumber                    762, 4

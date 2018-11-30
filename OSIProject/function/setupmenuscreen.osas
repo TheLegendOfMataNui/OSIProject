@@ -1,7 +1,7 @@
 begin function "setupmenuscreen", 0
-	; address: 0x2ce17
+	; address: 0x2d4f5
 	; source: 10 "C:\\projects\\lego\\Scripting\\VBO\\lego_menuscreen.vbo" 86:89
-	JumpTarget                   1
+	JumpTarget                   13
 	CreateStackVariables         1
 	LineNumber                   13515, 4
 	LineNumberAlt1               86, 10

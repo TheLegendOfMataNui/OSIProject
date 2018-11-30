@@ -2,7 +2,7 @@ begin class "lego_area_vtnl2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_vtnl2"
-		; address: 0x84c37
+		; address: 0xb4f48
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 27:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54522, 4
@@ -38,7 +38,7 @@ begin class "lego_area_vtnl2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x84c8f
+		; address: 0xb4fa0
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 36:41
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54531, 4
@@ -86,7 +86,7 @@ begin class "lego_area_vtnl2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x84d1c
+		; address: 0xb502d
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 45:46
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54540, 4
@@ -107,7 +107,7 @@ begin class "lego_area_vtnl2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x84d47
+		; address: 0xb5058
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 51:51
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54546, 4
@@ -123,7 +123,7 @@ begin class "lego_area_vtnl2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x84d63
+		; address: 0xb5074
 		; source: 142 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 56:57
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54551, 4

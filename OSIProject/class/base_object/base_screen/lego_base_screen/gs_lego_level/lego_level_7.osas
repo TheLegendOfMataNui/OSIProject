@@ -1,6 +1,6 @@
 begin class "lego_level_7", "gs_lego_level"
 	begin method "lego_level_7"
-		; address: 0xc4105
+		; address: 0xc4164
 		; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 33:46
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -120,7 +120,7 @@ begin class "lego_level_7", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc4271
+		; address: 0xc42d0
 		; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 56:57
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19467, 4
@@ -144,7 +144,7 @@ begin class "lego_level_7", "gs_lego_level"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xc42a4
+		; address: 0xc4303
 		; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 72:72
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19483, 4
@@ -158,7 +158,7 @@ begin class "lego_level_7", "gs_lego_level"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc42bb
+		; address: 0xc431a
 		; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 87:87
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19498, 4
@@ -173,7 +173,7 @@ begin class "lego_level_7", "gs_lego_level"
 	end ; method
 
 	begin method "settestforlavacollisions"
-		; address: 0xc42d5
+		; address: 0xc4334
 		; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1

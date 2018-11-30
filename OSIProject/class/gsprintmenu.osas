@@ -15,7 +15,7 @@ begin class "gsprintmenu"
 	property "printtext"
 
 	begin method "gsprintmenu"
-		; address: 0x5a33d
+		; address: 0x4f857
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 181:182
 		MemberFunctionArgumentCheck 2
 		LineNumber                  33421, 4
@@ -31,7 +31,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5a35f
+		; address: 0x4f879
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 190:422
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -782,7 +782,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x5aaf6
+		; address: 0x50010
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 428:433
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33668, 4
@@ -839,7 +839,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x5ab86
+		; address: 0x500a0
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 439:479
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1099,7 +1099,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "process"
-		; address: 0x5adf9
+		; address: 0x50313
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 486:489
 		MemberFunctionArgumentCheck   2
 		LineNumber                    33726, 4
@@ -1147,7 +1147,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x5ae77
+		; address: 0x50391
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 496:502
 		MemberFunctionArgumentCheck   2
 		LineNumber                    33736, 4
@@ -1211,7 +1211,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "input"
-		; address: 0x5aef2
+		; address: 0x5040c
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 509:512
 		MemberFunctionArgumentCheck   2
 		LineNumber                    33749, 4
@@ -1257,7 +1257,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "hide"
-		; address: 0x5af55
+		; address: 0x5046f
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 520:524
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1316,7 +1316,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "show"
-		; address: 0x5afd3
+		; address: 0x504ed
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 530:532
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1362,7 +1362,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "back"
-		; address: 0x5b029
+		; address: 0x50543
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 538:539
 		MemberFunctionArgumentCheck 1
 		LineNumber                  33778, 4
@@ -1383,7 +1383,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "forward"
-		; address: 0x5b054
+		; address: 0x5056e
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 544:545
 		MemberFunctionArgumentCheck 1
 		LineNumber                  33784, 4
@@ -1404,7 +1404,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "checkmousepos"
-		; address: 0x5b07f
+		; address: 0x50599
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 550:576
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          2
@@ -1586,7 +1586,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "mousebuttonreleased"
-		; address: 0x5b22a
+		; address: 0x50744
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 587:613
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1751,7 +1751,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "switchtoprint"
-		; address: 0x5b38d
+		; address: 0x508a7
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 622:840
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          6
@@ -2843,7 +2843,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "switchtomenu"
-		; address: 0x5bff7
+		; address: 0x51511
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 848:867
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2983,7 +2983,7 @@ begin class "gsprintmenu"
 	end ; method
 
 	begin method "print"
-		; address: 0x5c156
+		; address: 0x51670
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 874:982
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4

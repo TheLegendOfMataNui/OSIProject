@@ -7,7 +7,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	property "dead"
 
 	begin method "tumblemazepuzzlep"
-		; address: 0x6b298
+		; address: 0x9d12e
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 166:166
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42613, 4
@@ -19,7 +19,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6b2ac
+		; address: 0x9d142
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 174:231
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -580,7 +580,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x6b8b6
+		; address: 0x9d74c
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 239:239
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42686, 4
@@ -594,7 +594,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6b8cd
+		; address: 0x9d763
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 246:257
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -679,7 +679,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x6b991
+		; address: 0x9d827
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 264:264
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42711, 4
@@ -693,7 +693,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6b9a8
+		; address: 0x9d83e
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 269:269
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42716, 4
@@ -705,7 +705,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x6b9ba
+		; address: 0x9d850
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 275:276
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -746,7 +746,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x6ba03
+		; address: 0x9d899
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 283:283
 		MemberFunctionArgumentCheck   2
 		LineNumber                    42730, 4
@@ -778,7 +778,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6ba46
+		; address: 0x9d8dc
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 291:320
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -965,7 +965,7 @@ begin class "tumblemazepuzzlep", "base_object"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x6bc16
+		; address: 0x9daac
 		; source: 108 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tmblp.vbo" 329:330
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42776, 4

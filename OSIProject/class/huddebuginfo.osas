@@ -8,14 +8,14 @@ begin class "huddebuginfo"
 	property "textarea"
 
 	begin method "huddebuginfo"
-		; address: 0x3a9fe
+		; address: 0x52c27
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3aa02
+		; address: 0x52c2b
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 322:333
 		MemberFunctionArgumentCheck  1
 		LineNumber                   11581, 4
@@ -149,7 +149,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3ab79
+		; address: 0x52da2
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 338:338
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11597, 4
@@ -163,7 +163,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3ab90
+		; address: 0x52db9
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 343:353
 		MemberFunctionArgumentCheck   1
 		LineNumber                    11602, 4
@@ -234,7 +234,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3ac33
+		; address: 0x52e5c
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 359:359
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11618, 4
@@ -248,7 +248,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "show"
-		; address: 0x3ac4a
+		; address: 0x52e73
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 364:366
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11623, 4
@@ -277,7 +277,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3ac8a
+		; address: 0x52eb3
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 371:373
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11630, 4
@@ -306,7 +306,7 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "process"
-		; address: 0x3acca
+		; address: 0x52ef3
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 379:419
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          11
@@ -538,14 +538,14 @@ begin class "huddebuginfo"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3afe8
+		; address: 0x53211
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x3afec
+		; address: 0x53215
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

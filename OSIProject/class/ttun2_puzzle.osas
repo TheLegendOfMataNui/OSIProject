@@ -4,7 +4,7 @@ begin class "ttun2_puzzle"
 	property "call_ev_safe_time_once"
 
 	begin method "ttun2_puzzle"
-		; address: 0x86204
+		; address: 0x87b9a
 		; source: 144 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_ttun.vbo" 80:80
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55049, 4
@@ -16,7 +16,7 @@ begin class "ttun2_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x86218
+		; address: 0x87bae
 		; source: 144 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_ttun.vbo" 88:92
 		MemberFunctionArgumentCheck  1
 		LineNumber                   55057, 4
@@ -54,7 +54,7 @@ begin class "ttun2_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8627f
+		; address: 0x87c15
 		; source: 144 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_ttun.vbo" 98:123
 		MemberFunctionArgumentCheck   2
 		LineNumber                    55067, 4
@@ -223,28 +223,28 @@ begin class "ttun2_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8643f
+		; address: 0x87dd5
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x86443
+		; address: 0x87dd9
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cheat"
-		; address: 0x86447
+		; address: 0x87ddd
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x8644b
+		; address: 0x87de1
 		; source: 144 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_ttun.vbo" 143:143
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55112, 4

@@ -16,7 +16,7 @@ begin class "cavedigging", "base_object"
 	property "dig5flag"
 
 	begin method "cavedigging"
-		; address: 0x8016f
+		; address: 0x8e7ef
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 366:382
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52704, 4
@@ -99,7 +99,7 @@ begin class "cavedigging", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x802ae
+		; address: 0x8e92e
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 388:422
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -275,7 +275,7 @@ begin class "cavedigging", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x804c9
+		; address: 0x8eb49
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 432:480
 		MemberFunctionArgumentCheck   2
 		LineNumber                    52770, 4

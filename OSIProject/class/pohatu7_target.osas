@@ -8,7 +8,7 @@ begin class "pohatu7_target"
 	property "ignore"
 
 	begin method "pohatu7_target"
-		; address: 0xc1aa8
+		; address: 0x6a7a3
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 223:226
 		MemberFunctionArgumentCheck 4
 		LineNumber                  18382, 4
@@ -47,7 +47,7 @@ begin class "pohatu7_target"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc1b11
+		; address: 0x6a80c
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 231:239
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18390, 4
@@ -97,7 +97,7 @@ begin class "pohatu7_target"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc1bb4
+		; address: 0x6a8af
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 244:248
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18403, 4
@@ -127,7 +127,7 @@ begin class "pohatu7_target"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc1bfc
+		; address: 0x6a8f7
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 253:276
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -259,7 +259,7 @@ begin class "pohatu7_target"
 	end ; method
 
 	begin method "reset"
-		; address: 0xc1d33
+		; address: 0x6aa2e
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_poha.vbo" 284:287
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18443, 4

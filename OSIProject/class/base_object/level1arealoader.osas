@@ -23,7 +23,7 @@ begin class "level1arealoader", "base_object"
 	property "vilpid"
 
 	begin method "level1arealoader"
-		; address: 0x7f35b
+		; address: 0x9a9c1
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 132:142
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52470, 4
@@ -108,7 +108,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7f4bf
+		; address: 0x9ab25
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 148:171
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52486, 4
@@ -242,7 +242,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7f667
+		; address: 0x9accd
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 176:324
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -1072,7 +1072,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "show"
-		; address: 0x80105
+		; address: 0x9b76b
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 331:334
 		MemberFunctionArgumentCheck   3
 		LineNumber                    52669, 4
@@ -1096,7 +1096,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "hide"
-		; address: 0x8013a
+		; address: 0x9b7a0
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 338:341
 		MemberFunctionArgumentCheck   3
 		LineNumber                    52676, 4

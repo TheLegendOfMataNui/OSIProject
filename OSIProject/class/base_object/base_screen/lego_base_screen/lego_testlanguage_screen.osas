@@ -4,7 +4,7 @@ begin class "lego_testlanguage_screen", "lego_base_screen"
 	property "examplestring"
 
 	begin method "lego_testlanguage_screen"
-		; address: 0xc4bb5
+		; address: 0xbcd8d
 		; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 23:23
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19796, 4
@@ -25,7 +25,7 @@ begin class "lego_testlanguage_screen", "lego_base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc4bd6
+		; address: 0xbcdae
 		; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 29:51
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          8
@@ -182,7 +182,7 @@ begin class "lego_testlanguage_screen", "lego_base_screen"
 	end ; method
 
 	begin method "input"
-		; address: 0xc4d8b
+		; address: 0xbcf63
 		; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 57:60
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19830, 4
@@ -290,7 +290,7 @@ begin class "lego_testlanguage_screen", "lego_base_screen"
 	end ; method
 
 	begin method "setpointer"
-		; address: 0xc4e93
+		; address: 0xbd06b
 		; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 65:75
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19838, 4
@@ -360,7 +360,7 @@ begin class "lego_testlanguage_screen", "lego_base_screen"
 	end ; method
 
 	begin method "newlanguage"
-		; address: 0xc4f3a
+		; address: 0xbd112
 		; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 81:101
 		MemberFunctionArgumentCheck   1
 		LineNumber                    19854, 4

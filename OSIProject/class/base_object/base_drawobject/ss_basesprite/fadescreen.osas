@@ -8,7 +8,7 @@ begin class "fadescreen", "ss_basesprite"
 	property "blnhide"
 
 	begin method "fadescreen"
-		; address: 0x3b5e6
+		; address: 0xb99bd
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 609:621
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -93,7 +93,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3b6a4
+		; address: 0xb9a7b
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 628:629
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11887, 4
@@ -114,7 +114,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3b6cf
+		; address: 0xb9aa6
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 633:635
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11892, 4
@@ -134,7 +134,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "getfadetime"
-		; address: 0x3b6ff
+		; address: 0xb9ad6
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 640:643
 		MemberFunctionArgumentCheck   1
 		LineNumber                    11899, 4
@@ -163,14 +163,14 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "input"
-		; address: 0x3b732
+		; address: 0xb9b09
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3b736
+		; address: 0xb9b0d
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 655:666
 		MemberFunctionArgumentCheck   1
 		LineNumber                    11914, 4
@@ -223,14 +223,14 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3b7c3
+		; address: 0xb9b9a
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x3b7c7
+		; address: 0xb9b9e
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 676:689
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11935, 4
@@ -304,7 +304,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "setincrementvalue"
-		; address: 0x3b87f
+		; address: 0xb9c56
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 695:699
 		MemberFunctionArgumentCheck   1
 		LineNumber                    11954, 4
@@ -347,7 +347,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "setdecrementvalue"
-		; address: 0x3b8e7
+		; address: 0xb9cbe
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 706:711
 		MemberFunctionArgumentCheck   1
 		LineNumber                    11965, 4
@@ -399,7 +399,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "setfaderate"
-		; address: 0x3b966
+		; address: 0xb9d3d
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 717:717
 		MemberFunctionArgumentCheck 2
 		LineNumber                  11976, 4
@@ -411,7 +411,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "show"
-		; address: 0x3b97a
+		; address: 0xb9d51
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 723:730
 		MemberFunctionArgumentCheck  1
 		LineNumber                   11982, 4
@@ -469,7 +469,7 @@ begin class "fadescreen", "ss_basesprite"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3ba18
+		; address: 0xb9def
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 735:742
 		MemberFunctionArgumentCheck 1
 		LineNumber                  11994, 4

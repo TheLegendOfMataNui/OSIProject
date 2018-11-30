@@ -11,7 +11,7 @@ begin class "lego3dsound"
 	property "objectid"
 
 	begin method "lego3dsound"
-		; address: 0x3201e
+		; address: 0x5930c
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 67:77
 		MemberFunctionArgumentCheck   8
 		LineNumber                    2712, 4
@@ -70,7 +70,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x320d2
+		; address: 0x593c0
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 84:90
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2729, 4
@@ -127,7 +127,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setpresetenvironmenteax"
-		; address: 0x32164
+		; address: 0x59452
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 99:99
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2744, 4
@@ -140,7 +140,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "synclistenertocamera"
-		; address: 0x3217c
+		; address: 0x5946a
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 104:104
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2749, 4
@@ -152,7 +152,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "synclistenertomaincharacter"
-		; address: 0x32191
+		; address: 0x5947f
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 109:109
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2754, 4
@@ -164,7 +164,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setlistenerdistancefactor"
-		; address: 0x321a6
+		; address: 0x59494
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 114:114
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2759, 4
@@ -177,7 +177,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setlistenerdopplerfactor"
-		; address: 0x321be
+		; address: 0x594ac
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 119:119
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2764, 4
@@ -190,7 +190,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setlistenerrollofffactor"
-		; address: 0x321d6
+		; address: 0x594c4
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 124:124
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2769, 4
@@ -203,7 +203,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "play"
-		; address: 0x321ee
+		; address: 0x594dc
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 131:131
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2776, 4
@@ -217,7 +217,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "stop"
-		; address: 0x32209
+		; address: 0x594f7
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 136:136
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2781, 4
@@ -230,7 +230,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "stopreset"
-		; address: 0x32221
+		; address: 0x5950f
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 141:141
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2786, 4
@@ -243,7 +243,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setplayoffset"
-		; address: 0x32239
+		; address: 0x59527
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 149:149
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2794, 4
@@ -257,7 +257,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setvolume"
-		; address: 0x32254
+		; address: 0x59542
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 154:155
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2799, 4
@@ -275,7 +275,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setpan"
-		; address: 0x3227f
+		; address: 0x5956d
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 160:161
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2805, 4
@@ -293,7 +293,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setfrequency"
-		; address: 0x322aa
+		; address: 0x59598
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 166:167
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2811, 4
@@ -311,7 +311,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "getfrequency"
-		; address: 0x322d5
+		; address: 0x595c3
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 173:174
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2818, 4
@@ -328,7 +328,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "synctoobject"
-		; address: 0x32305
+		; address: 0x595f3
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 179:179
 		MemberFunctionArgumentCheck 5
 		LineNumber                  2824, 4
@@ -345,7 +345,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "synctocharacter"
-		; address: 0x32329
+		; address: 0x59617
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 184:184
 		MemberFunctionArgumentCheck 5
 		LineNumber                  2829, 4
@@ -362,7 +362,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "synctoprojectile"
-		; address: 0x3234d
+		; address: 0x5963b
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 189:189
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2834, 4
@@ -376,7 +376,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setposition"
-		; address: 0x32368
+		; address: 0x59656
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 194:194
 		MemberFunctionArgumentCheck 4
 		LineNumber                  2839, 4
@@ -392,7 +392,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setmindistance"
-		; address: 0x32389
+		; address: 0x59677
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 199:199
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2844, 4
@@ -406,7 +406,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setmaxdistance"
-		; address: 0x323a4
+		; address: 0x59692
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 204:204
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2849, 4
@@ -420,7 +420,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setconeorientation"
-		; address: 0x323bf
+		; address: 0x596ad
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 209:209
 		MemberFunctionArgumentCheck 4
 		LineNumber                  2854, 4
@@ -436,7 +436,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setconeangles"
-		; address: 0x323e0
+		; address: 0x596ce
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 214:214
 		MemberFunctionArgumentCheck 3
 		LineNumber                  2859, 4
@@ -451,7 +451,7 @@ begin class "lego3dsound"
 	end ; method
 
 	begin method "setconeoutsidevolume"
-		; address: 0x323fe
+		; address: 0x596ec
 		; source: 17 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_3dSound.vbo" 219:219
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2864, 4

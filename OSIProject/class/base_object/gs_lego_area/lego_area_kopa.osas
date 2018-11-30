@@ -2,7 +2,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_kopa"
-		; address: 0xc1f73
+		; address: 0xaa6d1
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18543, 4
@@ -20,7 +20,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc1f92
+		; address: 0xaa6f0
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 27:34
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18550, 4
@@ -80,7 +80,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc2037
+		; address: 0xaa795
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 40:42
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18563, 4
@@ -108,7 +108,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xc2077
+		; address: 0xaa7d5
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 48:52
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -163,7 +163,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc2118
+		; address: 0xaa876
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_kopa.vbo" 60:67
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -231,14 +231,14 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xc21d4
+		; address: 0xaa932
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xc21d8
+		; address: 0xaa936
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

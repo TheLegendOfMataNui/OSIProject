@@ -12,7 +12,7 @@ begin class "areaviewer", "base_screen"
 	property "rgbval"
 
 	begin method "areaviewer"
-		; address: 0xc42eb
+		; address: 0xa26ed
 		; source: 235 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 45:84
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          12
@@ -352,7 +352,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc4721
+		; address: 0xa2b23
 		; source: 235 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 93:124
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -576,7 +576,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "input"
-		; address: 0xc498c
+		; address: 0xa2d8e
 		; source: 235 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 131:131
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19651, 4
@@ -592,7 +592,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0xc49a8
+		; address: 0xa2daa
 		; source: 235 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 137:137
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19657, 4

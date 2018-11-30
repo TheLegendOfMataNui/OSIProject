@@ -9,7 +9,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	property "inputstate"
 
 	begin method "ss_base3dobject"
-		; address: 0x32af6
+		; address: 0x9dde2
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 79:99
 		MemberFunctionArgumentCheck   7
 		LineNumber                    3295, 4
@@ -113,7 +113,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x32c04
+		; address: 0x9def0
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 106:107
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3322, 4
@@ -135,7 +135,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "add"
-		; address: 0x32c48
+		; address: 0x9df34
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 112:116
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3328, 4
@@ -181,7 +181,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "setinputstate"
-		; address: 0x32cd1
+		; address: 0x9dfbd
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 126:128
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -203,7 +203,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "show"
-		; address: 0x32d0e
+		; address: 0x9dffa
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 133:134
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3349, 4
@@ -220,7 +220,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "hide"
-		; address: 0x32d35
+		; address: 0x9e021
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 139:140
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3355, 4
@@ -237,7 +237,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "remove"
-		; address: 0x32d5b
+		; address: 0x9e047
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 145:145
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3361, 4
@@ -250,7 +250,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x32d73
+		; address: 0x9e05f
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 150:150
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3366, 4
@@ -262,14 +262,14 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "enablealphachannel"
-		; address: 0x32d85
+		; address: 0x9e071
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setpos"
-		; address: 0x32d89
+		; address: 0x9e075
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 160:164
 		MemberFunctionArgumentCheck   4
 		LineNumber                    3376, 4
@@ -327,7 +327,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "changepos"
-		; address: 0x32e13
+		; address: 0x9e0ff
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 168:172
 		MemberFunctionArgumentCheck   4
 		LineNumber                    3384, 4
@@ -391,7 +391,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "getpos"
-		; address: 0x32ea9
+		; address: 0x9e195
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 177:181
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3393, 4
@@ -432,7 +432,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "setorientation"
-		; address: 0x32f35
+		; address: 0x9e221
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 192:194
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3408, 4
@@ -450,7 +450,7 @@ begin class "ss_base3dobject", "base_drawobject"
 	end ; method
 
 	begin method "getorientation"
-		; address: 0x32f60
+		; address: 0x9e24c
 		; source: 19 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_base3d.vbo" 199:200
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3415, 4

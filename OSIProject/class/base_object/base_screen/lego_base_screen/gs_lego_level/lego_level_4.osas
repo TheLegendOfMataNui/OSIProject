@@ -1,6 +1,6 @@
 begin class "lego_level_4", "gs_lego_level"
 	begin method "lego_level_4"
-		; address: 0xa991f
+		; address: 0xc272e
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 48:91
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 92:93
 		MemberFunctionArgumentCheck 1
@@ -342,7 +342,7 @@ begin class "lego_level_4", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa9d56
+		; address: 0xc2b65
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 102:136
 		MemberFunctionArgumentCheck   1
 		LineNumber                    7238, 4
@@ -573,7 +573,7 @@ begin class "lego_level_4", "gs_lego_level"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xaa02e
+		; address: 0xc2e3d
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 149:157
 		MemberFunctionArgumentCheck  1
 		LineNumber                   7285, 4

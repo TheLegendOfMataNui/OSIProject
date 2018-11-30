@@ -12,7 +12,7 @@ begin class "l4_tele_puzzle"
 	property "hittrigerbox"
 
 	begin method "l4_tele_puzzle"
-		; address: 0xa03eb
+		; address: 0x57231
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 113:113
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3114, 4
@@ -24,7 +24,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa03ff
+		; address: 0x57245
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 121:166
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -317,7 +317,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xa07a1
+		; address: 0x575e7
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 173:180
 		MemberFunctionArgumentCheck   1
 		LineNumber                    3174, 4
@@ -376,14 +376,14 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xa0843
+		; address: 0x57689
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xa0847
+		; address: 0x5768d
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 194:207
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -450,7 +450,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa08f6
+		; address: 0x5773c
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 216:288
 		MemberFunctionArgumentCheck   2
 		LineNumber                    3217, 4
@@ -641,7 +641,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0xa0ab9
+		; address: 0x578ff
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 295:304
 		MemberFunctionArgumentCheck   2
 		LineNumber                    3296, 4
@@ -704,7 +704,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa0b52
+		; address: 0x57998
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 314:316
 		MemberFunctionArgumentCheck   2
 		LineNumber                    3315, 4
@@ -745,7 +745,7 @@ begin class "l4_tele_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa0bb4
+		; address: 0x579fa
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 323:323
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3324, 4

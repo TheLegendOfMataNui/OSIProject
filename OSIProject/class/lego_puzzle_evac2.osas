@@ -7,7 +7,7 @@ begin class "lego_puzzle_evac2"
 	property "getcollideonce"
 
 	begin method "lego_puzzle_evac2"
-		; address: 0x85bba
+		; address: 0x5c0e3
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 89:89
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54845, 4
@@ -19,7 +19,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x85bce
+		; address: 0x5c0f7
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 98:108
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54854, 4
@@ -95,7 +95,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x85ca6
+		; address: 0x5c1cf
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 114:118
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54870, 4
@@ -138,7 +138,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x85d19
+		; address: 0x5c242
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 123:124
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54879, 4
@@ -157,7 +157,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "process"
-		; address: 0x85d3f
+		; address: 0x5c268
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 129:129
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54885, 4
@@ -171,7 +171,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x85d56
+		; address: 0x5c27f
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 134:162
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54890, 4
@@ -337,7 +337,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "input"
-		; address: 0x85efb
+		; address: 0x5c424
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 169:169
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54925, 4
@@ -369,7 +369,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "rotatewirlpool"
-		; address: 0x85f3e
+		; address: 0x5c467
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 174:179
 		MemberFunctionArgumentCheck   1
 		LineNumber                    54930, 4
@@ -410,7 +410,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "startsurf"
-		; address: 0x85f9c
+		; address: 0x5c4c5
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 185:186
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54941, 4
@@ -442,7 +442,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "endsurf"
-		; address: 0x85ff3
+		; address: 0x5c51c
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 192:193
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54948, 4
@@ -474,7 +474,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "loadnextarea"
-		; address: 0x8604a
+		; address: 0x5c573
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 198:198
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54954, 4
@@ -498,7 +498,7 @@ begin class "lego_puzzle_evac2"
 	end ; method
 
 	begin method "exit"
-		; address: 0x86098
+		; address: 0x5c5c1
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_evac.vbo" 203:203
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54959, 4

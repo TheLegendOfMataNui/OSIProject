@@ -3,7 +3,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_gly3"
-		; address: 0x9269a
+		; address: 0xa89fd
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 27:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62444, 4
@@ -43,7 +43,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x92702
+		; address: 0xa8a65
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 37:39
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62454, 4
@@ -71,7 +71,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x92741
+		; address: 0xa8aa4
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 44:44
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62461, 4
@@ -87,7 +87,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x9275d
+		; address: 0xa8ac0
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 49:49
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62466, 4
@@ -103,7 +103,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x92779
+		; address: 0xa8adc
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 54:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62471, 4
@@ -119,7 +119,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x92795
+		; address: 0xa8af8
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 59:60
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62476, 4
@@ -140,7 +140,7 @@ begin class "lego_area_gly3", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x927c0
+		; address: 0xa8b23
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 66:66
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62483, 4

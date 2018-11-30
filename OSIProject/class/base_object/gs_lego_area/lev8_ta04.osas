@@ -2,7 +2,7 @@ begin class "lev8_ta04", "gs_lego_area"
 	property "parent"
 
 	begin method "lev8_ta04"
-		; address: 0xc6ac8
+		; address: 0xb5a52
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 27:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7098, 4
@@ -30,7 +30,7 @@ begin class "lev8_ta04", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc6b0a
+		; address: 0xb5a94
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 34:35
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 52:52
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 56:57
@@ -75,7 +75,7 @@ begin class "lev8_ta04", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc6b79
+		; address: 0xb5b03
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 57:58
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7128, 4
@@ -95,28 +95,28 @@ begin class "lev8_ta04", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xc6ba3
+		; address: 0xb5b2d
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc6ba7
+		; address: 0xb5b31
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0xc6bab
+		; address: 0xb5b35
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xc6baf
+		; address: 0xb5b39
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 84:84
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7155, 4

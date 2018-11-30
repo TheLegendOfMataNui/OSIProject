@@ -4,7 +4,7 @@ begin class "legosoundscaper"
 	property "areaid"
 
 	begin method "legosoundscaper"
-		; address: 0x6bc3f
+		; address: 0x5e30a
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 26:28
 		MemberFunctionArgumentCheck 3
 		LineNumber                  42831, 4
@@ -26,7 +26,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "input"
-		; address: 0x6bc80
+		; address: 0x5e34b
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 34:66
 		MemberFunctionArgumentCheck   2
 		LineNumber                    42839, 4
@@ -194,7 +194,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "activate"
-		; address: 0x6be28
+		; address: 0x5e4f3
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 74:74
 		MemberFunctionArgumentCheck 3
 		LineNumber                  42879, 4
@@ -209,7 +209,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "deactivate"
-		; address: 0x6be46
+		; address: 0x5e511
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 79:79
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42884, 4
@@ -223,7 +223,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "save"
-		; address: 0x6be61
+		; address: 0x5e52c
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 84:84
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42889, 4
@@ -236,7 +236,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "pickfrontest"
-		; address: 0x6be79
+		; address: 0x5e544
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 89:89
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42894, 4
@@ -249,7 +249,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "pickclosest"
-		; address: 0x6be91
+		; address: 0x5e55c
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 94:94
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42899, 4
@@ -262,7 +262,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "unpick"
-		; address: 0x6bea9
+		; address: 0x5e574
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 99:99
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42904, 4
@@ -275,7 +275,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "pushpicked"
-		; address: 0x6bec1
+		; address: 0x5e58c
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 104:104
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42909, 4
@@ -289,7 +289,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "pullpicked"
-		; address: 0x6bedc
+		; address: 0x5e5a7
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 109:109
 		MemberFunctionArgumentCheck 2
 		LineNumber                  42914, 4
@@ -303,7 +303,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "startadjustpicked"
-		; address: 0x6bef7
+		; address: 0x5e5c2
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 114:114
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42919, 4
@@ -316,7 +316,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "endadjustpicked"
-		; address: 0x6bf0f
+		; address: 0x5e5da
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 119:119
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42924, 4
@@ -329,7 +329,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "addandpick"
-		; address: 0x6bf27
+		; address: 0x5e5f2
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 124:124
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42929, 4
@@ -342,7 +342,7 @@ begin class "legosoundscaper"
 	end ; method
 
 	begin method "removepicked"
-		; address: 0x6bf3f
+		; address: 0x5e60a
 		; source: 110 "C:\\projects\\lego\\Scripting\\VBO\\legobase/LegoSoundscaper.vbo" 129:129
 		MemberFunctionArgumentCheck 1
 		LineNumber                  42934, 4

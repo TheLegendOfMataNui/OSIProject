@@ -2,14 +2,14 @@ begin class "gs_lego_level_light", "base_object"
 	property "handle_lite"
 
 	begin method "gs_lego_level_light"
-		; address: 0x3e862
+		; address: 0x92ecb
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3e866
+		; address: 0x92ecf
 		; source: 42 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_lites.vbo" 110:114
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13326, 4

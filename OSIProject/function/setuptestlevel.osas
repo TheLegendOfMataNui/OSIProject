@@ -1,5 +1,5 @@
 begin function "setuptestlevel", 0
-	; address: 0x2e16a
+	; address: 0x2e7b7
 	; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 492:492
 	LineNumber                   52830, 4
 	LineNumberAlt1               492, 133

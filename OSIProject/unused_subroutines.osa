@@ -1,5 +1,5 @@
 begin subroutine
-	; address: 0x318cb
+	; address: 0xc7b0b
 	; source: 11 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_text.vbo" 150:153
 	MemberFunctionArgumentCheck 1
 	LineNumber                  2435, 4
@@ -23,20 +23,7 @@ begin subroutine
 end ; subroutine
 
 begin subroutine
-	; address: 0x45195
-	; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 898:898
-	MemberFunctionArgumentCheck 1
-	LineNumber                  19534, 4
-	LineNumberAlt1              898, 52
-	GetThisMemberValueString    "handle"
-	CallGameFunctionString      "gcmoveableobj", "shaketouch", 1
-	Pop
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0x543d1
+	; address: 0xc7b47
 	; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 134:135
 	MemberFunctionArgumentCheck   5
 	LineNumber                    27886, 4
@@ -63,7 +50,7 @@ begin subroutine
 end ; subroutine
 
 begin subroutine
-	; address: 0x54408
+	; address: 0xc7b7e
 	; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 141:142
 	MemberFunctionArgumentCheck   5
 	LineNumber                    27893, 4
@@ -90,59 +77,7 @@ begin subroutine
 end ; subroutine
 
 begin subroutine
-	; address: 0x5443f
-	; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 148:149
-	MemberFunctionArgumentCheck   2
-	LineNumber                    27900, 4
-	LineNumberAlt1                148, 68
-	GetThisMemberValueString      "handle"
-	PushNothing
-	EqualTo
-	Not
-	CompareAndBranchIfFalseTarget 0, 0
-	; ->
-	LineNumber                    27901, 4
-	LineNumberAlt1                149, 68
-	GetThisMemberValueString      "handle"
-	GetVariableValue              1                                  ; local
-	CallGameFunctionString        "gc3dsound", "synctoprojectile", 2
-	Pop
-	; <-
-	BranchTarget                  0
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0x66dfb
-	MemberFunctionArgumentCheck 1
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0x7162e
-	; source: 119 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo" 89:90
-	MemberFunctionArgumentCheck 1
-	LineNumber                  45933, 4
-	LineNumberAlt1              89, 119
-	GetThisMemberValueString    "puzzle"
-	Dup
-	GetMemberFunctionString     "cleanupfull"
-	JumpAbsolute                1
-	Pop
-	LineNumber                  45934, 4
-	LineNumberAlt1              90, 119
-	GetVariableValue            0                ; local
-	GetThisMemberFunctionString "lego_area_hide"
-	JumpAbsolute                1
-	Pop
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0xb85ec
+	; address: 0xc7bb5
 	; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 801:803
 	MemberFunctionArgumentCheck 1
 	LineNumber                  14014, 4
@@ -157,42 +92,6 @@ begin subroutine
 	LineNumberAlt1              803, 212
 	PushNothing
 	SetThisMemberValueString    "curentfireball"
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0xba485
-	; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta11.vbo" 231:231
-	MemberFunctionArgumentCheck 1
-	LineNumber                  15038, 4
-	LineNumberAlt1              231, 216
-	PushNothing
-	SetThisMemberValueString    "parent"
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0xbba40
-	; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 348:348
-	MemberFunctionArgumentCheck 1
-	LineNumber                  15530, 4
-	LineNumberAlt1              348, 217
-	PushNothing
-	SetThisMemberValueString    "parent"
-	PushNothing
-	Return
-end ; subroutine
-
-begin subroutine
-	; address: 0xbd27a
-	; source: 218 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta13.vbo" 529:529
-	MemberFunctionArgumentCheck 1
-	LineNumber                  16067, 4
-	LineNumberAlt1              529, 218
-	PushNothing
-	SetThisMemberValueString    "parent"
 	PushNothing
 	Return
 end ; subroutine

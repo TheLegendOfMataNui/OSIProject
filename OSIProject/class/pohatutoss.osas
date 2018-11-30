@@ -7,7 +7,7 @@ begin class "pohatutoss"
 	property "ballpickup"
 
 	begin method "pohatutoss"
-		; address: 0x94e75
+		; address: 0x6aa8b
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 96:102
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63610, 4
@@ -27,7 +27,7 @@ begin class "pohatutoss"
 	end ; method
 
 	begin method "init"
-		; address: 0x94ea6
+		; address: 0x6aabc
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 110:222
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 100:103
 		MemberFunctionArgumentCheck   1
@@ -277,7 +277,7 @@ begin class "pohatutoss"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x951b8
+		; address: 0x6adce
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 142:157
 		MemberFunctionArgumentCheck   1
 		LineNumber                    63656, 4
@@ -339,14 +339,14 @@ begin class "pohatutoss"
 	end ; method
 
 	begin method "process"
-		; address: 0x95250
+		; address: 0x6ae66
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x95254
+		; address: 0x6ae6a
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 178:183
 		MemberFunctionArgumentCheck   2
 		LineNumber                    63692, 4
@@ -389,7 +389,7 @@ begin class "pohatutoss"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x952ae
+		; address: 0x6aec4
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 198:262
 		MemberFunctionArgumentCheck   2
 		LineNumber                    63712, 4
@@ -534,7 +534,7 @@ begin class "pohatutoss"
 	end ; method
 
 	begin method "exit"
-		; address: 0x95424
+		; address: 0x6b03a
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 270:270
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63784, 4

@@ -9,7 +9,7 @@ begin class "lego_testlevel", "base_screen"
 	property "digpuzzle"
 
 	begin method "lego_testlevel"
-		; address: 0x7f048
+		; address: 0xa4461
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 42:43
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52380, 4
@@ -39,7 +39,7 @@ begin class "lego_testlevel", "base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7f090
+		; address: 0xa44a9
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 52:88
 		MemberFunctionArgumentCheck  1
 		LineNumber                   52390, 4
@@ -244,14 +244,14 @@ begin class "lego_testlevel", "base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0x7f2ef
+		; address: 0xa4708
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x7f2f3
+		; address: 0xa470c
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 97:98
 		MemberFunctionArgumentCheck 2
 		LineNumber                  52435, 4
@@ -275,7 +275,7 @@ begin class "lego_testlevel", "base_screen"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7f327
+		; address: 0xa4740
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lego_testlevel.vbo" 102:103
 		MemberFunctionArgumentCheck 2
 		LineNumber                  52440, 4

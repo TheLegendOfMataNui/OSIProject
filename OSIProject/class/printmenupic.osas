@@ -4,7 +4,7 @@ begin class "printmenupic"
 	property "selectable"
 
 	begin method "printmenupic"
-		; address: 0x5a0d4
+		; address: 0x6b20c
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 88:97
 		MemberFunctionArgumentCheck   12
 		LineNumber                    33328, 4
@@ -68,7 +68,7 @@ begin class "printmenupic"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5a171
+		; address: 0x6b2a9
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 104:106
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33344, 4
@@ -111,7 +111,7 @@ begin class "printmenupic"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x5a1d5
+		; address: 0x6b30d
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 112:118
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33352, 4
@@ -175,7 +175,7 @@ begin class "printmenupic"
 	end ; method
 
 	begin method "hide"
-		; address: 0x5a26b
+		; address: 0x6b3a3
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 124:127
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33364, 4
@@ -210,7 +210,7 @@ begin class "printmenupic"
 	end ; method
 
 	begin method "show"
-		; address: 0x5a2bb
+		; address: 0x6b3f3
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 133:134
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33373, 4
@@ -232,7 +232,7 @@ begin class "printmenupic"
 	end ; method
 
 	begin method "check"
-		; address: 0x5a2e3
+		; address: 0x6b41b
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 142:147
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1

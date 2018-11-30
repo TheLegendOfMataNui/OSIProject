@@ -8,7 +8,7 @@ begin class "l1a8_puzzlep", "base_object"
 	property "toggle"
 
 	begin method "l1a8_puzzlep"
-		; address: 0x73a59
+		; address: 0x963f9
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 97:97
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46799, 4
@@ -20,7 +20,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x73a6d
+		; address: 0x9640d
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 103:232
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -1161,7 +1161,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x74869
+		; address: 0x97209
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 241:282
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1448,7 +1448,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x74b34
+		; address: 0x974d4
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 291:319
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1643,7 +1643,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x74cf9
+		; address: 0x97699
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 325:325
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47027, 4
@@ -1657,7 +1657,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x74d10
+		; address: 0x976b0
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 330:330
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47032, 4
@@ -1669,7 +1669,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "resetallplats"
-		; address: 0x74d22
+		; address: 0x976c2
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo" 335:338
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

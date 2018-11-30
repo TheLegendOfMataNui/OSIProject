@@ -2,7 +2,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	property "cinema"
 
 	begin method "lego_area_mtup6"
-		; address: 0xbf90a
+		; address: 0xad3e7
 		; source: 226 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 31:31
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17428, 4
@@ -20,7 +20,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbf929
+		; address: 0xad406
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 103:103
 		; source: 226 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 39:43
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 313:314
@@ -88,7 +88,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbf9f3
+		; address: 0xad4d0
 		; source: 226 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 48:48
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17445, 4
@@ -100,7 +100,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xbfa05
+		; address: 0xad4e2
 		; source: 226 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 53:57
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17450, 4
@@ -143,7 +143,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbfa5f
+		; address: 0xad53c
 		; source: 226 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 66:68
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 313:314
 		MemberFunctionArgumentCheck   2
@@ -192,7 +192,7 @@ begin class "lego_area_mtup6", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xbfacd
+		; address: 0xad5aa
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

@@ -6,7 +6,7 @@ begin class "lev4_vison_block"
 	property "outpos"
 
 	begin method "lev4_vison_block"
-		; address: 0x9d32e
+		; address: 0x5fbe7
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 549:551
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1812, 4
@@ -37,7 +37,7 @@ begin class "lev4_vison_block"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9d388
+		; address: 0x5fc41
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 559:561
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1822, 4
@@ -112,7 +112,7 @@ begin class "lev4_vison_block"
 	end ; method
 
 	begin method "triggerd"
-		; address: 0x9d45b
+		; address: 0x5fd14
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 567:576
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1830, 4

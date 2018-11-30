@@ -15,7 +15,7 @@ begin class "crack_puzzle"
 	property "portalactive"
 
 	begin method "crack_puzzle"
-		; address: 0x68d90
+		; address: 0x41be8
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 270:272
 		MemberFunctionArgumentCheck 2
 		LineNumber                  41339, 4
@@ -35,7 +35,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x68dc1
+		; address: 0x41c19
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 281:404
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          8
@@ -795,7 +795,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x69605
+		; address: 0x4245d
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 410:451
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1016,7 +1016,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x69817
+		; address: 0x4266f
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 458:458
 		MemberFunctionArgumentCheck 1
 		LineNumber                  41527, 4
@@ -1028,7 +1028,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x69829
+		; address: 0x42681
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 464:467
 		MemberFunctionArgumentCheck   2
 		LineNumber                    41533, 4
@@ -1067,7 +1067,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x6987f
+		; address: 0x426d7
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 478:562
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          7
@@ -1563,7 +1563,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x69d4d
+		; address: 0x42ba5
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 571:649
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -1977,7 +1977,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "earthquake"
-		; address: 0x6a141
+		; address: 0x42f99
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 661:663
 		MemberFunctionArgumentCheck 1
 		LineNumber                  41730, 4
@@ -1996,7 +1996,7 @@ begin class "crack_puzzle"
 	end ; method
 
 	begin method "resetcrack"
-		; address: 0x6a168
+		; address: 0x42fc0
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 669:679
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2

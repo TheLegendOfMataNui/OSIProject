@@ -6,7 +6,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	property "frame"
 
 	begin method "gs_lego_animsprite"
-		; address: 0x37a6c
+		; address: 0xa023f
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 27:40
 		MemberFunctionArgumentCheck   4
 		LineNumber                    8747, 4
@@ -77,7 +77,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "show"
-		; address: 0x37b1b
+		; address: 0xa02ee
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 45:45
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8765, 4
@@ -94,7 +94,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "hide"
-		; address: 0x37b37
+		; address: 0xa030a
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 49:49
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8769, 4
@@ -111,7 +111,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "enablealphachannel"
-		; address: 0x37b53
+		; address: 0xa0326
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 53:54
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -151,7 +151,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "setdefault"
-		; address: 0x37b9a
+		; address: 0xa036d
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8779, 4
@@ -163,7 +163,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "play"
-		; address: 0x37bae
+		; address: 0xa0381
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 63:64
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8783, 4
@@ -179,7 +179,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "stop"
-		; address: 0x37bd1
+		; address: 0xa03a4
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 71:73
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8791, 4
@@ -209,7 +209,7 @@ begin class "gs_lego_animsprite", "base_objectarray"
 	end ; method
 
 	begin method "process"
-		; address: 0x37c13
+		; address: 0xa03e6
 		; source: 36 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_sprites.vbo" 78:89
 		MemberFunctionArgumentCheck   2
 		LineNumber                    8798, 4

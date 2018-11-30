@@ -2,7 +2,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_fvil6"
-		; address: 0xb1c37
+		; address: 0xa80e1
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 23:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10782, 4
@@ -38,7 +38,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb1c8f
+		; address: 0xa8139
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 32:35
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10791, 4
@@ -76,7 +76,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb1cf5
+		; address: 0xa819f
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 40:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10799, 4
@@ -91,7 +91,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb1d0d
+		; address: 0xa81b7
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 44:44
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10803, 4
@@ -107,7 +107,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb1d29
+		; address: 0xa81d3
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 49:49
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10808, 4
@@ -123,7 +123,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb1d45
+		; address: 0xa81ef
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 54:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10813, 4
@@ -139,7 +139,7 @@ begin class "lego_area_fvil6", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb1d61
+		; address: 0xa820b
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 59:60
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10818, 4

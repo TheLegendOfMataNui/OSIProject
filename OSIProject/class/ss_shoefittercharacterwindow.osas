@@ -13,7 +13,7 @@ begin class "ss_shoefittercharacterwindow"
 	property "parent"
 
 	begin method "ss_shoefittercharacterwindow"
-		; address: 0x7c676
+		; address: 0x777bd
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2062:2063
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50489, 4
@@ -29,7 +29,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7c699
+		; address: 0x777e0
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2069:2083
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -123,7 +123,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7c79f
+		; address: 0x778e6
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2088:2088
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50515, 4
@@ -137,7 +137,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7c7b6
+		; address: 0x778fd
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2093:2105
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -206,7 +206,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x7c873
+		; address: 0x779ba
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2111:2111
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50538, 4
@@ -220,7 +220,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "rotateclockwise"
-		; address: 0x7c88a
+		; address: 0x779d1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2116:2120
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -259,7 +259,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "rotatecounterclockwise"
-		; address: 0x7c8e6
+		; address: 0x77a2d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2125:2129
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -298,7 +298,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "process"
-		; address: 0x7c940
+		; address: 0x77a87
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2134:2138
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50561, 4
@@ -341,7 +341,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "input"
-		; address: 0x7c9af
+		; address: 0x77af6
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2144:2149
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50571, 4
@@ -388,7 +388,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "keyboardinput"
-		; address: 0x7ca1d
+		; address: 0x77b64
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2176:2192
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50603, 4
@@ -642,7 +642,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "play"
-		; address: 0x7ccb0
+		; address: 0x77df7
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2198:2199
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50625, 4
@@ -661,7 +661,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "pause"
-		; address: 0x7ccd7
+		; address: 0x77e1e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2204:2205
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50631, 4
@@ -680,7 +680,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "resetpause"
-		; address: 0x7ccfd
+		; address: 0x77e44
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2210:2212
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50637, 4
@@ -700,7 +700,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "frameadv"
-		; address: 0x7cd37
+		; address: 0x77e7e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2217:2221
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -746,7 +746,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "rewind"
-		; address: 0x7cdaa
+		; address: 0x77ef1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2226:2230
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -792,21 +792,21 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "checkcamerapos"
-		; address: 0x7ce1d
+		; address: 0x77f64
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setcamerapos"
-		; address: 0x7ce21
+		; address: 0x77f68
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "switchcharacter"
-		; address: 0x7ce25
+		; address: 0x77f6c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2259:2275
 		MemberFunctionArgumentCheck   2
 		LineNumber                    50686, 4
@@ -896,7 +896,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "addcharacter"
-		; address: 0x7cefd
+		; address: 0x78044
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2280:2288
 		MemberFunctionArgumentCheck 1
 		LineNumber                  50707, 4
@@ -965,7 +965,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "setanimations"
-		; address: 0x7cfb2
+		; address: 0x780f9
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2293:2299
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1036,7 +1036,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "checkoldflags"
-		; address: 0x7d05a
+		; address: 0x781a1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2305:2311
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1096,7 +1096,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "loadoldflags"
-		; address: 0x7d103
+		; address: 0x7824a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2316:2322
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1187,7 +1187,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "setanimationflags"
-		; address: 0x7d1bc
+		; address: 0x78303
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2347:2359
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          6
@@ -1306,7 +1306,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "createsaveableflags"
-		; address: 0x7d2d5
+		; address: 0x7841c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2366:2392
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1478,7 +1478,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "createsaveablesounds"
-		; address: 0x7d45d
+		; address: 0x785a4
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2397:2424
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -1690,7 +1690,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "saveflags"
-		; address: 0x7d684
+		; address: 0x787cb
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2429:2508
 		; source: 129 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 4:4
 		MemberFunctionArgumentCheck   2
@@ -2384,7 +2384,7 @@ begin class "ss_shoefittercharacterwindow"
 	end ; method
 
 	begin method "sortflags"
-		; address: 0x7dd23
+		; address: 0x78e6a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 2513:2526
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4

@@ -29,7 +29,7 @@ begin class "boss_puzzle"
 	property "ending"
 
 	begin method "boss_puzzle"
-		; address: 0x8e8cc
+		; address: 0x35129
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 190:190
 		MemberFunctionArgumentCheck 2
 		LineNumber                  61059, 4
@@ -41,7 +41,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8e8e0
+		; address: 0x3513d
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 198:321
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly1.vbo" 185:191
 		MemberFunctionArgumentCheck   1
@@ -1087,7 +1087,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "setupstrings"
-		; address: 0x8f406
+		; address: 0x35c63
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 331:341
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -1174,7 +1174,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "showstrings"
-		; address: 0x8f503
+		; address: 0x35d60
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 348:353
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61217, 4
@@ -1224,7 +1224,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "cleanupstrings"
-		; address: 0x8f57f
+		; address: 0x35ddc
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 360:365
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61229, 4
@@ -1268,7 +1268,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8f5ef
+		; address: 0x35e4c
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 374:574
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -2277,7 +2277,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "startconversation"
-		; address: 0x8ff9e
+		; address: 0x367fb
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 582:585
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -2316,7 +2316,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "finishconversation"
-		; address: 0x9000e
+		; address: 0x3686b
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 592:601
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         3
@@ -2399,7 +2399,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x9010a
+		; address: 0x36967
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 612:664
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -2679,14 +2679,14 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x903cc
+		; address: 0x36c29
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "reset"
-		; address: 0x903d0
+		; address: 0x36c2d
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 677:713
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2891,7 +2891,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x905f4
+		; address: 0x36e51
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 719:729
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3020,7 +3020,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x906ea
+		; address: 0x36f47
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 737:816
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3391,14 +3391,14 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x90a68
+		; address: 0x372c5
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "explode"
-		; address: 0x90a6c
+		; address: 0x372c9
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 827:952
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          11
@@ -4371,7 +4371,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "shake"
-		; address: 0x91584
+		; address: 0x37de1
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 958:958
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61827, 4

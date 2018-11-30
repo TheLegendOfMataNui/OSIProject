@@ -17,7 +17,7 @@ begin class "ss_shoefitterbottombar"
 	property "parent"
 
 	begin method "ss_shoefitterbottombar"
-		; address: 0x785a0
+		; address: 0x764d8
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 575:581
 		MemberFunctionArgumentCheck 8
 		LineNumber                  49002, 4
@@ -53,7 +53,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x78614
+		; address: 0x7654c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 586:620
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49013, 4
@@ -256,7 +256,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x7884e
+		; address: 0x76786
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 625:625
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49052, 4
@@ -270,7 +270,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x78865
+		; address: 0x7679d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 630:655
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49057, 4
@@ -397,7 +397,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x789d1
+		; address: 0x76909
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 660:660
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49087, 4
@@ -411,7 +411,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "input"
-		; address: 0x789e8
+		; address: 0x76920
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 666:667
 		MemberFunctionArgumentCheck   4
 		LineNumber                    49093, 4
@@ -444,7 +444,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "keyboardinput"
-		; address: 0x78a31
+		; address: 0x76969
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 688:699
 		MemberFunctionArgumentCheck   4
 		LineNumber                    49115, 4
@@ -712,7 +712,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "leavebottombar"
-		; address: 0x78ce0
+		; address: 0x76c18
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 704:705
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49131, 4
@@ -728,7 +728,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "resetpause"
-		; address: 0x78d00
+		; address: 0x76c38
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 710:710
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49137, 4
@@ -740,7 +740,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "process"
-		; address: 0x78d16
+		; address: 0x76c4e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 715:725
 		MemberFunctionArgumentCheck   3
 		LineNumber                    49142, 4
@@ -831,7 +831,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "movepointer"
-		; address: 0x78dfd
+		; address: 0x76d35
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 730:753
 		MemberFunctionArgumentCheck   2
 		LineNumber                    49157, 4
@@ -984,7 +984,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "moveflag"
-		; address: 0x78f73
+		; address: 0x76eab
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 763:768
 		MemberFunctionArgumentCheck   3
 		LineNumber                    49190, 4
@@ -1056,7 +1056,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "killmarker"
-		; address: 0x79011
+		; address: 0x76f49
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 775:779
 		MemberFunctionArgumentCheck   2
 		LineNumber                    49202, 4
@@ -1094,7 +1094,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "killflag"
-		; address: 0x79064
+		; address: 0x76f9c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 786:799
 		MemberFunctionArgumentCheck   2
 		LineNumber                    49213, 4
@@ -1180,7 +1180,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "killsound"
-		; address: 0x79133
+		; address: 0x7706b
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 806:819
 		MemberFunctionArgumentCheck   2
 		LineNumber                    49233, 4
@@ -1266,7 +1266,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "addflag"
-		; address: 0x79202
+		; address: 0x7713a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 826:841
 		MemberFunctionArgumentCheck 5
 		LineNumber                  49253, 4
@@ -1356,7 +1356,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "addsound"
-		; address: 0x792e2
+		; address: 0x7721a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 846:859
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -1438,7 +1438,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "clearallflags"
-		; address: 0x7939d
+		; address: 0x772d5
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 864:870
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1517,7 +1517,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "clearflag"
-		; address: 0x7943f
+		; address: 0x77377
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 876:877
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49303, 4
@@ -1539,7 +1539,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "clearsound"
-		; address: 0x7946c
+		; address: 0x773a4
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 882:883
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49309, 4
@@ -1561,7 +1561,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "setanimationlength"
-		; address: 0x79499
+		; address: 0x773d1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 888:888
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49315, 4
@@ -1573,7 +1573,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "loadsetflags"
-		; address: 0x794ad
+		; address: 0x773e5
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 894:914
 		MemberFunctionArgumentCheck   4
 		CreateStackVariables          5
@@ -1713,7 +1713,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "moveslider"
-		; address: 0x795f5
+		; address: 0x7752d
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 919:919
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49346, 4
@@ -1732,7 +1732,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "animationrunning"
-		; address: 0x79618
+		; address: 0x77550
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 924:925
 		MemberFunctionArgumentCheck   3
 		LineNumber                    49351, 4
@@ -1773,7 +1773,7 @@ begin class "ss_shoefitterbottombar"
 	end ; method
 
 	begin method "setupgrid"
-		; address: 0x79667
+		; address: 0x7759f
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 931:960
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4

@@ -2,7 +2,7 @@ begin class "le02_puzzle"
 	property "parent"
 
 	begin method "le02_puzzle"
-		; address: 0xaa560
+		; address: 0x58532
 		; source: 189 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 83:83
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7502, 4
@@ -14,7 +14,7 @@ begin class "le02_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xaa574
+		; address: 0x58546
 		; source: 189 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 91:97
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -71,7 +71,7 @@ begin class "le02_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaa62f
+		; address: 0x58601
 		; source: 189 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 102:102
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -84,7 +84,7 @@ begin class "le02_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaa643
+		; address: 0x58615
 		; source: 189 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 107:107
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7526, 4
@@ -96,14 +96,14 @@ begin class "le02_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xaa655
+		; address: 0x58627
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaa659
+		; address: 0x5862b
 		; source: 189 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 119:135
 		MemberFunctionArgumentCheck   2
 		LineNumber                    7538, 4
@@ -234,7 +234,7 @@ begin class "le02_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xaa7af
+		; address: 0x58781
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

@@ -10,7 +10,7 @@ begin class "base_drawobject", "base_object"
 	property "onscreen"
 
 	begin method "base_drawobject"
-		; address: 0x2fe7c
+		; address: 0x8e076
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 30:40
 		MemberFunctionArgumentCheck   5
 		LineNumber                    1430, 4
@@ -118,14 +118,14 @@ begin class "base_drawobject", "base_object"
 	end ; method
 
 	begin method "add"
-		; address: 0x2ff78
+		; address: 0x8e172
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0x2ff7c
+		; address: 0x8e176
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 51:51
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1451, 4
@@ -137,7 +137,7 @@ begin class "base_drawobject", "base_object"
 	end ; method
 
 	begin method "hide"
-		; address: 0x2ff8f
+		; address: 0x8e189
 		; source: 13 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\base\\base_drawobject.vbo" 55:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1455, 4
@@ -149,28 +149,28 @@ begin class "base_drawobject", "base_object"
 	end ; method
 
 	begin method "remove"
-		; address: 0x2ffa1
+		; address: 0x8e19b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "enablealphachannel"
-		; address: 0x2ffa5
+		; address: 0x8e19f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "enabletransparency"
-		; address: 0x2ffa9
+		; address: 0x8e1a3
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "settransparentvalue"
-		; address: 0x2ffad
+		; address: 0x8e1a7
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

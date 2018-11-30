@@ -1,5 +1,5 @@
 begin function "setuplanguagetest", 0
-	; address: 0x2e308
+	; address: 0x2d357
 	; source: 237 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 110:110
 	LineNumber                   19883, 4
 	LineNumberAlt1               110, 237

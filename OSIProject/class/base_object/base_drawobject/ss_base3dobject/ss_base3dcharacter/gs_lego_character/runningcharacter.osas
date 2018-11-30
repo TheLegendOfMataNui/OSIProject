@@ -13,7 +13,7 @@ begin class "runningcharacter", "gs_lego_character"
 	property "yoffset"
 
 	begin method "runningcharacter"
-		; address: 0x4a8b5
+		; address: 0xc522b
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 964:968
 		MemberFunctionArgumentCheck 9
 		LineNumber                  22328, 4
@@ -54,7 +54,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "init"
-		; address: 0x4a922
+		; address: 0xc5298
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 975:986
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22339, 4
@@ -115,7 +115,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4a9e2
+		; address: 0xc5358
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 992:1022
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22356, 4
@@ -225,7 +225,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "process"
-		; address: 0x4ab49
+		; address: 0xc54bf
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1028:1070
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          7
@@ -469,7 +469,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "doactionsskipped"
-		; address: 0x4adf0
+		; address: 0xc5766
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1080:1084
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22444, 4
@@ -531,7 +531,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "doactionsfromto"
-		; address: 0x4ae70
+		; address: 0xc57e6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1090:1102
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          4
@@ -636,7 +636,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "startrunning"
-		; address: 0x4af45
+		; address: 0xc58bb
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1111:1115
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22475, 4
@@ -670,7 +670,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "pauserun"
-		; address: 0x4af9b
+		; address: 0xc5911
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1122:1122
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22486, 4
@@ -682,7 +682,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "playrun"
-		; address: 0x4afae
+		; address: 0xc5924
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1127:1128
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22491, 4
@@ -698,7 +698,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "fillarray"
-		; address: 0x4afd2
+		; address: 0xc5948
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1135:1227
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          19
@@ -1169,7 +1169,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "setuppath"
-		; address: 0x4b56e
+		; address: 0xc5ee4
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1236:1265
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          9
@@ -1425,7 +1425,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "oneway"
-		; address: 0x4b7ea
+		; address: 0xc6160
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1273:1276
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22637, 4
@@ -1454,7 +1454,7 @@ begin class "runningcharacter", "gs_lego_character"
 	end ; method
 
 	begin method "set_yoffset"
-		; address: 0x4b822
+		; address: 0xc6198
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 1282:1282
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22646, 4

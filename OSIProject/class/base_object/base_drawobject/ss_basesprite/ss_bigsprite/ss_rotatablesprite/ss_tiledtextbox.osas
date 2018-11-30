@@ -2,7 +2,7 @@ begin class "ss_tiledtextbox", "ss_rotatablesprite"
 	property "tilewidth"
 
 	begin method "ss_tiledtextbox"
-		; address: 0x35173
+		; address: 0xc61ac
 		; source: 21 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseSprite.vbo" 896:899
 		MemberFunctionArgumentCheck 12
 		LineNumber                  4802, 4
@@ -42,7 +42,7 @@ begin class "ss_tiledtextbox", "ss_rotatablesprite"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x351e0
+		; address: 0xc6219
 		; source: 21 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseSprite.vbo" 903:904
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4809, 4
@@ -69,7 +69,7 @@ begin class "ss_tiledtextbox", "ss_rotatablesprite"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3522c
+		; address: 0xc6265
 		; source: 21 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseSprite.vbo" 908:909
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4814, 4
@@ -96,7 +96,7 @@ begin class "ss_tiledtextbox", "ss_rotatablesprite"
 	end ; method
 
 	begin method "setwh"
-		; address: 0x35278
+		; address: 0xc62b1
 		; source: 21 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseSprite.vbo" 919:929
 		MemberFunctionArgumentCheck 3
 		LineNumber                  4825, 4
@@ -126,7 +126,7 @@ begin class "ss_tiledtextbox", "ss_rotatablesprite"
 	end ; method
 
 	begin method "changewh"
-		; address: 0x352c7
+		; address: 0xc6300
 		; source: 21 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseSprite.vbo" 939:949
 		MemberFunctionArgumentCheck 3
 		LineNumber                  4845, 4

@@ -4,7 +4,7 @@ begin class "snbd_puzzle"
 	property "explotion"
 
 	begin method "snbd_puzzle"
-		; address: 0xa19b5
+		; address: 0x71c34
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 99:99
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3808, 4
@@ -16,7 +16,7 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa19c9
+		; address: 0x71c48
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 108:135
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -247,7 +247,7 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa1c16
+		; address: 0x71e95
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 141:145
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -296,7 +296,7 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xa1c78
+		; address: 0x71ef7
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 154:156
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -349,14 +349,14 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xa1ce9
+		; address: 0x71f68
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xa1ced
+		; address: 0x71f6c
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 167:167
 		MemberFunctionArgumentCheck  1
 		LineNumber                   3876, 4
@@ -375,14 +375,14 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa1d12
+		; address: 0x71f91
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa1d16
+		; address: 0x71f95
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 179:239
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -825,14 +825,14 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa2233
+		; address: 0x724b2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "icewallcollision"
-		; address: 0xa2237
+		; address: 0x724b6
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 256:259
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -890,7 +890,7 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "explode"
-		; address: 0xa22a9
+		; address: 0x72528
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 272:273
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3981, 4
@@ -913,7 +913,7 @@ begin class "snbd_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa22d9
+		; address: 0x72558
 		; source: 178 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 279:279
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3988, 4

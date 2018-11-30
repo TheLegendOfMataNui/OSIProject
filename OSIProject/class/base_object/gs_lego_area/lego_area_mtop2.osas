@@ -2,7 +2,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_mtop2"
-		; address: 0x84384
+		; address: 0xac9c9
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 26:28
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54281, 4
@@ -38,7 +38,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x843dc
+		; address: 0xaca21
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 35:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54290, 4
@@ -86,7 +86,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x84468
+		; address: 0xacaad
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 45:46
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54300, 4
@@ -107,7 +107,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x84493
+		; address: 0xacad8
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 51:51
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54306, 4
@@ -123,7 +123,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x844af
+		; address: 0xacaf4
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 56:56
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54311, 4
@@ -139,7 +139,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x844cb
+		; address: 0xacb10
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54316, 4
@@ -155,7 +155,7 @@ begin class "lego_area_mtop2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x844e7
+		; address: 0xacb2c
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 66:67
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54321, 4

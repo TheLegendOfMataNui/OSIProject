@@ -3,7 +3,7 @@ begin class "ss_shoefittermenucontainer"
 	property "id"
 
 	begin method "ss_shoefittermenucontainer"
-		; address: 0x7bcc9
+		; address: 0x79d79
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 1787:1788
 		MemberFunctionArgumentCheck 3
 		LineNumber                  50214, 4

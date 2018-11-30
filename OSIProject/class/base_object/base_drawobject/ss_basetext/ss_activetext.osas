@@ -6,7 +6,7 @@ begin class "ss_activetext", "ss_basetext"
 	property "pad"
 
 	begin method "ss_activetext"
-		; address: 0x30953
+		; address: 0xbb46c
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 279:285
 		MemberFunctionArgumentCheck   12
 		LineNumber                    1986, 4
@@ -58,7 +58,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x309d7
+		; address: 0xbb4f0
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 291:301
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1998, 4
@@ -143,7 +143,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x30ae5
+		; address: 0xbb5fe
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 305:315
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2012, 4
@@ -228,7 +228,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x30bf3
+		; address: 0xbb70c
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 319:321
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2026, 4
@@ -248,7 +248,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x30c21
+		; address: 0xbb73a
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 325:327
 		MemberFunctionArgumentCheck 1
 		LineNumber                  2032, 4
@@ -268,7 +268,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "setactive"
-		; address: 0x30c4f
+		; address: 0xbb768
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 331:334
 		MemberFunctionArgumentCheck   2
 		LineNumber                    2038, 4
@@ -311,7 +311,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "setinactive"
-		; address: 0x30cb5
+		; address: 0xbb7ce
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 339:342
 		MemberFunctionArgumentCheck   1
 		LineNumber                    2046, 4
@@ -354,7 +354,7 @@ begin class "ss_activetext", "ss_basetext"
 	end ; method
 
 	begin method "scalefont"
-		; address: 0x30d19
+		; address: 0xbb832
 		; source: 12 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase\\ss_basetext.vbo" 347:349
 		MemberFunctionArgumentCheck 2
 		LineNumber                  2054, 4

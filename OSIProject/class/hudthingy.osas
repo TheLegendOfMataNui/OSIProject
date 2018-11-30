@@ -12,14 +12,14 @@ begin class "hudthingy"
 	property "timeonscreen"
 
 	begin method "hudthingy"
-		; address: 0x3c76b
+		; address: 0x53696
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3c76f
+		; address: 0x5369a
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1216:1339
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          7
@@ -566,7 +566,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3cc99
+		; address: 0x53bc4
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1347:1413
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1046,14 +1046,14 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3d106
+		; address: 0x54031
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3d10a
+		; address: 0x54035
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1424:1424
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12683, 4
@@ -1067,7 +1067,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "add"
-		; address: 0x3d121
+		; address: 0x5404c
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1430:1437
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1156,7 +1156,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "show"
-		; address: 0x3d1cb
+		; address: 0x540f6
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1445:1458
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1283,7 +1283,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3d2d5
+		; address: 0x54200
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1464:1472
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -1379,42 +1379,42 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "changepos"
-		; address: 0x3d393
+		; address: 0x542be
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setxpos"
-		; address: 0x3d397
+		; address: 0x542c2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x3d39b
+		; address: 0x542c6
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3d39f
+		; address: 0x542ca
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "slide"
-		; address: 0x3d3a3
+		; address: 0x542ce
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "fadeeyes"
-		; address: 0x3d3a7
+		; address: 0x542d2
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1525:1531
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12784, 4
@@ -1471,7 +1471,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "setlife"
-		; address: 0x3d41c
+		; address: 0x54347
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1542:1609
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -1856,7 +1856,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "setenergy"
-		; address: 0x3d7a7
+		; address: 0x546d2
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1622:1679
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -2236,7 +2236,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "setmaxlife"
-		; address: 0x3db29
+		; address: 0x54a54
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1692:1726
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -2453,7 +2453,7 @@ begin class "hudthingy"
 	end ; method
 
 	begin method "setmaxenergy"
-		; address: 0x3dd4b
+		; address: 0x54c76
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1738:1772
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5

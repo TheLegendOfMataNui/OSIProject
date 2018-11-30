@@ -1,6 +1,6 @@
 begin class "lego_level_8", "gs_lego_level"
 	begin method "lego_level_8"
-		; address: 0xc5484
+		; address: 0xc434a
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 48:83
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -273,7 +273,7 @@ begin class "lego_level_8", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc57df
+		; address: 0xc46a5
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 114:136
 		MemberFunctionArgumentCheck   1
 		GetVariableValue              0                                            ; local
@@ -368,7 +368,7 @@ begin class "lego_level_8", "gs_lego_level"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xc58ed
+		; address: 0xc47b3
 		; source: 168 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 149:151
 		MemberFunctionArgumentCheck  1
 		LineNumber                   7285, 4

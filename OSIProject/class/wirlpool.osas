@@ -11,7 +11,7 @@ begin class "wirlpool"
 	property "rotatespeed"
 
 	begin method "wirlpool"
-		; address: 0x4730e
+		; address: 0x8d94d
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1884:1896
 		MemberFunctionArgumentCheck 5
 		LineNumber                  20520, 4
@@ -102,7 +102,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x47433
+		; address: 0x8da72
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1903:1903
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20539, 4
@@ -117,7 +117,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "show"
-		; address: 0x4744b
+		; address: 0x8da8a
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1908:1908
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20544, 4
@@ -132,7 +132,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "hide"
-		; address: 0x47463
+		; address: 0x8daa2
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1913:1913
 		MemberFunctionArgumentCheck 1
 		LineNumber                  20549, 4
@@ -147,7 +147,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "process"
-		; address: 0x4747b
+		; address: 0x8daba
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1918:1924
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20554, 4
@@ -198,7 +198,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x474f8
+		; address: 0x8db37
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1932:1948
 		MemberFunctionArgumentCheck   2
 		LineNumber                    20568, 4
@@ -336,7 +336,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "input"
-		; address: 0x47672
+		; address: 0x8dcb1
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1955:1955
 		MemberFunctionArgumentCheck 2
 		LineNumber                  20591, 4
@@ -352,7 +352,7 @@ begin class "wirlpool"
 	end ; method
 
 	begin method "spin"
-		; address: 0x4768e
+		; address: 0x8dccd
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1960:1964
 		MemberFunctionArgumentCheck   1
 		LineNumber                    20596, 4

@@ -16,7 +16,7 @@ begin class "vitality_pickup"
 	property "quest"
 
 	begin method "vitality_pickup"
-		; address: 0xc5922
+		; address: 0x87f58
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1035:1072
 		MemberFunctionArgumentCheck   7
 		CreateStackVariables          5
@@ -229,7 +229,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc5b6a
+		; address: 0x881a0
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1080:1100
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -353,7 +353,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc5cc0
+		; address: 0x882f6
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1108:1122
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -455,7 +455,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "show"
-		; address: 0xc5dc7
+		; address: 0x883fd
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1128:1129
 		MemberFunctionArgumentCheck   1
 		LineNumber                    19764, 4
@@ -479,7 +479,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "hide"
-		; address: 0xc5df2
+		; address: 0x88428
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1135:1136
 		MemberFunctionArgumentCheck   1
 		LineNumber                    19771, 4
@@ -503,7 +503,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "remove"
-		; address: 0xc5e1d
+		; address: 0x88453
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1142:1143
 		MemberFunctionArgumentCheck   1
 		LineNumber                    19778, 4
@@ -527,7 +527,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "setcondition"
-		; address: 0xc5e48
+		; address: 0x8847e
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1149:1149
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19785, 4
@@ -539,7 +539,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "setquest"
-		; address: 0xc5e5c
+		; address: 0x88492
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1154:1154
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19790, 4
@@ -551,7 +551,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc5e70
+		; address: 0x884a6
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1160:1183
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19796, 4
@@ -676,7 +676,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "process"
-		; address: 0xc5f85
+		; address: 0x885bb
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1191:1201
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19827, 4
@@ -744,7 +744,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "pickup"
-		; address: 0xc601c
+		; address: 0x88652
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1208:1221
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -838,7 +838,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0xc60fa
+		; address: 0x88730
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1229:1230
 		MemberFunctionArgumentCheck   1
 		LineNumber                    19865, 4
@@ -862,7 +862,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "interpolate"
-		; address: 0xc6125
+		; address: 0x8875b
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1236:1237
 		MemberFunctionArgumentCheck   5
 		LineNumber                    19872, 4
@@ -890,7 +890,7 @@ begin class "vitality_pickup"
 	end ; method
 
 	begin method "gotit"
-		; address: 0xc615d
+		; address: 0x88793
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 1247:1300
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 731:731
 		MemberFunctionArgumentCheck   1

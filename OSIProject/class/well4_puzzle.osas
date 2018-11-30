@@ -23,7 +23,7 @@ begin class "well4_puzzle"
 	property "doorbottomz"
 
 	begin method "well4_puzzle"
-		; address: 0xa7d27
+		; address: 0x8c388
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 142:146
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6649, 4
@@ -51,7 +51,7 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa7d75
+		; address: 0x8c3d6
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 154:280
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -935,14 +935,14 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xa86aa
+		; address: 0x8cd0b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xa86ae
+		; address: 0x8cd0f
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 296:332
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1101,7 +1101,7 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa886f
+		; address: 0x8ced0
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 343:357
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1240,7 +1240,7 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa89ad
+		; address: 0x8d00e
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 369:501
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -2071,7 +2071,7 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "resetplatforms"
-		; address: 0xa91ca
+		; address: 0x8d82b
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 509:532
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2185,14 +2185,14 @@ begin class "well4_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa92d6
+		; address: 0x8d937
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xa92da
+		; address: 0x8d93b
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 548:548
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7055, 4

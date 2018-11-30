@@ -9,7 +9,7 @@ begin class "lep1_puzzle"
 	property "setupgernai"
 
 	begin method "lep1_puzzle"
-		; address: 0xac565
+		; address: 0x5e622
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 91:91
 		MemberFunctionArgumentCheck 2
 		LineNumber                  8485, 4
@@ -21,7 +21,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xac579
+		; address: 0x5e636
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 99:137
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -309,7 +309,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xac89c
+		; address: 0x5e959
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 143:160
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -421,7 +421,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xac99d
+		; address: 0x5ea5a
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 166:166
 		MemberFunctionArgumentCheck 1
 		LineNumber                  8560, 4
@@ -433,7 +433,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xac9af
+		; address: 0x5ea6c
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 171:185
 		MemberFunctionArgumentCheck   2
 		LineNumber                    8565, 4
@@ -520,7 +520,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaca9b
+		; address: 0x5eb58
 		; source: 194 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_lep1.vbo" 193:205
 		MemberFunctionArgumentCheck   2
 		LineNumber                    8587, 4
@@ -613,7 +613,7 @@ begin class "lep1_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xacb72
+		; address: 0x5ec2f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

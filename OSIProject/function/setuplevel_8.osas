@@ -1,7 +1,7 @@
 begin function "setuplevel_8", 0
-	; address: 0x2e7b7
+	; address: 0x2d4c7
 	; source: 228 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 100:100
-	JumpTarget                   15
+	JumpTarget                   12
 	LineNumber                   19511, 4
 	LineNumberAlt1               100, 228
 	GetVariableValueGlobalString "screenlist"

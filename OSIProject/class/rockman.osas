@@ -9,7 +9,7 @@ begin class "rockman"
 	property "boneindex"
 
 	begin method "rockman"
-		; address: 0x915ad
+		; address: 0x6ed49
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 985:985
 		MemberFunctionArgumentCheck 2
 		LineNumber                  61854, 4
@@ -21,7 +21,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x915c1
+		; address: 0x6ed5d
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 995:1007
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61864, 4
@@ -142,7 +142,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "reset"
-		; address: 0x91710
+		; address: 0x6eeac
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1013:1016
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61882, 4
@@ -176,7 +176,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x91772
+		; address: 0x6ef0e
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1023:1023
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61892, 4
@@ -190,7 +190,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x91789
+		; address: 0x6ef25
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1029:1048
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -285,7 +285,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x9186e
+		; address: 0x6f00a
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1054:1054
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61923, 4
@@ -299,14 +299,14 @@ begin class "rockman"
 	end ; method
 
 	begin method "input"
-		; address: 0x91885
+		; address: 0x6f021
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "throwrock"
-		; address: 0x91889
+		; address: 0x6f025
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1065:1070
 		MemberFunctionArgumentCheck   1
 		LineNumber                    61934, 4
@@ -354,7 +354,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "morph"
-		; address: 0x91900
+		; address: 0x6f09c
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1079:1102
 		MemberFunctionArgumentCheck   2
 		LineNumber                    61948, 4
@@ -486,7 +486,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "exit"
-		; address: 0x91a4c
+		; address: 0x6f1e8
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 1111:1111
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61980, 4

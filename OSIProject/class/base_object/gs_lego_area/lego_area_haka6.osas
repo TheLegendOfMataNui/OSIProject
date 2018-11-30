@@ -3,7 +3,7 @@ begin class "lego_area_haka6", "gs_lego_area"
 	property "safecount"
 
 	begin method "lego_area_haka6"
-		; address: 0xbf479
+		; address: 0xa955b
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 33:33
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17295, 4
@@ -21,7 +21,7 @@ begin class "lego_area_haka6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbf498
+		; address: 0xa957a
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 44:56
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -105,7 +105,7 @@ begin class "lego_area_haka6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbf59a
+		; address: 0xa967c
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 60:60
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17322, 4
@@ -117,14 +117,14 @@ begin class "lego_area_haka6", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xbf5ac
+		; address: 0xa968e
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbf5b0
+		; address: 0xa9692
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 82:108
 		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 104:104
 		MemberFunctionArgumentCheck   2
@@ -383,7 +383,7 @@ begin class "lego_area_haka6", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xbf8be
+		; address: 0xa99a0
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 114:116
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17376, 4

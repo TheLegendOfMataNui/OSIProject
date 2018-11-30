@@ -4,7 +4,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_boss4"
-		; address: 0xa7292
+		; address: 0xa62c0
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 28:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6267, 4
@@ -38,7 +38,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa72e7
+		; address: 0xa6315
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 36:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6275, 4
@@ -80,7 +80,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa7350
+		; address: 0xa637e
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 45:51
 		MemberFunctionArgumentCheck   1
 		LineNumber                    6284, 4
@@ -126,7 +126,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa73b0
+		; address: 0xa63de
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 57:57
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6296, 4
@@ -142,7 +142,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa73cc
+		; address: 0xa63fa
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 62:62
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6301, 4
@@ -158,7 +158,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa73e8
+		; address: 0xa6416
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 67:67
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6306, 4
@@ -174,7 +174,7 @@ begin class "lego_area_boss4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa7404
+		; address: 0xa6432
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_boss.vbo" 72:76
 		MemberFunctionArgumentCheck   1
 		LineNumber                    6311, 4

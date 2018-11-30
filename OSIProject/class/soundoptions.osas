@@ -16,7 +16,7 @@ begin class "soundoptions"
 	property "active"
 
 	begin method "soundoptions"
-		; address: 0x58cd4
+		; address: 0x74f73
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 54:55
 		MemberFunctionArgumentCheck 2
 		LineNumber                  31571, 4
@@ -32,7 +32,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x58cf6
+		; address: 0x74f95
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 62:110
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -184,7 +184,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x58ee6
+		; address: 0x75185
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 116:119
 		MemberFunctionArgumentCheck   1
 		LineNumber                    31633, 4
@@ -212,7 +212,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x58f1e
+		; address: 0x751bd
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 124:137
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -299,7 +299,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "input"
-		; address: 0x58ff1
+		; address: 0x75290
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 144:155
 		MemberFunctionArgumentCheck   2
 		LineNumber                    31661, 4
@@ -361,7 +361,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x5906c
+		; address: 0x7530b
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 163:175
 		MemberFunctionArgumentCheck   2
 		LineNumber                    31680, 4
@@ -443,7 +443,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "checkmousepos"
-		; address: 0x5912b
+		; address: 0x753ca
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 185:191
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -503,7 +503,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "mousebuttonreleased"
-		; address: 0x591b2
+		; address: 0x75451
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 198:213
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -587,7 +587,7 @@ begin class "soundoptions"
 	end ; method
 
 	begin method "back"
-		; address: 0x5928e
+		; address: 0x7552d
 		; source: 83 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_sound_options.vbo" 221:224
 		MemberFunctionArgumentCheck 1
 		LineNumber                  31738, 4

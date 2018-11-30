@@ -8,7 +8,7 @@ begin class "l1shrn_door"
 	property "moving"
 
 	begin method "l1shrn_door"
-		; address: 0x68924
+		; address: 0x5559c
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 121:128
 		MemberFunctionArgumentCheck 2
 		LineNumber                  41190, 4
@@ -44,7 +44,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "open"
-		; address: 0x68990
+		; address: 0x55608
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 132:142
 		MemberFunctionArgumentCheck   2
 		LineNumber                    41201, 4
@@ -114,7 +114,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "close"
-		; address: 0x68a43
+		; address: 0x556bb
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 147:159
 		MemberFunctionArgumentCheck   2
 		LineNumber                    41216, 4
@@ -184,7 +184,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "openclose"
-		; address: 0x68af3
+		; address: 0x5576b
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 164:179
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -276,7 +276,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x68be8
+		; address: 0x55860
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 185:187
 		MemberFunctionArgumentCheck 1
 		LineNumber                  41254, 4
@@ -308,7 +308,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x68c3b
+		; address: 0x558b3
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 191:195
 		MemberFunctionArgumentCheck   1
 		LineNumber                    41260, 4
@@ -341,7 +341,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "show"
-		; address: 0x68c82
+		; address: 0x558fa
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 200:200
 		MemberFunctionArgumentCheck 1
 		LineNumber                  41269, 4
@@ -356,7 +356,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "hide"
-		; address: 0x68c9a
+		; address: 0x55912
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 204:204
 		MemberFunctionArgumentCheck 1
 		LineNumber                  41273, 4
@@ -371,7 +371,7 @@ begin class "l1shrn_door"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x68cb2
+		; address: 0x5592a
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 208:227
 		MemberFunctionArgumentCheck   2
 		LineNumber                    41277, 4

@@ -4,7 +4,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_strt4"
-		; address: 0x99b8e
+		; address: 0xafb61
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 21:24
 		MemberFunctionArgumentCheck 2
 		LineNumber                  231, 4
@@ -44,7 +44,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x99bf6
+		; address: 0xafbc9
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 33:38
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 57:58
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 103:103
@@ -171,7 +171,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x99d7d
+		; address: 0xafd50
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 44:46
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 54:54
 		MemberFunctionArgumentCheck 1
@@ -197,7 +197,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x99db6
+		; address: 0xafd89
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 52:52
 		MemberFunctionArgumentCheck 2
 		LineNumber                  262, 4
@@ -213,7 +213,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x99dd2
+		; address: 0xafda5
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 57:57
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 59:63
 		MemberFunctionArgumentCheck   2
@@ -265,7 +265,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x99e44
+		; address: 0xafe17
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 62:62
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 72:74
 		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 165:166
@@ -323,7 +323,7 @@ begin class "lego_area_strt4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x99eca
+		; address: 0xafe9d
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 67:71
 		MemberFunctionArgumentCheck   1
 		LineNumber                    277, 4

@@ -6,7 +6,7 @@ begin class "ss_shoefittercurrentdisplay"
 	property "ctime"
 
 	begin method "ss_shoefittercurrentdisplay"
-		; address: 0x779c5
+		; address: 0x78f71
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 305:309
 		MemberFunctionArgumentCheck 6
 		LineNumber                  48732, 4
@@ -34,7 +34,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x77a19
+		; address: 0x78fc5
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 314:327
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48741, 4
@@ -128,7 +128,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x77b15
+		; address: 0x790c1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 333:333
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48760, 4
@@ -142,7 +142,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x77b2c
+		; address: 0x790d8
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 338:354
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48765, 4
@@ -295,7 +295,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x77cbb
+		; address: 0x79267
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 359:359
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48786, 4
@@ -309,7 +309,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "process"
-		; address: 0x77cd2
+		; address: 0x7927e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 364:366
 		MemberFunctionArgumentCheck   3
 		LineNumber                    48791, 4
@@ -357,7 +357,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "showlabels"
-		; address: 0x77d4d
+		; address: 0x792f9
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 372:377
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48799, 4
@@ -409,7 +409,7 @@ begin class "ss_shoefittercurrentdisplay"
 	end ; method
 
 	begin method "hidelabels"
-		; address: 0x77dc9
+		; address: 0x79375
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo" 383:388
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48810, 4

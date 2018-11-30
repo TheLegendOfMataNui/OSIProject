@@ -2,14 +2,14 @@ begin class "puzzle_onua7"
 	property "targetarray"
 
 	begin method "puzzle_onua7"
-		; address: 0xc09c1
+		; address: 0x6d0c2
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xc09c5
+		; address: 0x6d0c6
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 117:138
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -254,7 +254,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xc0c11
+		; address: 0x6d312
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 145:149
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -303,7 +303,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xc0c73
+		; address: 0x6d374
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 154:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17971, 4
@@ -359,7 +359,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0xc0ce8
+		; address: 0x6d3e9
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 172:176
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17989, 4
@@ -407,7 +407,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0xc0d78
+		; address: 0x6d479
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 182:184
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17999, 4

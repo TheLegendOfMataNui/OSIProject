@@ -11,7 +11,7 @@ begin class "lego_volatileplatform"
 	property "touched"
 
 	begin method "lego_volatileplatform"
-		; address: 0x70278
+		; address: 0x5dbc1
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 29:38
 		MemberFunctionArgumentCheck 3
 		LineNumber                  45443, 4
@@ -74,7 +74,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7034a
+		; address: 0x5dc93
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 46:49
 		MemberFunctionArgumentCheck 9
 		LineNumber                  45460, 4
@@ -127,7 +127,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setupsounds"
-		; address: 0x703c5
+		; address: 0x5dd0e
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 53:71
 		MemberFunctionArgumentCheck   3
 		LineNumber                    45467, 4
@@ -253,7 +253,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "show"
-		; address: 0x704f7
+		; address: 0x5de40
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 77:77
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45491, 4
@@ -268,7 +268,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "hide"
-		; address: 0x7050f
+		; address: 0x5de58
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 81:81
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45495, 4
@@ -283,7 +283,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x70527
+		; address: 0x5de70
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 87:99
 		MemberFunctionArgumentCheck   1
 		LineNumber                    45501, 4
@@ -354,7 +354,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "reset"
-		; address: 0x705ca
+		; address: 0x5df13
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 105:108
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45519, 4
@@ -377,7 +377,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "touch"
-		; address: 0x705ff
+		; address: 0x5df48
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 113:116
 		MemberFunctionArgumentCheck   1
 		LineNumber                    45527, 4
@@ -412,7 +412,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "settimetofall"
-		; address: 0x7064c
+		; address: 0x5df95
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 122:122
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45536, 4
@@ -428,7 +428,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setfallrotation"
-		; address: 0x70668
+		; address: 0x5dfb1
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 127:127
 		MemberFunctionArgumentCheck 4
 		LineNumber                  45541, 4
@@ -446,7 +446,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakerotateintensity"
-		; address: 0x7068a
+		; address: 0x5dfd3
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 132:132
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45546, 4
@@ -462,7 +462,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakebobbleintensity"
-		; address: 0x706a6
+		; address: 0x5dfef
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 137:137
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45551, 4
@@ -478,7 +478,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakekillheight"
-		; address: 0x706c2
+		; address: 0x5e00b
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 142:142
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45556, 4
@@ -494,7 +494,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x706de
+		; address: 0x5e027
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 147:167
 		MemberFunctionArgumentCheck   2
 		LineNumber                    45561, 4
