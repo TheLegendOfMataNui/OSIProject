@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A13E84AC-DA16-43B6-93AD-4C72A8404633}") = "OSIProject", "OSIProject\OSIProject.osiproj", "{AC176693-E464-45E3-B12F-834869A6C161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC176693-E464-45E3-B12F-834869A6C161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC176693-E464-45E3-B12F-834869A6C161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC176693-E464-45E3-B12F-834869A6C161}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC176693-E464-45E3-B12F-834869A6C161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC176693-E464-45E3-B12F-834869A6C161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC176693-E464-45E3-B12F-834869A6C161}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5589B8ED-C75E-4484-A93E-D72B6D8599DB}
+	EndGlobalSection
+EndGlobal
