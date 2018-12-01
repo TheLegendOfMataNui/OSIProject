@@ -8,6 +8,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputDirectory>C:\Program Files (x86)\LEGO Media\LEGO Bionicle (Beta)\data\</OutputDirectory>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputDirectory>C:\Program Files (x86)\LEGO Media\LEGO Bionicle (Beta)\data\</OutputDirectory>
+  </PropertyGroup>
   <ItemGroup>
     <OSIAssembly Include="**\*.osas" />
   </ItemGroup>
