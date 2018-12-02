@@ -310,7 +310,7 @@ begin class "lego_level_2", "gs_lego_level"
 	begin method "initfull"
 		; address: 0x8a864
 		; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/level_2.vbo" 88:117
-		MemberFunctionArgumentCheck   2
+		MemberFunctionArgumentCheck   1
 		LineNumber                    58892, 4
 		LineNumberAlt1                88, 134
 		GetVariableValue              0                                            ; local
@@ -351,7 +351,7 @@ begin class "lego_level_2", "gs_lego_level"
 		LineNumberAlt1                94, 134
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "saverloaded"
-		CompareAndBranchIfFalseTarget 3, 0
+		CompareAndBranchIfFalseTarget 4, 0
 		; ->
 		LineNumber                    58901, 4
 		LineNumberAlt1                97, 134
@@ -359,7 +359,7 @@ begin class "lego_level_2", "gs_lego_level"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    58901, 4
 		LineNumberAlt1                97, 134
-		PushConstantStringString      "bech"
+		PushConstantStringString      "mtop"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    58901, 4
 		LineNumberAlt1                97, 134
@@ -426,10 +426,9 @@ begin class "lego_level_2", "gs_lego_level"
 		LineNumberAlt1                111, 134
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                7
-		Pull                          2
+		Dup
 		GetMemberFunctionString       "addelement"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		; <-
 		BranchTarget                  2
@@ -452,12 +451,9 @@ begin class "lego_level_2", "gs_lego_level"
 		LineNumberAlt1                116, 134
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                25
-		PushConstanti8                30
-		PushConstanti8                30
-		Pull                          4
+		Dup
 		GetMemberFunctionString       "setupgrapplinghook"
-		JumpAbsolute                  4
+		JumpAbsolute                  1
 		Pop
 		LineNumber                    58921, 4
 		LineNumberAlt1                117, 134
@@ -470,6 +466,14 @@ begin class "lego_level_2", "gs_lego_level"
 		Pop
 		; <-
 		BranchTarget                  3
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "initfromsaver"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  4
 		PushNothing
 		Return
 	end ; method
