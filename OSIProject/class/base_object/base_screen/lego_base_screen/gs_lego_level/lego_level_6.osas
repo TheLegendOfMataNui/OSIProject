@@ -650,6 +650,9 @@ begin class "lego_level_6", "gs_lego_level"
 		PushConstantf32               0.05000000074505806
 		CallGameFunctionString        "gcareadirector", "setfog", 4
 		Pop
+		PushConstanti8                0
+		GetVariableValueGlobalString  "globalclass"
+		SetMemberValueString          "saverloaded"
 		PushNothing
 		Return
 	end ; method

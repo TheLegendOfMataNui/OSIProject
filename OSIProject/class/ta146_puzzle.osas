@@ -154,6 +154,13 @@ begin class "ta146_puzzle"
 		Return
 	end ; method
 
+	begin method "cleanupfull"
+		; address: 0xa6c1f
+		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+
 	begin method "show"
 		; address: 0xbd628
 		MemberFunctionArgumentCheck 1

@@ -87,6 +87,9 @@ begin class "lego_level_frontend", "gs_lego_level"
 		GetMemberFunctionString      "addmask"
 		JumpAbsolute                 3
 		Pop
+		PushConstanti8                0
+		GetVariableValueGlobalString  "globalclass"
+		SetMemberValueString          "saverloaded"
 		PushNothing
 		Return
 	end ; method

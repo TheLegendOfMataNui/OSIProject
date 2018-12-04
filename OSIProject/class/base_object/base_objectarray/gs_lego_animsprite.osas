@@ -215,14 +215,14 @@ begin class "gs_lego_animsprite", "base_objectarray"
 		LineNumber                    8798, 4
 		LineNumberAlt1                78, 36
 		GetThisMemberValueString      "animate"
-		PushConstanti8                1
+		PushConstanti8                0
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
 		LineNumber                    8799, 4
 		LineNumberAlt1                79, 36
 		GetThisMemberValueString      "frame"
-		PushConstanti8                1
+		PushConstanti8                0
 		Add
 		SetThisMemberValueString      "frame"
 		LineNumber                    8800, 4

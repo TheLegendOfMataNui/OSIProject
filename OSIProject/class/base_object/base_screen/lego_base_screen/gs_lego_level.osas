@@ -590,9 +590,6 @@ begin class "gs_lego_level", "lego_base_screen"
 		SetThisMemberValueString      "cam"
 		; <-
 		BranchTarget                  3
-		PushConstanti8                0
-		GetVariableValueGlobalString  "globalclass"
-		SetMemberValueString          "saverloaded"
 		PushNothing
 		Return
 	end ; method

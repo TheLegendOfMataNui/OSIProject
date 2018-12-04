@@ -363,6 +363,9 @@ begin class "lego_level_8", "gs_lego_level"
 		Pop
 		; <-
 		BranchTarget                  1
+		PushConstanti8                0
+		GetVariableValueGlobalString  "globalclass"
+		SetMemberValueString          "saverloaded"
 		PushNothing
 		Return
 	end ; method
