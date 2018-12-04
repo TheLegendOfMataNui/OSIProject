@@ -637,6 +637,13 @@ begin class "vllg2_puzzle"
 		Pop
 		; <-
 		BranchTarget                  4
+        GetVariableValueGlobalString  "globalclass"
+        GetMemberValueString          "player"
+        PushConstanti8                50
+        Pull                          2
+        GetMemberFunctionString       "setgrapplinghookdistance"
+        JumpAbsolute                  2
+        Pop
 		PushNothing
 		Return
 	end ; method
@@ -1649,7 +1656,7 @@ begin class "vllg2_puzzle"
 		LineNumberAlt1                436, 137
 		GetVariableValue              1              ; local
 		GetMemberValueString          "button"
-		PushConstanti16               235
+		PushConstanti16               231
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->

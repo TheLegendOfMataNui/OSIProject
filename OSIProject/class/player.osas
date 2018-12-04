@@ -264,7 +264,7 @@ begin class "player"
 		GetMemberValueString          "event"
 		PushConstanti8                2
 		EqualTo
-		CompareAndBranchIfFalseTarget 20, 0
+		CompareAndBranchIfFalseTarget 21, 0
 		; ->
 		LineNumber                    25714, 4
 		LineNumberAlt1                190, 49
@@ -283,7 +283,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -300,7 +300,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  1
@@ -317,7 +317,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  2
@@ -334,7 +334,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  3
@@ -351,7 +351,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  4
@@ -368,7 +368,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  5
@@ -385,7 +385,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  6
@@ -402,7 +402,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  7
@@ -419,7 +419,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  8
@@ -436,7 +436,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  9
@@ -453,7 +453,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  10
@@ -470,7 +470,7 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  11
@@ -487,14 +487,31 @@ begin class "player"
 		GetMemberFunctionString       "changemask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
 		BranchTarget                  12
 		Dup
-		PushConstanti16               236
+		PushConstanti16               235
 		EqualTo
 		CompareAndBranchIfFalseTarget 13, 0
+		; ->
+		LineNumber                    25745, 4
+		LineNumberAlt1                221, 49
+		GetThisMemberValueString      "maskcontrol"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "nextmask"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            20, 0
+		; ->
+		; <-
+		BranchTarget                  13
+		Dup
+		PushConstanti16               236
+		EqualTo
+		CompareAndBranchIfFalseTarget 14, 0
 		; ->
 		LineNumber                    25747, 4
 		LineNumberAlt1                223, 49
@@ -504,21 +521,21 @@ begin class "player"
 		GetMemberFunctionString       "nextmask"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            19, 0
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
-		BranchTarget                  13
+		BranchTarget                  14
 		Dup
 		PushConstanti16               237
 		EqualTo
-		CompareAndBranchIfFalseTarget 15, 0
+		CompareAndBranchIfFalseTarget 16, 0
 		; ->
 		LineNumber                    25751, 4
 		LineNumberAlt1                227, 49
 		GetThisMemberValueString      "energy"
 		PushConstant0
 		GreaterThan
-		CompareAndBranchIfFalseTarget 14, 0
+		CompareAndBranchIfFalseTarget 15, 0
 		; ->
 		LineNumber                    25752, 4
 		LineNumberAlt1                228, 49
@@ -528,25 +545,25 @@ begin class "player"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  14
-		BranchAlwaysTarget            19, 0
+		BranchTarget                  15
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
-		BranchTarget                  15
+		BranchTarget                  16
 		Dup
 		PushConstanti16               231
 		EqualTo
-		CompareAndBranchIfFalseTarget 18, 0
+		CompareAndBranchIfFalseTarget 19, 0
 		; ->
 		LineNumber                    25769, 4
 		LineNumberAlt1                245, 49
 		GetThisMemberValueString      "grapplinghooksetup"
-		CompareAndBranchIfFalseTarget 17, 0
+		CompareAndBranchIfFalseTarget 18, 0
 		; ->
 		LineNumber                    25770, 4
 		LineNumberAlt1                246, 49
 		GetThisMemberValueString      "bshootdragger"
-		CompareAndBranchIfFalseTarget 16, 0
+		CompareAndBranchIfFalseTarget 17, 0
 		; ->
 		LineNumber                    25771, 4
 		LineNumberAlt1                247, 49
@@ -555,25 +572,25 @@ begin class "player"
 		GetMemberFunctionString       "shootdragger"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            17, 0
+		BranchAlwaysTarget            18, 0
 		; ->
 		; <-
-		BranchTarget                  16
+		BranchTarget                  17
 		LineNumber                    25774, 4
 		LineNumberAlt1                250, 49
 		PushConstantStringString      "SORRY, YOU ARE IN THE TRIG BOX YOU CANNOT SHOOT YOUR DRAGGER"
 		CallGameFunctionString        "debug", "print", 1
 		Pop
 		; <-
-		BranchTarget                  17
-		BranchAlwaysTarget            19, 0
+		BranchTarget                  18
+		BranchAlwaysTarget            20, 0
 		; ->
 		; <-
-		BranchTarget                  18
+		BranchTarget                  19
 		Dup
 		PushConstanti8                45
 		EqualTo
-		CompareAndBranchIfFalseTarget 19, 0
+		CompareAndBranchIfFalseTarget 20, 0
 		; ->
 		LineNumber                    25781, 4
 		LineNumberAlt1                257, 49
@@ -582,10 +599,10 @@ begin class "player"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  19
+		BranchTarget                  20
 		Pop
 		; <-
-		BranchTarget                  20
+		BranchTarget                  21
 		LineNumber                    25787, 4
 		LineNumberAlt1                263, 49
 		GetVariableValue              0                                                              ; local
@@ -595,7 +612,7 @@ begin class "player"
 		LineNumberAlt1                263, 49
 		PushConstanti8                11
 		EqualTo
-		CompareAndBranchIfFalseTarget 21, 0
+		CompareAndBranchIfFalseTarget 22, 0
 		; ->
 		LineNumber                    25788, 4
 		LineNumberAlt1                264, 49
@@ -606,7 +623,7 @@ begin class "player"
 		JumpAbsolute                  2
 		Pop
 		; <-
-		BranchTarget                  21
+		BranchTarget                  22
 		PushNothing
 		Return
 	end ; method
