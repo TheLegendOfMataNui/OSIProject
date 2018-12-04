@@ -7,7 +7,6 @@ begin class "nobuaclass", "gs_lego_toa"
 	property "runningjumplength"
 	property "swimingabilty"
 	property "bounce"
-	property "inputhandle"
 
 	begin method "nobuaclass"
 		; address: 0x4cf59
@@ -56,56 +55,6 @@ begin class "nobuaclass", "gs_lego_toa"
 		LineNumberAlt1              56, 56
 		PushConstant0
 		SetThisMemberValueString    "bounce"
-		PushNothing
-		Return
-	end ; method
-
-	begin method "initfull"
-		; address: 0x4c26c
-		; source: 56 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Onua.vbo" 66:67
-		MemberFunctionArgumentCheck  1
-		LineNumber                   23129, 4
-		LineNumberAlt1               66, 56
-		GetVariableValue             0                   ; local
-		GetThisMemberFunctionString  "lego_toa_initfull"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   23130, 4
-		LineNumberAlt1               67, 56
-		GetVariableValueGlobalString "globalclass"
-		GetVariableValue             0                   ; local
-		Pull                         2
-		GetMemberFunctionString      "addtoinputlist"
-		JumpAbsolute                 2
-		LineNumber                   23130, 4
-		LineNumberAlt1               67, 56
-		SetThisMemberValueString     "inputhandle"
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupfull"
-		; address: 0x4c2a7
-		; source: 56 "C:\\projects\\lego\\Scripting\\VBO\\Toa/Lego_Toa_Onua.vbo" 73:75
-		MemberFunctionArgumentCheck  1
-		LineNumber                   23136, 4
-		LineNumberAlt1               73, 56
-		GetVariableValue             0                      ; local
-		GetThisMemberFunctionString  "lego_toa_cleanupfull"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   23137, 4
-		LineNumberAlt1               74, 56
-		GetVariableValueGlobalString "globalclass"
-		GetThisMemberValueString     "inputhandle"
-		Pull                         2
-		GetMemberFunctionString      "removefrominputlist"
-		JumpAbsolute                 2
-		Pop
-		LineNumber                   23138, 4
-		LineNumberAlt1               75, 56
-		PushNothing
-		SetThisMemberValueString     "inputhandle"
 		PushNothing
 		Return
 	end ; method
