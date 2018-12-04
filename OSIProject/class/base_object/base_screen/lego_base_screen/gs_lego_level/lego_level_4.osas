@@ -355,7 +355,7 @@ begin class "lego_level_4", "gs_lego_level"
 		LineNumberAlt1                104, 168
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstantStringString      "msk1"
+		PushConstantStringString      "fake"
 		PushConstant0
 		Pull                          3
 		GetMemberFunctionString       "addmask"
@@ -500,20 +500,19 @@ begin class "lego_level_4", "gs_lego_level"
 		LineNumberAlt1                126, 168
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                13
-		Pull                          2
+		Dup
 		GetMemberFunctionString       "addelement"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		; <-
 		BranchTarget                  2
 		LineNumber                    7266, 4
 		LineNumberAlt1                130, 168
-		PushConstantStringString      "claw"
+		PushConstantStringString      "swrd"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    7266, 4
 		LineNumberAlt1                130, 168
-		PushConstantStringString      "l1a1"
+		PushConstantStringString      "maz2"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    7266, 4
 		LineNumberAlt1                130, 168
@@ -541,30 +540,11 @@ begin class "lego_level_4", "gs_lego_level"
 		Pop
 		; <-
 		BranchTarget                  3
-		LineNumber                    7270, 4
-		LineNumberAlt1                134, 168
-		PushConstanti32               4194304
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    7270, 4
-		LineNumberAlt1                134, 168
-		CompareAndBranchIfFalseTarget 4, 0
-		; ->
-		LineNumber                    7271, 4
-		LineNumberAlt1                135, 168
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
 		Dup
-		GetMemberFunctionString       "setupgrapplinghook"
+		GetMemberFunctionString       "initfromsaver"
 		JumpAbsolute                  1
-		Pop
-		LineNumber                    7272, 4
-		LineNumberAlt1                136, 168
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		PushConstanti8                120
-		Pull                          2
-		GetMemberFunctionString       "setgrapplinghookdistance"
-		JumpAbsolute                  2
 		Pop
 		; <-
 		BranchTarget                  4
@@ -589,7 +569,7 @@ begin class "lego_level_4", "gs_lego_level"
 		LineNumberAlt1               150, 168
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "player"
-		PushConstantStringString     "msk1"
+		PushConstantStringString     "fake"
 		PushConstant0
 		Pull                         3
 		GetMemberFunctionString      "addmask"
@@ -653,16 +633,6 @@ begin class "lego_level_4", "gs_lego_level"
 		PushConstanti8               10
 		Pull                         3
 		GetMemberFunctionString      "addmask"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   7293, 4
-		LineNumberAlt1               157, 168
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		PushConstanti8               1
-		PushConstant0
-		Pull                         3
-		GetMemberFunctionString      "addelement"
 		JumpAbsolute                 3
 		Pop
 		PushNothing

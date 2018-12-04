@@ -377,7 +377,7 @@ begin class "lego_level_3", "gs_lego_level"
 		LineNumberAlt1                129, 152
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "saverloaded"
-		CompareAndBranchIfFalseTarget 3, 0
+		CompareAndBranchIfFalseTarget 5, 0
 		; ->
 		LineNumber                    94, 4
 		LineNumberAlt1                131, 152
@@ -479,16 +479,42 @@ begin class "lego_level_3", "gs_lego_level"
 		LineNumberAlt1                142, 152
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                2
-		Pull                          2
+		Dup
 		GetMemberFunctionString       "addelement"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		; <-
 		BranchTarget                  3
-		PushConstanti8                0
+		PushConstantStringString      "hook"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "gly1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcsaver", "finditema", 2
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
 		GetVariableValueGlobalString  "globalclass"
-		SetMemberValueString          "saverloaded"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "setupgrapplinghook"
+		JumpAbsolute                  1
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		PushConstanti8                120
+		Pull                          2
+		GetMemberFunctionString       "setgrapplinghookdistance"
+		JumpAbsolute                  2
+		Pop
+		; <-
+		BranchTarget                  4
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "initfromsaver"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  5
 		PushNothing
 		Return
 	end ; method
@@ -541,7 +567,7 @@ begin class "lego_level_3", "gs_lego_level"
 		LineNumberAlt1               185, 152
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "player"
-		PushConstantStringString     "msk1"
+		PushConstantStringString     "fake"
 		PushConstant0
 		Pull                         3
 		GetMemberFunctionString      "addmask"

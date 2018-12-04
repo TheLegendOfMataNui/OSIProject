@@ -473,10 +473,9 @@ begin class "lego_level_1", "gs_lego_level"
 		LineNumberAlt1                136, 91
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                4
-		Pull                          2
+		Dup
 		GetMemberFunctionString       "addelement"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		; <-
 		BranchTarget                  2
@@ -545,7 +544,7 @@ begin class "lego_level_1", "gs_lego_level"
 		LineNumberAlt1               153, 91
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "player"
-		PushConstantStringString     "msk1"
+		PushConstantStringString     "fake"
 		PushConstant0
 		Pull                         3
 		GetMemberFunctionString      "addmask"
