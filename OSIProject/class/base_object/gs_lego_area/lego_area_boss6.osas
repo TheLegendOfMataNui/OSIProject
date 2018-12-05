@@ -85,22 +85,6 @@ begin class "lego_area_boss6", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0xbef9a
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 49:49
-		MemberFunctionArgumentCheck 2
-		LineNumber                  17098, 4
-		LineNumberAlt1              49, 224
-		GetThisMemberValueString    "puzzle"
-		GetVariableValue            1         ; local
-		Pull                        2
-		GetMemberFunctionString     "process"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0xbefb6
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 54:54

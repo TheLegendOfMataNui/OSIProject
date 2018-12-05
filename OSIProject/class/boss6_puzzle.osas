@@ -22,6 +22,25 @@ begin class "boss6_puzzle"
 		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 102:115
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/Musiclowandcreepyambience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    16721, 4
+		LineNumberAlt1                89, 222
+		PushConstanti8                50
+		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
+		Pop
 		LineNumber                    17151, 4
 		LineNumberAlt1                102, 224
 		PushConstantStringString      "ston"
@@ -232,13 +251,6 @@ begin class "boss6_puzzle"
 		GetMemberFunctionString      "setaimode"
 		JumpAbsolute                 2
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0xbf297
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method

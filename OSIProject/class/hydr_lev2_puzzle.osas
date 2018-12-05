@@ -119,6 +119,56 @@ begin class "hydr_lev2_puzzle"
 		LineNumberAlt1                163, 150
 		PushConstant0
 		SetThisMemberValueString      "isdead"
+		LineNumber                    56839, 4
+		LineNumberAlt1                167, 150
+		PushConstantStringString      "hv01"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    56839, 4
+		LineNumberAlt1                167, 150
+		CallGameFunctionString        "gcareadirector", "gethive", 1
+		LineNumber                    56839, 4
+		LineNumberAlt1                167, 150
+		SetVariableValue              4                                            ; local
+		LineNumber                    56840, 4
+		LineNumberAlt1                168, 150
+		GetVariableValue              4                                            ; local
+		PushConstantStringString      "crb1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    56840, 4
+		LineNumberAlt1                168, 150
+		CallGameFunctionString        "gchive", "setcreaturetype", 2
+		Pop
+		LineNumber                    56841, 4
+		LineNumberAlt1                169, 150
+		GetVariableValue              4                                            ; local
+		PushConstanti16               240
+		CallGameFunctionString        "gchive", "setspawnrate", 2
+		Pop
+		LineNumber                    56843, 4
+		LineNumberAlt1                171, 150
+		PushConstantStringString      "hv02"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    56843, 4
+		LineNumberAlt1                171, 150
+		CallGameFunctionString        "gcareadirector", "gethive", 1
+		LineNumber                    56843, 4
+		LineNumberAlt1                171, 150
+		SetVariableValue              5                                            ; local
+		LineNumber                    56844, 4
+		LineNumberAlt1                172, 150
+		GetVariableValue              5                                            ; local
+		PushConstantStringString      "crb1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    56844, 4
+		LineNumberAlt1                172, 150
+		CallGameFunctionString        "gchive", "setcreaturetype", 2
+		Pop
+		LineNumber                    56845, 4
+		LineNumberAlt1                173, 150
+		GetVariableValue              5                                            ; local
+		PushConstanti16               240
+		CallGameFunctionString        "gchive", "setspawnrate", 2
+		Pop
 		PushNothing
 		Return
 	end ; method

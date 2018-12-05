@@ -298,20 +298,6 @@ begin class "shrn6_puzzle"
 		Return
 	end ; method
 
-	begin method "initshort"
-		; address: 0xbe3e0
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xbe3e4
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
 		; address: 0xbe3e8
 		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 163:168
@@ -484,12 +470,6 @@ begin class "shrn6_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    16841, 4
-		LineNumberAlt1                209, 222
-		GetVariableValue              0                                                  ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            10, 0
 		; ->
 		; <-
@@ -499,12 +479,6 @@ begin class "shrn6_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 4, 0
 		; ->
-		LineNumber                    16846, 4
-		LineNumberAlt1                214, 222
-		GetVariableValue              0                                                  ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    16847, 4
 		LineNumberAlt1                215, 222
 		GetVariableValueGlobalString  "globalclass"
