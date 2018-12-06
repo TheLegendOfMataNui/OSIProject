@@ -278,20 +278,6 @@ begin class "dark_tunnels_puzzle", "base_object"
 		Return
 	end ; method
 
-	begin method "cleanupshort"
-		; address: 0x657d0
-		; source: 97 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_cave.vbo" 184:184
-		MemberFunctionArgumentCheck 1
-		LineNumber                  39564, 4
-		LineNumberAlt1              184, 97
-		GetVariableValue            0             ; local
-		GetThisMemberFunctionString "cleanupfull"
-		JumpAbsolute                1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "exit"
 		; address: 0x657e7
 		; source: 97 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_cave.vbo" 199:199
