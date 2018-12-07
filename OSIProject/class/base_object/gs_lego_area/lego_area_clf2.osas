@@ -108,38 +108,6 @@ begin class "lego_area_clf2", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0x667da
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 50:50
-		MemberFunctionArgumentCheck 2
-		LineNumber                  40013, 4
-		LineNumberAlt1              50, 102
-		GetThisMemberValueString    "boulderpuzzle"
-		GetVariableValue            1               ; local
-		Pull                        2
-		GetMemberFunctionString     "process"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0x667f6
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 56:56
-		MemberFunctionArgumentCheck 2
-		LineNumber                  40019, 4
-		LineNumberAlt1              56, 102
-		GetThisMemberValueString    "boulderpuzzle"
-		GetVariableValue            1               ; local
-		Pull                        2
-		GetMemberFunctionString     "input"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0x66812
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 61:61

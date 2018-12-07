@@ -223,20 +223,6 @@ begin class "cliffscale_class"
 		Return
 	end ; method
 
-	begin method "initshort"
-		; address: 0x66b21
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 138:138
-		MemberFunctionArgumentCheck 1
-		LineNumber                  40101, 4
-		LineNumberAlt1              138, 102
-		GetVariableValue            0          ; local
-		GetThisMemberFunctionString "initfull"
-		JumpAbsolute                1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
 		; address: 0x66b38
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 143:153
@@ -325,20 +311,6 @@ begin class "cliffscale_class"
 		LineNumberAlt1              159, 102
 		PushNothing
 		SetThisMemberValueString    "parent"
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0x66bf4
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0x66bf8
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
@@ -475,116 +447,6 @@ begin class "cliffscale_class"
 		Pop
 		; <-
 		BranchTarget                  3
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "reseta"
-		; address: 0x66d63
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 219:220
-		MemberFunctionArgumentCheck 2
-		LineNumber                  40182, 4
-		LineNumberAlt1              219, 102
-		GetThisMemberValueString    "parent"
-		GetMemberValueString        "parent"
-		GetMemberValueString        "cam"
-		PushConstanti8              7
-		Pull                        2
-		GetMemberFunctionString     "setaimode"
-		JumpAbsolute                2
-		Pop
-		LineNumber                  40183, 4
-		LineNumberAlt1              220, 102
-		GetThisMemberValueString    "timer"
-		Dup
-		GetMemberFunctionString     "start"
-		JumpAbsolute                1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "resetb"
-		; address: 0x66d98
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 226:226
-		MemberFunctionArgumentCheck  1
-		LineNumber                   40189, 4
-		LineNumberAlt1               226, 102
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		Dup
-		GetMemberFunctionString      "kill"
-		JumpAbsolute                 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "resetc"
-		; address: 0x66db3
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 232:235
-		MemberFunctionArgumentCheck  1
-		LineNumber                   40195, 4
-		LineNumberAlt1               232, 102
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterstartid"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterlookid"
-		Pull                         3
-		GetMemberFunctionString      "gotopos"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   40196, 4
-		LineNumberAlt1               233, 102
-		PushConstantStringString     "tb00"
-		CallGameFunctionString       "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                   40196, 4
-		LineNumberAlt1               233, 102
-		PushConstant0
-		CallGameFunctionString       "gccollisionphysicsgroup", "toggletriggerboxentered", 2
-		Pop
-		LineNumber                   40197, 4
-		LineNumberAlt1               234, 102
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		Dup
-		GetMemberFunctionString      "unkill"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   40198, 4
-		LineNumberAlt1               235, 102
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		PushConstanti8               11
-		Pull                         2
-		GetMemberFunctionString      "setaimode"
-		JumpAbsolute                 2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "show"
-		; address: 0x66e37
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
-	begin method "hide"
-		; address: 0x66e3b
-		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 247:247
-		MemberFunctionArgumentCheck 1
-		LineNumber                  40210, 4
-		LineNumberAlt1              247, 102
-		GetVariableValue            0             ; local
-		GetThisMemberFunctionString "cleanupfull"
-		JumpAbsolute                1
 		Pop
 		PushNothing
 		Return

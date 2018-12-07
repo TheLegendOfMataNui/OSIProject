@@ -103,38 +103,6 @@ begin class "lego_area_l1a7", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0x72a46
-		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 57:57
-		MemberFunctionArgumentCheck 2
-		LineNumber                  46402, 4
-		LineNumberAlt1              57, 120
-		GetThisMemberValueString    "puzzle"
-		GetVariableValue            1         ; local
-		Pull                        2
-		GetMemberFunctionString     "process"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0x72a62
-		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 61:61
-		MemberFunctionArgumentCheck 2
-		LineNumber                  46406, 4
-		LineNumberAlt1              61, 120
-		GetThisMemberValueString    "puzzle"
-		GetVariableValue            1        ; local
-		Pull                        2
-		GetMemberFunctionString     "input"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0x72a7e
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 66:66

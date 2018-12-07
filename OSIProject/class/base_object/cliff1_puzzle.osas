@@ -347,6 +347,30 @@ begin class "cliff1_puzzle", "base_object"
 		GetMemberFunctionString     "initfull"
 		JumpAbsolute                1
 		Pop
+		LineNumber                    39746, 4
+		LineNumberAlt1                156, 101
+		PushConstanti32               8388608
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    39746, 4
+		LineNumberAlt1                156, 101
+		SetThisMemberValueString      "puzzledone"
+		LineNumber                    39747, 4
+		LineNumberAlt1                157, 101
+		GetThisMemberValueString      "puzzledone"
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    39749, 4
+		LineNumberAlt1                159, 101
+		GetVariableValue              0                                            ; local
+		GetThisMemberFunctionString   "skipcinematic"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    39750, 4
+		LineNumberAlt1                160, 101
+		PushConstanti8                1
+		SetThisMemberValueString      "buttonpressed"
+		; <-
+		BranchTarget                  0
 		LineNumber                  39753, 4
 		LineNumberAlt1              163, 101
 		GetThisMemberValueString    "puzzledone"

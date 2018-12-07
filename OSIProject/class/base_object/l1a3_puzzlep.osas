@@ -982,7 +982,7 @@ begin class "l1a3_puzzlep", "base_object"
 		Subtract
 		GetArrayValue
 		Dup
-		GetMemberFunctionString       "cleanupfull"
+		GetMemberFunctionString       "reset"
 		JumpAbsolute                  1
 		Pop
 		LineNumber                    45815, 4
@@ -998,6 +998,35 @@ begin class "l1a3_puzzlep", "base_object"
 		; ->
 		; <-
 		BranchTarget                  1
+		Dup
+		GetVariableValue              2             ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 15, 0
+		; ->
+		LineNumber                    45814, 4
+		LineNumberAlt1                231, 117
+		GetThisMemberValueString      "smallplats"
+		GetVariableValue              1             ; local
+		GetVariableValue              2             ; local
+		Subtract
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    45815, 4
+		LineNumberAlt1                232, 117
+		GetThisMemberValueString      "smallplats"
+		GetVariableValue              1             ; local
+		GetVariableValue              2             ; local
+		Subtract
+		PushNothing
+		SetArrayValue
+		IncrementVariable             2
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  15
 		Pop
 		LineNumber                    45817, 4
 		LineNumberAlt1                234, 117

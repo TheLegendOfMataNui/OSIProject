@@ -1088,20 +1088,6 @@ begin class "l1a7_puzzlep", "base_object"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0x735a8
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0x735ac
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
 		; address: 0x735b0
 		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 277:321
@@ -1377,20 +1363,6 @@ begin class "l1a7_puzzlep", "base_object"
 		SetThisMemberValueString      "hooks"
 		; <-
 		BranchTarget                  13
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0x73832
-		; source: 120 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo" 328:328
-		MemberFunctionArgumentCheck 1
-		LineNumber                  46673, 4
-		LineNumberAlt1              328, 120
-		GetVariableValue            0             ; local
-		GetThisMemberFunctionString "cleanupfull"
-		JumpAbsolute                1
-		Pop
 		PushNothing
 		Return
 	end ; method
