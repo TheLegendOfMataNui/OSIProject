@@ -4,14 +4,11 @@ begin class "boulderclass"
 	property "parent"
 	property "scale"
 	property "id"
-	property "bigsound"
-	property "medsound"
-	property "smlsound"
 	property "rockhitsound"
 
 	begin method "boulderclass"
-		; address: 0x97222
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 719:723
+		; address: 0x90b38
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 719:723
 		MemberFunctionArgumentCheck 3
 		LineNumber                  64515, 4
 		LineNumberAlt1              719, 164
@@ -51,8 +48,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x972a4
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 730:746
+		; address: 0x90bba
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 730:746
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64526, 4
 		LineNumberAlt1              730, 164
@@ -117,8 +114,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "process"
-		; address: 0x97353
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 757:758
+		; address: 0x90c69
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 757:758
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64553, 4
 		LineNumberAlt1                757, 164
@@ -145,8 +142,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "show"
-		; address: 0x9738d
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 764:764
+		; address: 0x90ca3
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 764:764
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64560, 4
 		LineNumberAlt1              764, 164
@@ -160,8 +157,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x973a5
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 769:780
+		; address: 0x90cbb
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 769:780
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64565, 4
 		LineNumberAlt1              769, 164
@@ -193,18 +190,6 @@ begin class "boulderclass"
 		LineNumberAlt1              774, 164
 		PushNothing
 		SetThisMemberValueString    "scale"
-		LineNumber                  64571, 4
-		LineNumberAlt1              775, 164
-		PushNothing
-		SetThisMemberValueString    "bigsound"
-		LineNumber                  64572, 4
-		LineNumberAlt1              776, 164
-		PushNothing
-		SetThisMemberValueString    "medsound"
-		LineNumber                  64573, 4
-		LineNumberAlt1              777, 164
-		PushNothing
-		SetThisMemberValueString    "smlsound"
 		LineNumber                  64574, 4
 		LineNumberAlt1              778, 164
 		GetThisMemberValueString    "rockhitsound"
@@ -225,8 +210,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "startdropping"
-		; address: 0x97463
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 786:798
+		; address: 0x90d79
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 786:798
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
 		LineNumber                   64582, 4
@@ -354,8 +339,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "stopdropping"
-		; address: 0x975e7
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 804:806
+		; address: 0x90efd
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 804:806
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64600, 4
 		LineNumberAlt1              804, 164
@@ -393,44 +378,17 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x97636
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 811:840
+		; address: 0x90f4c
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 811:840
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64607, 4
 		LineNumberAlt1                811, 164
 		GetVariableValue              1                                            ; local
 		GetMemberValueString          "eventid"
 		Dup
-		PushConstanti8                1
-		EqualTo
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		Dup
-		PushConstanti8                17
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  1
-		Dup
-		PushConstanti8                8
-		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  2
-		Dup
 		PushConstanti8                19
 		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
+		CompareAndBranchIfFalseTarget 0, 0
 		; ->
 		LineNumber                    64632, 4
 		LineNumberAlt1                836, 164
@@ -453,12 +411,12 @@ begin class "boulderclass"
 		LineNumberAlt1                836, 164
 		EqualTo
 		Or
-		CompareAndBranchIfFalseTarget 3, 0
+		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		BranchAlwaysTarget            4, 0
+		BranchAlwaysTarget            0, 0
 		; ->
 		; <-
-		BranchTarget                  3
+		BranchTarget                  1
 		LineNumber                    64635, 4
 		LineNumberAlt1                839, 164
 		GetVariableValue              1                                            ; local
@@ -468,7 +426,7 @@ begin class "boulderclass"
 		GetThisMemberValueString      "obj"
 		GetMemberValueString          "id"
 		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
+		CompareAndBranchIfFalseTarget 0, 0
 		; ->
 		LineNumber                    64636, 4
 		LineNumberAlt1                840, 164
@@ -477,15 +435,15 @@ begin class "boulderclass"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  4
+		BranchTarget                  0
 		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hit"
-		; address: 0x976ea
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 850:857
+		; address: 0x91000
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 850:857
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
 		LineNumber                    64646, 4
@@ -552,8 +510,8 @@ begin class "boulderclass"
 	end ; method
 
 	begin method "input"
-		; address: 0x9778f
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 865:868
+		; address: 0x910a5
+		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 865:868
 		MemberFunctionArgumentCheck   2
 		LineNumber                    64661, 4
 		LineNumberAlt1                865, 164

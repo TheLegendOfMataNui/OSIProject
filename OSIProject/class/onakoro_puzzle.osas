@@ -4,10 +4,7 @@ begin class "onakoro_puzzle"
 	property "coindoor"
 	property "coindoortext"
 	property "coindoortexttimer"
-	property "turagadoor"
 	property "showcoindoor"
-	property "showturagadoor"
-	property "arrowhandle"
 
 	begin method "onakoro_puzzle"
 		; address: 0x6378a
@@ -21,18 +18,6 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1              132, 95
 		PushConstanti8              1
 		SetThisMemberValueString    "showcoindoor"
-		LineNumber                  37301, 4
-		LineNumberAlt1              133, 95
-		PushConstanti8              1
-		SetThisMemberValueString    "showturagadoor"
-		LineNumber                  37302, 4
-		LineNumberAlt1              134, 95
-		PushNothing
-		SetThisMemberValueString    "turagadoor"
-		LineNumber                  37303, 4
-		LineNumberAlt1              135, 95
-		PushNothing
-		SetThisMemberValueString    "arrowhandle"
 		PushNothing
 		Return
 	end ; method

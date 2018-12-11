@@ -715,11 +715,6 @@ begin class "racepuzzle_class"
 		EqualTo
 		CompareAndBranchIfFalseTarget 10, 0
 		; ->
-		LineNumber                    62318, 4
-		LineNumberAlt1                329, 159
-		PushConstantStringString      "Screen Black Event"
-		CallGameFunctionString        "debug", "print", 1
-		Pop
 		LineNumber                    62319, 4
 		LineNumberAlt1                330, 159
 		GetVariableValue              0                                                   ; local

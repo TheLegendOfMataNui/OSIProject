@@ -1323,11 +1323,6 @@ begin class "brigpuzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 15, 0
 		; ->
-		LineNumber                    62755, 4
-		LineNumberAlt1                338, 160
-		PushConstantStringString      "Screen Black Event"
-		CallGameFunctionString        "debug", "print", 1
-		Pop
 		LineNumber                    62756, 4
 		LineNumberAlt1                339, 160
 		GetVariableValue              0                                            ; local

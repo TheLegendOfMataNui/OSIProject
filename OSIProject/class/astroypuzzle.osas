@@ -865,19 +865,6 @@ begin class "astroypuzzle"
 		Return
 	end ; method
 
-	begin method "show"
-		; address: 0x962e2
-		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 267:267
-		MemberFunctionArgumentCheck 1
-		LineNumber                  64063, 4
-		LineNumberAlt1              267, 164
-		PushConstantStringString    "Calling empty show function"
-		CallGameFunctionString      "debug", "print", 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
 		; address: 0x962fa
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 272:340
@@ -1345,13 +1332,6 @@ begin class "astroypuzzle"
 		Return
 	end ; method
 
-	begin method "cheat"
-		; address: 0x967bd
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0x967c1
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 411:518
@@ -1518,7 +1498,7 @@ begin class "astroypuzzle"
 		; <-
 		BranchTarget                  6
 		Pop
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  7
@@ -1573,7 +1553,7 @@ begin class "astroypuzzle"
 		Return
 		; <-
 		BranchTarget                  8
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  9
@@ -1607,7 +1587,7 @@ begin class "astroypuzzle"
 		Pop
 		; <-
 		BranchTarget                  10
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  11
@@ -1618,10 +1598,10 @@ begin class "astroypuzzle"
 		; ->
 		LineNumber                    64287, 4
 		LineNumberAlt1                491, 164
-		PushConstantf32               1.2000000476837158
+		PushConstantf32               0.75
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  12
@@ -1630,18 +1610,13 @@ begin class "astroypuzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 13, 0
 		; ->
-		LineNumber                    64293, 4
-		LineNumberAlt1                497, 164
-		PushConstantStringString      "Screen Black Event"
-		CallGameFunctionString        "debug", "print", 1
-		Pop
 		LineNumber                    64294, 4
 		LineNumberAlt1                498, 164
 		GetVariableValue              0                                            ; local
 		GetThisMemberFunctionString   "resetb"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  13
@@ -1707,59 +1682,8 @@ begin class "astroypuzzle"
 		LineNumberAlt1                512, 164
 		PushConstanti8                1
 		SetThisMemberValueString      "started"
-		LineNumber                    64310, 4
-		LineNumberAlt1                514, 164
-		GetThisMemberValueString      "swtch"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    64311, 4
-		LineNumberAlt1                515, 164
-		GetThisMemberValueString      "swtch"
-		PushConstant0
-		PushConstantf32               337
-		Subtract
-		PushConstantf32               3
-		PushConstant0
-		PushConstantf32               185
-		Subtract
-		Pull                          4
-		GetMemberFunctionString       "setpos"
-		JumpAbsolute                  4
-		Pop
-		LineNumber                    64313, 4
-		LineNumberAlt1                517, 164
-		GetThisMemberValueString      "thering"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    64314, 4
-		LineNumberAlt1                518, 164
-		GetThisMemberValueString      "thering"
-		PushConstant0
-		PushConstantf32               337
-		Subtract
-		PushConstantf32               3
-		PushConstant0
-		PushConstantf32               185
-		Subtract
-		Pull                          4
-		GetMemberFunctionString       "setpos"
-		JumpAbsolute                  4
-		Pop
-		BranchAlwaysTarget            15, 0
-		; ->
 		; <-
 		BranchTarget                  14
-		Dup
-		PushConstanti8                14
-		EqualTo
-		CompareAndBranchIfFalseTarget 15, 0
-		; ->
-		; <-
-		BranchTarget                  15
 		Pop
 		PushNothing
 		Return
@@ -1792,11 +1716,6 @@ begin class "astroypuzzle"
 		GetMemberFunctionString      "settargetspline"
 		JumpAbsolute                 3
 		Pop
-		LineNumber                   64348, 4
-		LineNumberAlt1               552, 164
-		PushConstantStringString     "RESET A"
-		CallGameFunctionString       "debug", "print", 1
-		Pop
 		LineNumber                   64349, 4
 		LineNumberAlt1               553, 164
 		GetThisMemberValueString     "parent"
@@ -1814,6 +1733,9 @@ begin class "astroypuzzle"
 		Dup
 		GetMemberFunctionString      "kill"
 		JumpAbsolute                 1
+		Pop
+		PushConstanti16               1048
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
 		Pop
 		PushNothing
 		Return
@@ -1845,11 +1767,6 @@ begin class "astroypuzzle"
 		Pull                         3
 		GetMemberFunctionString      "settargetspline"
 		JumpAbsolute                 3
-		Pop
-		LineNumber                   64359, 4
-		LineNumberAlt1               563, 164
-		PushConstantStringString     "RESET B"
-		CallGameFunctionString       "debug", "print", 1
 		Pop
 		LineNumber                   64360, 4
 		LineNumberAlt1               564, 164
@@ -1952,6 +1869,17 @@ begin class "astroypuzzle"
 		GetMemberFunctionString       "setinputstate"
 		JumpAbsolute                  2
 		Pop
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		PushConstantStringString     "p000"
+		CallGameFunctionString       "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                   39919, 4
+		LineNumberAlt1               329, 101
+		Pull                         2
+		GetMemberFunctionString      "switchanimation"
+		JumpAbsolute                 2
+		Pop
 		LineNumber                    64379, 4
 		LineNumberAlt1                583, 164
 		PushConstant0
@@ -1998,6 +1926,18 @@ begin class "astroypuzzle"
 		Pull                          5
 		GetMemberFunctionString       "interpolate"
 		JumpAbsolute                  5
+		Pop
+		PushConstanti16               1053
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
+		Pop
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "level"
+		GetMemberValueString         "cam"
+		PushConstantf32              2
+		PushConstantf32              0.07999999821186066
+		Pull                         3
+		GetMemberFunctionString      "shakecamera"
+		JumpAbsolute                 3
 		Pop
 		LineNumber                    64385, 4
 		LineNumberAlt1                589, 164
@@ -2130,6 +2070,20 @@ begin class "astroypuzzle"
 		Add
 		CallGameFunctionString        "debug", "print", 1
 		Pop
+		LineNumber                    64310, 4
+		LineNumberAlt1                514, 164
+		GetThisMemberValueString      "swtch"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    64313, 4
+		LineNumberAlt1                517, 164
+		GetThisMemberValueString      "thering"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
 		LineNumber                    64412, 4
 		LineNumberAlt1                616, 164
 		GetThisMemberValueString      "bridgeubound"
@@ -2150,6 +2104,18 @@ begin class "astroypuzzle"
 		Dup
 		GetMemberFunctionString       "drop"
 		JumpAbsolute                  1
+		Pop
+		PushConstanti16               441
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
+		Pop
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "level"
+		GetMemberValueString         "cam"
+		PushConstantf32              1
+		PushConstantf32              0.47999999821186066
+		Pull                         3
+		GetMemberFunctionString      "shakecamera"
+		JumpAbsolute                 3
 		Pop
 		LineNumber                    64415, 4
 		LineNumberAlt1                619, 164

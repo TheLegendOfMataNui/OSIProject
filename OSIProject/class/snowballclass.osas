@@ -2,35 +2,35 @@ begin class "snowballclass"
 	property "obj"
 	property "stringid"
 	property "parent"
-	property "curentscale"
-	property "snowball_1"
-	property "snowball_2"
-	property "snowball_1_name"
-	property "snowball_2_name"
-	property "numofsnowballs_alive"
-	property "bigsound"
-	property "medsound"
-	property "smlsound"
+	property "scale"
+	property "id"
+	property "rockhitsound"
 
 	begin method "snowballclass"
-		; address: 0xa64b1
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 663:672
-		MemberFunctionArgumentCheck 5
+		; address: 0x9fcb3
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 663:672
+		MemberFunctionArgumentCheck 3
 		LineNumber                  5768, 4
 		LineNumberAlt1              663, 183
-		GetVariableValue            4                       ; local
+		GetVariableValue            2                       ; local
 		SetThisMemberValueString    "parent"
 		LineNumber                  5769, 4
 		LineNumberAlt1              664, 183
 		GetVariableValue            1                       ; local
 		SetThisMemberValueString    "stringid"
+		LineNumber                  64517, 4
+		LineNumberAlt1              721, 164
+		GetVariableValue            1                                            ; local
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  64517, 4
+		LineNumberAlt1              721, 164
+		SetThisMemberValueString    "id"
 		LineNumber                  5771, 4
 		LineNumberAlt1              666, 183
 		CreateObjectString          "lego_projectileobject"
 		Dup
 		GetThisMemberValueString    "stringid"
 		GetThisMemberValueString    "parent"
-		GetMemberValueString        "parent"
 		GetMemberValueString        "name"
 		Pull                        3
 		GetMemberFunctionString     "lego_projectileobject"
@@ -39,55 +39,17 @@ begin class "snowballclass"
 		LineNumber                  5771, 4
 		LineNumberAlt1              666, 183
 		SetThisMemberValueString    "obj"
-		LineNumber                  5772, 4
-		LineNumberAlt1              667, 183
-		GetVariableValue            2                       ; local
-		SetThisMemberValueString    "snowball_1_name"
-		LineNumber                  5773, 4
-		LineNumberAlt1              668, 183
-		GetVariableValue            3                       ; local
-		SetThisMemberValueString    "snowball_2_name"
-		LineNumber                  5774, 4
-		LineNumberAlt1              669, 183
-		CreateObjectString          "smallsnowballclass"
-		Dup
-		GetThisMemberValueString    "snowball_1_name"
-		GetVariableValue            0                       ; local
-		Pull                        3
-		GetMemberFunctionString     "smallsnowballclass"
-		JumpAbsolute                3
-		Pop
-		LineNumber                  5774, 4
-		LineNumberAlt1              669, 183
-		SetThisMemberValueString    "snowball_1"
-		LineNumber                  5775, 4
-		LineNumberAlt1              670, 183
-		CreateObjectString          "smallsnowballclass"
-		Dup
-		GetThisMemberValueString    "snowball_2_name"
-		GetVariableValue            0                       ; local
-		Pull                        3
-		GetMemberFunctionString     "smallsnowballclass"
-		JumpAbsolute                3
-		Pop
-		LineNumber                  5775, 4
-		LineNumberAlt1              670, 183
-		SetThisMemberValueString    "snowball_2"
 		LineNumber                  5776, 4
 		LineNumberAlt1              671, 183
 		PushConstantf32             1
-		SetThisMemberValueString    "curentscale"
-		LineNumber                  5777, 4
-		LineNumberAlt1              672, 183
-		PushConstant0
-		SetThisMemberValueString    "numofsnowballs_alive"
+		SetThisMemberValueString    "scale"
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa6596
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 679:688
+		; address: 0x9fd98
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 679:688
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5784, 4
 		LineNumberAlt1              679, 183
@@ -105,14 +67,6 @@ begin class "snowballclass"
 		GetMemberFunctionString     "init"
 		JumpAbsolute                10
 		Pop
-		LineNumber                  5787, 4
-		LineNumberAlt1              682, 183
-		GetThisMemberValueString    "obj"
-		PushConstant0
-		Pull                        2
-		GetMemberFunctionString     "setignoreallcollisions"
-		JumpAbsolute                2
-		Pop
 		LineNumber                  5788, 4
 		LineNumberAlt1              683, 183
 		GetThisMemberValueString    "obj"
@@ -121,6 +75,13 @@ begin class "snowballclass"
 		GetMemberFunctionString     "setbouncefactor"
 		JumpAbsolute                2
 		Pop
+		LineNumber                  64530, 4
+		LineNumberAlt1              734, 164
+		GetThisMemberValueString    "obj"
+		Dup
+		GetMemberFunctionString     "settweakable"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  5790, 4
 		LineNumberAlt1              685, 183
 		GetThisMemberValueString    "obj"
@@ -128,28 +89,41 @@ begin class "snowballclass"
 		GetMemberFunctionString     "show"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  5792, 4
-		LineNumberAlt1              687, 183
-		GetThisMemberValueString    "snowball_1"
+		LineNumber                  64541, 4
+		LineNumberAlt1              745, 164
+		CreateObjectString          "tablecopysound"
 		Dup
-		GetMemberFunctionString     "initfull"
-		JumpAbsolute                1
+		PushConstanti16             1038
+		Pull                        2
+		GetMemberFunctionString     "tablecopysound"
+		JumpAbsolute                2
 		Pop
-		LineNumber                  5793, 4
-		LineNumberAlt1              688, 183
-		GetThisMemberValueString    "snowball_2"
-		Dup
-		GetMemberFunctionString     "initfull"
-		JumpAbsolute                1
+		LineNumber                  64541, 4
+		LineNumberAlt1              745, 164
+		SetThisMemberValueString    "rockhitsound"
+		LineNumber                  64542, 4
+		LineNumberAlt1              746, 164
+		GetThisMemberValueString    "rockhitsound"
+		GetThisMemberValueString    "id"
+		Pull                        2
+		GetMemberFunctionString     "synctoobject"
+		JumpAbsolute                2
 		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa6631
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 693:699
+		; address: 0x9fe33
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 693:699
 		MemberFunctionArgumentCheck 1
+		LineNumber                  5825, 4
+		LineNumberAlt1              720, 183
+		GetThisMemberValueString    "obj"
+		Dup
+		GetMemberFunctionString     "hide"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  5798, 4
 		LineNumberAlt1              693, 183
 		GetThisMemberValueString    "obj"
@@ -161,35 +135,40 @@ begin class "snowballclass"
 		LineNumberAlt1              694, 183
 		PushNothing
 		SetThisMemberValueString    "obj"
-		LineNumber                  5801, 4
-		LineNumberAlt1              696, 183
-		GetThisMemberValueString    "snowball_1"
+		LineNumber                  64568, 4
+		LineNumberAlt1              772, 164
+		PushNothing
+		SetThisMemberValueString    "stringid"
+		LineNumber                  64569, 4
+		LineNumberAlt1              773, 164
+		PushNothing
+		SetThisMemberValueString    "parent"
+		LineNumber                  64570, 4
+		LineNumberAlt1              774, 164
+		PushNothing
+		SetThisMemberValueString    "scale"
+		LineNumber                  64574, 4
+		LineNumberAlt1              778, 164
+		GetThisMemberValueString    "rockhitsound"
 		Dup
 		GetMemberFunctionString     "cleanupfull"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  5802, 4
-		LineNumberAlt1              697, 183
+		LineNumber                  64575, 4
+		LineNumberAlt1              779, 164
 		PushNothing
-		SetThisMemberValueString    "snowball_1"
-		LineNumber                  5803, 4
-		LineNumberAlt1              698, 183
-		GetThisMemberValueString    "snowball_2"
-		Dup
-		GetMemberFunctionString     "cleanupfull"
-		JumpAbsolute                1
-		Pop
-		LineNumber                  5804, 4
-		LineNumberAlt1              699, 183
+		SetThisMemberValueString    "rockhitsound"
+		LineNumber                  64576, 4
+		LineNumberAlt1              780, 164
 		PushNothing
-		SetThisMemberValueString    "snowball_2"
+		SetThisMemberValueString    "id"
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0xa669b
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 704:708
+		; address: 0x9fe9d
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 704:708
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5809, 4
 		LineNumberAlt1                704, 183
@@ -211,29 +190,13 @@ begin class "snowballclass"
 		Pop
 		; <-
 		BranchTarget                  0
-		LineNumber                    5812, 4
-		LineNumberAlt1                707, 183
-		GetThisMemberValueString      "snowball_1"
-		GetVariableValue              1               ; local
-		Pull                          2
-		GetMemberFunctionString       "process"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    5813, 4
-		LineNumberAlt1                708, 183
-		GetThisMemberValueString      "snowball_2"
-		GetVariableValue              1               ; local
-		Pull                          2
-		GetMemberFunctionString       "process"
-		JumpAbsolute                  2
-		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0xa6705
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 713:715
+		; address: 0x9ff07
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 713:715
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5818, 4
 		LineNumberAlt1              713, 183
@@ -242,56 +205,13 @@ begin class "snowballclass"
 		GetMemberFunctionString     "show"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  5819, 4
-		LineNumberAlt1              714, 183
-		GetThisMemberValueString    "snowball_1"
-		Dup
-		GetMemberFunctionString     "show"
-		JumpAbsolute                1
-		Pop
-		LineNumber                  5820, 4
-		LineNumberAlt1              715, 183
-		GetThisMemberValueString    "snowball_2"
-		Dup
-		GetMemberFunctionString     "show"
-		JumpAbsolute                1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "hide"
-		; address: 0xa6745
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 720:722
-		MemberFunctionArgumentCheck 1
-		LineNumber                  5825, 4
-		LineNumberAlt1              720, 183
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "hide"
-		JumpAbsolute                1
-		Pop
-		LineNumber                  5826, 4
-		LineNumberAlt1              721, 183
-		GetThisMemberValueString    "snowball_1"
-		Dup
-		GetMemberFunctionString     "hide"
-		JumpAbsolute                1
-		Pop
-		LineNumber                  5827, 4
-		LineNumberAlt1              722, 183
-		GetThisMemberValueString    "snowball_2"
-		Dup
-		GetMemberFunctionString     "hide"
-		JumpAbsolute                1
-		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "startdropping"
-		; address: 0xa6785
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 728:739
+		; address: 0x9ff87
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 728:739
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
 		LineNumber                   5833, 4
@@ -342,11 +262,11 @@ begin class "snowballclass"
 		GetVariableValue             3                    ; local
 		PushConstantf32              0.009999999776482582
 		Multiply
-		SetThisMemberValueString     "curentscale"
+		SetThisMemberValueString     "scale"
 		LineNumber                   5838, 4
 		LineNumberAlt1               733, 183
 		GetThisMemberValueString     "obj"
-		GetThisMemberValueString     "curentscale"
+		GetThisMemberValueString     "scale"
 		Pull                         2
 		GetMemberFunctionString      "setobjscale"
 		JumpAbsolute                 2
@@ -366,7 +286,7 @@ begin class "snowballclass"
 		GetThisMemberValueString     "obj"
 		PushConstanti16              -200
 		GetVariableValue             2                    ; local
-		PushConstantf32              5
+		PushConstantf32              2.75
 		Pull                         4
 		GetMemberFunctionString      "setnudgetarget"
 		JumpAbsolute                 4
@@ -419,8 +339,8 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "stopdropping"
-		; address: 0xa6909
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 745:747
+		; address: 0xa010b
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 745:747
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5850, 4
 		LineNumberAlt1              745, 183
@@ -458,36 +378,45 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa6958
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 752:774
+		; address: 0xa015a
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 752:774
 		MemberFunctionArgumentCheck   2
 		LineNumber                    5857, 4
 		LineNumberAlt1                752, 183
 		GetVariableValue              1            ; local
 		GetMemberValueString          "eventid"
 		Dup
-		PushConstanti8                1
+		PushConstanti8                19
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		BranchAlwaysTarget            2, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		Dup
-		PushConstanti8                8
+		LineNumber                    64632, 4
+		LineNumberAlt1                836, 164
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstanti8                1
+		GetArrayValue
+		PushConstantStringString      "bllf"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    64632, 4
+		LineNumberAlt1                836, 164
 		EqualTo
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstanti8                1
+		GetArrayValue
+		PushConstantStringString      "bllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    64632, 4
+		LineNumberAlt1                836, 164
+		EqualTo
+		Or
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		BranchAlwaysTarget            2, 0
+		BranchAlwaysTarget            0, 0
 		; ->
 		; <-
 		BranchTarget                  1
-		Dup
-		PushConstanti8                19
-		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
 		LineNumber                    5872, 4
 		LineNumberAlt1                767, 183
 		GetVariableValue              1            ; local
@@ -497,7 +426,7 @@ begin class "snowballclass"
 		GetThisMemberValueString      "obj"
 		GetMemberValueString          "id"
 		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
+		CompareAndBranchIfFalseTarget 0, 0
 		; ->
 		LineNumber                    5873, 4
 		LineNumberAlt1                768, 183
@@ -506,62 +435,68 @@ begin class "snowballclass"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  2
-		Pop
-		LineNumber                    5878, 4
-		LineNumberAlt1                773, 183
-		GetThisMemberValueString      "snowball_1"
-		GetVariableValue              1            ; local
-		Pull                          2
-		GetMemberFunctionString       "onevent"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    5879, 4
-		LineNumberAlt1                774, 183
-		GetThisMemberValueString      "snowball_2"
-		GetVariableValue              1            ; local
-		Pull                          2
-		GetMemberFunctionString       "onevent"
-		JumpAbsolute                  2
+		BranchTarget                  0
 		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hit"
-		; address: 0xa69e7
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 780:784
+		; address: 0xa01e9
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 780:784
 		MemberFunctionArgumentCheck   1
-		LineNumber                    5885, 4
-		LineNumberAlt1                780, 183
+		CreateStackVariables          1
+		LineNumber                    64646, 4
+		LineNumberAlt1                850, 164
+		GetThisMemberValueString      "rockhitsound"
+		PushConstant0
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    64647, 4
+		LineNumberAlt1                851, 164
 		GetThisMemberValueString      "obj"
 		Dup
 		GetMemberFunctionString       "getscale"
 		JumpAbsolute                  1
-		LineNumber                    5885, 4
-		LineNumberAlt1                780, 183
-		SetThisMemberValueString      "curentscale"
-		LineNumber                    5886, 4
-		LineNumberAlt1                781, 183
-		GetThisMemberValueString      "curentscale"
-		PushConstanti8                3
+		LineNumber                    64647, 4
+		LineNumberAlt1                851, 164
+		SetVariableValue              1                   ; local
+		LineNumber                    64648, 4
+		LineNumberAlt1                852, 164
+		PushConstantStringString      "curentScale of "
+		GetThisMemberValueString      "stringid"
+		ConvertToString
+		Add
+		PushConstantStringString      " is "
+		Add
+		GetVariableValue              1                   ; local
+		ConvertToString
+		Add
+		CallGameFunctionString        "debug", "print", 1
+		Pop
+		LineNumber                    64649, 4
+		LineNumberAlt1                853, 164
+		GetVariableValue              1                   ; local
+		PushConstantf32               2.5
 		LessThan
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		LineNumber                    5887, 4
-		LineNumberAlt1                782, 183
-		GetVariableValue              0             ; local
-		GetThisMemberFunctionString   "split"
+		LineNumber                    64650, 4
+		LineNumberAlt1                854, 164
+		GetVariableValue              0                   ; local
+		GetThisMemberFunctionString   "startdropping"
 		JumpAbsolute                  1
 		Pop
 		BranchAlwaysTarget            1, 0
 		; ->
 		; <-
 		BranchTarget                  0
-		LineNumber                    5889, 4
-		LineNumberAlt1                784, 183
+		LineNumber                    64653, 4
+		LineNumberAlt1                857, 164
 		GetThisMemberValueString      "obj"
-		GetThisMemberValueString      "curentscale"
+		GetVariableValue              1                   ; local
 		PushConstanti8                1
 		Subtract
 		Pull                          2
@@ -575,25 +510,9 @@ begin class "snowballclass"
 	end ; method
 
 	begin method "input"
-		; address: 0xa6a4f
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 793:806
+		; address: 0xa0251
+		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 793:806
 		MemberFunctionArgumentCheck   2
-		LineNumber                    5898, 4
-		LineNumberAlt1                793, 183
-		GetThisMemberValueString      "snowball_1"
-		GetVariableValue              1                     ; local
-		Pull                          2
-		GetMemberFunctionString       "input"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    5899, 4
-		LineNumberAlt1                794, 183
-		GetThisMemberValueString      "snowball_2"
-		GetVariableValue              1                     ; local
-		Pull                          2
-		GetMemberFunctionString       "input"
-		JumpAbsolute                  2
-		Pop
 		LineNumber                    5901, 4
 		LineNumberAlt1                796, 183
 		GetVariableValue              1                     ; local
@@ -614,197 +533,6 @@ begin class "snowballclass"
 		LineNumberAlt1                799, 183
 		GetVariableValue              0                     ; local
 		GetThisMemberFunctionString   "hit"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  0
-		LineNumber                    5909, 4
-		LineNumberAlt1                804, 183
-		GetVariableValue              1                     ; local
-		GetMemberValueString          "event"
-		PushConstanti8                2
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    5910, 4
-		LineNumberAlt1                805, 183
-		GetVariableValue              1                     ; local
-		GetMemberValueString          "button"
-		PushConstanti8                84
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    5911, 4
-		LineNumberAlt1                806, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "dropsmallsnowball_1"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  1
-		PushNothing
-		Return
-	end ; method
-
-	begin method "split"
-		; address: 0xa6b01
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 816:831
-		MemberFunctionArgumentCheck   1
-		LineNumber                    5921, 4
-		LineNumberAlt1                816, 183
-		GetThisMemberValueString      "curentscale"
-		PushConstanti8                2
-		GreaterThan
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		LineNumber                    5922, 4
-		LineNumberAlt1                817, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "dropsmallsnowball_1"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    5923, 4
-		LineNumberAlt1                818, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "dropsmallsnowball_2"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    5924, 4
-		LineNumberAlt1                819, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "stopdropping"
-		JumpAbsolute                  1
-		Pop
-		BranchAlwaysTarget            2, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		LineNumber                    5929, 4
-		LineNumberAlt1                824, 183
-		GetThisMemberValueString      "curentscale"
-		PushConstanti8                1
-		GreaterThan
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    5930, 4
-		LineNumberAlt1                825, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "dropsmallsnowball_1"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    5931, 4
-		LineNumberAlt1                826, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "stopdropping"
-		JumpAbsolute                  1
-		Pop
-		BranchAlwaysTarget            2, 0
-		; ->
-		; <-
-		BranchTarget                  1
-		LineNumber                    5936, 4
-		LineNumberAlt1                831, 183
-		GetVariableValue              0                     ; local
-		GetThisMemberFunctionString   "startdropping"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "dropsmallsnowball_1"
-		; address: 0xa6ba3
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 838:838
-		MemberFunctionArgumentCheck 1
-		LineNumber                  5943, 4
-		LineNumberAlt1              838, 183
-		GetThisMemberValueString    "snowball_1"
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "getx"
-		JumpAbsolute                1
-		LineNumber                  5943, 4
-		LineNumberAlt1              838, 183
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "gety"
-		JumpAbsolute                1
-		LineNumber                  5943, 4
-		LineNumberAlt1              838, 183
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "getz"
-		JumpAbsolute                1
-		LineNumber                  5943, 4
-		LineNumberAlt1              838, 183
-		PushConstanti8              5
-		Add
-		Pull                        4
-		GetMemberFunctionString     "startdropping"
-		JumpAbsolute                4
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "dropsmallsnowball_2"
-		; address: 0xa6bf8
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 843:843
-		MemberFunctionArgumentCheck 1
-		LineNumber                  5948, 4
-		LineNumberAlt1              843, 183
-		GetThisMemberValueString    "snowball_2"
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "getx"
-		JumpAbsolute                1
-		LineNumber                  5948, 4
-		LineNumberAlt1              843, 183
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "gety"
-		JumpAbsolute                1
-		LineNumber                  5948, 4
-		LineNumberAlt1              843, 183
-		GetThisMemberValueString    "obj"
-		Dup
-		GetMemberFunctionString     "getz"
-		JumpAbsolute                1
-		LineNumber                  5948, 4
-		LineNumberAlt1              843, 183
-		PushConstanti8              5
-		Subtract
-		Pull                        4
-		GetMemberFunctionString     "startdropping"
-		JumpAbsolute                4
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "killsmallsnowball"
-		; address: 0xa6c4d
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snfl.vbo" 848:851
-		MemberFunctionArgumentCheck   2
-		LineNumber                    5953, 4
-		LineNumberAlt1                848, 183
-		GetThisMemberValueString      "numofsnowballs_alive"
-		GetVariableValue              1                      ; local
-		Add
-		SetThisMemberValueString      "numofsnowballs_alive"
-		LineNumber                    5955, 4
-		LineNumberAlt1                850, 183
-		GetThisMemberValueString      "numofsnowballs_alive"
-		PushConstanti8                1
-		LessThan
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		LineNumber                    5956, 4
-		LineNumberAlt1                851, 183
-		GetVariableValue              0                      ; local
-		GetThisMemberFunctionString   "startdropping"
 		JumpAbsolute                  1
 		Pop
 		; <-
