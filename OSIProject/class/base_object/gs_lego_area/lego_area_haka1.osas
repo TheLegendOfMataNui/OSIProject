@@ -25,24 +25,6 @@ begin class "lego_area_haka1", "gs_lego_area"
 		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 43:60
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
-		LineNumber                    47100, 4
-		LineNumberAlt1                43, 122
-		CreateArray
-		Dup
-		PushConstanti16               180
-		AppendToArray
-		Dup
-		PushConstanti16               -356
-		AppendToArray
-		Dup
-		PushConstant0
-		PushConstantf32               51.400001525878906
-		Subtract
-		AppendToArray
-		Dup
-		PushConstanti16               689
-		AppendToArray
-		SetThisMemberValueString      "startingarea"
 		LineNumber                    47102, 4
 		LineNumberAlt1                45, 122
 		PushConstantStringString      "cin3"
@@ -112,13 +94,6 @@ begin class "lego_area_haka1", "gs_lego_area"
 		LineNumberAlt1              65, 122
 		PushNothing
 		SetThisMemberValueString    "cinema"
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0x74f1e
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
@@ -361,6 +336,12 @@ begin class "lego_area_haka1", "gs_lego_area"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "show"
+		JumpAbsolute                  1
+		Pop
 		LineNumber                    47161, 4
 		LineNumberAlt1                104, 122
 		PushConstanti8                8

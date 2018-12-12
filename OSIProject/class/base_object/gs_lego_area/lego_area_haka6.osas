@@ -25,24 +25,6 @@ begin class "lego_area_haka6", "gs_lego_area"
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 44:56
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
-		LineNumber                    17306, 4
-		LineNumberAlt1                44, 225
-		CreateArray
-		Dup
-		PushConstanti16               180
-		AppendToArray
-		Dup
-		PushConstanti16               -356
-		AppendToArray
-		Dup
-		PushConstant0
-		PushConstantf32               51.400001525878906
-		Subtract
-		AppendToArray
-		Dup
-		PushConstanti16               689
-		AppendToArray
-		SetThisMemberValueString      "startingarea"
 		LineNumber                    17308, 4
 		LineNumberAlt1                46, 225
 		PushConstantStringString      "cin2"
@@ -112,13 +94,6 @@ begin class "lego_area_haka6", "gs_lego_area"
 		LineNumberAlt1              60, 225
 		PushNothing
 		SetThisMemberValueString    "cinema"
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0xbf60f
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
@@ -369,12 +344,6 @@ begin class "lego_area_haka6", "gs_lego_area"
 		Dup
 		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
-		Pop
-		LineNumber                    47161, 4
-		LineNumberAlt1                104, 122
-		PushConstanti8                8
-		PushConstanti8                1
-		CallGameFunctionString        "gcsaver", "setcondition", 2
 		Pop
 		; <-
 		BranchTarget                  1

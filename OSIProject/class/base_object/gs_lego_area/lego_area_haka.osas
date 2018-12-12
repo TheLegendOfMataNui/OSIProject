@@ -115,13 +115,6 @@ begin class "lego_area_haka", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0x941b3
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0x941b7
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 82:85
@@ -369,12 +362,6 @@ begin class "lego_area_haka", "gs_lego_area"
 		Dup
 		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
-		Pop
-		LineNumber                    47161, 4
-		LineNumberAlt1                104, 122
-		PushConstanti8                8
-		PushConstanti8                1
-		CallGameFunctionString        "gcsaver", "setcondition", 2
 		Pop
 		; <-
 		BranchTarget                  1
