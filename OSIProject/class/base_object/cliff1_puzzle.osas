@@ -13,7 +13,6 @@ begin class "cliff1_puzzle", "base_object"
 	property "cutscenetimer"
 	property "splineon"
 	property "puzzledone"
-	property "initialpuzzlestate"
 
 	begin method "cliff1_puzzle"
 		; address: 0x65992
@@ -371,10 +370,6 @@ begin class "cliff1_puzzle", "base_object"
 		SetThisMemberValueString      "buttonpressed"
 		; <-
 		BranchTarget                  0
-		LineNumber                  39753, 4
-		LineNumberAlt1              163, 101
-		GetThisMemberValueString    "puzzledone"
-		SetThisMemberValueString    "initialpuzzlestate"
 		PushNothing
 		Return
 	end ; method
@@ -587,21 +582,6 @@ begin class "cliff1_puzzle", "base_object"
 		PushConstant0
 		CallGameFunctionString        "gccollisionphysicsgroup", "toggletriggerboxentered", 2
 		Pop
-		LineNumber                    39808, 4
-		LineNumberAlt1                218, 101
-		GetThisMemberValueString      "initialpuzzlestate"
-		PushConstant0
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    39809, 4
-		LineNumberAlt1                219, 101
-		GetVariableValue              0                                                       ; local
-		GetThisMemberFunctionString   "resetcinematic"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  1
 		BranchAlwaysTarget            9, 0
 		; ->
 		; <-
