@@ -95,16 +95,6 @@ begin class "mtup_class"
 		LineNumberAlt1                120, 136
 		CallGameFunctionString        "gccharacter", "setinputstate", 2
 		Pop
-		LineNumber                    53068, 4
-		LineNumberAlt1                121, 136
-		GetVariableValue              1                                            ; local
-		PushConstantf32               1.5
-		PushConstantf32               0.800000011920929
-		PushConstanti8                1
-		PushConstant0
-		PushConstant0
-		CallGameFunctionString        "gccharacter", "setupmoveable", 6
-		Pop
 		LineNumber                    53069, 4
 		LineNumberAlt1                122, 136
 		GetVariableValue              1                                            ; local

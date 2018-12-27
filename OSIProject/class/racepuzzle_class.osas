@@ -176,6 +176,42 @@ begin class "racepuzzle_class"
 		GetMemberFunctionString      "show"
 		JumpAbsolute                 1
 		Pop
+		PushConstantStringString      "xman"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37315, 4
+		LineNumberAlt1                147, 95
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    37315, 4
+		LineNumberAlt1                147, 95
+		SetVariableValue              1                                               ; local
+		LineNumber                    37316, 4
+		LineNumberAlt1                148, 95
+		GetVariableValue              1                                               ; local
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               163
+		SetRedValue
+		PushConstanti8                81
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               163
+		SetRedValue
+		PushConstanti8                81
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantStringString      "mk3a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37316, 4
+		LineNumberAlt1                148, 95
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
 		LineNumber                   62154, 4
 		LineNumberAlt1               165, 159
 		PushNothing
@@ -240,13 +276,6 @@ begin class "racepuzzle_class"
 		GetMemberFunctionString     "setpos"
 		JumpAbsolute                4
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "show"
-		; address: 0x92083
-		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method

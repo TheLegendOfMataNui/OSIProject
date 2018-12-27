@@ -79,13 +79,6 @@ begin class "lego_area_gly1", "gs_lego_area"
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    62031, 4
-		LineNumberAlt1                42, 159
-		GetThisMemberValueString      "racepuzzle"
-		Dup
-		GetMemberFunctionString       "show"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    62033, 4
 		LineNumberAlt1                44, 159
 		PushConstantStringString      "hamm"
