@@ -2734,9 +2734,6 @@ begin strings
 	string "ptv0"
 	string "grhz"
 	string "Root/Data/sounds/MusicGreenHillZone"
-	string "1hat"
-	string "1h01"
-	string "1h02"
 	string "Lead Testers"
 	string "tpw0"
 	string "Ammo"
@@ -2794,4 +2791,5 @@ begin strings
 	string "Sound Test"
 	string "Root/Data/cinematics/LegendFMV.bik"
 	string "Welcome to my nightmare! Hie the hench though spongey freak."
+	string "hak1"
 end ; strings
