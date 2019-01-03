@@ -166,6 +166,17 @@ begin class "le03_puzzle"
 		LineNumberAlt1                113, 190
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              4                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              4                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		PushNothing
 		Return
 	end ; method
