@@ -121,7 +121,6 @@ begin sources
 	source "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a6.vbo"
 	source "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a7p.vbo"
 	source "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a8p.vbo"
-	source "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo"
 	source "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo"
 	source "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefitter.vbo"
 	source "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\ssbase/ss_baseshapes.vbo"

@@ -226,9 +226,6 @@ begin class "cheatlist"
 		PushConstantStringString    "vllg"
 		AppendToArray
 		Dup
-		PushConstantStringString    "mosh"
-		AppendToArray
-		Dup
 		PushConstantStringString    "tura"
 		AppendToArray
 		Dup
