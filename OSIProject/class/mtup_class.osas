@@ -98,7 +98,7 @@ begin class "mtup_class"
 		LineNumber                    53069, 4
 		LineNumberAlt1                122, 136
 		GetVariableValue              1                                            ; local
-		PushConstantStringString      "d000"
+		PushConstantStringString      "d003"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    53069, 4
 		LineNumberAlt1                122, 136
@@ -108,7 +108,7 @@ begin class "mtup_class"
 		LineNumber                    53070, 4
 		LineNumberAlt1                123, 136
 		GetVariableValue              1                                            ; local
-		PushConstanti16               -300
+		PushConstanti16               56
 		CallGameFunctionString        "gccharacter", "setorientation", 2
 		Pop
 		LineNumber                    63403, 4
