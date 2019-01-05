@@ -138,7 +138,7 @@ begin class "lego_area_clf2", "gs_lego_area"
 		LineNumberAlt1              67, 102
 		GetThisMemberValueString    "boulderpuzzle"
 		Dup
-		GetMemberFunctionString     "hide"
+		GetMemberFunctionString     "cleanupfull"
 		JumpAbsolute                1
 		Pop
 		PushNothing
