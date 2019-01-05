@@ -7,6 +7,24 @@ begin function "createmenuobject", 0
 	LineNumberAlt1           52, 10
 	CreateArray
 	Dup
+	PushConstantStringString "Area Viewer"
+	AppendToArray
+	Dup
+	PushConstanti8           4
+	AppendToArray
+	Dup
+	PushNothing
+	AppendToArray
+	Dup
+	PushConstantStringString "Cinematic Viewer"
+	AppendToArray
+	Dup
+	PushConstanti8           5
+	AppendToArray
+	Dup
+	PushNothing
+	AppendToArray
+	Dup
 	PushConstantStringString "fend"
 	CallGameFunctionString   "scslosifoundation", "stringtoidentifier", 1
 	LineNumber               13233, 4
@@ -36,6 +54,15 @@ begin function "createmenuobject", 0
 	AppendToArray
 	Dup
 	PushConstanti8           23
+	AppendToArray
+	Dup
+	PushNothing
+	AppendToArray
+	Dup
+	PushConstantStringString "Print Menu"
+	AppendToArray
+	Dup
+	PushConstanti8           44
 	AppendToArray
 	Dup
 	PushNothing

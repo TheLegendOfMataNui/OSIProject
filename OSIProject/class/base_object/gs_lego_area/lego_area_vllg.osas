@@ -152,6 +152,12 @@ begin class "lego_area_vllg", "gs_lego_area"
 		; address: 0x6324c
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 59:63
 		MemberFunctionArgumentCheck   2
+		GetThisMemberValueString      "puzzle"
+		GetVariableValue              1                                            ; local
+		Pull                          2
+		GetMemberFunctionString       "input"
+		JumpAbsolute                  2
+		Pop
 		LineNumber                    52910, 4
 		LineNumberAlt1                59, 135
 		GetVariableValue              1                           ; local

@@ -546,14 +546,14 @@ begin class "areaviewer", "base_screen"
 		GetMemberFunctionString       "setaimode"
 		JumpAbsolute                  2
 		Pop
-		LineNumber                    19642, 4
-		LineNumberAlt1                122, 235
-		PushConstantStringString      "*****rgbval = "
-		GetThisMemberValueString      "rgbval"
-		ConvertToString
-		Add
-		CallGameFunctionString        "debug", "print", 1
-		Pop
+;		LineNumber                    19642, 4
+;		LineNumberAlt1                122, 235
+;		PushConstantStringString      "*****rgbval = "
+;		GetThisMemberValueString      "rgbval"
+;		ConvertToString
+;		Add
+;		CallGameFunctionString        "debug", "print", 1
+;		Pop
 		LineNumber                    19643, 4
 		LineNumberAlt1                123, 235
 		GetThisMemberValueString      "rgbval"
