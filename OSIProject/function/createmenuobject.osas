@@ -25,6 +25,15 @@ begin function "createmenuobject", 0
 	PushNothing
 	AppendToArray
 	Dup
+	PushConstantStringString "Shoefitter"
+	AppendToArray
+	Dup
+	PushConstanti8           6
+	AppendToArray
+	Dup
+	PushNothing
+	AppendToArray
+	Dup
 	PushConstantStringString "fend"
 	CallGameFunctionString   "scslosifoundation", "stringtoidentifier", 1
 	LineNumber               13233, 4
