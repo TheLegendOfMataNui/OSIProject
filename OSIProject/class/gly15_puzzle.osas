@@ -1,5 +1,6 @@
 begin class "gly15_puzzle"
 	property "parent"
+	property "mthermals"
 
 	begin method "gly15_puzzle"
 		; address: 0xad8fa
@@ -39,6 +40,153 @@ begin class "gly15_puzzle"
 		GetMemberFunctionString      "play"
 		JumpAbsolute                 1
 		Pop
+		LineNumber                    7346, 4
+		LineNumberAlt1                93, 202
+		CreateArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm01"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7347, 4
+		LineNumberAlt1                94, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm02"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7348, 4
+		LineNumberAlt1                95, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm03"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7349, 4
+		LineNumberAlt1                96, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm04"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7350, 4
+		LineNumberAlt1                97, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm05"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7351, 4
+		LineNumberAlt1                98, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm06"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7352, 4
+		LineNumberAlt1                99, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm07"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7353, 4
+		LineNumberAlt1                100, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm08"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7354, 4
+		LineNumberAlt1                101, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm09"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7355, 4
+		LineNumberAlt1                102, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm10"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7356, 4
+		LineNumberAlt1                103, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm11"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7357, 4
+		LineNumberAlt1                104, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm12"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7358, 4
+		LineNumberAlt1                105, 202
+		AppendToArray
+		Dup
+		CreateObjectString            "thermal"
+		Dup
+		PushConstantStringString      "tm13"
+		Pull                          2
+		GetMemberFunctionString       "thermal"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    7359, 4
+		LineNumberAlt1                106, 202
+		AppendToArray
+		SetThisMemberValueString      "mthermals"
 		PushNothing
 		Return
 	end ; method
@@ -63,8 +211,41 @@ begin class "gly15_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xad96b
-		MemberFunctionArgumentCheck 2
+		; address: 0xb55c2
+		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta03.vbo" 143:144
+		MemberFunctionArgumentCheck   2
+		CreateStackVariables          1
+		LineNumber                    12377, 4
+		LineNumberAlt1                143, 209
+		GetThisMemberValueString      "mthermals"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              2           ; local
+		; <-
+		BranchTarget                  0
+		Dup
+		GetVariableValue              2           ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    12378, 4
+		LineNumberAlt1                144, 209
+		GetThisMemberValueString      "mthermals"
+		GetVariableValue              2           ; local
+		GetArrayValue
+		GetVariableValue              1           ; local
+		Pull                          2
+		GetMemberFunctionString       "process"
+		JumpAbsolute                  2
+		Pop
+		IncrementVariable             2
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  1
+		Pop
 		PushNothing
 		Return
 	end ; method
@@ -73,6 +254,37 @@ begin class "gly15_puzzle"
 		; address: 0xad96f
 		; source: 196 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_gly1.vbo" 114:121
 		MemberFunctionArgumentCheck   2
+		CreateStackVariables          1
+		LineNumber                    12385, 4
+		LineNumberAlt1                151, 209
+		GetThisMemberValueString      "mthermals"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              2                                        ; local
+		; <-
+		BranchTarget                  0
+		Dup
+		GetVariableValue              2                                        ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    12386, 4
+		LineNumberAlt1                152, 209
+		GetThisMemberValueString      "mthermals"
+		GetVariableValue              2                                        ; local
+		GetArrayValue
+		GetVariableValue              1                                        ; local
+		Pull                          2
+		GetMemberFunctionString       "onevent"
+		JumpAbsolute                  2
+		Pop
+		IncrementVariable             2
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  1
 		LineNumber                    9005, 4
 		LineNumberAlt1                114, 196
 		GetVariableValue              1                                        ; local
