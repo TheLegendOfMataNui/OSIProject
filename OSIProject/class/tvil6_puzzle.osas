@@ -17,6 +17,7 @@ begin class "tvil6_puzzle"
 		; address: 0xbdde5
 		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 86:87
 		MemberFunctionArgumentCheck  1
+		CreateStackVariables		 1
 		LineNumber                   16560, 4
 		LineNumberAlt1               86, 221
 		GetVariableValueGlobalString "globalclass"
@@ -35,58 +36,65 @@ begin class "tvil6_puzzle"
 		GetMemberFunctionString      "play"
 		JumpAbsolute                 2
 		Pop
+		LineNumber                  17349, 4
+		LineNumberAlt1              87, 225
+		PushConstantStringString    "vlgr"
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  17349, 4
+		LineNumberAlt1              87, 225
+		PushConstant0
+		CallGameFunctionString      "gcmodeldirector", "getcharacter", 2
+		LineNumber                  17349, 4
+		LineNumberAlt1              87, 225
+		SetVariableValue            1                                            ; local
+		LineNumber                  17350, 4
+		LineNumberAlt1              88, 225
+		GetVariableValue            1                                            ; local
+		PushConstantColor8888       0xffffffff
+		PushConstanti16             39
+		SetRedValue
+		PushConstanti16             38
+		SetGreenValue
+		PushConstanti16				39
+		SetBlueValue
+		PushConstanti16             255
+		SetAlphaValue
+		PushConstantColor8888       0xffffffff
+		PushConstanti16             39
+		SetRedValue
+		PushConstanti16             38
+		SetGreenValue
+		PushConstanti16				39
+		SetBlueValue
+		PushConstanti16             255
+		SetAlphaValue
+		PushConstantStringString    "mkba"
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  17350, 4
+		LineNumberAlt1              88, 225
+		CallGameFunctionString      "gccharacter", "settohunga", 4
+		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		GetVariableValue              1                                            ; local
+		PushConstanti16               173
+		CallGameFunctionString        "gccharacter", "setorientation", 2
+		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
 		; address: 0xbde1e
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
-	begin method "initshort"
-		; address: 0xbde22
-		; source: 221 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 98:101
-		MemberFunctionArgumentCheck  1
-		LineNumber                   16572, 4
-		LineNumberAlt1               98, 221
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterstartid"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterlookid"
-		Pull                         3
-		GetMemberFunctionString      "gotopos"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   16573, 4
-		LineNumberAlt1               99, 221
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		Dup
-		GetMemberFunctionString      "unkill"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   16575, 4
-		LineNumberAlt1               101, 221
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		PushConstantStringString     "ninp"
-		Pull                         2
-		GetMemberFunctionString      "setinputstate"
-		JumpAbsolute                 2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xbde82
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
@@ -153,12 +161,6 @@ begin class "tvil6_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    16610, 4
-		LineNumberAlt1                136, 221
-		GetVariableValue              0                                            ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            3, 0
 		; ->
 		; <-
@@ -168,11 +170,36 @@ begin class "tvil6_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 3, 0
 		; ->
-		LineNumber                    16615, 4
-		LineNumberAlt1                141, 221
-		GetVariableValue              0                                            ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
+		LineNumber                   16572, 4
+		LineNumberAlt1               98, 221
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterstartid"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterlookid"
+		Pull                         3
+		GetMemberFunctionString      "gotopos"
+		JumpAbsolute                 3
+		Pop
+		LineNumber                   16573, 4
+		LineNumberAlt1               99, 221
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
+		Pop
+		LineNumber                   16575, 4
+		LineNumberAlt1               101, 221
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		PushConstantStringString     "ninp"
+		Pull                         2
+		GetMemberFunctionString      "setinputstate"
+		JumpAbsolute                 2
 		Pop
 		; <-
 		BranchTarget                  3

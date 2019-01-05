@@ -67,44 +67,6 @@ begin class "lego_area_tvil6", "gs_lego_area"
 		PushConstantf32             0.05000000074505806
 		CallGameFunctionString      "gcareadirector", "setfog", 4
 		Pop
-		LineNumber                  17349, 4
-		LineNumberAlt1              87, 225
-		PushConstantStringString    "vlgr"
-		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                  17349, 4
-		LineNumberAlt1              87, 225
-		PushConstant0
-		CallGameFunctionString      "gcmodeldirector", "getcharacter", 2
-		LineNumber                  17349, 4
-		LineNumberAlt1              87, 225
-		SetVariableValue            1                                            ; local
-		LineNumber                  17350, 4
-		LineNumberAlt1              88, 225
-		GetVariableValue            1                                            ; local
-		PushConstantColor8888       0xffffffff
-		PushConstanti16             255
-		SetRedValue
-		PushConstanti16             247
-		SetGreenValue
-		PushConstant0
-		SetBlueValue
-		PushConstanti16             255
-		SetAlphaValue
-		PushConstantColor8888       0xffffffff
-		PushConstanti16             255
-		SetRedValue
-		PushConstanti16             247
-		SetGreenValue
-		PushConstant0
-		SetBlueValue
-		PushConstanti16             255
-		SetAlphaValue
-		PushConstantStringString    "mk6a"
-		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                  17350, 4
-		LineNumberAlt1              88, 225
-		CallGameFunctionString      "gccharacter", "settohunga", 4
-		Pop
 		PushNothing
 		Return
 	end ; method
