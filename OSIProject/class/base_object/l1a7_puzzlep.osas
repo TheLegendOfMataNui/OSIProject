@@ -1034,11 +1034,6 @@ begin class "l1a7_puzzlep", "base_object"
 		; ->
 		; <-
 		BranchTarget                  8
-		LineNumber                    46591, 4
-		LineNumberAlt1                246, 120
-		PushConstanti16               1040
-		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
-		Pop
 		LineNumber                    46592, 4
 		LineNumberAlt1                247, 120
 		GetThisMemberValueString      "plataarray"
