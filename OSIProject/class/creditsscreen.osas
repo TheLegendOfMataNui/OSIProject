@@ -949,7 +949,7 @@ begin class "creditsscreen"
 		PushConstanti8              1
 		AppendToArray
 		Dup
-		PushConstantStringString    "William \"Hexadecimal Mantis\" Robinson"
+		PushConstantStringString    "Ondrej \"OndrikB\" Baco"
 		AppendToArray
 		Dup
 		PushConstant0
