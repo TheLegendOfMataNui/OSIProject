@@ -1,12 +1,15 @@
 begin class "onakoro_puzzle"
 	property "parent"
 	property "cinema"
+	property "cinema_shown"
 	property "deadhives"
 	property "coindoor"
 	property "coindoortext"
 	property "coindoortexttimer"
 	property "showcoindoor"
 	property "upgradefruit"
+	property "upgradefruit2"
+	property "upgradefruit3"
 
 	begin method "onakoro_puzzle"
 		; address: 0x6378a
@@ -30,71 +33,56 @@ begin class "onakoro_puzzle"
 		; source: 86 "C:\\projects\\lego\\Scripting\\VBO\\ArtHeaders/Print_Screen_1.h" 66:106
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          6
-;		LineNumber                    40993, 4
-;		LineNumberAlt1                45, 114
-;		PushConstantStringString      "cin3"
-;		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-;		LineNumber                    40993, 4
-;		LineNumberAlt1                45, 114
-;		CallGameFunctionString        "gcsaver", "findcinema", 1
-;		PushConstant0
-;		EqualTo
-;		CompareAndBranchIfFalseTarget 6, 0
+		LineNumber                    40993, 4
+		LineNumberAlt1                45, 114
+		PushConstantStringString      "cin3"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    40993, 4
+		LineNumberAlt1                45, 114
+		CallGameFunctionString        "gcsaver", "findcinema", 1
+		LineNumber                    30326, 4
+		LineNumberAlt1                106, 83
+		SetVariableValue              1                                            ; local
+		LineNumber                    30327, 4
+		LineNumberAlt1                107, 83
+		GetVariableValue              1                                            ; local
+		CompareAndBranchIfFalseTarget 8, 0
 		; ->
-;		LineNumber                    40997, 4
-;		LineNumberAlt1                49, 114
-;		PushConstanti8                1
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40995, 4
-;		LineNumberAlt1                47, 114
-;		PushConstanti8                2
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40995, 4
-;		LineNumberAlt1                47, 114
-;		PushConstanti8                4
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40996, 4
-;		LineNumberAlt1                48, 114
-;		And
-;		PushConstanti8                8
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40997, 4
-;		LineNumberAlt1                49, 114
-;		And
-;		CompareAndBranchIfFalseTarget 6, 0
+		LineNumber                    30328, 4
+		LineNumberAlt1                108, 83
+		PushConstanti8                1
+		SetThisMemberValueString      "cinema_shown"
+		BranchAlwaysTarget            9, 0
 		; ->
-;		LineNumber                    40999, 4
-;		LineNumberAlt1                51, 114
-;		CallGameFunctionString        "gccinemaengine", "create", 0
-;		LineNumber                    40999, 4
-;		LineNumberAlt1                51, 114
-;		SetThisMemberValueString      "cinema"
-;		LineNumber                    41000, 4
-;		LineNumberAlt1                52, 114
-;		GetThisMemberValueString      "cinema"
-;		PushConstantStringString      "cin3"
-;		CallGameFunctionString        "gccinemaengine", "load", 2
-;		Pop
-;		LineNumber                    41003, 4
-;		LineNumberAlt1                55, 114
-;		GetVariableValueGlobalString  "globalclass"
-;		GetMemberValueString          "hud"
-;		Dup
-;		GetMemberFunctionString       "hide"
-;		JumpAbsolute                  1
-;		Pop
-;		GetThisMemberValueString      "cinema"
-;		PushConstantStringString      "tura"
-;		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-;		CallGameFunctionString        "gccinemaengine", "setnextarea", 2
-;		Pop
-;		LineNumber                    41004, 4
-;		LineNumberAlt1                56, 114
-;		GetThisMemberValueString      "cinema"
-;		CallGameFunctionString        "gccinemaengine", "play", 1
-;		Pop
 		; <-
-;		BranchTarget                  6
+		BranchTarget                  8
+		LineNumber                    30330, 4
+		LineNumberAlt1                110, 83
+		PushConstant0
+		SetThisMemberValueString      "cinema_shown"
+		; <-
+		BranchTarget                  9
+		LineNumber                    30332, 4
+		LineNumberAlt1                112, 83
+		GetThisMemberValueString      "cinema_shown"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		LineNumber                    40999, 4
+		LineNumberAlt1                51, 114
+		CallGameFunctionString        "gccinemaengine", "create", 0
+		LineNumber                    40999, 4
+		LineNumberAlt1                51, 114
+		SetThisMemberValueString      "cinema"
+		LineNumber                    41000, 4
+		LineNumberAlt1                52, 114
+		GetThisMemberValueString      "cinema"
+		PushConstantStringString      "cin3"
+		CallGameFunctionString        "gccinemaengine", "load", 2
+		Pop
+		; <-
+		BranchTarget                  10
 		LineNumber                    37311, 4
 		LineNumberAlt1                143, 95
 		PushConstant0
@@ -205,6 +193,17 @@ begin class "onakoro_puzzle"
 	    PushConstantColor8888		  0xF7CF73FF ; color1 = body
 	    CallGameFunctionString		  "gccharacter", "setcolors", 4
 	    Pop		
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    37323, 4
 		LineNumberAlt1                155, 95
 		PushConstantStringString      "vl02"
@@ -243,6 +242,17 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                156, 95
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    37327, 4
 		LineNumberAlt1                159, 95
 		PushConstantStringString      "vl03"
@@ -377,6 +387,17 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                169, 95
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    30545, 4
 		LineNumberAlt1                100, 86
 		PushConstantStringString      "vl06"
@@ -884,6 +905,150 @@ begin class "onakoro_puzzle"
 		Pop
 		; <-
 		BranchTarget                  4
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		PushConstantStringString      "fru0"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		CallGameFunctionString        "gcsaver", "finditem", 1
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 5, 0
+		; ->
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		CreateObjectString            "vitality_pickup"
+		Dup
+		PushConstantStringString      "fru0"
+		PushConstanti8                17
+		PushConstanti8                2
+		PushConstantStringString      "item"
+		PushConstanti8                13
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "vitality_pickup"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		SetThisMemberValueString      "upgradefruit2"
+		LineNumber                    16363, 4
+		LineNumberAlt1                98, 220
+		GetThisMemberValueString      "upgradefruit2"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  5
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		PushConstantStringString      "fru1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		CallGameFunctionString        "gcsaver", "finditem", 1
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 6, 0
+		; ->
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		CreateObjectString            "vitality_pickup"
+		Dup
+		PushConstantStringString      "fru1"
+		PushConstanti8                17
+		PushConstanti8                2
+		PushConstantStringString      "item"
+		PushConstanti8                13
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "vitality_pickup"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		SetThisMemberValueString      "upgradefruit3"
+		LineNumber                    16363, 4
+		LineNumberAlt1                98, 220
+		GetThisMemberValueString      "upgradefruit3"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  6
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti32               1
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 7, 0
+		; ->
+		LineNumber                    37319, 4
+		LineNumberAlt1                151, 95
+		PushConstantStringString      "vl01"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37319, 4
+		LineNumberAlt1                151, 95
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    37319, 4
+		LineNumberAlt1                151, 95
+		SetVariableValue              1                                               ; local
+		LineNumber                    37320, 4
+		LineNumberAlt1                152, 95
+		GetVariableValue              1                                               ; local
+		PushConstantColor8888         0xffffffff
+		PushConstanti8                102
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                102
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstanti8                102
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                102
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantStringString      "mk0a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37320, 4
+		LineNumberAlt1                152, 95
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+	    PushConstantStringString      "vl01"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x272627FF ; color2 = feet
+	    PushConstantColor8888		  0x272627FF ; color3 = head
+	    PushConstantColor8888		  0xF7CF73FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+	    Pop		
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		; <-
+		BranchTarget                  7
 		PushNothing
 		Return
 	end ; method
@@ -967,6 +1132,48 @@ begin class "onakoro_puzzle"
 		SetThisMemberValueString      "upgradefruit"
 		; <-
 		BranchTarget                  2
+		LineNumber                    39555, 4
+		LineNumberAlt1                175, 97
+		GetThisMemberValueString      "upgradefruit2"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    39557, 4
+		LineNumberAlt1                177, 97
+		GetThisMemberValueString      "upgradefruit2"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    39558, 4
+		LineNumberAlt1                178, 97
+		PushNothing
+		SetThisMemberValueString      "upgradefruit2"
+		; <-
+		BranchTarget                  3
+		LineNumber                    39555, 4
+		LineNumberAlt1                175, 97
+		GetThisMemberValueString      "upgradefruit3"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    39557, 4
+		LineNumberAlt1                177, 97
+		GetThisMemberValueString      "upgradefruit3"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    39558, 4
+		LineNumberAlt1                178, 97
+		PushNothing
+		SetThisMemberValueString      "upgradefruit3"
+		; <-
+		BranchTarget                  4
 		LineNumber                    37436, 4
 		LineNumberAlt1                268, 95
 		PushNothing
@@ -1152,51 +1359,8 @@ begin class "onakoro_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 8, 0
 		; ->
-		PushConstanti8                1
+		PushConstanti32               16384
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		PushConstanti8                2
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		PushConstanti8                4
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		And
-		PushConstanti8                8
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		And
-		CompareAndBranchIfFalseTarget 6, 0
-		; ->
-		LineNumber                    42753, 4
-		LineNumberAlt1                306, 108
-		PushConstantStringString      "bech"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    42753, 4
-		LineNumberAlt1                306, 108
-		PushConstantStringString      "str0"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    42753, 4
-		LineNumberAlt1                306, 108
-		PushConstantStringString      "lok0"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    42753, 4
-		LineNumberAlt1                306, 108
-		CallGameFunctionString        "gcareadirector", "switchareas", 3
-		Pop
-		; <-
-		BranchTarget                  6
-		Dup
-		PushConstanti32               1
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40995, 4
-;		LineNumberAlt1                47, 114
-;		PushConstanti32               2
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40996, 4
-;		LineNumberAlt1                48, 114
-;		And
-;		PushConstanti32               8
-;		CallGameFunctionString        "gcsaver", "isconditionset", 1
-;		LineNumber                    40997, 4
-;		LineNumberAlt1                49, 114
-		And
 		CompareAndBranchIfFalseTarget 7, 0
 		; ->
 		LineNumber                   61463, 4
@@ -1245,10 +1409,129 @@ begin class "onakoro_puzzle"
 		Pop
 		; <-
 		BranchTarget                  7
+		Dup
+		PushConstanti32               65536
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		CompareAndBranchIfFalseTarget 9, 0
+		; ->
+		LineNumber                   61463, 4
+		LineNumberAlt1               594, 158
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		Dup
+		GetMemberFunctionString      "getposx"
+		JumpAbsolute                 1
+		LineNumber                   61463, 4
+		LineNumberAlt1               594, 158
+		SetVariableValue             1                                        ; local
+		LineNumber                   61464, 4
+		LineNumberAlt1               595, 158
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		Dup
+		GetMemberFunctionString      "getposy"
+		JumpAbsolute                 1
+		LineNumber                   61464, 4
+		LineNumberAlt1               595, 158
+		SetVariableValue             2                                        ; local
+		LineNumber                   61465, 4
+		LineNumberAlt1               596, 158
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		Dup
+		GetMemberFunctionString      "getposz"
+		JumpAbsolute                 1
+		LineNumber                   61465, 4
+		LineNumberAlt1               596, 158
+		SetVariableValue             3                                        ; local
+		LineNumber                   61467, 4
+		LineNumberAlt1               598, 158
+		GetThisMemberValueString     "upgradefruit2"
+		GetMemberValueString         "obj"
+		GetVariableValue             1                                        ; local
+		GetVariableValue             2                                        ; local
+		GetVariableValue             3                                        ; local
+		Pull                         4
+		GetMemberFunctionString      "setpos"
+		JumpAbsolute                 4
+		Pop
+		; <-
+		BranchTarget                  9
 		BranchAlwaysTarget            5, 0
 		; ->
 		; <-
 		BranchTarget                  8
+		Dup
+		PushConstanti8                4
+		EqualTo
+		CompareAndBranchIfFalseTarget 11, 0
+		; ->
+		LineNumber                    37495, 4
+		LineNumberAlt1                327, 95
+		GetVariableValue              1                                             ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		PushConstantStringString      "cin3"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		EqualTo
+		GetThisMemberValueString      "cinema_shown"
+		PushConstant0
+		EqualTo
+		And
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		LineNumber                    40997, 4
+		LineNumberAlt1                49, 114
+		PushConstanti8                1
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    40995, 4
+		LineNumberAlt1                47, 114
+		PushConstanti8                2
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    40995, 4
+		LineNumberAlt1                47, 114
+		PushConstanti8                4
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    40996, 4
+		LineNumberAlt1                48, 114
+		And
+		PushConstanti8                8
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		LineNumber                    40997, 4
+		LineNumberAlt1                49, 114
+		And
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		LineNumber                    41003, 4
+		LineNumberAlt1                55, 114
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "cinema"
+		PushConstantStringString      "tura"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gccinemaengine", "setnextarea", 2
+		Pop
+		LineNumber                    41004, 4
+		LineNumberAlt1                56, 114
+		GetThisMemberValueString      "cinema"
+		CallGameFunctionString        "gccinemaengine", "play", 1
+		Pop
+		PushConstanti8                1
+		SetThisMemberValueString      "cinema_shown"
+		; <-
+		BranchTarget                  10
+;		BranchAlwaysTarget			  5
+		; ->
+		; <-
+		BranchTarget				  11
 		Dup
 		PushConstanti8                1
 		EqualTo

@@ -2792,4 +2792,6 @@ begin strings
 	string "Root/Data/cinematics/LegendFMV.bik"
 	string "Welcome to my nightmare! Hie the hench though spongey freak."
 	string "hak1"
+	string "fru0"
+	string "fru1"
 end ; strings

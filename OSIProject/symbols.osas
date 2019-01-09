@@ -3767,7 +3767,6 @@ begin symbols
 	symbol "printmenu"
 	symbol "vlgr"
 	symbol "morphobj"
-	symbol "when"
 	symbol "entrancedoorax"
 	symbol "entrancedooray"
 	symbol "entrancedooraz"
@@ -3952,4 +3951,6 @@ begin symbols
 	symbol "lego_area_endg"
 	symbol "endgm_puzzle"
 	symbol "loadgame"
+	symbol "upgradefruit2"
+	symbol "upgradefruit3"
 end ; symbols
