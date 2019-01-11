@@ -3953,4 +3953,9 @@ begin symbols
 	symbol "loadgame"
 	symbol "upgradefruit2"
 	symbol "upgradefruit3"
+	symbol "upgradefruit_shown"
+	symbol "upgradefruit2_shown"
+	symbol "upgradefruit3_shown"
+	symbol "give_fruit"
+	symbol "give_fruit2"
 end ; symbols

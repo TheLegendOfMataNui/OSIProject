@@ -2794,4 +2794,5 @@ begin strings
 	string "hak1"
 	string "fru0"
 	string "fru1"
+	string "vl10"
 end ; strings
