@@ -2795,4 +2795,8 @@ begin strings
 	string "fru0"
 	string "fru1"
 	string "vl10"
+	string "Trigger Boxes"
+	string "Trigger Planes"
+	string "settriggerboxes"
+	string "settriggerplanes"
 end ; strings
