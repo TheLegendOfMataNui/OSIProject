@@ -172,6 +172,12 @@ begin class "cheatlist"
 		PushConstantStringString    "Collision Boxes"
 		AppendToArray
 		Dup
+		PushConstantStringString    "Trigger Boxes"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Trigger Planes"
+		AppendToArray
+		Dup
 		PushConstantStringString    "HUD"
 		AppendToArray
 		SetThisMemberValueString    "visualdebugnames"
@@ -3115,7 +3121,7 @@ begin class "cheatlist"
 		GetMemberValueString          "event"
 		PushConstanti8                2
 		EqualTo
-		CompareAndBranchIfFalseTarget 8, 0
+		CompareAndBranchIfFalseTarget 12, 0
 		; ->
 		LineNumber                    27003, 4
 		LineNumberAlt1                466, 66
@@ -3124,7 +3130,7 @@ begin class "cheatlist"
 		Dup
 		PushConstanti8                35
 		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
+		CompareAndBranchIfFalseTarget 4, 0
 		; ->
 		LineNumber                    27219, 4
 		LineNumberAlt1                682, 66
@@ -3137,7 +3143,7 @@ begin class "cheatlist"
 		PushConstanti8                0
 		CallGameFunctionString        "lsdebugger", "setwireframe", 1
 		Pop
-		BranchAlwaysTarget            1, 0
+		BranchAlwaysTarget            3, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -3149,17 +3155,41 @@ begin class "cheatlist"
 		PushConstanti8                0
 		CallGameFunctionString        "lsdebugger", "setcollisionboxes", 1
 		Pop
+		BranchAlwaysTarget            3, 0
+		; ->
 		; <-
 		BranchTarget                  1
+		Dup
+		PushConstanti8				  2
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		PushConstanti8                0
+		CallGameFunctionString        "lsdebugger", "settriggerboxes", 1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            3, 0
 		; ->
 		; <-
 		BranchTarget                  2
 		Dup
+		PushConstanti8				  3
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		PushConstanti8                0
+		CallGameFunctionString        "lsdebugger", "settriggerplanes", 1
+		Pop
+		; <-
+		BranchTarget                  3
+		Pop
+		BranchAlwaysTarget            11, 0
+		; ->
+		; <-
+		BranchTarget                  4
+		Dup
 		PushConstanti8                36
 		EqualTo
-		CompareAndBranchIfFalseTarget 6, 0
+		CompareAndBranchIfFalseTarget 10, 0
 		; ->
 		LineNumber                    27219, 4
 		LineNumberAlt1                682, 66
@@ -3167,31 +3197,55 @@ begin class "cheatlist"
 		Dup
 		PushConstant0
 		EqualTo
-		CompareAndBranchIfFalseTarget 3, 0
+		CompareAndBranchIfFalseTarget 5, 0
 		; ->
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "setwireframe", 1
 		Pop
-		BranchAlwaysTarget            5, 0
+		BranchAlwaysTarget            9, 0
 		; ->
 		; <-
-		BranchTarget                  3
+		BranchTarget                  5
 		Dup
 		PushConstanti8                1
 		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
+		CompareAndBranchIfFalseTarget 6, 0
 		; ->
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "setcollisionboxes", 1
 		Pop
-		BranchAlwaysTarget            5, 0
+		BranchAlwaysTarget            9, 0
 		; ->
 		; <-
-		BranchTarget                  4
+		BranchTarget                  6
 		Dup
 		PushConstanti8                2
 		EqualTo
-		CompareAndBranchIfFalseTarget 5, 0
+		CompareAndBranchIfFalseTarget 7, 0
+		; ->
+		PushConstanti8                1
+		CallGameFunctionString        "lsdebugger", "settriggerboxes", 1
+		Pop
+		BranchAlwaysTarget            9, 0
+		; ->
+		; <-
+		BranchTarget                  7
+		Dup
+		PushConstanti8                3
+		EqualTo
+		CompareAndBranchIfFalseTarget 8, 0
+		; ->
+		PushConstanti8                1
+		CallGameFunctionString        "lsdebugger", "settriggerplanes", 1
+		Pop
+		BranchAlwaysTarget            9, 0
+		; ->
+		; <-
+		BranchTarget                  8
+		Dup
+		PushConstanti8                4
+		EqualTo
+		CompareAndBranchIfFalseTarget 9, 0
 		; ->
 		LineNumber                    27012, 4
 		LineNumberAlt1                475, 66
@@ -3200,16 +3254,16 @@ begin class "cheatlist"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  5
+		BranchTarget                  9
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            11, 0
 		; ->
 		; <-
-		BranchTarget                  6
+		BranchTarget                  10
 		Dup
 		PushConstanti8                46
 		EqualTo
-		CompareAndBranchIfFalseTarget 7, 0
+		CompareAndBranchIfFalseTarget 11, 0
 		; ->
 		LineNumber                    27015, 4
 		LineNumberAlt1                478, 66
@@ -3218,10 +3272,10 @@ begin class "cheatlist"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  7
+		BranchTarget                  11
 		Pop
 		; <-
-		BranchTarget                  8
+		BranchTarget                  12
 		PushNothing
 		Return
 	end ; method
