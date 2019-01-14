@@ -3958,4 +3958,5 @@ begin symbols
 	symbol "upgradefruit3_shown"
 	symbol "give_fruit"
 	symbol "give_fruit2"
+	symbol "give_fruit3"
 end ; symbols

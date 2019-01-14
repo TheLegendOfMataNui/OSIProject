@@ -2799,4 +2799,7 @@ begin strings
 	string "Trigger Planes"
 	string "settriggerboxes"
 	string "settriggerplanes"
+	string "bettersaver"
+	string "getbooleanvalue"
+	string "setbooleanvalue"
 end ; strings
