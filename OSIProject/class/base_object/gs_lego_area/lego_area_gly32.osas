@@ -67,19 +67,19 @@ begin class "lego_area_gly32", "gs_lego_area"
 		Pop
 		LineNumber                  55993, 4
 		LineNumberAlt1              42, 148
-		PushConstanti32             -9143565
+		PushConstanti32             -16777216
 		PushConstant0
-		PushConstantf32             1000
+		PushConstantf32             1
 		Subtract
 		PushConstant0
-		PushConstantf32             2400
+		PushConstantf32             200
 		Subtract
-		PushConstantf32             0.009999999776482582
+		PushConstantf32             0.05000000074505806
 		CallGameFunctionString      "gcareadirector", "setfog", 4
 		Pop
 		LineNumber                  55994, 4
 		LineNumberAlt1              43, 148
-		PushConstant0
+		PushConstanti8				1
 		CallGameFunctionString      "gclightdirector", "setcavelighting", 1
 		Pop
 		PushNothing

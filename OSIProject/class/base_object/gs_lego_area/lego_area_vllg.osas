@@ -68,12 +68,12 @@ begin class "lego_area_vllg", "gs_lego_area"
 		Pop
 		LineNumber                    37219, 4
 		LineNumberAlt1                51, 95
-		PushConstanti8                6
+		PushConstanti8                25
 		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
 		Pop
 		LineNumber                    37220, 4
 		LineNumberAlt1                52, 95
-		PushConstanti8                15
+		PushConstanti8                25
 		CallGameFunctionString        "gcmodeldirector", "setnearestmax", 1
 		Pop
 		LineNumber                    37224, 4
@@ -82,7 +82,6 @@ begin class "lego_area_vllg", "gs_lego_area"
 		Dup
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
-		Pop
 		LineNumber                    17308, 4
 		LineNumberAlt1                46, 225
 		PushConstantStringString      "cin2"
@@ -152,6 +151,12 @@ begin class "lego_area_vllg", "gs_lego_area"
 		; address: 0x6324c
 		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 59:63
 		MemberFunctionArgumentCheck   2
+		GetThisMemberValueString      "puzzle"
+		GetVariableValue              1                                            ; local
+		Pull                          2
+		GetMemberFunctionString       "input"
+		JumpAbsolute                  2
+		Pop
 		LineNumber                    52910, 4
 		LineNumberAlt1                59, 135
 		GetVariableValue              1                           ; local
