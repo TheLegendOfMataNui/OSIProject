@@ -82,7 +82,6 @@ begin class "lego_area_vllg", "gs_lego_area"
 		Dup
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
-		Pop
 		LineNumber                    17308, 4
 		LineNumberAlt1                46, 225
 		PushConstantStringString      "cin2"
