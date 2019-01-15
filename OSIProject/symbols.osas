@@ -3955,4 +3955,5 @@ begin symbols
 	symbol "give_fruit"
 	symbol "give_fruit2"
 	symbol "give_fruit3"
+	symbol "playlegend"
 end ; symbols

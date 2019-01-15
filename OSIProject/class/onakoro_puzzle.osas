@@ -118,21 +118,12 @@ begin class "onakoro_puzzle"
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
-		PushConstantStringString      "mk6a"
+		PushConstantStringString      "mk4a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    37316, 4
 		LineNumberAlt1                148, 95
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
-	    PushConstantStringString      "vlgr"
-	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-	    PushConstant0
-	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x272627FF ; color2 = feet
-	    PushConstantColor8888		  0x272627FF ; color3 = head
-	    PushConstantColor8888		  0x272627FF ; color1 = body
-	    CallGameFunctionString		  "gccharacter", "setcolors", 4
-	    Pop	
         GetVariableValue              3                                            ; local
         PushConstantStringString      "none"
         CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
@@ -682,6 +673,15 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+	    PushConstantStringString      "vl11"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x272627FF ; color2 = feet
+	    PushConstantColor8888		  0x272627FF ; color3 = head
+	    PushConstantColor8888		  0x272627FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+	    Pop	
 		GetVariableValue              1                                            ; local
 		PushConstanti16               66
 		CallGameFunctionString        "gccharacter", "setorientation", 2
