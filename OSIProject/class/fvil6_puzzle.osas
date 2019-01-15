@@ -361,52 +361,6 @@ begin class "fvil6_puzzle"
 		Return
 	end ; method
 
-	begin method "initshort"
-		; address: 0xb2176
-		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 151:154
-		MemberFunctionArgumentCheck  1
-		LineNumber                   10910, 4
-		LineNumberAlt1               151, 206
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterstartid"
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "enterlookid"
-		Pull                         3
-		GetMemberFunctionString      "gotopos"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   10911, 4
-		LineNumberAlt1               152, 206
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		Dup
-		GetMemberFunctionString      "unkill"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   10913, 4
-		LineNumberAlt1               154, 206
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		PushConstantStringString     "ninp"
-		Pull                         2
-		GetMemberFunctionString      "setinputstate"
-		JumpAbsolute                 2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xb21d6
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
 	begin method "process"
 		; address: 0xb21da
 		MemberFunctionArgumentCheck 2
@@ -541,12 +495,6 @@ begin class "fvil6_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    10957, 4
-		LineNumberAlt1                198, 206
-		GetVariableValue              0                                             ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            5, 0
 		; ->
 		; <-
@@ -556,11 +504,36 @@ begin class "fvil6_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 5, 0
 		; ->
-		LineNumber                    10962, 4
-		LineNumberAlt1                203, 206
-		GetVariableValue              0                                             ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
+		LineNumber                   10910, 4
+		LineNumberAlt1               151, 206
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterstartid"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterlookid"
+		Pull                         3
+		GetMemberFunctionString      "gotopos"
+		JumpAbsolute                 3
+		Pop
+		LineNumber                   10911, 4
+		LineNumberAlt1               152, 206
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
+		Pop
+		LineNumber                   10913, 4
+		LineNumberAlt1               154, 206
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		PushConstantStringString     "ninp"
+		Pull                         2
+		GetMemberFunctionString      "setinputstate"
+		JumpAbsolute                 2
 		Pop
 		; <-
 		BranchTarget                  5
