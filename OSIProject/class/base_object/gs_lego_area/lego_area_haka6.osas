@@ -101,7 +101,6 @@ begin class "lego_area_haka6", "gs_lego_area"
 	begin method "onevent"
 		; address: 0xbf613
 		; source: 225 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_haka.vbo" 82:108
-		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 104:104
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
 		LineNumber                    17344, 4

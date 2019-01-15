@@ -292,9 +292,6 @@ begin class "cheatlist"
 		PushConstantStringString    "vllg"
 		AppendToArray
 		Dup
-		PushConstantStringString    "mosh"
-		AppendToArray
-		Dup
 		PushConstantStringString    "tura"
 		AppendToArray
 		Dup
@@ -341,9 +338,6 @@ begin class "cheatlist"
 		AppendToArray
 		Dup
 		PushConstantStringString    "vllg"
-		AppendToArray
-		Dup
-		PushConstantStringString    "mosh"
 		AppendToArray
 		Dup
 		PushConstantStringString    "tura"
@@ -395,9 +389,6 @@ begin class "cheatlist"
 		AppendToArray
 		Dup
 		PushConstantStringString    "vllg"
-		AppendToArray
-		Dup
-		PushConstantStringString    "mosh"
 		AppendToArray
 		Dup
 		PushConstantStringString    "tura"
@@ -464,9 +455,6 @@ begin class "cheatlist"
 		AppendToArray
 		Dup
 		PushConstantStringString    "vllg"
-		AppendToArray
-		Dup
-		PushConstantStringString    "mosh"
 		AppendToArray
 		Dup
 		PushConstantStringString    "tura"

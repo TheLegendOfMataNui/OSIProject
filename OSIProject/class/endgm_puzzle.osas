@@ -469,7 +469,6 @@ begin class "endgm_puzzle"
 
 	begin method "input"
 		; address: 0xc756b
-		; source: 122 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_haka.vbo" 110:112
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47167, 4
 		LineNumberAlt1                110, 122

@@ -303,23 +303,6 @@ begin class "lego_level_5", "gs_lego_level"
 		GetThisMemberValueString    "areas"
 		GetVariableValue            1                 ; local
 		AppendToArray
-		LineNumber                  54114, 4
-		LineNumberAlt1              92, 126
-		CreateObjectString          "lego_area_mosh5"
-		Dup
-		GetVariableValue            0                 ; local
-		Pull                        2
-		GetMemberFunctionString     "lego_area_mosh5"
-		JumpAbsolute                2
-		Pop
-		LineNumber                  54114, 4
-		LineNumberAlt1              92, 126
-		SetVariableValue            1                 ; local
-		LineNumber                  54115, 4
-		LineNumberAlt1              93, 126
-		GetThisMemberValueString    "areas"
-		GetVariableValue            1                 ; local
-		AppendToArray
 		PushNothing
 		Return
 	end ; method
