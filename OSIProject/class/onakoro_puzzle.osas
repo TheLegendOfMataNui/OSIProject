@@ -43,15 +43,34 @@ begin class "onakoro_puzzle"
 		LineNumber                    40993, 4
 		LineNumberAlt1                45, 114
 		CallGameFunctionString        "gcsaver", "findcinema", 1
-		LineNumber                    9905, 4
-		LineNumberAlt1                98, 201
+		LineNumber                    30326, 4
+		LineNumberAlt1                106, 83
+		SetVariableValue              1                                            ; local
+		LineNumber                    30327, 4
+		LineNumberAlt1                107, 83
+		GetVariableValue              1                                            ; local
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		LineNumber                    30328, 4
+		LineNumberAlt1                108, 83
+		PushConstanti8                1
 		SetThisMemberValueString      "cinema_shown"
-		LineNumber                    9906, 4
-		LineNumberAlt1                99, 201
+		BranchAlwaysTarget            11, 0
+		; ->
+		; <-
+		BranchTarget                  10
+		LineNumber                    30330, 4
+		LineNumberAlt1                110, 83
+		PushConstant0
+		SetThisMemberValueString      "cinema_shown"
+		; <-
+		BranchTarget                  11
+		LineNumber                    30332, 4
+		LineNumberAlt1                112, 83
 		GetThisMemberValueString      "cinema_shown"
 		PushConstant0
 		EqualTo
-		CompareAndBranchIfFalseTarget 10, 0
+		CompareAndBranchIfFalseTarget 12, 0
 		; ->
 		LineNumber                    40999, 4
 		LineNumberAlt1                51, 114
@@ -71,7 +90,7 @@ begin class "onakoro_puzzle"
 		CallGameFunctionString        "gccinemaengine", "setnextarea", 2
 		Pop
 		; <-
-		BranchTarget                  10
+		BranchTarget                  12
 		LineNumber                    37311, 4
 		LineNumberAlt1                143, 95
 		PushConstant0
@@ -1943,7 +1962,7 @@ begin class "onakoro_puzzle"
 		Dup
 		PushConstanti8                4
 		EqualTo
-		CompareAndBranchIfFalseTarget 11, 0
+		CompareAndBranchIfFalseTarget 12, 0
 		; ->
 		LineNumber                    37495, 4
 		LineNumberAlt1                327, 95
@@ -1953,6 +1972,11 @@ begin class "onakoro_puzzle"
 		GetArrayValue
 		PushConstantStringString      "cin3"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		EqualTo
+		GetThisMemberValueString      "cinema_shown"
+		PushConstant0
+		EqualTo
+		And
 		CompareAndBranchIfFalseTarget 11, 0
 		; ->
 		LineNumber                    40997, 4
@@ -1977,12 +2001,27 @@ begin class "onakoro_puzzle"
 		And
 		CompareAndBranchIfFalseTarget 11, 0
 		; ->
-		GetVariableValue              0                                        ; local
-		GetThisMemberFunctionString   "playcinema"
+		LineNumber                    9972, 4
+		LineNumberAlt1                165, 201
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "hide"
 		JumpAbsolute                  1
 		Pop
+		LineNumber                    9973, 4
+		LineNumberAlt1                166, 201
+		GetThisMemberValueString      "cinema"
+		CallGameFunctionString        "gccinemaengine", "play", 1
+		Pop
+		LineNumber                    9974, 4
+		LineNumberAlt1                167, 201
+		PushConstanti8                1
+		SetThisMemberValueString      "cinema_shown"
 		; <-
 		BranchTarget				  11
+		; <-
+		BranchTarget				  12
 		Dup
 		PushConstanti8                1
 		EqualTo
@@ -2169,40 +2208,6 @@ begin class "onakoro_puzzle"
 		Pop
 		PushConstanti8                1
 		SetThisMemberValueString      "upgradefruit3_shown"
-		; <-
-		BranchTarget                  0
-		PushNothing
-		Return
-	end ; method
-
-	begin method "playcinema"
-		; address: 0xafcea
-		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_hive.vbo" 164:167
-		MemberFunctionArgumentCheck   1
-		LineNumber                    9971, 4
-		LineNumberAlt1                164, 201
-		GetThisMemberValueString      "cinema_shown"
-		PushConstant0
-		EqualTo
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		LineNumber                    9972, 4
-		LineNumberAlt1                165, 201
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    9973, 4
-		LineNumberAlt1                166, 201
-		GetThisMemberValueString      "cinema"
-		CallGameFunctionString        "gccinemaengine", "play", 1
-		Pop
-		LineNumber                    9974, 4
-		LineNumberAlt1                167, 201
-		PushConstanti8                1
-		SetThisMemberValueString      "cinema_shown"
 		; <-
 		BranchTarget                  0
 		PushNothing
