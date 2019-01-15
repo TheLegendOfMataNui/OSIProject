@@ -1,5 +1,9 @@
 begin class "lego_area_vllg6", "gs_lego_area"
 	property "swrd"
+	property "upgradefruit2"
+	property "upgradefruit3"
+	property "upgradefruit2_shown"
+	property "upgradefruit3_shown"
 
 	begin method "lego_area_vllg6"
 		; address: 0xbe809
@@ -275,28 +279,43 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		LineNumberAlt1                62, 223
 		GetVariableValue              1                                            ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti16               255
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8                13
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstanti16               255
 		SetRedValue
-		PushConstanti8                92
+		PushConstant0
 		SetGreenValue
-		PushConstanti8                1
+		PushConstanti8                13
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
-		PushConstantStringString      "mk7a"
+		PushConstantStringString      "mk4a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    16967, 4
 		LineNumberAlt1                62, 223
 		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		GetVariableValue              1                                            ; local
+		PushConstanti16               -49
+		CallGameFunctionString        "gccharacter", "setorientation", 2
 		Pop
 		LineNumber                    16969, 4
 		LineNumberAlt1                64, 223
@@ -427,29 +446,40 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		LineNumberAlt1                74, 223
 		GetVariableValue              1                                            ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti16               255
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8                13
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstanti16               255
 		SetRedValue
-		PushConstanti8                92
+		PushConstant0
 		SetGreenValue
-		PushConstanti8                1
+		PushConstanti8                13
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
-		PushConstantStringString      "mk7a"
+		PushConstantStringString      "mk2a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    16979, 4
 		LineNumberAlt1                74, 223
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    16982, 4
 		LineNumberAlt1                77, 223
 		PushConstantStringString      "vl09"
@@ -488,40 +518,214 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		LineNumberAlt1                78, 223
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "initshort"
-		; address: 0xbee05
-		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_vllg.vbo" 85:86
-		MemberFunctionArgumentCheck  1
-		LineNumber                   16990, 4
-		LineNumberAlt1               85, 223
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		GetThisMemberValueString     "enterstartid"
-		GetThisMemberValueString     "enterlookid"
-		Pull                         3
-		GetMemberFunctionString      "gotopos"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   16991, 4
-		LineNumberAlt1               86, 223
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		PushConstantStringString      "fru0"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		CallGameFunctionString        "gcsaver", "finditem", 1
+		LineNumber                    9905, 4
+		LineNumberAlt1                98, 201
+		SetThisMemberValueString      "upgradefruit2_shown"
+		LineNumber                    9906, 4
+		LineNumberAlt1                99, 201
+		GetThisMemberValueString      "upgradefruit2_shown"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		CreateObjectString            "vitality_pickup"
 		Dup
-		GetMemberFunctionString      "unkill"
-		JumpAbsolute                 1
+		PushConstantStringString      "fru0"
+		PushConstanti8                17
+		PushConstanti8                2
+		PushConstantStringString      "item"
+		PushConstanti8                13
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "vitality_pickup"
+		JumpAbsolute                  7
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xbee41
-		MemberFunctionArgumentCheck 1
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		SetThisMemberValueString      "upgradefruit2"
+		LineNumber                    16363, 4
+		LineNumberAlt1                98, 220
+		GetThisMemberValueString      "upgradefruit2"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		PushConstantStringString      "fru1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    7363, 4
+		LineNumberAlt1                45, 188
+		CallGameFunctionString        "gcsaver", "finditem", 1
+		LineNumber                    9905, 4
+		LineNumberAlt1                98, 201
+		SetThisMemberValueString      "upgradefruit3_shown"
+		LineNumber                    9906, 4
+		LineNumberAlt1                99, 201
+		GetThisMemberValueString      "upgradefruit3_shown"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		CreateObjectString            "vitality_pickup"
+		Dup
+		PushConstantStringString      "fru1"
+		PushConstanti8                17
+		PushConstanti8                2
+		PushConstantStringString      "item"
+		PushConstanti8                13
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "vitality_pickup"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    16362, 4
+		LineNumberAlt1                97, 220
+		SetThisMemberValueString      "upgradefruit3"
+		LineNumber                    16363, 4
+		LineNumberAlt1                98, 220
+		GetThisMemberValueString      "upgradefruit3"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  2
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti32               48
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    16966, 4
+		LineNumberAlt1                61, 223
+		PushConstantStringString      "vl04"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16966, 4
+		LineNumberAlt1                61, 223
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    16966, 4
+		LineNumberAlt1                61, 223
+		SetVariableValue              1                                            ; local
+		LineNumber                    16967, 4
+		LineNumberAlt1                62, 223
+		GetVariableValue              1                                            ; local
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               255
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                13
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               255
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                13
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantStringString      "mk4a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16967, 4
+		LineNumberAlt1                62, 223
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		; <-
+		BranchTarget                  3
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti32               49
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		LineNumber                    37314, 4
+		LineNumberAlt1                146, 95
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    16978, 4
+		LineNumberAlt1                73, 223
+		PushConstantStringString      "vl08"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16978, 4
+		LineNumberAlt1                73, 223
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    16978, 4
+		LineNumberAlt1                73, 223
+		SetVariableValue              1                                            ; local
+		LineNumber                    16979, 4
+		LineNumberAlt1                74, 223
+		GetVariableValue              1                                            ; local
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               255
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                13
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstanti16               255
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti8                13
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantStringString      "mk2a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16979, 4
+		LineNumberAlt1                74, 223
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		; <-
+		BranchTarget                  4
 		PushNothing
 		Return
 	end ; method
@@ -551,6 +755,48 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		SetThisMemberValueString      "swrd"
 		; <-
 		BranchTarget                  0
+		LineNumber                    39555, 4
+		LineNumberAlt1                175, 97
+		GetThisMemberValueString      "upgradefruit2"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    39557, 4
+		LineNumberAlt1                177, 97
+		GetThisMemberValueString      "upgradefruit2"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    39558, 4
+		LineNumberAlt1                178, 97
+		PushNothing
+		SetThisMemberValueString      "upgradefruit2"
+		; <-
+		BranchTarget                  1
+		LineNumber                    39555, 4
+		LineNumberAlt1                175, 97
+		GetThisMemberValueString      "upgradefruit3"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    39557, 4
+		LineNumberAlt1                177, 97
+		GetThisMemberValueString      "upgradefruit3"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    39558, 4
+		LineNumberAlt1                178, 97
+		PushNothing
+		SetThisMemberValueString      "upgradefruit3"
+		; <-
+		BranchTarget                  2
 		PushNothing
 		Return
 	end ; method
@@ -580,12 +826,6 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    17021, 4
-		LineNumberAlt1                116, 223
-		GetVariableValue              0                                        ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            1, 0
 		; ->
 		; <-
@@ -595,14 +835,55 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		LineNumber                    17026, 4
-		LineNumberAlt1                121, 223
-		GetVariableValue              0                                        ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
+		LineNumber                   16990, 4
+		LineNumberAlt1               85, 223
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		GetThisMemberValueString     "enterstartid"
+		GetThisMemberValueString     "enterlookid"
+		Pull                         3
+		GetMemberFunctionString      "gotopos"
+		JumpAbsolute                 3
+		Pop
+		LineNumber                   16991, 4
+		LineNumberAlt1               86, 223
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
 		Pop
 		; <-
 		BranchTarget                  1
+		Dup
+		PushConstanti8                41
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		PushConstanti32               48
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		GetVariableValue              0                                        ; local
+		GetThisMemberFunctionString   "give_fruit2"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  3
+		Dup
+		PushConstanti32               49
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		GetVariableValue              0                                        ; local
+		GetThisMemberFunctionString   "give_fruit3"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  4
+		; <-
+		BranchTarget                  2
 		Pop
 		PushNothing
 		Return
@@ -618,6 +899,54 @@ begin class "lego_area_vllg6", "gs_lego_area"
 	begin method "exit"
 		; address: 0xbeee8
 		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "give_fruit2"
+		MemberFunctionArgumentCheck   1
+		GetThisMemberValueString      "upgradefruit2_shown"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		GetThisMemberValueString     "upgradefruit2"
+		GetMemberValueString         "obj"
+		PushConstantf32              -77.663338
+		PushConstantf32              1.173774
+		PushConstantf32              9.055604
+		Pull                         4
+		GetMemberFunctionString      "setpos"
+		JumpAbsolute                 4
+		Pop
+		PushConstanti8                1
+		SetThisMemberValueString      "upgradefruit2_shown"
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "give_fruit3"
+		MemberFunctionArgumentCheck   1
+		GetThisMemberValueString      "upgradefruit3_shown"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		GetThisMemberValueString     "upgradefruit3"
+		GetMemberValueString         "obj"
+		PushConstantf32              -134.737625
+		PushConstantf32              -3.617250
+		PushConstantf32              106.013672
+		Pull                         4
+		GetMemberFunctionString      "setpos"
+		JumpAbsolute                 4
+		Pop
+		PushConstanti8                1
+		SetThisMemberValueString      "upgradefruit3_shown"
+		; <-
+		BranchTarget                  0
 		PushNothing
 		Return
 	end ; method
