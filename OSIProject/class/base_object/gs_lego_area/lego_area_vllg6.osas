@@ -542,8 +542,8 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		PushConstantStringString      "fru0"
 		PushConstanti8                17
 		PushConstanti8                2
-		PushConstantStringString      "item"
-		PushConstanti8                13
+		PushConstantStringString      "frut"
+		PushConstanti8                1
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "vitality_pickup"
@@ -585,8 +585,8 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		PushConstantStringString      "fru1"
 		PushConstanti8                17
 		PushConstanti8                2
-		PushConstantStringString      "item"
-		PushConstanti8                13
+		PushConstantStringString      "frut"
+		PushConstanti8                1
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "vitality_pickup"

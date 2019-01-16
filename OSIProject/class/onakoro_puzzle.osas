@@ -137,7 +137,7 @@ begin class "onakoro_puzzle"
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
-		PushConstantStringString      "mk4a"
+		PushConstantStringString      "mk6a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    37316, 4
 		LineNumberAlt1                148, 95
@@ -154,6 +154,15 @@ begin class "onakoro_puzzle"
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
         Pop
+	    PushConstantStringString      "vlgr"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x272627FF ; color2 = feet
+	    PushConstantColor8888		  0x272627FF ; color3 = head
+	    PushConstantColor8888		  0x272627FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+	    Pop	
 		LineNumber                    37319, 4
 		LineNumberAlt1                151, 95
 		PushConstantStringString      "vl01"
@@ -692,15 +701,6 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
-	    PushConstantStringString      "vl11"
-	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-	    PushConstant0
-	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x272627FF ; color2 = feet
-	    PushConstantColor8888		  0x272627FF ; color3 = head
-	    PushConstantColor8888		  0x272627FF ; color1 = body
-	    CallGameFunctionString		  "gccharacter", "setcolors", 4
-	    Pop	
 		GetVariableValue              1                                            ; local
 		PushConstanti16               66
 		CallGameFunctionString        "gccharacter", "setorientation", 2
@@ -946,6 +946,18 @@ begin class "onakoro_puzzle"
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
         Pop
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		PushConstantStringString      "dor2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		LineNumber                    37341, 4
 		LineNumberAlt1                173, 95
 		PushConstantStringString      "ghv0"
@@ -1312,8 +1324,8 @@ begin class "onakoro_puzzle"
 		PushConstantStringString      "frut"
 		PushConstanti8                17
 		PushConstanti8                2
-		PushConstantStringString      "item"
-		PushConstanti8                13
+		PushConstantStringString      "frut"
+		PushConstanti8                1
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "vitality_pickup"
@@ -1355,8 +1367,8 @@ begin class "onakoro_puzzle"
 		PushConstantStringString      "fru0"
 		PushConstanti8                17
 		PushConstanti8                2
-		PushConstantStringString      "item"
-		PushConstanti8                13
+		PushConstantStringString      "frut"
+		PushConstanti8                1
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "vitality_pickup"
@@ -1398,8 +1410,8 @@ begin class "onakoro_puzzle"
 		PushConstantStringString      "fru1"
 		PushConstanti8                17
 		PushConstanti8                2
-		PushConstantStringString      "item"
-		PushConstanti8                13
+		PushConstantStringString      "frut"
+		PushConstanti8                1
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "vitality_pickup"
@@ -1862,6 +1874,18 @@ begin class "onakoro_puzzle"
 		PushConstanti32               4194304
 		PushConstanti8                1
 		CallGameFunctionString        "gcsaver", "setcondition", 2
+		Pop
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		PushConstantStringString      "dor2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    37347, 4
+		LineNumberAlt1                179, 95
+		CallGameFunctionString        "gcareadirector", "hide", 2
 		Pop
 		LineNumber                    37481, 4
 		LineNumberAlt1                313, 95
