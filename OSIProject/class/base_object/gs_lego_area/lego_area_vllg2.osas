@@ -54,23 +54,6 @@ begin class "lego_area_vllg2", "gs_lego_area"
 		GetMemberFunctionString     "initfull"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  53211, 4
-		LineNumberAlt1              44, 137
-		PushConstanti32             -9143565
-		PushConstant0
-		PushConstantf32             1000
-		Subtract
-		PushConstant0
-		PushConstantf32             2400
-		Subtract
-		PushConstantf32             0.009999999776482582
-		CallGameFunctionString      "gcareadirector", "setfog", 4
-		Pop
-		LineNumber                  53212, 4
-		LineNumberAlt1              45, 137
-		PushConstant0
-		CallGameFunctionString      "gclightdirector", "setcavelighting", 1
-		Pop
 		LineNumber                  53214, 4
 		LineNumberAlt1              47, 137
 		PushConstanti8              20
