@@ -604,6 +604,9 @@ begin class "cheatlist"
 		PushConstantStringString    "lep3"
 		AppendToArray
 		Dup
+		PushConstantStringString    "ovlg"
+		AppendToArray
+		Dup
 		PushConstantStringString    "ptv0"
 		AppendToArray
 		Dup
