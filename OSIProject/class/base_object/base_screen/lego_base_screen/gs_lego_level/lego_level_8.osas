@@ -269,38 +269,38 @@ begin class "lego_level_8", "gs_lego_level"
 		GetVariableValue            1                ; local
 		AppendToArray
 		LineNumber                  7218, 4
-	    LineNumberAlt1              82, 168
-	    CreateObjectString          "lego_area_ovlg"
-	    Dup
-	    GetVariableValue            0                ; local
-      	Pull                        2
-	    GetMemberFunctionString     "lego_area_ovlg"
-	    JumpAbsolute                2
-	    Pop
-	    LineNumber                  7218, 4
-	    LineNumberAlt1              82, 168
-	    SetVariableValue            1                ; local
-	    LineNumber                  7219, 4
-	    LineNumberAlt1              83, 168
-	    GetThisMemberValueString    "areas"
-	    GetVariableValue            1                ; local
-	    AppendToArray
 		LineNumberAlt1              82, 168
-	    CreateObjectString          "lev8_tura"
-	    Dup
-	    GetVariableValue            0                ; local
-	    Pull                        2
-	    GetMemberFunctionString     "lev8_tura"
-	    JumpAbsolute                2
-	    Pop
-	    LineNumber                  7218, 4
-	    LineNumberAlt1              82, 168
-	    SetVariableValue            1                ; local
-	    LineNumber                  7219, 4
-	    LineNumberAlt1              83, 168
-	    GetThisMemberValueString    "areas"
-	    GetVariableValue            1                ; local
-	    AppendToArray
+		CreateObjectString          "lego_area_ovlg"
+		Dup
+		GetVariableValue            0                ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_area_ovlg"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  7218, 4
+		LineNumberAlt1              82, 168
+		SetVariableValue            1                ; local
+		LineNumber                  7219, 4
+		LineNumberAlt1              83, 168
+		GetThisMemberValueString    "areas"
+		GetVariableValue            1                ; local
+		AppendToArray
+		LineNumberAlt1              82, 168
+		CreateObjectString          "lev8_tura"
+		Dup
+		GetVariableValue            0                ; local
+		Pull                        2
+		GetMemberFunctionString     "lev8_tura"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  7218, 4
+		LineNumberAlt1              82, 168
+		SetVariableValue            1                ; local
+		LineNumber                  7219, 4
+		LineNumberAlt1              83, 168
+		GetThisMemberValueString    "areas"
+		GetVariableValue            1                ; local
+		AppendToArray
 		PushNothing
 		Return
 	end ; method
