@@ -622,6 +622,9 @@ begin class "cheatlist"
 		PushConstantStringString    "tp03"
 		AppendToArray
 		Dup
+		PushConstantStringString    "tura"
+		AppendToArray
+		Dup
 		PushConstantStringString    "l1a2"
 		AppendToArray
 		Dup
