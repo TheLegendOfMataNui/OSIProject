@@ -2080,12 +2080,6 @@ begin class "onakoro_puzzle"
 		GreaterOrEqual
 		CompareAndBranchIfFalseTarget 4, 0
 		; ->
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "actor"
-		GetMemberValueString          "ishookenabled"
-		CompareAndBranchIfFalseTarget 4, 0
-		; ->
 		LineNumber                    37500, 4
 		LineNumberAlt1                332, 95
 		GetThisMemberValueString      "coindoor"
