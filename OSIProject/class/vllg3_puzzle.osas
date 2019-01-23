@@ -1484,12 +1484,12 @@ begin class "vllg3_puzzle"
 ;		LineNumber                    40996, 4
 ;		LineNumberAlt1                48, 114
 ;		And
-		PushConstanti8                8
-		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    40997, 4
-		LineNumberAlt1                49, 114
-		And
-		CompareAndBranchIfFalseTarget 11, 0
+;		PushConstanti8                8
+;		CallGameFunctionString        "gcsaver", "isconditionset", 1
+;		LineNumber                    40997, 4
+;		LineNumberAlt1                49, 114
+;		And
+;		CompareAndBranchIfFalseTarget 11, 0
 		; ->
 		LineNumber                    9972, 4
 		LineNumberAlt1                165, 201
