@@ -54,11 +54,6 @@ begin class "lego_area_vllg2", "gs_lego_area"
 		GetMemberFunctionString     "initfull"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  53214, 4
-		LineNumberAlt1              47, 137
-		PushConstanti8              20
-		CallGameFunctionString      "gcmodeldirector", "setnearestmax", 1
-		Pop
 		LineNumber                  53218, 4
 		LineNumberAlt1              51, 137
 		PushConstanti8              7

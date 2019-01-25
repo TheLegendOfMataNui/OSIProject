@@ -120,20 +120,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                148, 95
 		GetVariableValue              3                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti8				  39
 		SetRedValue
-		PushConstant0
+		PushConstanti8				  38
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8				  39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti8				  39
 		SetRedValue
-		PushConstant0
+		PushConstanti8				  38
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8				  39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -154,15 +154,6 @@ begin class "onakoro_puzzle"
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
         Pop
-	    PushConstantStringString      "vlgr"
-	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-	    PushConstant0
-	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x272627FF ; color2 = feet
-	    PushConstantColor8888		  0x272627FF ; color3 = head
-	    PushConstantColor8888		  0x272627FF ; color1 = body
-	    CallGameFunctionString		  "gccharacter", "setcolors", 4
-	    Pop	
 		LineNumber                    37319, 4
 		LineNumberAlt1                151, 95
 		PushConstantStringString      "vl01"
@@ -178,22 +169,22 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                152, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantStringString      "mk0a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
@@ -236,18 +227,18 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                156, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               123
+		PushConstanti8                123
 		SetRedValue
-		PushConstanti16               121
+		PushConstanti8                121
 		SetGreenValue
-		PushConstanti16               123
+		PushConstanti8                123
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstanti16               231
 		SetRedValue
-		PushConstanti16               77
+		PushConstanti8                77
 		SetGreenValue
 		PushConstant0
 		SetBlueValue
@@ -285,22 +276,22 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                160, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstant0
 		SetRedValue
-		PushConstanti16               38
+		PushConstant0
 		SetGreenValue
-		PushConstanti16               39
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstant0
 		SetRedValue
-		PushConstanti16               38
+		PushConstant0
 		SetGreenValue
-		PushConstanti16               39
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantStringString      "mkca"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
@@ -381,20 +372,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                169, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8 				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -434,20 +425,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                101, 86
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8 				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8 				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -472,18 +463,18 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                67, 86
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               123
+		PushConstanti8                123
 		SetRedValue
-		PushConstanti16               121
+		PushConstanti8                121
 		SetGreenValue
-		PushConstanti16               123
+		PushConstanti8                123
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstanti16               231
 		SetRedValue
-		PushConstanti16               77
+		PushConstanti8                77
 		SetGreenValue
 		PushConstant0
 		SetBlueValue
@@ -616,22 +607,22 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantStringString      "mk4a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
@@ -784,20 +775,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti8                39
 		SetRedValue
-		PushConstant0
+		PushConstanti8                38
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstanti8                39
 		SetRedValue
-		PushConstant0
+		PushConstanti8                38
 		SetGreenValue
-		PushConstanti8                102
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -807,15 +798,6 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
-	    PushConstantStringString      "vl13"
-	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-	    PushConstant0
-	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x272726FF ; color2 = feet
-	    PushConstantColor8888		  0x272726FF ; color3 = head
-	    PushConstantColor8888		  0x272726FF ; color1 = body
-	    CallGameFunctionString		  "gccharacter", "setcolors", 4
-	    Pop		
 		GetVariableValue              1                                            ; local
 		PushConstanti16               179
 		CallGameFunctionString        "gccharacter", "setorientation", 2
@@ -846,20 +828,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                84, 86
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -873,9 +855,9 @@ begin class "onakoro_puzzle"
 	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 	    PushConstant0
 	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x797B79FF ; color2 = feet
+	    PushConstantColor8888		  0x7B797BFF ; color2 = feet
 	    PushConstantColor8888		  0xE74D00FF ; color3 = head
-	    PushConstantColor8888		  0xF7CF73FF ; color1 = body
+	    PushConstantColor8888		  0xDEC680FF ; color1 = body
 	    CallGameFunctionString		  "gccharacter", "setcolors", 4
 	    Pop		
 		GetVariableValue              1                                            ; local
@@ -1454,20 +1436,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                152, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti8                102
+		PushConstant0
 		SetRedValue
 		PushConstant0
 		SetGreenValue
-		PushConstanti8                102
+		PushConstant0
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
@@ -1524,18 +1506,18 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                156, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               123
+		PushConstanti8                123
 		SetRedValue
-		PushConstanti16               121
+		PushConstanti8                121
 		SetGreenValue
-		PushConstanti16               123
+		PushConstanti8                123
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstanti16               231
 		SetRedValue
-		PushConstanti16               77
+		PushConstanti8                77
 		SetGreenValue
 		PushConstant0
 		SetBlueValue
@@ -1585,20 +1567,20 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                169, 95
 		GetVariableValue              1                                               ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               39
+		PushConstanti8                39
 		SetRedValue
-		PushConstanti16				  38
+		PushConstanti8				  38
 		SetGreenValue
-		PushConstanti16               39
+		PushConstanti8                39
 		SetBlueValue
 		PushConstanti16               255
 		SetAlphaValue

@@ -67,11 +67,6 @@ begin function "setupinterface", 0
 	PushConstanti32JumpTarget 13, 0
 	JumpRelative              0
 	Pop
-	LineNumber                19908, 4
-	LineNumberAlt1            51, 8
-	PushConstanti32JumpTarget 16, 0
-	JumpRelative              0
-	Pop
 	LineNumber                19910, 4
 	LineNumberAlt1            53, 8
 	PushConstanti32JumpTarget 2, 0

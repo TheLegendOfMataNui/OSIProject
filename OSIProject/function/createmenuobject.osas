@@ -6,33 +6,33 @@ begin function "createmenuobject", 0
 	LineNumber               13481, 4
 	LineNumberAlt1           52, 10
 	CreateArray
-	Dup
-	PushConstantStringString "Area Viewer"
-	AppendToArray
-	Dup
-	PushConstanti8           4
-	AppendToArray
-	Dup
-	PushNothing
-	AppendToArray
-	Dup
-	PushConstantStringString "Cinematic Viewer"
-	AppendToArray
-	Dup
-	PushConstanti8           5
-	AppendToArray
-	Dup
-	PushNothing
-	AppendToArray
-	Dup
-	PushConstantStringString "Shoefitter"
-	AppendToArray
-	Dup
-	PushConstanti8           6
-	AppendToArray
-	Dup
-	PushNothing
-	AppendToArray
+;	Dup
+;	PushConstantStringString "Area Viewer"
+;	AppendToArray
+;	Dup
+;	PushConstanti8           4
+;	AppendToArray
+;	Dup
+;	PushNothing
+;	AppendToArray
+;	Dup
+;	PushConstantStringString "Cinematic Viewer"
+;	AppendToArray
+;	Dup
+;	PushConstanti8           5
+;	AppendToArray
+;	Dup
+;	PushNothing
+;	AppendToArray
+;	Dup
+;	PushConstantStringString "Shoefitter"
+;	AppendToArray
+;	Dup
+;	PushConstanti8           6
+;	AppendToArray
+;	Dup
+;	PushNothing
+;	AppendToArray
 	Dup
 	PushConstantStringString "fend"
 	CallGameFunctionString   "scslosifoundation", "stringtoidentifier", 1
@@ -169,18 +169,18 @@ begin function "createmenuobject", 0
 	PushConstantStringString "onua"
 	AppendToArray
 	AppendToArray
-	Dup
-	PushConstantStringString "Level-8 Nobua"
-	AppendToArray
-	Dup
-	PushConstanti8           16
-	AppendToArray
-	Dup
-	CreateArray
-	Dup
-	PushConstantStringString "kini"
-	AppendToArray
-	AppendToArray
+;	Dup
+;	PushConstantStringString "Level-8 Nobua"
+;	AppendToArray
+;	Dup
+;	PushConstanti8           16
+;	AppendToArray
+;	Dup
+;	CreateArray
+;	Dup
+;	PushConstantStringString "kini"
+;	AppendToArray
+;	AppendToArray
 	Dup
 	PushConstantStringString "fend"
 	CallGameFunctionString   "scslosifoundation", "stringtoidentifier", 1
