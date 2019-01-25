@@ -446,36 +446,36 @@ begin class "gs_lego_screenfrontend"
 		GetThisMemberValueString    "optiontext"
 		GetVariableValue            1                                            ; local
 		AppendToArray
-		CreateArray
-		Dup
-		PushConstantStringString    "Sound Test"
-		AppendToArray
-		Dup
-		PushConstanti8              50
-		AppendToArray
-		Dup
-		PushConstanti8              50
-		PushConstanti8              40
-		GetThisMemberValueString    "optiontext"
-		ElementsInArray
-		Multiply
-		Add
-		AppendToArray
-		Dup
-		PushConstant0
-		AppendToArray
-		Dup
-		PushConstant0
-		AppendToArray
-		Dup
-		PushConstant0
-		AppendToArray
-		SetVariableValue            1                                            ; local
-		LineNumber                  35589, 4
-		LineNumberAlt1              374, 46
-		GetThisMemberValueString    "optiontext"
-		GetVariableValue            1                                            ; local
-		AppendToArray
+;		CreateArray
+;		Dup
+;		PushConstantStringString    "Sound Test"
+;		AppendToArray
+;		Dup
+;		PushConstanti8              50
+;		AppendToArray
+;		Dup
+;		PushConstanti8              50
+;		PushConstanti8              40
+;		GetThisMemberValueString    "optiontext"
+;		ElementsInArray
+;		Multiply
+;		Add
+;		AppendToArray
+;		Dup
+;		PushConstant0
+;		AppendToArray
+;		Dup
+;		PushConstant0
+;		AppendToArray
+;		Dup
+;		PushConstant0
+;		AppendToArray
+;		SetVariableValue            1                                            ; local
+;		LineNumber                  35589, 4
+;		LineNumberAlt1              374, 46
+;		GetThisMemberValueString    "optiontext"
+;		GetVariableValue            1                                            ; local
+;		AppendToArray
 		LineNumber                  35585, 4
 		LineNumberAlt1              370, 46
 		CreateArray

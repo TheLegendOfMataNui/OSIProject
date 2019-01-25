@@ -44,7 +44,7 @@ begin class "acmaskpuzzle"
 		; address: 0x8b846
 		; source: 154 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_blcv.vbo" 140:212
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          1
+		CreateStackVariables          2
 		LineNumber                    59612, 4
 		LineNumberAlt1                140, 154
 		GetVariableValueGlobalString  "globalclass"
@@ -63,6 +63,21 @@ begin class "acmaskpuzzle"
 		GetMemberFunctionString       "play"
 		JumpAbsolute                  2
 		Pop
+		LineNumber                    65248, 4
+		LineNumberAlt1                56, 166
+		PushConstantStringString      "vlgr"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    65248, 4
+		LineNumberAlt1                56, 166
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    65248, 4
+		LineNumberAlt1                56, 166
+		SetVariableValue              2                                            ; local
+		LineNumber                    65249, 4
+		LineNumberAlt1                57, 166
+		GetVariableValue              2                                            ; local
+		CallGameFunctionString        "gccharacter", "setkapura", 1
 		LineNumber                    59615, 4
 		LineNumberAlt1                143, 154
 		PushConstanti8                50
