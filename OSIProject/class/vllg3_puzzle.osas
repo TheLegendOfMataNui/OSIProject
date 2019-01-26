@@ -105,21 +105,43 @@ begin class "vllg3_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		LineNumber                    65248, 4
-		LineNumberAlt1                56, 166
-		PushConstantStringString      "vlgr"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    65248, 4
-		LineNumberAlt1                56, 166
+		LineNumber                  61435, 4
+		LineNumberAlt1              54, 168
+		PushConstantStringString    "vlgr"
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  61435, 4
+		LineNumberAlt1              54, 168
 		PushConstant0
-		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-		LineNumber                    65248, 4
-		LineNumberAlt1                56, 166
-		SetVariableValue              1                                            ; local
-		LineNumber                    65249, 4
-		LineNumberAlt1                57, 166
-		GetVariableValue              1                                            ; local
-		CallGameFunctionString        "gccharacter", "setkapura", 1
+		CallGameFunctionString      "gcmodeldirector", "getcharacter", 2
+		LineNumber                  61435, 4
+		LineNumberAlt1              54, 168
+		SetVariableValue            1                                            ; local
+		LineNumber                  61436, 4
+		LineNumberAlt1              55, 168
+		GetVariableValue            1                                            ; local
+		PushConstantColor8888       0xffffffff
+		PushConstanti16             163
+		SetRedValue
+		PushConstanti8              81
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstanti16             255
+		SetAlphaValue
+		PushConstantColor8888       0xffffffff
+		PushConstanti16             222
+		SetRedValue
+		PushConstanti16             198
+		SetGreenValue
+		PushConstanti16             128
+		SetBlueValue
+		PushConstanti16             255
+		SetAlphaValue
+		PushConstantStringString    "mk4a"
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  61436, 4
+		LineNumberAlt1              55, 168
+		CallGameFunctionString      "gccharacter", "settohunga", 4
 		Pop
 		LineNumber                  61423, 4
 		LineNumberAlt1              42, 168
@@ -174,20 +196,20 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1              46, 168
 		GetVariableValue            1                                            ; local
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             82
+		PushConstanti16             163
 		SetRedValue
-		PushConstanti8              48
+		PushConstanti8              81
 		SetGreenValue
-		PushConstanti16				24
+		PushConstant0
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             82
+		PushConstanti16             163
 		SetRedValue
-		PushConstanti8              48
+		PushConstanti8              81
 		SetGreenValue
-		PushConstanti16				24
+		PushConstant0
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
@@ -299,20 +321,20 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1              55, 168
 		GetVariableValue            1                                            ; local
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             82
+		PushConstanti8              82
 		SetRedValue
 		PushConstanti8              48
 		SetGreenValue
-		PushConstanti16				24
+		PushConstanti8				24
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             255
+		PushConstanti16             228
 		SetRedValue
-		PushConstanti8              92
+		PushConstanti16             128
 		SetGreenValue
-		PushConstanti8              1
+		PushConstanti8              30
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
@@ -348,20 +370,20 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1              58, 168
 		GetVariableValue            1                                            ; local
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             255
+		PushConstanti16             228
 		SetRedValue
-		PushConstanti8              92
+		PushConstanti16             128
 		SetGreenValue
-		PushConstanti8              1
+		PushConstanti8              30
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             255
+		PushConstanti16             228
 		SetRedValue
-		PushConstanti8              92
+		PushConstanti16             128
 		SetGreenValue
-		PushConstanti8              1
+		PushConstanti8              30
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
@@ -439,20 +461,20 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1              66, 168
 		GetVariableValue            1                                            ; local
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             82
+		PushConstanti16             163
 		SetRedValue
-		PushConstanti8              48
+		PushConstanti8              81
 		SetGreenValue
-		PushConstanti16				24
+		PushConstant0
 		SetBlueValue
-		PushConstanti16             24
+		PushConstanti16             255
 		SetAlphaValue
 		PushConstantColor8888       0xffffffff
-		PushConstanti16             82
+		PushConstanti16             163
 		SetRedValue
-		PushConstanti8              48
+		PushConstanti8              81
 		SetGreenValue
-		PushConstanti16				24
+		PushConstant0
 		SetBlueValue
 		PushConstanti16             255
 		SetAlphaValue
@@ -511,6 +533,68 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1              69, 168
 		CallGameFunctionString      "gccharacter", "settohunga", 4
 		Pop
+		LineNumber                    30528, 4
+		LineNumberAlt1                83, 86
+		PushConstantStringString      "vl10"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    30528, 4
+		LineNumberAlt1                83, 86
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    30528, 4
+		LineNumberAlt1                83, 86
+		SetVariableValue              1                                               ; local
+		LineNumber                    30529, 4
+		LineNumberAlt1                84, 86
+		GetVariableValue              1                                               ; local
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantStringString      "mk4a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    30529, 4
+		LineNumberAlt1                84, 86
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+	    PushConstantStringString      "vl10"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x009B00FF ; color2 = feet
+	    PushConstantColor8888		  0x009B00FF ; color3 = head
+	    PushConstantColor8888		  0x660066FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+	    Pop		
+		GetVariableValue              1                                            ; local
+		PushConstanti16               -117
+		CallGameFunctionString        "gccharacter", "setorientation", 2
+		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    65244, 4
 		LineNumberAlt1                52, 166
 		PushConstantStringString      "ghv0"
@@ -653,6 +737,15 @@ begin class "vllg3_puzzle"
 		LineNumber                    65265, 4
 		LineNumberAlt1                73, 166
 		PushConstantStringString      "vl09"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstantStringString      "vl10"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    65265, 4
 		LineNumberAlt1                73, 166

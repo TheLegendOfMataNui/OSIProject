@@ -58,7 +58,7 @@ begin class "lego_area_vllg3", "gs_lego_area"
 		Pop
 		LineNumber                    65237, 4
 		LineNumberAlt1                45, 166
-		PushConstanti8                50
+		PushConstanti8                12
 		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
 		Pop
 		LineNumber                    65238, 4
