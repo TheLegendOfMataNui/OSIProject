@@ -35,7 +35,7 @@ begin class "onakoro_puzzle"
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 143:241
 		; source: 86 "C:\\projects\\lego\\Scripting\\VBO\\ArtHeaders/Print_Screen_1.h" 66:106
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          6
+		CreateStackVariables          3
 		LineNumber                    40993, 4
 		LineNumberAlt1                45, 114
 		PushConstantStringString      "cin3"
@@ -1239,13 +1239,13 @@ begin class "onakoro_puzzle"
 		CallGameFunctionString        "gcareadirector", "getscriptfluffstringuint", 4
 		LineNumber                    37405, 4
 		LineNumberAlt1                237, 95
-		SetVariableValue              6                                               ; local
+		SetVariableValue              2                                               ; local
 		LineNumber                    37406, 4
 		LineNumberAlt1                238, 95
 		CreateObjectString            "gs_legotext"
 		Dup
 		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
-		GetVariableValue              6                                               ; local
+		GetVariableValue              2                                               ; local
 		GetVariableValueGlobalString  "screenx"
 		PushConstantf32               0.5
 		Multiply
@@ -1615,7 +1615,7 @@ begin class "onakoro_puzzle"
 		; address: 0x64142
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 256:274
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          5
+		CreateStackVariables          3
 		LineNumber                    37424, 4
 		LineNumberAlt1                256, 95
 		PushNothing
@@ -1744,14 +1744,6 @@ begin class "onakoro_puzzle"
 		LineNumberAlt1                270, 95
 		PushNothing
 		SetVariableValue              3                   ; local
-		LineNumber                    37439, 4
-		LineNumberAlt1                271, 95
-		PushNothing
-		SetVariableValue              4                   ; local
-		LineNumber                    37442, 4
-		LineNumberAlt1                274, 95
-		PushNothing
-		SetVariableValue              5                   ; local
 		PushNothing
 		SetThisMemberValueString      "deadhives"
 		PushNothing
