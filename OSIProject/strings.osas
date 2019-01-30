@@ -1998,7 +1998,6 @@ begin strings
 	string "root/data/art/portals/tahu/village_ripple/t_prtl"
 	string "drag"
 	string "t036"
-	string "hutt"
 	string "root/data/art/portals/tahu/shrine_ripple/t_shrn_ptl"
 	string "hk13"
 	string "hk15"

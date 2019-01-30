@@ -1,5 +1,5 @@
-begin class "lego_area_hutt", "gs_lego_area"
-	begin method "lego_area_hutt"
+begin class "lego_area_tura3", "gs_lego_area"
+	begin method "lego_area_tura3"
 		; address: 0x94513
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 20:21
 		MemberFunctionArgumentCheck 2
@@ -67,15 +67,6 @@ begin class "lego_area_hutt", "gs_lego_area"
 		LineNumberAlt1                33, 161
 		PushConstanti8                1
 		CallGameFunctionString        "gclightdirector", "setcavelighting", 1
-		Pop
-		LineNumber                    63253, 4
-		LineNumberAlt1                37, 161
-		PushConstantStringString      "oewa"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    63253, 4
-		LineNumberAlt1                37, 161
-		PushConstant0
-		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
 		Pop
 		LineNumber                    63258, 4
 		LineNumberAlt1                42, 161
