@@ -35,21 +35,6 @@ begin class "lego_area_tura6", "gs_lego_area"
 		GetThisMemberFunctionString   "lego_area_show"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    17519, 4
-		LineNumberAlt1                33, 227
-		GetVariableValue              0                                                     ; local
-		GetThisMemberFunctionString   "lego_area_initfull"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    17525, 4
-		LineNumberAlt1                39, 227
-		PushConstantStringString      "vaka"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    17525, 4
-		LineNumberAlt1                39, 227
-		PushConstant0
-		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-		Pop
 		LineNumber                    17530, 4
 		LineNumberAlt1                44, 227
 		PushConstantStringString      "tps9"
@@ -120,33 +105,6 @@ begin class "lego_area_tura6", "gs_lego_area"
 		GetThisMemberFunctionString "lego_area_hide"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  17542, 4
-		LineNumberAlt1              56, 227
-		GetVariableValue            0                       ; local
-		GetThisMemberFunctionString "lego_area_cleanupfull"
-		JumpAbsolute                1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0xbfc96
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "onevent"
-		; address: 0xbfc9a
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0xbfc9e
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
@@ -154,6 +112,12 @@ begin class "lego_area_tura6", "gs_lego_area"
 	begin method "exit"
 		; address: 0xbfca2
 		MemberFunctionArgumentCheck 1
+		LineNumber                  17542, 4
+		LineNumberAlt1              56, 227
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_cleanupfull"
+		JumpAbsolute                1
+		Pop
 		PushNothing
 		Return
 	end ; method
