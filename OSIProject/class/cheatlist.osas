@@ -14,7 +14,6 @@ begin class "cheatlist"
 	property "abilitynames"
 	property "letnames"
 	property "visualdebugnames"
-	property "hudnames"
 	property "newlevel"
 	property "levelnames"
 	property "levelareanames"
@@ -178,19 +177,12 @@ begin class "cheatlist"
 		PushConstantStringString    "Trigger Planes"
 		AppendToArray
 		Dup
+		PushConstantStringString    "Cave Lighting"
+		AppendToArray
+		Dup
 		PushConstantStringString    "HUD"
 		AppendToArray
 		SetThisMemberValueString    "visualdebugnames"
-		CreateArray
-		Dup
-		PushConstantStringString    "Enable"
-		AppendToArray
-		Dup
-		PushConstantStringString    "Disable"
-		AppendToArray
-		SetThisMemberValueString    "hudnames"
-		LineNumber                  26687, 4
-		LineNumberAlt1              150, 66
 		CreateArray
 		Dup
 		PushConstantStringString    "Lev1 - Onua"
@@ -980,42 +972,6 @@ begin class "cheatlist"
 		LineNumberAlt1                274, 66
 		PushNothing
 		SetThisMemberValueString      "visualdebugnames"
-		LineNumber                    26807, 4
-		LineNumberAlt1                270, 66
-		GetThisMemberValueString      "hudnames"
-		ElementsInArray
-		PushConstanti8                1
-		Subtract
-		SetVariableValue              1                  ; local
-		LineNumber                    26808, 4
-		LineNumberAlt1                271, 66
-		GetVariableValue              1                  ; local
-		PushConstant0
-		SetVariableValue              2                  ; local
-		; <-
-		BranchTarget                  14
-		Dup
-		GetVariableValue              2                  ; local
-		GreaterOrEqual
-		CompareAndBranchIfFalseTarget 15, 0
-		; ->
-		LineNumber                    26809, 4
-		LineNumberAlt1                272, 66
-		GetThisMemberValueString      "hudnames"
-		GetVariableValue              1                  ; local
-		GetVariableValue              2                  ; local
-		Subtract
-		RemoveFromArray
-		IncrementVariable             2
-		BranchAlwaysTarget            14, 0
-		; ->
-		; <-
-		BranchTarget                  15
-		Pop
-		LineNumber                    26811, 4
-		LineNumberAlt1                274, 66
-		PushNothing
-		SetThisMemberValueString      "hudnames"
 		LineNumber                    26813, 4
 		LineNumberAlt1                276, 66
 		GetThisMemberValueString      "levelnames"
@@ -1354,22 +1310,6 @@ begin class "cheatlist"
 		; <-
 		BranchTarget                  7
 		Dup
-		PushConstanti8                10
-		EqualTo
-		CompareAndBranchIfFalseTarget 8, 0
-		; ->
-		LineNumber                    26878, 4
-		LineNumberAlt1                341, 66
-		GetVariableValue              0                                         ; local
-		GetVariableValue              1                                         ; local
-		GetThisMemberFunctionString   "hudinput"
-		JumpAbsolute                  2
-		Pop
-		BranchAlwaysTarget            9, 0
-		; ->
-		; <-
-		BranchTarget                  8
-		Dup
 		PushConstanti8                99
 		EqualTo
 		CompareAndBranchIfFalseTarget 9, 0
@@ -1608,7 +1548,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "areamenusetup"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -1623,7 +1563,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "gotomenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  1
@@ -1638,7 +1578,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "charactermenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  2
@@ -1653,7 +1593,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "maskmenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  3
@@ -1668,7 +1608,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "abilitymenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  4
@@ -1683,7 +1623,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "letmenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
+		BranchAlwaysTarget            6, 0
 		; ->
 		; <-
 		BranchTarget                  5
@@ -1698,23 +1638,8 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "visualdebugmenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            7, 0
-		; ->
 		; <-
 		BranchTarget                  6
-		Dup
-		PushConstanti8                7
-		EqualTo
-		CompareAndBranchIfFalseTarget 7, 0
-		; ->
-		LineNumber                    26951, 4
-		LineNumberAlt1                414, 66
-		GetVariableValue              0                                ; local
-		GetThisMemberFunctionString   "hudmenusetup"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  7
 		Pop
 		BranchAlwaysTarget            9, 0
 		; ->
@@ -3134,10 +3059,10 @@ begin class "cheatlist"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		PushConstanti8                0
+		PushConstant0
 		CallGameFunctionString        "lsdebugger", "setwireframe", 1
 		Pop
-		BranchAlwaysTarget            3, 0
+		BranchAlwaysTarget            41, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -3146,10 +3071,10 @@ begin class "cheatlist"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		PushConstanti8                0
+		PushConstant0
 		CallGameFunctionString        "lsdebugger", "setcollisionboxes", 1
 		Pop
-		BranchAlwaysTarget            3, 0
+		BranchAlwaysTarget            41, 0
 		; ->
 		; <-
 		BranchTarget                  1
@@ -3158,23 +3083,50 @@ begin class "cheatlist"
 		EqualTo
 		CompareAndBranchIfFalseTarget 2, 0
 		; ->
-		PushConstanti8                0
+		PushConstant0
 		CallGameFunctionString        "lsdebugger", "settriggerboxes", 1
 		Pop
-		BranchAlwaysTarget            3, 0
+		BranchAlwaysTarget            41, 0
 		; ->
 		; <-
 		BranchTarget                  2
 		Dup
-		PushConstanti8				  3
+		PushConstant0
 		EqualTo
 		CompareAndBranchIfFalseTarget 3, 0
 		; ->
-		PushConstanti8                0
+		PushConstant0
 		CallGameFunctionString        "lsdebugger", "settriggerplanes", 1
 		Pop
+		BranchAlwaysTarget            41, 0
+		; ->
 		; <-
 		BranchTarget                  3
+		Dup
+		PushConstanti8				  4
+		EqualTo
+		CompareAndBranchIfFalseTarget 40, 0
+		; ->
+		PushConstant0
+		CallGameFunctionString        "gclightdirector", "setcavelighting", 1
+		Pop
+		BranchAlwaysTarget            41, 0
+		; ->
+		; <-
+		BranchTarget                  40
+		Dup
+		PushConstanti8				  5
+		EqualTo
+		CompareAndBranchIfFalseTarget 41, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  41
 		Pop
 		BranchAlwaysTarget            11, 0
 		; ->
@@ -3196,7 +3148,7 @@ begin class "cheatlist"
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "setwireframe", 1
 		Pop
-		BranchAlwaysTarget            9, 0
+		BranchAlwaysTarget            90, 0
 		; ->
 		; <-
 		BranchTarget                  5
@@ -3208,7 +3160,7 @@ begin class "cheatlist"
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "setcollisionboxes", 1
 		Pop
-		BranchAlwaysTarget            9, 0
+		BranchAlwaysTarget            90, 0
 		; ->
 		; <-
 		BranchTarget                  6
@@ -3220,7 +3172,7 @@ begin class "cheatlist"
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "settriggerboxes", 1
 		Pop
-		BranchAlwaysTarget            9, 0
+		BranchAlwaysTarget            90, 0
 		; ->
 		; <-
 		BranchTarget                  7
@@ -3232,7 +3184,7 @@ begin class "cheatlist"
 		PushConstanti8                1
 		CallGameFunctionString        "lsdebugger", "settriggerplanes", 1
 		Pop
-		BranchAlwaysTarget            9, 0
+		BranchAlwaysTarget            90, 0
 		; ->
 		; <-
 		BranchTarget                  8
@@ -3241,14 +3193,26 @@ begin class "cheatlist"
 		EqualTo
 		CompareAndBranchIfFalseTarget 9, 0
 		; ->
-		LineNumber                    27012, 4
-		LineNumberAlt1                475, 66
-		GetVariableValue              0                                    ; local
-		GetThisMemberFunctionString   "hudmenusetup"
+		PushConstanti8				  1
+		CallGameFunctionString        "gclightdirector", "setcavelighting", 1
+		Pop
+		BranchAlwaysTarget            90, 0
+		; ->
+		; <-
+		BranchTarget                  9
+		Dup
+		PushConstanti8                5
+		EqualTo
+		CompareAndBranchIfFalseTarget 90, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  9
+		BranchTarget                  90
 		Pop
 		BranchAlwaysTarget            11, 0
 		; ->
@@ -3270,91 +3234,6 @@ begin class "cheatlist"
 		Pop
 		; <-
 		BranchTarget                  12
-		PushNothing
-		Return
-	end ; method
-
-	begin method "hudinput"
-		; address: 0x52ac6
-		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 679:692
-		MemberFunctionArgumentCheck   2
-		LineNumber                    27216, 4
-		LineNumberAlt1                679, 66
-		GetVariableValue              1                      ; local
-		GetMemberValueString          "event"
-		PushConstanti8                2
-		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
-		; ->
-		LineNumber                    27217, 4
-		LineNumberAlt1                680, 66
-		GetVariableValue              1                      ; local
-		GetMemberValueString          "button"
-		Dup
-		PushConstanti8                36
-		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
-		LineNumber                    27219, 4
-		LineNumberAlt1                682, 66
-		GetThisMemberValueString      "curidx"
-		Dup
-		PushConstant0
-		EqualTo
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "show"
-		JumpAbsolute                  1
-		Pop
-		BranchAlwaysTarget            1, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		Dup
-		PushConstanti8                1
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  1
-		Pop
-		BranchAlwaysTarget            3, 0
-		; ->
-		; <-
-		BranchTarget                  2
-		Dup
-		PushConstanti8                46
-		EqualTo
-		CompareAndBranchIfFalseTarget 3, 0
-		; ->
-		LineNumber                    27228, 4
-		LineNumberAlt1                691, 66
-		GetVariableValue              1                      ; local
-		GetMemberValueString          "event"
-		PushConstanti8                2
-		EqualTo
-		CompareAndBranchIfFalseTarget 3, 0
-		; ->
-		LineNumber                    27229, 4
-		LineNumberAlt1                692, 66
-		GetVariableValue              0                      ; local
-		GetThisMemberFunctionString   "visualdebugmenusetup"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  3
-		Pop
-		; <-
-		BranchTarget                  4
 		PushNothing
 		Return
 	end ; method
@@ -4996,136 +4875,6 @@ begin class "cheatlist"
 		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFont"
 		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
 		GetThisMemberValueString      "visualdebugnames"
-		GetVariableValue              1                                    ; local
-		GetArrayValue
-		GetThisMemberValueString      "x"
-		GetThisMemberValueString      "y"
-		GetVariableValue              2                                    ; local
-		Add
-		PushConstant0
-		PushConstantf32               1
-		PushConstant0
-		PushConstanti8                4
-		PushConstant0
-		Pull                          11
-		GetMemberFunctionString       "gs_legoactivetext"
-		JumpAbsolute                  11
-		Pop
-		LineNumber                    27557, 4
-		LineNumberAlt1                1020, 66
-		SetVariableValue              3                                    ; local
-		LineNumber                    27558, 4
-		LineNumberAlt1                1021, 66
-		GetVariableValue              3                                    ; local
-		Dup
-		GetMemberFunctionString       "initfull"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    27559, 4
-		LineNumberAlt1                1022, 66
-		GetVariableValue              3                                    ; local
-		Dup
-		GetMemberFunctionString       "add"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    27560, 4
-		LineNumberAlt1                1023, 66
-		GetVariableValue              1                                    ; local
-		GetThisMemberValueString      "showidx"
-		LessOrEqual
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    27561, 4
-		LineNumberAlt1                1024, 66
-		GetVariableValue              3                                    ; local
-		Dup
-		GetMemberFunctionString       "show"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  1
-		LineNumber                    27563, 4
-		LineNumberAlt1                1026, 66
-		GetVariableValue              3                                    ; local
-		PushConstantf32               1.2000000476837158
-		Pull                          2
-		GetMemberFunctionString       "scalefont"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    27564, 4
-		LineNumberAlt1                1027, 66
-		GetThisMemberValueString      "activemenu"
-		GetVariableValue              3                                    ; local
-		AppendToArray
-		IncrementVariable             1
-		BranchAlwaysTarget            0, 0
-		; ->
-		; <-
-		BranchTarget                  2
-		Pop
-		LineNumber                    27566, 4
-		LineNumberAlt1                1029, 66
-		GetThisMemberValueString      "activemenu"
-		PushConstant0
-		GetArrayValue
-		Dup
-		GetMemberFunctionString       "setactive"
-		JumpAbsolute                  1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "hudmenusetup"
-		; address: 0x53c1b
-		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
-		MemberFunctionArgumentCheck   1
-		CreateStackVariables          3
-		LineNumber                    27552, 4
-		LineNumberAlt1                1015, 66
-		PushConstanti8                10
-		SetThisMemberValueString      "screen"
-		LineNumber                    27553, 4
-		LineNumberAlt1                1016, 66
-		GetThisMemberValueString      "hudnames"
-		ElementsInArray
-		PushConstanti8                1
-		Subtract
-		SetThisMemberValueString      "maxidx"
-		LineNumber                    27554, 4
-		LineNumberAlt1                1017, 66
-		GetVariableValue              0                                    ; local
-		GetThisMemberFunctionString   "resetactivemenu"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    27555, 4
-		LineNumberAlt1                1018, 66
-		GetThisMemberValueString      "hudnames"
-		ElementsInArray
-		PushConstanti8                1
-		Subtract
-		PushConstant0
-		SetVariableValue              1                                    ; local
-		; <-
-		BranchTarget                  0
-		Dup
-		GetVariableValue              1                                    ; local
-		GreaterOrEqual
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
-		LineNumber                    27556, 4
-		LineNumberAlt1                1019, 66
-		GetVariableValue              1                                    ; local
-		PushConstanti8                12
-		Multiply
-		SetVariableValue              2                                    ; local
-		LineNumber                    27557, 4
-		LineNumberAlt1                1020, 66
-		CreateObjectString            "gs_legoactivetext"
-		Dup
-		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFont"
-		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
-		GetThisMemberValueString      "hudnames"
 		GetVariableValue              1                                    ; local
 		GetArrayValue
 		GetThisMemberValueString      "x"

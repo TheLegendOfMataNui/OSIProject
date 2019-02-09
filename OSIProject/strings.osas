@@ -2742,7 +2742,6 @@ begin strings
 	string "setwireframe"
 	string "setcollisionboxes"
 	string "HUD"
-	string "Language Test"
 	string "Level-8 Nobua"
 	string "d017"
 	string "nbua"
@@ -2810,4 +2809,5 @@ begin strings
 	string "Root/Data/cinematics/LegendFMVGer.bik"
 	string "Root/Data/cinematics/LegendFMVDa.bik"
 	string "Root/Data/cinematics/LegendFMVSwe.bik"
+	string "Cave Lighting"
 end ; strings
