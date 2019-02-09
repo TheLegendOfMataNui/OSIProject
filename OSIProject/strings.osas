@@ -2810,4 +2810,6 @@ begin strings
 	string "Root/Data/cinematics/LegendFMVDa.bik"
 	string "Root/Data/cinematics/LegendFMVSwe.bik"
 	string "Cave Lighting"
+	string "Dutch Localization"
+	string "Sven \"grumpybean\" Hiller"
 end ; strings

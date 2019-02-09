@@ -967,6 +967,18 @@ begin class "creditsscreen"
 		PushConstant0
 		AppendToArray
 		Dup
+		PushConstantStringString    "Dutch Localization"
+		AppendToArray
+		Dup
+		PushConstanti8              1
+		AppendToArray
+		Dup
+		PushConstantStringString    "Sven \"grumpybean\" Hiller"
+		AppendToArray
+		Dup
+		PushConstant0
+		AppendToArray
+		Dup
 		PushConstantStringString    "Special Thanks"
 		AppendToArray
 		Dup
