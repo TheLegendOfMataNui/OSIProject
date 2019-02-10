@@ -2736,8 +2736,6 @@ begin strings
 	string "VISUAL DEBUGGER..."
 	string "Wireframe"
 	string "Collision Boxes"
-	string "Enable"
-	string "Disable"
 	string "lsdebugger"
 	string "setwireframe"
 	string "setcollisionboxes"

@@ -3204,7 +3204,6 @@ begin symbols
 	symbol "l4_gly1_chomperdoor"
 	symbol "closedoor"
 	symbol "morientation"
-	symbol "enable"
 	symbol "setsurfmode"
 	symbol "removepart"
 	symbol "cleaupfull"
