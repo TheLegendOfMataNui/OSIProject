@@ -1983,7 +1983,7 @@ begin class "vllg3_puzzle"
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
 		GetMemberValueString          "tokens"
-		PushConstanti8                12
+		PushConstanti8                10
 		GreaterOrEqual
 		CompareAndBranchIfFalseTarget 4, 0
 		; ->
