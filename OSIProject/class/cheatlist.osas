@@ -1429,7 +1429,7 @@ begin class "cheatlist"
 		GetThisMemberValueString      "realdelta"
 		CallGameFunctionString        "scprocessmanager", "userealdeltatime", 1
 		Pop
-		BranchAlwaysTarget            20, 0
+		BranchAlwaysTarget            18, 0
 		; ->
 		; <-
 		BranchTarget                  16
@@ -1455,42 +1455,8 @@ begin class "cheatlist"
 		Pop
 		; <-
 		BranchTarget                  17
-		BranchAlwaysTarget            20, 0
-		; ->
 		; <-
 		BranchTarget                  18
-		Dup
-		PushConstanti16               221
-		EqualTo
-		CompareAndBranchIfFalseTarget 19, 0
-		; ->
-		LineNumber                    26917, 4
-		LineNumberAlt1                380, 66
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		BranchAlwaysTarget            20, 0
-		; ->
-		; <-
-		BranchTarget                  19
-		Dup
-		PushConstanti16               219
-		EqualTo
-		CompareAndBranchIfFalseTarget 20, 0
-		; ->
-		LineNumber                    26920, 4
-		LineNumberAlt1                383, 66
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "show"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  20
 		Pop
 		; <-
 		BranchTarget                  21
