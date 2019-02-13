@@ -63,7 +63,7 @@ begin class "lego_area_vllg3", "gs_lego_area"
 		Pop
 		LineNumber                    65238, 4
 		LineNumberAlt1                46, 166
-		PushConstanti8                10
+		PushConstanti8                7
 		CallGameFunctionString        "gcmodeldirector", "setnearestmax", 1
 		Pop
 		LineNumber                    65239, 4
