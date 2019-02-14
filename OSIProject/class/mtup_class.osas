@@ -63,29 +63,38 @@ begin class "mtup_class"
 		LineNumberAlt1                101, 162
 		GetVariableValue              1                                            ; local
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               163
+		PushConstant0
 		SetRedValue
-		PushConstanti8                81
+		PushConstant0
 		SetGreenValue
 		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
-		PushConstanti16               163
+		PushConstant0
 		SetRedValue
-		PushConstanti8                81
+		PushConstant0
 		SetGreenValue
 		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
-		PushConstantStringString      "mk2a"
+		PushConstantStringString      "mk8a"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    63401, 4
 		LineNumberAlt1                101, 162
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+	    PushConstantStringString      "vlgr"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x272627FF ; color2 = feet
+	    PushConstantColor8888		  0xDEC680FF ; color3 = head
+	    PushConstantColor8888		  0x523018FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+	    Pop		
 		LineNumber                    53067, 4
 		LineNumberAlt1                120, 136
 		GetVariableValue              1                                            ; local
@@ -187,6 +196,41 @@ begin class "mtup_class"
 		GetMemberFunctionString       "settweakable"
 		JumpAbsolute                  1
 		Pop
+		PushConstanti8				  51
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		PushConstantStringString      "ghv0"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "mtup"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
+		LineNumber                    63475, 4
+		LineNumberAlt1                175, 162
+		GetThisMemberValueString      "door"
+		GetThisMemberValueString      "door"
+		Dup
+		GetMemberFunctionString       "getx"
+		JumpAbsolute                  1
+		LineNumber                    63475, 4
+		LineNumberAlt1                175, 162
+		PushConstantf32               4.024400234222412
+		GetThisMemberValueString      "door"
+		Dup
+		GetMemberFunctionString       "getz"
+		JumpAbsolute                  1
+		LineNumber                    63475, 4
+		LineNumberAlt1                175, 162
+		PushConstanti8                5
+		Pull                          5
+		GetMemberFunctionString       "interpolate"
+		JumpAbsolute                  5
+		Pop
+		; <-
+		BranchTarget                  1
 		PushNothing
 		Return
 	end ; method
@@ -372,6 +416,10 @@ begin class "mtup_class"
 		EqualTo
 		CompareAndBranchIfFalseTarget 2, 0
 		; ->
+		PushConstanti8				 51
+		PushConstanti8               1
+		CallGameFunctionString       "bettersaver", "setbooleanvalue", 2
+		Pop
 		LineNumber                    63475, 4
 		LineNumberAlt1                175, 162
 		GetThisMemberValueString      "door"
