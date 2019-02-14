@@ -1,10 +1,10 @@
-begin class "shrine_puzzle"
+begin class "shrn4_puzzle"
 	property "parent"
 	property "edoor"
 	property "portalactive"
 	property "bossdoorshone"
 
-	begin method "shrine_puzzle"
+	begin method "shrn4_puzzle"
 		; address: 0xa46a5
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 100:100
 		MemberFunctionArgumentCheck 2

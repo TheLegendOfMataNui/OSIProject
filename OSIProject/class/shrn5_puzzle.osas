@@ -1,4 +1,4 @@
-begin class "shrn_puzzle5"
+begin class "shrn5_puzzle"
 	property "parent"
 	property "cinema"
 	property "bossdoor"
@@ -9,7 +9,7 @@ begin class "shrn_puzzle5"
 	property "doorz"
 	property "testbossdoorproximity"
 
-	begin method "shrn_puzzle5"
+	begin method "shrn5_puzzle"
 		; address: 0xafe8a
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 95:95
 		MemberFunctionArgumentCheck 2

@@ -22,11 +22,11 @@ begin class "lego_area_shrn3", "gs_lego_area"
 		Pop
 		LineNumber                  64844, 4
 		LineNumberAlt1              30, 165
-		CreateObjectString          "puzzle_class"
+		CreateObjectString          "shrn3_puzzle"
 		Dup
 		GetVariableValue            0                    ; local
 		Pull                        2
-		GetMemberFunctionString     "puzzle_class"
+		GetMemberFunctionString     "shrn3_puzzle"
 		JumpAbsolute                2
 		Pop
 		LineNumber                  64844, 4

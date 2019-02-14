@@ -1,4 +1,4 @@
-begin class "puzzle_class"
+begin class "shrn3_puzzle"
 	property "parent"
 	property "bkikbossdoor_up"
 	property "gly3door_up"
@@ -14,7 +14,7 @@ begin class "puzzle_class"
 	property "bossdoorx"
 	property "bossdoorz"
 
-	begin method "puzzle_class"
+	begin method "shrn3_puzzle"
 		; address: 0x97bca
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_shrn.vbo" 119:122
 		MemberFunctionArgumentCheck 2

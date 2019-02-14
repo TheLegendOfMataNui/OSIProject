@@ -1,5 +1,5 @@
 begin class "lego_area_shrn", "gs_lego_area"
-	property "crack_puzzle"
+	property "puzzle"
 
 	begin method "lego_area_shrn"
 		; address: 0x687a5
@@ -23,16 +23,16 @@ begin class "lego_area_shrn", "gs_lego_area"
 		Pop
 		LineNumber                  41115, 4
 		LineNumberAlt1              46, 106
-		CreateObjectString          "crack_puzzle"
+		CreateObjectString          "shrn1_puzzle"
 		Dup
 		GetVariableValue            0                    ; local
 		Pull                        2
-		GetMemberFunctionString     "crack_puzzle"
+		GetMemberFunctionString     "shrn1_puzzle"
 		JumpAbsolute                2
 		Pop
 		LineNumber                  41115, 4
 		LineNumberAlt1              46, 106
-		SetThisMemberValueString    "crack_puzzle"
+		SetThisMemberValueString    "puzzle"
 		PushNothing
 		Return
 	end ; method
@@ -94,7 +94,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		Pop
 		LineNumber                   41133, 4
 		LineNumberAlt1               64, 106
-		GetThisMemberValueString     "crack_puzzle"
+		GetThisMemberValueString     "puzzle"
 		Dup
 		GetMemberFunctionString      "initfull"
 		JumpAbsolute                 1
@@ -109,7 +109,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  41138, 4
 		LineNumberAlt1              69, 106
-		GetThisMemberValueString    "crack_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1              ; local
 		Pull                        2
 		GetMemberFunctionString     "process"
@@ -125,7 +125,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  41143, 4
 		LineNumberAlt1              74, 106
-		GetThisMemberValueString    "crack_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1              ; local
 		Pull                        2
 		GetMemberFunctionString     "onevent"
@@ -141,7 +141,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  41148, 4
 		LineNumberAlt1              79, 106
-		GetThisMemberValueString    "crack_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1              ; local
 		Pull                        2
 		GetMemberFunctionString     "input"
@@ -163,7 +163,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		Pop
 		LineNumber                  41154, 4
 		LineNumberAlt1              85, 106
-		GetThisMemberValueString    "crack_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
 		GetMemberFunctionString     "cleanupfull"
 		JumpAbsolute                1
@@ -184,7 +184,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		Pop
 		LineNumber                  41160, 4
 		LineNumberAlt1              91, 106
-		GetThisMemberValueString    "crack_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
 		GetMemberFunctionString     "exit"
 		JumpAbsolute                1
@@ -192,7 +192,7 @@ begin class "lego_area_shrn", "gs_lego_area"
 		LineNumber                  41161, 4
 		LineNumberAlt1              92, 106
 		PushNothing
-		SetThisMemberValueString    "crack_puzzle"
+		SetThisMemberValueString    "puzzle"
 		PushNothing
 		Return
 	end ; method

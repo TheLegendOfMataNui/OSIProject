@@ -1,4 +1,4 @@
-begin class "crack_puzzle"
+begin class "shrn1_puzzle"
 	property "parent"
 	property "crackparts"
 	property "crackdefaults"
@@ -14,7 +14,7 @@ begin class "crack_puzzle"
 	property "showedoor"
 	property "portalactive"
 
-	begin method "crack_puzzle"
+	begin method "shrn1_puzzle"
 		; address: 0x68de3
 		; source: 106 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_shrn.vbo" 270:272
 		MemberFunctionArgumentCheck 2

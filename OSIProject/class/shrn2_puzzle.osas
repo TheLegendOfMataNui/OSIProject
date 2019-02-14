@@ -1,4 +1,4 @@
-begin class "shrine_puzzle2"
+begin class "shrn2_puzzle"
 	property "parent"
 	property "doorsclosed"
 	property "doors"
@@ -8,7 +8,7 @@ begin class "shrine_puzzle2"
 	property "bdoorx"
 	property "bdoorz"
 
-	begin method "shrine_puzzle2"
+	begin method "shrn2_puzzle"
 		; address: 0x87417
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 89:89
 		MemberFunctionArgumentCheck 2
