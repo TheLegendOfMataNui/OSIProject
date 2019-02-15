@@ -728,15 +728,6 @@ begin class "bullrun2"
 		PushConstant0
 		CallGameFunctionString        "gccollisionphysicsgroup", "toggletriggerboxentered", 2
 		Pop
-		LineNumber                    60847, 4
-		LineNumberAlt1                233, 157
-		PushConstantStringString      "tb10"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    60847, 4
-		LineNumberAlt1                233, 157
-		PushConstant0
-		CallGameFunctionString        "gccollisionphysicsgroup", "toggletriggerboxentered", 2
-		Pop
 		LineNumber                    60848, 4
 		LineNumberAlt1                234, 157
 		PushConstantStringString      "tb11"

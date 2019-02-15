@@ -1,7 +1,7 @@
 begin class "grhz_puzzle"
 	property "parent"
 	property "showmask"
-	property "maskx"
+	property "mask"
 
 	begin method "grhz_puzzle"
 		; address: 0x9560c
@@ -19,7 +19,7 @@ begin class "grhz_puzzle"
 		; address: 0x95620
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 94:105
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          3
+		CreateStackVariables          1
 		LineNumber                    9458, 4
 		LineNumberAlt1                94, 199
 		GetVariableValueGlobalString  "globalclass"
@@ -72,7 +72,7 @@ begin class "grhz_puzzle"
 		CreateObjectString            "lego_pickup"
 		Dup
 		PushConstantStringString      "msks"
-		PushConstanti8                12
+		PushConstanti8                2
 		PushConstanti8                1
 		PushConstantStringString      "item"
 		PushConstanti8                2
@@ -83,17 +83,17 @@ begin class "grhz_puzzle"
 		Pop
 		LineNumber                    9467, 4
 		LineNumberAlt1                103, 199
-		SetThisMemberValueString      "maskx"
+		SetThisMemberValueString      "mask"
 		LineNumber                    9468, 4
 		LineNumberAlt1                104, 199
-		GetThisMemberValueString      "maskx"
+		GetThisMemberValueString      "mask"
 		Dup
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
 		LineNumber                    9469, 4
 		LineNumberAlt1                105, 199
-		GetThisMemberValueString      "maskx"
+		GetThisMemberValueString      "mask"
 		Dup
 		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
@@ -108,18 +108,9 @@ begin class "grhz_puzzle"
 		; address: 0x9571e
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_cave.vbo" 122:127
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          2
-		LineNumber                    9486, 4
-		LineNumberAlt1                122, 199
-		PushNothing
-		SetVariableValue              1             ; local
-		LineNumber                    9487, 4
-		LineNumberAlt1                123, 199
-		PushNothing
-		SetVariableValue              2             ; local
 		LineNumber                    9489, 4
 		LineNumberAlt1                125, 199
-		GetThisMemberValueString      "maskx"
+		GetThisMemberValueString      "mask"
 		PushNothing
 		EqualTo
 		Not
@@ -127,7 +118,7 @@ begin class "grhz_puzzle"
 		; ->
 		LineNumber                    9490, 4
 		LineNumberAlt1                126, 199
-		GetThisMemberValueString      "maskx"
+		GetThisMemberValueString      "mask"
 		Dup
 		GetMemberFunctionString       "cleanupfull"
 		JumpAbsolute                  1
@@ -135,7 +126,7 @@ begin class "grhz_puzzle"
 		LineNumber                    9491, 4
 		LineNumberAlt1                127, 199
 		PushNothing
-		SetThisMemberValueString      "maskx"
+		SetThisMemberValueString      "mask"
 		; <-
 		BranchTarget                  0
 		PushNothing
