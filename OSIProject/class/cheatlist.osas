@@ -353,6 +353,9 @@ begin class "cheatlist"
 		PushConstantStringString    "blr2"
 		AppendToArray
 		Dup
+		PushConstantStringString    "grhz"
+		AppendToArray
+		Dup
 		PushConstantStringString    "ptos"
 		AppendToArray
 		Dup
@@ -369,9 +372,6 @@ begin class "cheatlist"
 		AppendToArray
 		Dup
 		PushConstantStringString    "boss"
-		AppendToArray
-		Dup
-		PushConstantStringString    "grhz"
 		AppendToArray
 		AppendToArray
 		Dup

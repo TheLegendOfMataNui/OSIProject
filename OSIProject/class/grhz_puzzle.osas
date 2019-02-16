@@ -2,6 +2,8 @@ begin class "grhz_puzzle"
 	property "parent"
 	property "showmask"
 	property "mask"
+	property "drownsound"
+	property "drownsoundplayed"
 
 	begin method "grhz_puzzle"
 		; address: 0x9560c
@@ -100,6 +102,22 @@ begin class "grhz_puzzle"
 		Pop
 		; <-
 		BranchTarget                  1
+		LineNumber                    17722, 4
+		LineNumberAlt1                174, 205
+		CreateObjectString            "tablecopysound"
+		Dup
+		PushConstanti16               1048
+		Pull                          2
+		GetMemberFunctionString       "tablecopysound"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    17722, 4
+		LineNumberAlt1                174, 205
+		SetThisMemberValueString      "drownsound"
+		LineNumber                    17726, 4
+		LineNumberAlt1                178, 205
+		PushConstant0
+		SetThisMemberValueString      "drownsoundplayed"
 		PushNothing
 		Return
 	end ; method
@@ -180,7 +198,7 @@ begin class "grhz_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		BranchAlwaysTarget            1, 0
+		BranchAlwaysTarget            2, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -189,6 +207,10 @@ begin class "grhz_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
+		LineNumber                    17779, 4
+		LineNumberAlt1                231, 205
+		PushConstant0
+		SetThisMemberValueString      "drownsoundplayed"
 		LineNumber                    9513, 4
 		LineNumberAlt1                149, 199
 		GetVariableValueGlobalString  "globalclass"
@@ -220,8 +242,47 @@ begin class "grhz_puzzle"
 		GetMemberFunctionString       "unkill"
 		JumpAbsolute                  1
 		Pop
+		BranchAlwaysTarget            2, 0
+		; ->
 		; <-
 		BranchTarget                  1
+		Dup
+		PushConstanti8                42
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    17768, 4
+		LineNumberAlt1                220, 205
+		GetThisMemberValueString      "drownsoundplayed"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    17769, 4
+		LineNumberAlt1                221, 205
+		PushConstanti8                1
+		SetThisMemberValueString      "drownsoundplayed"
+		LineNumber                    17771, 4
+		LineNumberAlt1                223, 205
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "kill"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    17772, 4
+		LineNumberAlt1                224, 205
+		GetThisMemberValueString      "drownsound"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  3
+		BranchAlwaysTarget            2, 0
+		; ->
+		; <-
+		BranchTarget                  2
 		Pop
 		PushNothing
 		Return

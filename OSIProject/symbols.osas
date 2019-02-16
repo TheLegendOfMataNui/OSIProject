@@ -3940,4 +3940,6 @@ begin symbols
 	symbol "give_fruit3"
 	symbol "playlegend"
 	symbol "vllg3_puzzle"
+	symbol "drownsound"
+	symbol "drownsoundplayed"
 end ; symbols
