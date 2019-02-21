@@ -24,7 +24,7 @@ begin class "le04_puzzle"
 		LineNumberAlt1                92, 191
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicOnuaAmbience"
+		PushConstantStringString      "Root/Data/sounds/MusicLewaDrumandBass"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

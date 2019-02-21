@@ -962,7 +962,7 @@ begin class "ta126_puzzle"
 		LineNumber                    15371, 4
 		LineNumberAlt1                189, 217
 		GetThisMemberValueString      "music"
-		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
+		PushConstantStringString      "Root/Data/sounds/MusicPart2LegoUNDERGROUND"
 		Pull                          2
 		GetMemberFunctionString       "setupforplay"
 		JumpAbsolute                  2

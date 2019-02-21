@@ -24,7 +24,7 @@ begin class "tvil6_puzzle"
 		LineNumberAlt1               86, 221
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "bgmusic"
-		PushConstantStringString     "Root/Data/sounds/MusicMakutaTheme"
+		PushConstantStringString     "Root/Data/sounds/MusicPart2LegoUNDERGROUND"
 		Pull                         2
 		GetMemberFunctionString      "changefilename"
 		JumpAbsolute                 2

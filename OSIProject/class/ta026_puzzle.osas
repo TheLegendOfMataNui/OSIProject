@@ -835,7 +835,7 @@ begin class "ta026_puzzle"
 		LineNumberAlt1                223, 208
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
+		PushConstantStringString      "Root/Data/sounds/MUSICLEGOUNDERGROUND"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

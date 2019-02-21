@@ -130,7 +130,7 @@ begin class "lego_area_path4", "gs_lego_area"
 		LineNumberAlt1                47, 170
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
+		PushConstantStringString      "Root/Data/sounds/MUSICKOPAKAambience"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

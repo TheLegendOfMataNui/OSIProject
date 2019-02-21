@@ -62,7 +62,7 @@ begin class "lep1_puzzle"
 		LineNumberAlt1                104, 194
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicGaliAmbience"
+		PushConstantStringString      "Root/Data/sounds/MusicLewaDrumandBass"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

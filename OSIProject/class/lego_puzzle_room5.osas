@@ -37,7 +37,7 @@ begin class "lego_puzzle_room5"
 		LineNumberAlt1                104, 193
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicSurfAndSnowboard"
+		PushConstantStringString      "Root/Data/sounds/MUSICLEWATHEME"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

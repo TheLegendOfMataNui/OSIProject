@@ -78,7 +78,7 @@ begin class "lego_area_scrp", "gs_lego_area"
 		LineNumberAlt1               50, 105
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "bgmusic"
-		PushConstantStringString     "Root/Data/sounds/Musiclowandcreepyambience"
+		PushConstantStringString     "Root/Data/sounds/MUSICONUATHEME"
 		Pull                         2
 		GetMemberFunctionString      "changefilename"
 		JumpAbsolute                 2
