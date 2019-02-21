@@ -611,7 +611,7 @@ begin class "ta116_puzzle"
 		LineNumber                    14962, 4
 		LineNumberAlt1                155, 216
 		GetThisMemberValueString      "music"
-		PushConstantStringString      "Root/Data/sounds/MUSICLEGOUNDERGROUND"
+		PushConstantStringString      "Root/Data/sounds/MusicPart2LegoUNDERGROUND"
 		Pull                          2
 		GetMemberFunctionString       "setupforplay"
 		JumpAbsolute                  2

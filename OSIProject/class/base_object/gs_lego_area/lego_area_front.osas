@@ -85,7 +85,7 @@ begin class "lego_area_front", "gs_lego_area"
 		LineNumberAlt1               100, 46
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "bgmusic"
-		PushConstantStringString     "Root/Data/sounds/MusicGaliAmbience"
+		PushConstantStringString     "Root/Data/sounds/MusicShrine"
 		Pull                         2
 		GetMemberFunctionString      "setupforplay"
 		JumpAbsolute                 2

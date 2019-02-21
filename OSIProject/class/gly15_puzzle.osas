@@ -27,7 +27,7 @@ begin class "gly15_puzzle"
 		LineNumberAlt1               93, 196
 		GetVariableValueGlobalString "globalclass"
 		GetMemberValueString         "bgmusic"
-		PushConstantStringString     "Root/Data/sounds/MusicSurfAndSnowboard"
+		PushConstantStringString     "Root/Data/sounds/Musiclowandcreepyambience"
 		Pull                         2
 		GetMemberFunctionString      "changefilename"
 		JumpAbsolute                 2

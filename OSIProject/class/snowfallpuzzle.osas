@@ -609,7 +609,7 @@ begin class "snowfallpuzzle"
 		LineNumberAlt1                236, 183
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
+		PushConstantStringString      "Root/Data/sounds/MUSICKOPAKATHEME"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

@@ -448,7 +448,7 @@ begin class "ta016_puzzle"
 		LineNumberAlt1                155, 207
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicOnuaAmbience"
+		PushConstantStringString      "Root/Data/sounds/MusicPart2LegoUNDERGROUND"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2

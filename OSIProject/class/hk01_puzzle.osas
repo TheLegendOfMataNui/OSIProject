@@ -25,7 +25,7 @@ begin class "hk01_puzzle"
 		LineNumberAlt1                95, 140
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicOnuaAmbience"
+		PushConstantStringString      "Root/Data/sounds/MusicGaliAmbience"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2
