@@ -829,6 +829,13 @@ begin class "mask"
 		PushConstanti8                10
 		CallGameFunctionString        "gccharacter", "setwatertimerlength", 2
 		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		Dup
+		GetMemberFunctionString       "replenishair"
+		JumpAbsolute                  1
+		Pop
 		; <-
 		BranchTarget                  15
 		BranchAlwaysTarget            39, 0
