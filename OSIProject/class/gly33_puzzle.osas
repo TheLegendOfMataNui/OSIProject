@@ -1,4 +1,4 @@
-begin class "brigpuzzle"
+begin class "gly33_puzzle"
 	property "parent"
 	property "targetarray"
 	property "uppos"
@@ -22,7 +22,7 @@ begin class "brigpuzzle"
 	property "doory"
 	property "doorz"
 
-	begin method "brigpuzzle"
+	begin method "gly33_puzzle"
 		; address: 0x92833
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 110:112
 		MemberFunctionArgumentCheck 2

@@ -1,4 +1,4 @@
-begin class "glyph3_lev4_puzzle"
+begin class "gly32_puzzle"
 	property "parent"
 	property "switch1_up"
 	property "switch2_up"
@@ -26,7 +26,7 @@ begin class "glyph3_lev4_puzzle"
 	property "deltatimer1"
 	property "rotation"
 
-	begin method "glyph3_lev4_puzzle"
+	begin method "gly32_puzzle"
 		; address: 0x8847a
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 116:122
 		MemberFunctionArgumentCheck 2

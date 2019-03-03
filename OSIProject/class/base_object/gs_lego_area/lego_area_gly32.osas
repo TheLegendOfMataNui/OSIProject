@@ -17,11 +17,11 @@ begin class "lego_area_gly32", "gs_lego_area"
 		Pop
 		LineNumber                  55981, 4
 		LineNumberAlt1              30, 148
-		CreateObjectString          "glyph3_lev4_puzzle"
+		CreateObjectString          "gly32_puzzle"
 		Dup
 		GetVariableValue            0                    ; local
 		Pull                        2
-		GetMemberFunctionString     "glyph3_lev4_puzzle"
+		GetMemberFunctionString     "gly32_puzzle"
 		JumpAbsolute                2
 		Pop
 		LineNumber                  55981, 4

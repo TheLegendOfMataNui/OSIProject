@@ -205,11 +205,11 @@ begin class "lego_level_3", "gs_lego_level"
 		AppendToArray
 		LineNumber                  57, 4
 		LineNumberAlt1              94, 152
-		CreateObjectString          "lego_area_gly3"
+		CreateObjectString          "lego_area_gly33"
 		Dup
 		GetVariableValue            0                 ; local
 		Pull                        2
-		GetMemberFunctionString     "lego_area_gly3"
+		GetMemberFunctionString     "lego_area_gly33"
 		JumpAbsolute                2
 		Pop
 		LineNumber                  57, 4
