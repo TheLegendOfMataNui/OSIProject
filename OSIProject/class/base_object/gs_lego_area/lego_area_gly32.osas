@@ -72,7 +72,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 		PushConstantf32             1
 		Subtract
 		PushConstant0
-		PushConstantf32             200
+		PushConstantf32             150
 		Subtract
 		PushConstantf32             0.05000000074505806
 		CallGameFunctionString      "gcareadirector", "setfog", 4

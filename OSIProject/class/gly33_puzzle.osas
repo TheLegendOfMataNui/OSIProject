@@ -748,7 +748,7 @@ begin class "gly33_puzzle"
 		Return
 	end ; method
 
-	begin method "hide"
+	begin method "cleanupfull"
 		; address: 0x930ba
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 205:250
 		MemberFunctionArgumentCheck   1

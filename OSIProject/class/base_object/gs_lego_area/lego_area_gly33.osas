@@ -1,5 +1,5 @@
 begin class "lego_area_gly33", "gs_lego_area"
-	property "gly33_puzzle"
+	property "puzzle"
 	property "parent"
 
 	begin method "lego_area_gly33"
@@ -31,7 +31,7 @@ begin class "lego_area_gly33", "gs_lego_area"
 		Pop
 		LineNumber                  62446, 4
 		LineNumberAlt1              29, 160
-		SetThisMemberValueString    "gly33_puzzle"
+		SetThisMemberValueString    "puzzle"
 		LineNumber                  62447, 4
 		LineNumberAlt1              30, 160
 		GetVariableValue            0                    ; local
@@ -54,14 +54,14 @@ begin class "lego_area_gly33", "gs_lego_area"
 		Pop
 		LineNumber                  62455, 4
 		LineNumberAlt1              38, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
 		GetMemberFunctionString     "initfull"
 		JumpAbsolute                1
 		Pop
 		LineNumber                  62456, 4
 		LineNumberAlt1              39, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
 		GetMemberFunctionString     "show"
 		JumpAbsolute                1
@@ -76,7 +76,7 @@ begin class "lego_area_gly33", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62461, 4
 		LineNumberAlt1              44, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1            ; local
 		Pull                        2
 		GetMemberFunctionString     "process"
@@ -92,7 +92,7 @@ begin class "lego_area_gly33", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62466, 4
 		LineNumberAlt1              49, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1            ; local
 		Pull                        2
 		GetMemberFunctionString     "input"
@@ -108,7 +108,7 @@ begin class "lego_area_gly33", "gs_lego_area"
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62471, 4
 		LineNumberAlt1              54, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		GetVariableValue            1            ; local
 		Pull                        2
 		GetMemberFunctionString     "onevent"
@@ -130,9 +130,9 @@ begin class "lego_area_gly33", "gs_lego_area"
 		Pop
 		LineNumber                  62477, 4
 		LineNumberAlt1              60, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
-		GetMemberFunctionString     "hide"
+		GetMemberFunctionString     "cleanupfull"
 		JumpAbsolute                1
 		Pop
 		PushNothing
@@ -143,13 +143,19 @@ begin class "lego_area_gly33", "gs_lego_area"
 		; address: 0x9281b
 		; source: 160 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_gly3.vbo" 66:66
 		MemberFunctionArgumentCheck 1
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_cleanupfull"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  62483, 4
 		LineNumberAlt1              66, 160
-		GetThisMemberValueString    "gly33_puzzle"
+		GetThisMemberValueString    "puzzle"
 		Dup
 		GetMemberFunctionString     "exit"
 		JumpAbsolute                1
 		Pop
+		PushNothing
+		SetThisMemberValueString    "puzzle"
 		PushNothing
 		Return
 	end ; method

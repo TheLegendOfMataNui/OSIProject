@@ -555,6 +555,22 @@ begin class "gly32_puzzle"
 		LineNumberAlt1                200, 148
 		PushConstanti8                7
 		SetThisMemberValueString      "rotatespeed"
+		LineNumber                  37068, 4
+		LineNumberAlt1              45, 92
+		PushConstantStringString    "kevn"
+		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                  37068, 4
+		LineNumberAlt1              45, 92
+		CallGameFunctionString      "gcmodeldirector", "getcharacter", 1
+		LineNumber                  37068, 4
+		LineNumberAlt1              45, 92
+		SetVariableValue            1                                            ; local
+		LineNumber                  37071, 4
+		LineNumberAlt1              48, 92
+		GetVariableValue            1                                            ; local
+		PushConstantf32             15
+		CallGameFunctionString      "gccharacter", "setscale", 2
+		Pop
 		PushNothing
 		Return
 	end ; method
