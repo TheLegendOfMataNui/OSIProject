@@ -1550,6 +1550,21 @@ begin class "vllg3_puzzle"
         Pop
 		; <-
 		BranchTarget                  9
+		PushConstanti8				  54
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 15, 0
+		; ->
+		LineNumber                    9762, 4
+		LineNumberAlt1                230, 200
+		GetThisMemberValueString      "coindoor"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  15
 		PushNothing
 		Return
 	end ; method
@@ -1834,6 +1849,10 @@ begin class "vllg3_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 2, 0
 		; ->
+		PushConstanti8				 54
+		PushConstanti8               1
+		CallGameFunctionString       "bettersaver", "setbooleanvalue", 2
+		Pop
 		LineNumber                    37490, 4
 		LineNumberAlt1                322, 95
 		GetThisMemberValueString      "coindoor"

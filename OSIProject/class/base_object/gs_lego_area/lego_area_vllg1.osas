@@ -1,8 +1,8 @@
-begin class "lego_area_vllg", "gs_lego_area"
+begin class "lego_area_vllg1", "gs_lego_area"
 	property "cinema"
 	property "puzzle"
 
-	begin method "lego_area_vllg"
+	begin method "lego_area_vllg1"
 		; address: 0x6308c
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 40:42
 		MemberFunctionArgumentCheck 2
@@ -24,10 +24,10 @@ begin class "lego_area_vllg", "gs_lego_area"
 		Pop
 		LineNumber                  37210, 4
 		LineNumberAlt1              42, 95
-		CreateObjectString          "onakoro_puzzle"
+		CreateObjectString          "vllg1_puzzle"
 		Dup
 		Dup
-		GetMemberFunctionString     "onakoro_puzzle"
+		GetMemberFunctionString     "vllg1_puzzle"
 		JumpAbsolute                1
 		Pop
 		LineNumber                  37210, 4

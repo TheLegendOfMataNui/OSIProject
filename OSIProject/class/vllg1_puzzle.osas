@@ -1,4 +1,4 @@
-begin class "onakoro_puzzle"
+begin class "vllg1_puzzle"
 	property "parent"
 	property "cinema"
 	property "cinema_shown"
@@ -14,7 +14,7 @@ begin class "onakoro_puzzle"
 	property "upgradefruit2_shown"
 	property "upgradefruit3_shown"
 
-	begin method "onakoro_puzzle"
+	begin method "vllg1_puzzle"
 		; address: 0x6378a
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 131:135
 		MemberFunctionArgumentCheck 2
@@ -1607,6 +1607,21 @@ begin class "onakoro_puzzle"
         Pop
 		; <-
 		BranchTarget                  9
+		PushConstanti8				  52
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 15, 0
+		; ->
+		LineNumber                    9762, 4
+		LineNumberAlt1                230, 200
+		GetThisMemberValueString      "coindoor"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  15
 		PushNothing
 		Return
 	end ; method
@@ -1903,6 +1918,10 @@ begin class "onakoro_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 2, 0
 		; ->
+		PushConstanti8				 52
+		PushConstanti8               1
+		CallGameFunctionString       "bettersaver", "setbooleanvalue", 2
+		Pop
 		LineNumber                    37490, 4
 		LineNumberAlt1                322, 95
 		GetThisMemberValueString      "coindoor"

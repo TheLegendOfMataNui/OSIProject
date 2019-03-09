@@ -135,7 +135,7 @@ begin class "lego_area_le015", "gs_lego_area"
 		LineNumber                    7368, 4
 		LineNumberAlt1                50, 188
 		GetThisMemberValueString      "launcherpickup"
-		PushConstanti32               32768
+		PushConstanti32               131072
 		Pull                          2
 		GetMemberFunctionString       "setcondition"
 		JumpAbsolute                  2

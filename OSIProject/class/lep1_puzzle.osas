@@ -96,11 +96,6 @@ begin class "lep1_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		LineNumber                    8504, 4
-		LineNumberAlt1                110, 194
-		PushConstantStringString      "************************ SHOWING THE SPIDER"
-		CallGameFunctionString        "debug", "print", 1
-		Pop
 		LineNumber                    8505, 4
 		LineNumberAlt1                111, 194
 		CreateObjectString            "lego_pickup"
@@ -128,7 +123,7 @@ begin class "lep1_puzzle"
 		LineNumber                    8507, 4
 		LineNumberAlt1                113, 194
 		GetThisMemberValueString      "spider"
-		PushConstanti16               16384
+		PushConstanti16               8192
 		Pull                          2
 		GetMemberFunctionString       "setcondition"
 		JumpAbsolute                  2
