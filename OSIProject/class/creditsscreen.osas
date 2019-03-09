@@ -1426,7 +1426,7 @@ begin class "creditsscreen"
 		LineNumberAlt1                283, 84
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicGaliAmbience"
+		PushConstantStringString      "Root/Data/sounds/MusicShrine"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2
