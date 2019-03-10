@@ -1,0 +1,127 @@
+begin class "lego_area_isld2", "gs_lego_area"
+	property "puzzle"
+
+	begin method "lego_area_isld2"
+		; address: 0xbb245
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_isld.vbo" 23:25
+		MemberFunctionArgumentCheck 2
+		LineNumber                  50012, 4
+		LineNumberAlt1              23, 135
+		GetVariableValue            0                    ; local
+		PushConstantStringString    "isld"
+		GetVariableValue            1                    ; local
+		PushConstant0
+		PushConstant0
+		GetThisMemberFunctionString "gs_lego_area"
+		JumpAbsolute                5
+		Pop
+		LineNumber                  50013, 4
+		LineNumberAlt1              24, 135
+		CreateObjectString          "isld2_puzzle"
+		Dup
+		GetVariableValue            0                    ; local
+		Pull                        2
+		GetMemberFunctionString     "isld2_puzzle"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  50013, 4
+		LineNumberAlt1              24, 135
+		SetThisMemberValueString    "puzzle"
+		LineNumber                  50014, 4
+		LineNumberAlt1              25, 135
+		GetVariableValue            0                    ; local
+		GetThisMemberFunctionString "lego_area_initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0xbb29d
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_isld.vbo" 32:35
+		MemberFunctionArgumentCheck 1
+		LineNumber                  50021, 4
+		LineNumberAlt1              32, 135
+		GetVariableValue            0                                       ; local
+		GetThisMemberFunctionString "lego_area_show"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  50022, 4
+		LineNumberAlt1              33, 135
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  50023, 4
+		LineNumberAlt1              34, 135
+		PushConstanti32             -9143565
+		PushConstant0
+		PushConstantf32             1000
+		Subtract
+		PushConstant0
+		PushConstantf32             2400
+		Subtract
+		PushConstantf32             0.009999999776482582
+		CallGameFunctionString      "gcareadirector", "setfog", 4
+		Pop
+		LineNumber                  50024, 4
+		LineNumberAlt1              35, 135
+		PushConstant0
+		CallGameFunctionString      "gclightdirector", "setcavelighting", 1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0xbb303
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_isld.vbo" 41:41
+		MemberFunctionArgumentCheck 1
+		LineNumber                  50030, 4
+		LineNumberAlt1              41, 135
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0xbb31b
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_isld.vbo" 46:46
+		MemberFunctionArgumentCheck 2
+		LineNumber                  50035, 4
+		LineNumberAlt1              46, 135
+		GetThisMemberValueString    "puzzle"
+		GetVariableValue            1         ; local
+		Pull                        2
+		GetMemberFunctionString     "onevent"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0xbb337
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_isld.vbo" 51:52
+		MemberFunctionArgumentCheck 1
+		LineNumber                  50040, 4
+		LineNumberAlt1              51, 135
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "exit"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  50041, 4
+		LineNumberAlt1              52, 135
+		PushNothing
+		SetThisMemberValueString    "puzzle"
+		PushNothing
+		Return
+	end ; method
+end ; class

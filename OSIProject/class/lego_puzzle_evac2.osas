@@ -479,7 +479,7 @@ begin class "lego_puzzle_evac2"
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54954, 4
 		LineNumberAlt1              198, 143
-		PushConstantStringString    "ttun"
+		PushConstantStringString    "isld"
 		CallGameFunctionString      "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                  54954, 4
 		LineNumberAlt1              198, 143

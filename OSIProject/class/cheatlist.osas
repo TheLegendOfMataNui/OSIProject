@@ -302,6 +302,9 @@ begin class "cheatlist"
 		PushConstantStringString    "evac"
 		AppendToArray
 		Dup
+		PushConstantStringString    "isld"
+		AppendToArray
+		Dup
 		PushConstantStringString    "ttun"
 		AppendToArray
 		Dup
