@@ -2805,4 +2805,5 @@ begin strings
 	string "Cave Lighting"
 	string "Dutch Localization"
 	string "Sven \"grumpybean\" Hiller"
+	string "isld"
 end ; strings
