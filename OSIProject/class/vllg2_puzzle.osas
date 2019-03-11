@@ -20,7 +20,6 @@ begin class "vllg2_puzzle"
 	property "testfordoor1proximity"
 	property "door1x"
 	property "door1z"
-	property "gatestone"
 	property "upgradefruit"
 	property "upgradefruit2"
 	property "upgradefruit_shown"
@@ -282,72 +281,6 @@ begin class "vllg2_puzzle"
 		PushConstant0
 		GetThisMemberValueString      "tempplatform"
 		SetMemberValueString          "collide"
-		LineNumber                    53361, 4
-		LineNumberAlt1                194, 137
-		PushConstantStringString      "gstn"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    53361, 4
-		LineNumberAlt1                194, 137
-		CallGameFunctionString        "gcsaver", "finditem", 1
-		LineNumber                    53361, 4
-		LineNumberAlt1                194, 137
-		SetVariableValue              3                                                ; local
-		LineNumber                    53362, 4
-		LineNumberAlt1                195, 137
-		GetVariableValue              3                                                ; local
-		PushConstant0
-		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
-		LineNumber                    53363, 4
-		LineNumberAlt1                196, 137
-		CreateObjectString            "lego_pickup"
-		Dup
-		PushConstantStringString      "gstn"
-		PushConstant0
-		PushConstanti8                5
-		PushConstantStringString      "item"
-		PushConstanti8                7
-		PushConstanti8                1
-		Pull                          7
-		GetMemberFunctionString       "lego_pickup"
-		JumpAbsolute                  7
-		Pop
-		LineNumber                    53363, 4
-		LineNumberAlt1                196, 137
-		SetThisMemberValueString      "gatestone"
-		LineNumber                    53364, 4
-		LineNumberAlt1                197, 137
-		GetThisMemberValueString      "gatestone"
-		Dup
-		GetMemberFunctionString       "initfull"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    53365, 4
-		LineNumberAlt1                198, 137
-		GetThisMemberValueString      "gatestone"
-		Dup
-		GetMemberFunctionString       "show"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    53366, 4
-		LineNumberAlt1                199, 137
-		GetThisMemberValueString      "gatestone"
-		PushConstanti32               262144
-		Pull                          2
-		GetMemberFunctionString       "setcondition"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    53367, 4
-		LineNumberAlt1                200, 137
-		GetThisMemberValueString      "gatestone"
-		PushConstanti8                3
-		Pull                          2
-		GetMemberFunctionString       "setquest"
-		JumpAbsolute                  2
-		Pop
-		; <-
-		BranchTarget                  2
 		LineNumber                    53305, 4
 		LineNumberAlt1                138, 137
 		PushConstant0
@@ -984,27 +917,6 @@ begin class "vllg2_puzzle"
 		LineNumberAlt1                252, 137
 		PushNothing
 		SetThisMemberValueString      "testplatforms"
-		LineNumber                    53421, 4
-		LineNumberAlt1                254, 137
-		GetThisMemberValueString      "gatestone"
-		PushNothing
-		EqualTo
-		Not
-		CompareAndBranchIfFalseTarget 3, 0
-		; ->
-		LineNumber                    53422, 4
-		LineNumberAlt1                255, 137
-		GetThisMemberValueString      "gatestone"
-		Dup
-		GetMemberFunctionString       "cleanupfull"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    53423, 4
-		LineNumberAlt1                256, 137
-		PushNothing
-		SetThisMemberValueString      "gatestone"
-		; <-
-		BranchTarget                  3
 		LineNumber                    39555, 4
 		LineNumberAlt1                175, 97
 		GetThisMemberValueString      "upgradefruit"

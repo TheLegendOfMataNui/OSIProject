@@ -3354,7 +3354,6 @@ begin symbols
 	symbol "cinema2shown"
 	symbol "movebboxsides"
 	symbol "gearpickup"
-	symbol "stonepickup"
 	symbol "doorswitchtimer"
 	symbol "hammerpickup"
 	symbol "switchai"
@@ -3939,4 +3938,10 @@ begin symbols
 	symbol "drownsoundplayed"
 	symbol "lego_area_isld2"
 	symbol "isld2_puzzle"
+	symbol "lego_area_bmtn2"
+	symbol "bmtn2_puzzle"
+	symbol "lego_area_gly12"
+	symbol "gly12_puzzle"
+	symbol "lego_area_mbch2"
+	symbol "mbch2_puzzle"
 end ; symbols

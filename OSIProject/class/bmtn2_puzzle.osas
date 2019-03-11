@@ -1,6 +1,6 @@
 begin class "bmtn2_puzzle"
 	property "parent"
-	property "stonepickup"
+	property "gatestone"
 	property "door"
 
 	begin method "bmtn2_puzzle"
@@ -41,22 +41,55 @@ begin class "bmtn2_puzzle"
 		PushConstanti8                2
 		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
 		Pop
-		LineNumber                    48831, 4
-		LineNumberAlt1                92, 131
+		LineNumber                    53386, 4
+		LineNumberAlt1                219, 137
 		PushConstantStringString      "vlgr"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    48831, 4
-		LineNumberAlt1                92, 131
+		LineNumber                    53386, 4
+		LineNumberAlt1                219, 137
 		PushConstant0
 		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-		LineNumber                    48831, 4
-		LineNumberAlt1                92, 131
-		SetVariableValue              1                                            ; local
-		LineNumber                    48832, 4
-		LineNumberAlt1                93, 131
-		GetVariableValue              1                                            ; local
-		CallGameFunctionString        "gccharacter", "sethafu", 1
+		LineNumber                    53386, 4
+		LineNumberAlt1                219, 137
+		SetVariableValue              1                                                ; local
+		LineNumber                    53387, 4
+		LineNumberAlt1                220, 137
+		GetVariableValue              1                                                ; local
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti16               255
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstanti16               255
+		SetBlueValue
+		PushConstanti16               255
+		SetAlphaValue
+		PushConstantStringString      "mkaa"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    53387, 4
+		LineNumberAlt1                220, 137
+		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d003"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
 		LineNumber                    48834, 4
 		LineNumberAlt1                95, 131
 		CreateObjectString            "lego_moveableobject"
@@ -76,62 +109,68 @@ begin class "bmtn2_puzzle"
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    48837, 4
-		LineNumberAlt1                98, 131
-		PushConstantStringString      "gtst"
+		LineNumber                    53361, 4
+		LineNumberAlt1                194, 137
+		PushConstantStringString      "gstn"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    48837, 4
-		LineNumberAlt1                98, 131
+		LineNumber                    53361, 4
+		LineNumberAlt1                194, 137
 		CallGameFunctionString        "gcsaver", "finditem", 1
-		LineNumber                    48837, 4
-		LineNumberAlt1                98, 131
-		SetVariableValue              2                                            ; local
-		LineNumber                    48838, 4
-		LineNumberAlt1                99, 131
-		GetVariableValue              2                                            ; local
+		LineNumber                    53361, 4
+		LineNumberAlt1                194, 137
+		SetVariableValue              2                                                ; local
+		LineNumber                    53362, 4
+		LineNumberAlt1                195, 137
+		GetVariableValue              2                                                ; local
+		PushConstant0
+		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		BranchAlwaysTarget            1, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		LineNumber                    48840, 4
-		LineNumberAlt1                101, 131
+		LineNumber                    53363, 4
+		LineNumberAlt1                196, 137
 		CreateObjectString            "lego_pickup"
 		Dup
-		PushConstantStringString      "gtst"
+		PushConstantStringString      "gstn"
 		PushConstant0
 		PushConstanti8                5
 		PushConstantStringString      "item"
-		PushConstanti8                11
+		PushConstanti8                7
 		PushConstanti8                1
 		Pull                          7
 		GetMemberFunctionString       "lego_pickup"
 		JumpAbsolute                  7
 		Pop
-		LineNumber                    48840, 4
-		LineNumberAlt1                101, 131
-		SetThisMemberValueString      "stonepickup"
-		LineNumber                    48841, 4
-		LineNumberAlt1                102, 131
-		GetThisMemberValueString      "stonepickup"
+		LineNumber                    53363, 4
+		LineNumberAlt1                196, 137
+		SetThisMemberValueString      "gatestone"
+		LineNumber                    53364, 4
+		LineNumberAlt1                197, 137
+		GetThisMemberValueString      "gatestone"
 		Dup
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    48842, 4
-		LineNumberAlt1                103, 131
-		GetThisMemberValueString      "stonepickup"
+		LineNumber                    53365, 4
+		LineNumberAlt1                198, 137
+		GetThisMemberValueString      "gatestone"
 		Dup
 		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    48843, 4
-		LineNumberAlt1                104, 131
-		GetThisMemberValueString      "stonepickup"
-		PushConstanti16               8192
+		LineNumber                    53366, 4
+		LineNumberAlt1                199, 137
+		GetThisMemberValueString      "gatestone"
+		PushConstanti32               262144
 		Pull                          2
 		GetMemberFunctionString       "setcondition"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    53367, 4
+		LineNumberAlt1                200, 137
+		GetThisMemberValueString      "gatestone"
+		PushConstanti8                3
+		Pull                          2
+		GetMemberFunctionString       "setquest"
 		JumpAbsolute                  2
 		Pop
 		LineNumber                    48844, 4
@@ -150,7 +189,7 @@ begin class "bmtn2_puzzle"
 		JumpAbsolute                  5
 		Pop
 		; <-
-		BranchTarget                  1
+		BranchTarget                  0
 		PushNothing
 		Return
 	end ; method
@@ -161,7 +200,7 @@ begin class "bmtn2_puzzle"
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48850, 4
 		LineNumberAlt1                111, 131
-		GetThisMemberValueString      "stonepickup"
+		GetThisMemberValueString      "gatestone"
 		PushNothing
 		EqualTo
 		Not
@@ -169,7 +208,7 @@ begin class "bmtn2_puzzle"
 		; ->
 		LineNumber                    48851, 4
 		LineNumberAlt1                112, 131
-		GetThisMemberValueString      "stonepickup"
+		GetThisMemberValueString      "gatestone"
 		Dup
 		GetMemberFunctionString       "cleanupfull"
 		JumpAbsolute                  1
@@ -177,7 +216,7 @@ begin class "bmtn2_puzzle"
 		LineNumber                    48852, 4
 		LineNumberAlt1                113, 131
 		PushNothing
-		SetThisMemberValueString      "stonepickup"
+		SetThisMemberValueString      "gatestone"
 		; <-
 		BranchTarget                  0
 		LineNumber                    48854, 4
@@ -229,7 +268,7 @@ begin class "bmtn2_puzzle"
 		PushConstanti8                1
 		GetArrayValue
 		Dup
-		PushConstantStringString      "gtst"
+		PushConstantStringString      "gstn"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    48866, 4
 		LineNumberAlt1                127, 131
@@ -295,6 +334,17 @@ begin class "bmtn2_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
+		LineNumber                    48897, 4
+		LineNumberAlt1                158, 131
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "kill"
+		JumpAbsolute                  1
+		Pop
+		PushConstanti16               1048
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
+		Pop
 		LineNumber                    48878, 4
 		LineNumberAlt1                139, 131
 		GetVariableValueGlobalString  "globalclass"
@@ -331,6 +381,17 @@ begin class "bmtn2_puzzle"
 		LineNumberAlt1                142, 131
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
+		Pop
+		LineNumber                    48897, 4
+		LineNumberAlt1                158, 131
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "kill"
+		JumpAbsolute                  1
+		Pop
+		PushConstanti16               1048
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
 		Pop
 		LineNumber                    48882, 4
 		LineNumberAlt1                143, 131

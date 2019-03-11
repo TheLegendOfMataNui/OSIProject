@@ -2806,4 +2806,9 @@ begin strings
 	string "Dutch Localization"
 	string "Sven \"grumpybean\" Hiller"
 	string "isld"
+	string "bmtn"
+	string "mbch"
+	string "gly2"
+	string "gl3s"
+	string "gizr"
 end ; strings
