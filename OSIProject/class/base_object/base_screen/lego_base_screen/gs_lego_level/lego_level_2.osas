@@ -303,6 +303,57 @@ begin class "lego_level_2", "gs_lego_level"
 		GetThisMemberValueString    "areas"
 		GetVariableValue            1                 ; local
 		AppendToArray
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		CreateObjectString          "lego_area_gly12"
+		Dup
+		GetVariableValue            0                 ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_area_gly12"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		SetVariableValue            1                 ; local
+		LineNumber                  58881, 4
+		LineNumberAlt1              77, 134
+		GetThisMemberValueString    "areas"
+		GetVariableValue            1                 ; local
+		AppendToArray
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		CreateObjectString          "lego_area_bmtn2"
+		Dup
+		GetVariableValue            0                 ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_area_bmtn2"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		SetVariableValue            1                 ; local
+		LineNumber                  58881, 4
+		LineNumberAlt1              77, 134
+		GetThisMemberValueString    "areas"
+		GetVariableValue            1                 ; local
+		AppendToArray
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		CreateObjectString          "lego_area_mbch2"
+		Dup
+		GetVariableValue            0                 ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_area_mbch2"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  58880, 4
+		LineNumberAlt1              76, 134
+		SetVariableValue            1                 ; local
+		LineNumber                  58881, 4
+		LineNumberAlt1              77, 134
+		GetThisMemberValueString    "areas"
+		GetVariableValue            1                 ; local
+		AppendToArray
 		PushNothing
 		Return
 	end ; method

@@ -278,6 +278,12 @@ begin class "cheatlist"
 		PushConstantStringString    "mtup"
 		AppendToArray
 		Dup
+		PushConstantStringString    "bech"
+		AppendToArray
+		Dup
+		PushConstantStringString    "bmtn"
+		AppendToArray
+		Dup
 		PushConstantStringString    "strt"
 		AppendToArray
 		Dup
@@ -308,6 +314,9 @@ begin class "cheatlist"
 		PushConstantStringString    "ttun"
 		AppendToArray
 		Dup
+		PushConstantStringString    "mbch"
+		AppendToArray
+		Dup
 		PushConstantStringString    "mwat"
 		AppendToArray
 		Dup
@@ -317,10 +326,22 @@ begin class "cheatlist"
 		PushConstantStringString    "wthk"
 		AppendToArray
 		Dup
+		PushConstantStringString    "gly1"
+		AppendToArray
+		Dup
+		PushConstantStringString    "gly2"
+		AppendToArray
+		Dup
 		PushConstantStringString    "gly3"
 		AppendToArray
 		Dup
+		PushConstantStringString    "gl3s"
+		AppendToArray
+		Dup
 		PushConstantStringString    "takv"
+		AppendToArray
+		Dup
+		PushConstantStringString    "gizr"
 		AppendToArray
 		Dup
 		PushConstantStringString    "hydr"
