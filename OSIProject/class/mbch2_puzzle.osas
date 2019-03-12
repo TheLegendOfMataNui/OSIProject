@@ -185,7 +185,7 @@ begin class "mbch2_puzzle"
 		CreateObjectString            "runningcharacter"
 		Dup
 		PushConstantStringString      "toh0"
-		PushConstantStringString      "tnga"
+		PushConstantStringString      "vlgr"
 		PushConstantStringString      "mbch"
 		PushConstanti8                59
 		PushConstantf32               275.70001220703125
@@ -203,7 +203,7 @@ begin class "mbch2_puzzle"
 		CreateObjectString            "runningcharacter"
 		Dup
 		PushConstantStringString      "toh1"
-		PushConstantStringString      "tnga"
+		PushConstantStringString      "vlgr"
 		PushConstantStringString      "mbch"
 		PushConstanti8                28
 		PushConstantf32               281.6000061035156
@@ -221,7 +221,7 @@ begin class "mbch2_puzzle"
 		CreateObjectString            "runningcharacter"
 		Dup
 		PushConstantStringString      "toh2"
-		PushConstantStringString      "tnga"
+		PushConstantStringString      "vlgr"
 		PushConstantStringString      "mbch"
 		PushConstanti8                127
 		PushConstantf32               290.20001220703125
@@ -239,7 +239,7 @@ begin class "mbch2_puzzle"
 		CreateObjectString            "runningcharacter"
 		Dup
 		PushConstantStringString      "toh3"
-		PushConstantStringString      "tnga"
+		PushConstantStringString      "vlgr"
 		PushConstantStringString      "mbch"
 		PushConstanti8                103
 		PushConstantf32               299.1000061035156
