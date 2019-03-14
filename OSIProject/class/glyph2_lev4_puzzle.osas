@@ -1,0 +1,649 @@
+begin class "glyph2_lev4_puzzle"
+	property "parent"
+	property "gyzerarray"
+	property "lastgyzer"
+	property "glyph"
+	property "door"
+	property "showpickup"
+
+	begin method "glyph2_lev4_puzzle"
+		; address: 0x51bcd
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 81:82
+		MemberFunctionArgumentCheck 2
+		LineNumber                  51854, 4
+		LineNumberAlt1              81, 140
+		GetVariableValue            1            ; local
+		SetThisMemberValueString    "parent"
+		LineNumber                  51855, 4
+		LineNumberAlt1              82, 140
+		PushConstanti8              1
+		SetThisMemberValueString    "showpickup"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0x51bf0
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 89:124
+		MemberFunctionArgumentCheck   1
+		CreateStackVariables          2
+		LineNumber                    51862, 4
+		LineNumberAlt1                89, 140
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "setunderwater"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    51864, 4
+		LineNumberAlt1                91, 140
+		PushConstantStringString      "glyp"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    51864, 4
+		LineNumberAlt1                91, 140
+		CallGameFunctionString        "gcsaver", "findglyph", 1
+		LineNumber                    51864, 4
+		LineNumberAlt1                91, 140
+		SetVariableValue              1                                            ; local
+		LineNumber                    51865, 4
+		LineNumberAlt1                92, 140
+		GetVariableValue              1                                            ; local
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    51866, 4
+		LineNumberAlt1                93, 140
+		PushConstant0
+		SetThisMemberValueString      "showpickup"
+		; <-
+		BranchTarget                  0
+		LineNumber                    51869, 4
+		LineNumberAlt1                96, 140
+		GetThisMemberValueString      "showpickup"
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    51870, 4
+		LineNumberAlt1                97, 140
+		CreateObjectString            "lego_pickup"
+		Dup
+		PushConstantStringString      "glyp"
+		PushConstanti8                6
+		PushConstanti8                2
+		PushConstantStringString      "item"
+		PushConstanti8                7
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "lego_pickup"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    51870, 4
+		LineNumberAlt1                97, 140
+		SetThisMemberValueString      "glyph"
+		LineNumber                    51871, 4
+		LineNumberAlt1                98, 140
+		GetThisMemberValueString      "glyph"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		LineNumber                    51873, 4
+		LineNumberAlt1                100, 140
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "gld2"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    51873, 4
+		LineNumberAlt1                100, 140
+		SetThisMemberValueString      "door"
+		LineNumber                    51874, 4
+		LineNumberAlt1                101, 140
+		GetThisMemberValueString      "door"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51875, 4
+		LineNumberAlt1                102, 140
+		GetThisMemberValueString      "door"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51877, 4
+		LineNumberAlt1                104, 140
+		PushConstanti8                20
+		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
+		Pop
+		LineNumber                    51878, 4
+		LineNumberAlt1                105, 140
+		CreateArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw00"
+		PushConstantStringString      "giz1"
+		PushConstantStringString      "tim0"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51879, 4
+		LineNumberAlt1                106, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw01"
+		PushConstantStringString      "giz3"
+		PushConstantStringString      "tim1"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51880, 4
+		LineNumberAlt1                107, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw02"
+		PushConstantStringString      "giz2"
+		PushConstantStringString      "tim2"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51881, 4
+		LineNumberAlt1                108, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw03"
+		PushConstantStringString      "giz4"
+		PushConstantStringString      "tim3"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51882, 4
+		LineNumberAlt1                109, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw04"
+		PushConstantStringString      "giz5"
+		PushConstantStringString      "tim4"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51883, 4
+		LineNumberAlt1                110, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw05"
+		PushConstantStringString      "giz6"
+		PushConstantStringString      "tim5"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51884, 4
+		LineNumberAlt1                111, 140
+		AppendToArray
+		Dup
+		CreateObjectString            "gizzer"
+		Dup
+		PushConstantStringString      "sw06"
+		PushConstantStringString      "giz7"
+		PushConstantStringString      "tim6"
+		GetVariableValue              0                                            ; local
+		Pull                          5
+		GetMemberFunctionString       "gizzer"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    51885, 4
+		LineNumberAlt1                112, 140
+		AppendToArray
+		SetThisMemberValueString      "gyzerarray"
+		LineNumber                    51887, 4
+		LineNumberAlt1                114, 140
+		GetThisMemberValueString      "gyzerarray"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              2                                            ; local
+		; <-
+		BranchTarget                  2
+		Dup
+		GetVariableValue              2                                            ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    51888, 4
+		LineNumberAlt1                115, 140
+		GetThisMemberValueString      "gyzerarray"
+		GetVariableValue              2                                            ; local
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51889, 4
+		LineNumberAlt1                116, 140
+		GetThisMemberValueString      "gyzerarray"
+		GetVariableValue              2                                            ; local
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "show"
+		JumpAbsolute                  1
+		Pop
+		IncrementVariable             2
+		BranchAlwaysTarget            2, 0
+		; ->
+		; <-
+		BranchTarget                  3
+		Pop
+		LineNumber                    51892, 4
+		LineNumberAlt1                119, 140
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "giz8"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    51892, 4
+		LineNumberAlt1                119, 140
+		SetThisMemberValueString      "lastgyzer"
+		LineNumber                    51893, 4
+		LineNumberAlt1                120, 140
+		GetThisMemberValueString      "lastgyzer"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51894, 4
+		LineNumberAlt1                121, 140
+		GetThisMemberValueString      "lastgyzer"
+		GetThisMemberValueString      "lastgyzer"
+		Dup
+		GetMemberFunctionString       "getx"
+		JumpAbsolute                  1
+		LineNumber                    51894, 4
+		LineNumberAlt1                121, 140
+		PushConstanti8                10
+		GetThisMemberValueString      "lastgyzer"
+		Dup
+		GetMemberFunctionString       "getz"
+		JumpAbsolute                  1
+		LineNumber                    51894, 4
+		LineNumberAlt1                121, 140
+		Pull                          4
+		GetMemberFunctionString       "setpos"
+		JumpAbsolute                  4
+		Pop
+		LineNumber                    51895, 4
+		LineNumberAlt1                122, 140
+		GetThisMemberValueString      "lastgyzer"
+		PushConstanti8                1
+		PushConstant0
+		PushConstanti8                1
+		Pull                          4
+		GetMemberFunctionString       "setresponse"
+		JumpAbsolute                  4
+		Pop
+		LineNumber                    51896, 4
+		LineNumberAlt1                123, 140
+		GetThisMemberValueString      "lastgyzer"
+		PushConstant0
+		PushConstanti8                16
+		PushConstant0
+		PushConstanti8                2
+		PushConstanti8                -1
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "setslidetimer"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    51897, 4
+		LineNumberAlt1                124, 140
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "setunderwater"
+		JumpAbsolute                  2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "input"
+		; address: 0x51f42
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 129:129
+		MemberFunctionArgumentCheck   2
+		LineNumber                    51902, 4
+		LineNumberAlt1                129, 140
+		GetVariableValue              1        ; local
+		GetMemberValueString          "button"
+		PushConstanti8                89
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    51902, 4
+		LineNumberAlt1                129, 140
+		GetVariableValue              1        ; local
+		GetMemberValueString          "event"
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    51902, 4
+		LineNumberAlt1                129, 140
+		GetVariableValue              0        ; local
+		GetThisMemberFunctionString   "cheat"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cheat"
+		; address: 0x51f85
+		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0x51f89
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 138:145
+		MemberFunctionArgumentCheck   1
+		CreateStackVariables          1
+		LineNumber                    51911, 4
+		LineNumberAlt1                138, 140
+		GetThisMemberValueString      "gyzerarray"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              1             ; local
+		; <-
+		BranchTarget                  0
+		Dup
+		GetVariableValue              1             ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    51912, 4
+		LineNumberAlt1                139, 140
+		GetThisMemberValueString      "gyzerarray"
+		GetVariableValue              1             ; local
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		IncrementVariable             1
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  1
+		Pop
+		LineNumber                    51914, 4
+		LineNumberAlt1                141, 140
+		GetThisMemberValueString      "lastgyzer"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51915, 4
+		LineNumberAlt1                142, 140
+		PushNothing
+		SetThisMemberValueString      "lastgyzer"
+		LineNumber                    51916, 4
+		LineNumberAlt1                143, 140
+		GetThisMemberValueString      "glyph"
+		PushNothing
+		EqualTo
+		Not
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    51917, 4
+		LineNumberAlt1                144, 140
+		GetThisMemberValueString      "glyph"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51918, 4
+		LineNumberAlt1                145, 140
+		PushNothing
+		SetThisMemberValueString      "glyph"
+		; <-
+		BranchTarget                  2
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0x52022
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 152:174
+		MemberFunctionArgumentCheck   2
+		CreateStackVariables          1
+		LineNumber                    51925, 4
+		LineNumberAlt1                152, 140
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "eventid"
+		Dup
+		PushConstanti8                46
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    51927, 4
+		LineNumberAlt1                154, 140
+		PushConstantf32               1.2000000476837158
+		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
+		Pop
+		BranchAlwaysTarget            6, 0
+		; ->
+		; <-
+		BranchTarget                  0
+		Dup
+		PushConstanti8                27
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    51929, 4
+		LineNumberAlt1                156, 140
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		GetThisMemberValueString      "parent"
+		GetMemberValueString          "enterstartid"
+		GetThisMemberValueString      "parent"
+		GetMemberValueString          "enterlookid"
+		Pull                          3
+		GetMemberFunctionString       "gotopos"
+		JumpAbsolute                  3
+		Pop
+		LineNumber                    51930, 4
+		LineNumberAlt1                157, 140
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "unkill"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    51931, 4
+		LineNumberAlt1                158, 140
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "setunderwater"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            6, 0
+		; ->
+		; <-
+		BranchTarget                  1
+		Dup
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		BranchAlwaysTarget            6, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		Dup
+		PushConstantStringString      "cnt1"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    51933, 4
+		LineNumberAlt1                160, 140
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    51934, 4
+		LineNumberAlt1                161, 140
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstanti8                1
+		GetArrayValue
+		Dup
+		PushConstantStringString      "glyp"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    51935, 4
+		LineNumberAlt1                162, 140
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    51936, 4
+		LineNumberAlt1                163, 140
+		GetThisMemberValueString      "glyph"
+		Dup
+		GetMemberFunctionString       "pickup"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  3
+		Pop
+		BranchAlwaysTarget            6, 0
+		; ->
+		; <-
+		BranchTarget                  4
+		Dup
+		PushConstanti8                4
+		EqualTo
+		CompareAndBranchIfFalseTarget 6, 0
+		; ->
+		LineNumber                    51939, 4
+		LineNumberAlt1                166, 140
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		Dup
+		PushConstantStringString      "tp01"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    51940, 4
+		LineNumberAlt1                167, 140
+		EqualTo
+		CompareAndBranchIfFalseTarget 5, 0
+		; ->
+		LineNumber                    51941, 4
+		LineNumberAlt1                168, 140
+		GetVariableValueGlobalString  "screenlist"
+		GetMemberValueString          "screens"
+		PushConstanti8                2
+		GetArrayValue
+		GetMemberValueString          "screen"
+		GetMemberValueString          "areas"
+		PushConstanti8                12
+		GetArrayValue
+		GetMemberValueString          "puzzle"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "needstobeunderwater"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    51942, 4
+		LineNumberAlt1                169, 140
+		GetVariableValueGlobalString  "screenlist"
+		GetMemberValueString          "screens"
+		PushConstanti8                2
+		GetArrayValue
+		GetMemberValueString          "screen"
+		GetMemberValueString          "areas"
+		PushConstanti8                12
+		GetArrayValue
+		GetMemberValueString          "puzzle"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "switchit"
+		JumpAbsolute                  2
+		Pop
+		; <-
+		BranchTarget                  5
+		Pop
+		; <-
+		BranchTarget                  6
+		Pop
+		LineNumber                    51946, 4
+		LineNumberAlt1                173, 140
+		GetThisMemberValueString      "gyzerarray"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              2                                            ; local
+		; <-
+		BranchTarget                  7
+		Dup
+		GetVariableValue              2                                            ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 8, 0
+		; ->
+		LineNumber                    51947, 4
+		LineNumberAlt1                174, 140
+		GetThisMemberValueString      "gyzerarray"
+		GetVariableValue              2                                            ; local
+		GetArrayValue
+		GetVariableValue              1                                            ; local
+		Pull                          2
+		GetMemberFunctionString       "onevent"
+		JumpAbsolute                  2
+		Pop
+		IncrementVariable             2
+		BranchAlwaysTarget            7, 0
+		; ->
+		; <-
+		BranchTarget                  8
+		Pop
+		PushNothing
+		Return
+	end ; method
+end ; class

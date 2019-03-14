@@ -1,0 +1,137 @@
+begin class "lego_area_gly22", "gs_lego_area"
+	property "puzzle"
+
+	begin method "lego_area_gly22"
+		; address: 0xb987b
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 24:26
+		MemberFunctionArgumentCheck 2
+		LineNumber                  51797, 4
+		LineNumberAlt1              24, 140
+		GetVariableValue            0                    ; local
+		PushConstantStringString    "gly2"
+		GetVariableValue            1                    ; local
+		PushConstant0
+		PushConstant0
+		GetThisMemberFunctionString "gs_lego_area"
+		JumpAbsolute                5
+		Pop
+		LineNumber                  51798, 4
+		LineNumberAlt1              25, 140
+		CreateObjectString          "glyph2_lev4_puzzle"
+		Dup
+		GetVariableValue            0                    ; local
+		Pull                        2
+		GetMemberFunctionString     "glyph2_lev4_puzzle"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  51798, 4
+		LineNumberAlt1              25, 140
+		SetThisMemberValueString    "puzzle"
+		LineNumber                  51799, 4
+		LineNumberAlt1              26, 140
+		GetVariableValue            0                    ; local
+		GetThisMemberFunctionString "lego_area_initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0xb98d3
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 33:35
+		MemberFunctionArgumentCheck 1
+		LineNumber                  51806, 4
+		LineNumberAlt1              33, 140
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51807, 4
+		LineNumberAlt1              34, 140
+		PushConstanti32             -9143565
+		PushConstant0
+		PushConstantf32             1000
+		Subtract
+		PushConstant0
+		PushConstantf32             2400
+		Subtract
+		PushConstantf32             0.009999999776482582
+		CallGameFunctionString      "gcareadirector", "setfog", 4
+		Pop
+		LineNumber                  51808, 4
+		LineNumberAlt1              35, 140
+		PushConstant0
+		CallGameFunctionString      "gclightdirector", "setcavelighting", 1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0xb9926
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 40:40
+		MemberFunctionArgumentCheck 2
+		LineNumber                  51813, 4
+		LineNumberAlt1              40, 140
+		GetThisMemberValueString    "puzzle"
+		GetVariableValue            1         ; local
+		Pull                        2
+		GetMemberFunctionString     "onevent"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "input"
+		; address: 0xb9942
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 45:45
+		MemberFunctionArgumentCheck 2
+		LineNumber                  51818, 4
+		LineNumberAlt1              45, 140
+		GetThisMemberValueString    "puzzle"
+		GetVariableValue            1        ; local
+		Pull                        2
+		GetMemberFunctionString     "input"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0xb995e
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 50:50
+		MemberFunctionArgumentCheck 1
+		LineNumber                  51823, 4
+		LineNumberAlt1              50, 140
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0xb9976
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 55:56
+		MemberFunctionArgumentCheck 1
+		LineNumber                  51828, 4
+		LineNumberAlt1              55, 140
+		GetThisMemberValueString    "puzzle"
+		Dup
+		GetMemberFunctionString     "exit"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51829, 4
+		LineNumberAlt1              56, 140
+		PushNothing
+		SetThisMemberValueString    "puzzle"
+		PushNothing
+		Return
+	end ; method
+end ; class
