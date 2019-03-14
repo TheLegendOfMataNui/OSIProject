@@ -1,0 +1,142 @@
+begin class "lego_area_gizr2", "gs_lego_area"
+	begin method "lego_area_gizr2"
+		; address: 0xb8f9c
+		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gizr.vbo" 22:23
+		MemberFunctionArgumentCheck 2
+		LineNumber                  52559, 4
+		LineNumberAlt1              22, 143
+		GetVariableValue            0                    ; local
+		PushConstantStringString    "gizr"
+		GetVariableValue            1                    ; local
+		PushConstant0
+		PushConstant0
+		GetThisMemberFunctionString "gs_lego_area"
+		JumpAbsolute                5
+		Pop
+		LineNumber                  52560, 4
+		LineNumberAlt1              23, 143
+		GetVariableValue            0                    ; local
+		GetThisMemberFunctionString "lego_area_initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0xb8fce
+		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gizr.vbo" 30:31
+		MemberFunctionArgumentCheck 1
+		LineNumber                  52567, 4
+		LineNumberAlt1              30, 143
+		PushConstanti32             -16777216
+		PushConstant0
+		PushConstantf32             70
+		Subtract
+		PushConstant0
+		PushConstantf32             1200
+		Subtract
+		PushConstantf32             0.05000000074505806
+		CallGameFunctionString      "gcareadirector", "setfog", 4
+		Pop
+		LineNumber                  52568, 4
+		LineNumberAlt1              31, 143
+		PushConstanti8              1
+		CallGameFunctionString      "gclightdirector", "setcavelighting", 1
+		Pop
+        GetVariableValueGlobalString "globalclass"
+        GetMemberValueString         "bgmusic"
+        Dup
+        GetMemberFunctionString      "stop"
+        JumpAbsolute                 1
+        Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0xb900e
+		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gizr.vbo" 37:44
+		MemberFunctionArgumentCheck   2
+		CreateStackVariables          2
+		LineNumber                    52574, 4
+		LineNumberAlt1                37, 143
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "eventid"
+		PushConstanti8                4
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    52575, 4
+		LineNumberAlt1                38, 143
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		SetVariableValue              2                                            ; local
+		LineNumber                    52576, 4
+		LineNumberAlt1                39, 143
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstanti8                1
+		GetArrayValue
+		SetVariableValue              3                                            ; local
+		LineNumber                    52578, 4
+		LineNumberAlt1                41, 143
+		GetVariableValue              2                                            ; local
+		PushConstantStringString      "tpb0"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    52578, 4
+		LineNumberAlt1                41, 143
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    52579, 4
+		LineNumberAlt1                42, 143
+		GetVariableValue              3                                            ; local
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    52580, 4
+		LineNumberAlt1                43, 143
+		GetThisMemberValueString      "level"
+		PushConstantStringString      "vill"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    52580, 4
+		LineNumberAlt1                43, 143
+		Pull                          2
+		GetMemberFunctionString       "areasetactive"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    52581, 4
+		LineNumberAlt1                44, 143
+		GetThisMemberValueString      "level"
+		PushConstantStringString      "bmta"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    52581, 4
+		LineNumberAlt1                44, 143
+		Pull                          2
+		GetMemberFunctionString       "areasetactive"
+		JumpAbsolute                  2
+		Pop
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0xb90dc
+		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0xb90e0
+		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+end ; class

@@ -1,0 +1,560 @@
+begin class "gizzer"
+	property "gyzer"
+	property "swich"
+	property "timer"
+	property "state"
+	property "startpos"
+	property "switchmoveing"
+	property "resetting"
+
+	begin method "gizzer"
+		; address: 0x507c7
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 201:214
+		MemberFunctionArgumentCheck 5
+		LineNumber                  51974, 4
+		LineNumberAlt1              201, 140
+		CreateObjectString          "lego_moveableobject"
+		Dup
+		GetVariableValue            1                     ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_moveableobject"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  51974, 4
+		LineNumberAlt1              201, 140
+		SetThisMemberValueString    "swich"
+		LineNumber                  51975, 4
+		LineNumberAlt1              202, 140
+		GetThisMemberValueString    "swich"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51976, 4
+		LineNumberAlt1              203, 140
+		GetThisMemberValueString    "swich"
+		PushConstant0
+		PushConstant0
+		PushConstant0
+		Pull                        4
+		GetMemberFunctionString     "setresponse"
+		JumpAbsolute                4
+		Pop
+		LineNumber                  51978, 4
+		LineNumberAlt1              205, 140
+		CreateObjectString          "lego_moveableobject"
+		Dup
+		GetVariableValue            2                     ; local
+		Pull                        2
+		GetMemberFunctionString     "lego_moveableobject"
+		JumpAbsolute                2
+		Pop
+		LineNumber                  51978, 4
+		LineNumberAlt1              205, 140
+		SetThisMemberValueString    "gyzer"
+		LineNumber                  51979, 4
+		LineNumberAlt1              206, 140
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51980, 4
+		LineNumberAlt1              207, 140
+		GetThisMemberValueString    "gyzer"
+		PushConstanti8              1
+		PushConstant0
+		PushConstanti8              1
+		Pull                        4
+		GetMemberFunctionString     "setresponse"
+		JumpAbsolute                4
+		Pop
+		LineNumber                  51981, 4
+		LineNumberAlt1              208, 140
+		GetThisMemberValueString    "gyzer"
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "getx"
+		JumpAbsolute                1
+		LineNumber                  51981, 4
+		LineNumberAlt1              208, 140
+		PushConstanti8              10
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "getz"
+		JumpAbsolute                1
+		LineNumber                  51981, 4
+		LineNumberAlt1              208, 140
+		Pull                        4
+		GetMemberFunctionString     "setpos"
+		JumpAbsolute                4
+		Pop
+		LineNumber                  51983, 4
+		LineNumberAlt1              210, 140
+		CreateObjectString          "lego_timer"
+		Dup
+		GetVariableValue            3                     ; local
+		PushConstanti8              5
+		PushConstant0
+		Pull                        4
+		GetMemberFunctionString     "lego_timer"
+		JumpAbsolute                4
+		Pop
+		LineNumber                  51983, 4
+		LineNumberAlt1              210, 140
+		SetThisMemberValueString    "timer"
+		LineNumber                  51984, 4
+		LineNumberAlt1              211, 140
+		GetThisMemberValueString    "timer"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51986, 4
+		LineNumberAlt1              213, 140
+		CreateObjectString          "basicpoint"
+		Dup
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "getx"
+		JumpAbsolute                1
+		LineNumber                  51986, 4
+		LineNumberAlt1              213, 140
+		PushConstanti8              10
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "getz"
+		JumpAbsolute                1
+		LineNumber                  51986, 4
+		LineNumberAlt1              213, 140
+		Pull                        4
+		GetMemberFunctionString     "basicpoint"
+		JumpAbsolute                4
+		Pop
+		LineNumber                  51986, 4
+		LineNumberAlt1              213, 140
+		SetThisMemberValueString    "startpos"
+		LineNumber                  51987, 4
+		LineNumberAlt1              214, 140
+		PushConstant0
+		SetThisMemberValueString    "switchmoveing"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0x50944
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 220:223
+		MemberFunctionArgumentCheck 1
+		LineNumber                  51993, 4
+		LineNumberAlt1              220, 140
+		PushConstant0
+		SetThisMemberValueString    "state"
+		LineNumber                  51994, 4
+		LineNumberAlt1              221, 140
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "settweakable"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51995, 4
+		LineNumberAlt1              222, 140
+		GetThisMemberValueString    "swich"
+		Dup
+		GetMemberFunctionString     "settweakable"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  51996, 4
+		LineNumberAlt1              223, 140
+		PushConstant0
+		SetThisMemberValueString    "resetting"
+        GetVariableValueGlobalString "globalclass"
+        GetMemberValueString         "bgmusic"
+        PushConstantStringString     "Root/Data/sounds/MUSICGALITHEME"
+        Pull                         2
+        GetMemberFunctionString      "changefilename"
+        JumpAbsolute                 2
+        Pop
+        LineNumber                   37075, 4
+        LineNumberAlt1               52, 92
+        GetVariableValueGlobalString "globalclass"
+        GetMemberValueString         "bgmusic"
+        PushConstanti8               1
+        Pull                         2
+        GetMemberFunctionString      "play"
+        JumpAbsolute                 2
+        Pop		
+		PushNothing
+		Return
+	end ; method
+
+	begin method "show"
+		; address: 0x5098c
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 228:228
+		MemberFunctionArgumentCheck 1
+		LineNumber                  52001, 4
+		LineNumberAlt1              228, 140
+		GetVariableValue            0        ; local
+		GetThisMemberFunctionString "start"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0x509a3
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 233:242
+		MemberFunctionArgumentCheck 1
+		LineNumber                  52006, 4
+		LineNumberAlt1              233, 140
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52007, 4
+		LineNumberAlt1              234, 140
+		GetThisMemberValueString    "swich"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52008, 4
+		LineNumberAlt1              235, 140
+		GetThisMemberValueString    "timer"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52009, 4
+		LineNumberAlt1              236, 140
+		GetThisMemberValueString    "startpos"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52010, 4
+		LineNumberAlt1              237, 140
+		PushNothing
+		SetThisMemberValueString    "gyzer"
+		LineNumber                  52011, 4
+		LineNumberAlt1              238, 140
+		PushNothing
+		SetThisMemberValueString    "swich"
+		LineNumber                  52012, 4
+		LineNumberAlt1              239, 140
+		PushNothing
+		SetThisMemberValueString    "timer"
+		LineNumber                  52013, 4
+		LineNumberAlt1              240, 140
+		PushNothing
+		SetThisMemberValueString    "state"
+		LineNumber                  52014, 4
+		LineNumberAlt1              241, 140
+		PushNothing
+		SetThisMemberValueString    "startpos"
+		LineNumber                  52015, 4
+		LineNumberAlt1              242, 140
+		PushNothing
+		SetThisMemberValueString    "switchmoveing"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0x50a4b
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 249:276
+		MemberFunctionArgumentCheck   2
+		LineNumber                    52022, 4
+		LineNumberAlt1                249, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "eventid"
+		Dup
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    52024, 4
+		LineNumberAlt1                251, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		GetThisMemberValueString      "swich"
+		GetMemberValueString          "id"
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    52025, 4
+		LineNumberAlt1                252, 140
+		GetVariableValue              0               ; local
+		GetThisMemberFunctionString   "hitswitch"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  0
+		BranchAlwaysTarget            8, 0
+		; ->
+		; <-
+		BranchTarget                  1
+		Dup
+		PushConstanti8                12
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    52029, 4
+		LineNumberAlt1                256, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		GetThisMemberValueString      "gyzer"
+		GetMemberValueString          "id"
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    52030, 4
+		LineNumberAlt1                257, 140
+		GetVariableValue              0               ; local
+		GetThisMemberFunctionString   "start"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  2
+		BranchAlwaysTarget            8, 0
+		; ->
+		; <-
+		BranchTarget                  3
+		Dup
+		PushConstanti8                8
+		EqualTo
+		CompareAndBranchIfFalseTarget 5, 0
+		; ->
+		LineNumber                    52034, 4
+		LineNumberAlt1                261, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		GetThisMemberValueString      "timer"
+		GetMemberValueString          "id"
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    52035, 4
+		LineNumberAlt1                262, 140
+		GetVariableValue              0               ; local
+		GetThisMemberFunctionString   "start"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  4
+		BranchAlwaysTarget            8, 0
+		; ->
+		; <-
+		BranchTarget                  5
+		Dup
+		PushConstanti8                34
+		EqualTo
+		CompareAndBranchIfFalseTarget 8, 0
+		; ->
+		LineNumber                    52039, 4
+		LineNumberAlt1                266, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		GetThisMemberValueString      "gyzer"
+		GetMemberValueString          "id"
+		EqualTo
+		CompareAndBranchIfFalseTarget 7, 0
+		; ->
+		LineNumber                    52040, 4
+		LineNumberAlt1                267, 140
+		GetThisMemberValueString      "resetting"
+		CompareAndBranchIfFalseTarget 6, 0
+		; ->
+		LineNumber                    52041, 4
+		LineNumberAlt1                268, 140
+		PushConstant0
+		SetThisMemberValueString      "resetting"
+		LineNumber                    52042, 4
+		LineNumberAlt1                269, 140
+		GetVariableValue              0               ; local
+		GetThisMemberFunctionString   "start"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            7, 0
+		; ->
+		; <-
+		BranchTarget                  6
+		LineNumber                    52044, 4
+		LineNumberAlt1                271, 140
+		GetThisMemberValueString      "timer"
+		PushConstant0
+		Pull                          2
+		GetMemberFunctionString       "reset"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    52045, 4
+		LineNumberAlt1                272, 140
+		GetThisMemberValueString      "timer"
+		Dup
+		GetMemberFunctionString       "start"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  7
+		LineNumber                    52048, 4
+		LineNumberAlt1                275, 140
+		GetVariableValue              1               ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		GetThisMemberValueString      "swich"
+		GetMemberValueString          "id"
+		EqualTo
+		CompareAndBranchIfFalseTarget 8, 0
+		; ->
+		LineNumber                    52049, 4
+		LineNumberAlt1                276, 140
+		PushConstant0
+		SetThisMemberValueString      "switchmoveing"
+		; <-
+		BranchTarget                  8
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "start"
+		; address: 0x50bb6
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 284:284
+		MemberFunctionArgumentCheck 1
+		LineNumber                  52057, 4
+		LineNumberAlt1              284, 140
+		GetThisMemberValueString    "gyzer"
+		PushConstant0
+		PushConstanti8              19
+		PushConstant0
+		PushConstanti8              1
+		PushConstanti8              2
+		PushConstanti8              1
+		Pull                        7
+		GetMemberFunctionString     "setslidetimer"
+		JumpAbsolute                7
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "reset"
+		; address: 0x50bd9
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 290:294
+		MemberFunctionArgumentCheck 2
+		LineNumber                  52063, 4
+		LineNumberAlt1              290, 140
+		PushConstanti8              1
+		SetThisMemberValueString    "resetting"
+		LineNumber                  52064, 4
+		LineNumberAlt1              291, 140
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "stopslidetimer"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52065, 4
+		LineNumberAlt1              292, 140
+		GetThisMemberValueString    "gyzer"
+		PushConstant0
+		GetThisMemberValueString    "startpos"
+		GetMemberValueString        "y"
+		GetThisMemberValueString    "gyzer"
+		Dup
+		GetMemberFunctionString     "gety"
+		JumpAbsolute                1
+		LineNumber                  52065, 4
+		LineNumberAlt1              292, 140
+		Subtract
+		PushConstant0
+		PushConstanti8              1
+		PushConstanti8              1
+		PushConstant0
+		Pull                        7
+		GetMemberFunctionString     "setslidetimer"
+		JumpAbsolute                7
+		Pop
+		LineNumber                  52066, 4
+		LineNumberAlt1              293, 140
+		GetThisMemberValueString    "timer"
+		Dup
+		GetMemberFunctionString     "stop"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  52067, 4
+		LineNumberAlt1              294, 140
+		GetThisMemberValueString    "timer"
+		PushConstant0
+		Pull                        2
+		GetMemberFunctionString     "reset"
+		JumpAbsolute                2
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "hitswitch"
+		; address: 0x50c60
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 300:303
+		MemberFunctionArgumentCheck   1
+		LineNumber                    52073, 4
+		LineNumberAlt1                300, 140
+		GetThisMemberValueString      "switchmoveing"
+		Not
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    52074, 4
+		LineNumberAlt1                301, 140
+		PushConstanti8                1
+		SetThisMemberValueString      "switchmoveing"
+		LineNumber                    52075, 4
+		LineNumberAlt1                302, 140
+		GetThisMemberValueString      "swich"
+		PushConstant0
+		PushConstant0
+		PushConstantf32               0.20000000298023224
+		Subtract
+		PushConstant0
+		PushConstanti8                1
+		PushConstanti8                2
+		PushConstanti8                1
+		Pull                          7
+		GetMemberFunctionString       "setslidetimer"
+		JumpAbsolute                  7
+		Pop
+		LineNumber                    52076, 4
+		LineNumberAlt1                303, 140
+		GetVariableValue              0                   ; local
+		GetThisMemberFunctionString   "reset"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0x50cbb
+		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 310:310
+		MemberFunctionArgumentCheck 1
+		CreateStackVariables        1
+		LineNumber                  52083, 4
+		LineNumberAlt1              310, 140
+		PushNothing
+		SetVariableValue            1        ; local
+		PushNothing
+		Return
+	end ; method
+end ; class
