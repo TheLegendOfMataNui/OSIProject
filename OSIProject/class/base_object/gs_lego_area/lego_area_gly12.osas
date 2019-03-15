@@ -79,6 +79,10 @@ begin class "lego_area_gly12", "gs_lego_area"
 		; address: 0xb955c
 		; source: 139 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly1.vbo" 39:39
 		MemberFunctionArgumentCheck 1
+		GetVariableValue            0                ; local
+		GetThisMemberFunctionString "lego_area_hide"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  51628, 4
 		LineNumberAlt1              39, 139
 		GetThisMemberValueString    "puzzle"
@@ -110,6 +114,10 @@ begin class "lego_area_gly12", "gs_lego_area"
 		; address: 0xb9590
 		; source: 139 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly1.vbo" 49:50
 		MemberFunctionArgumentCheck 1
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_cleanupfull"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  51638, 4
 		LineNumberAlt1              49, 139
 		GetThisMemberValueString    "puzzle"
@@ -117,10 +125,6 @@ begin class "lego_area_gly12", "gs_lego_area"
 		GetMemberFunctionString     "exit"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  51639, 4
-		LineNumberAlt1              50, 139
-		PushNothing
-		SetThisMemberValueString    "puzzle"
 		PushNothing
 		Return
 	end ; method

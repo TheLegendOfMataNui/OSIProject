@@ -574,38 +574,38 @@ begin class "gly22_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 5, 0
 		; ->
-		LineNumber                    51941, 4
-		LineNumberAlt1                168, 140
-		GetVariableValueGlobalString  "screenlist"
-		GetMemberValueString          "screens"
-		PushConstanti8                2
-		GetArrayValue
-		GetMemberValueString          "screen"
-		GetMemberValueString          "areas"
-		PushConstanti8                12
-		GetArrayValue
-		GetMemberValueString          "puzzle"
-		PushConstanti8                1
-		Pull                          2
-		GetMemberFunctionString       "needstobeunderwater"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    51942, 4
-		LineNumberAlt1                169, 140
-		GetVariableValueGlobalString  "screenlist"
-		GetMemberValueString          "screens"
-		PushConstanti8                2
-		GetArrayValue
-		GetMemberValueString          "screen"
-		GetMemberValueString          "areas"
-		PushConstanti8                12
-		GetArrayValue
-		GetMemberValueString          "puzzle"
-		PushConstanti8                1
-		Pull                          2
-		GetMemberFunctionString       "switchit"
-		JumpAbsolute                  2
-		Pop
+;		LineNumber                    51941, 4
+;		LineNumberAlt1                168, 140
+;		GetVariableValueGlobalString  "screenlist"
+;		GetMemberValueString          "screens"
+;		PushConstanti8                2
+;		GetArrayValue
+;		GetMemberValueString          "screen"
+;		GetMemberValueString          "areas"
+;		PushConstanti8                12
+;		GetArrayValue
+;		GetMemberValueString          "puzzle"
+;		PushConstanti8                1
+;		Pull                          2
+;		GetMemberFunctionString       "needstobeunderwater"
+;		JumpAbsolute                  2
+;		Pop
+;		LineNumber                    51942, 4
+;		LineNumberAlt1                169, 140
+;		GetVariableValueGlobalString  "screenlist"
+;		GetMemberValueString          "screens"
+;		PushConstanti8                2
+;		GetArrayValue
+;		GetMemberValueString          "screen"
+;		GetMemberValueString          "areas"
+;		PushConstanti8                12
+;		GetArrayValue
+;		GetMemberValueString          "puzzle"
+;		PushConstanti8                1
+;		Pull                          2
+;		GetMemberFunctionString       "switchit"
+;		JumpAbsolute                  2
+;		Pop
 		; <-
 		BranchTarget                  5
 		Pop
@@ -643,6 +643,18 @@ begin class "gly22_puzzle"
 		; <-
 		BranchTarget                  8
 		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0x3684e
+		; source: 131 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bmtn.vbo" 166:166
+		MemberFunctionArgumentCheck 1
+		LineNumber                  48905, 4
+		LineNumberAlt1              166, 131
+		PushNothing
+		SetThisMemberValueString    "parent"
 		PushNothing
 		Return
 	end ; method
