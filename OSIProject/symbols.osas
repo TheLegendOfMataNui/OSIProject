@@ -2449,7 +2449,7 @@ begin symbols
 	symbol "watterfall1_on"
 	symbol "watterfall2_on"
 	symbol "watterfall3_on"
-	symbol "glyph2_lev4_puzzle"
+	symbol "gly22_puzzle"
 	symbol "gizzer"
 	symbol "gyzerarray"
 	symbol "lastgyzer"
@@ -3944,4 +3944,6 @@ begin symbols
 	symbol "gly12_puzzle"
 	symbol "lego_area_mbch2"
 	symbol "mbch2_puzzle"
+	symbol "lego_area_gizr2"
+	symbol "lego_area_gly22"
 end ; symbols

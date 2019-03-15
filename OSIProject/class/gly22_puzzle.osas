@@ -1,4 +1,4 @@
-begin class "glyph2_lev4_puzzle"
+begin class "gly22_puzzle"
 	property "parent"
 	property "gyzerarray"
 	property "lastgyzer"
@@ -6,7 +6,7 @@ begin class "glyph2_lev4_puzzle"
 	property "door"
 	property "showpickup"
 
-	begin method "glyph2_lev4_puzzle"
+	begin method "gly22_puzzle"
 		; address: 0x51bcd
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly2.vbo" 81:82
 		MemberFunctionArgumentCheck 2
