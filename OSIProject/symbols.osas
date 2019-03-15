@@ -3946,4 +3946,6 @@ begin symbols
 	symbol "mbch2_puzzle"
 	symbol "lego_area_gizr2"
 	symbol "lego_area_gly22"
+	symbol "lego_area_bech2"
+	symbol "bech2_puzzle"
 end ; symbols

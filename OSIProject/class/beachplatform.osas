@@ -1,0 +1,428 @@
+begin class "beachplatform"
+	property "id"
+	property "name"
+	property "obj"
+	property "objid"
+	property "objname"
+	property "area"
+	property "locktheycoord"
+	property "startingycoord"
+	property "finalycoord"
+	property "firsttouch"
+	property "rotation"
+	property "interpfinishedid"
+
+	begin method "beachplatform"
+		; address: 0x31a9b
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 615:627
+		MemberFunctionArgumentCheck   3
+		LineNumber                    47452, 4
+		LineNumberAlt1                615, 127
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		GetVariableValue              1                                            ; local
+		GetVariableValue              2                                            ; local
+		Pull                          3
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  3
+		Pop
+		LineNumber                    47452, 4
+		LineNumberAlt1                615, 127
+		SetThisMemberValueString      "obj"
+		LineNumber                    47453, 4
+		LineNumberAlt1                616, 127
+		GetThisMemberValueString      "obj"
+		GetMemberValueString          "id"
+		SetThisMemberValueString      "objid"
+		LineNumber                    47454, 4
+		LineNumberAlt1                617, 127
+		GetThisMemberValueString      "obj"
+		GetMemberValueString          "id"
+		SetThisMemberValueString      "id"
+		LineNumber                    47455, 4
+		LineNumberAlt1                618, 127
+		GetThisMemberValueString      "obj"
+		GetMemberValueString          "id"
+		CallGameFunctionString        "scslosifoundation", "identifiertostring", 1
+		LineNumber                    47455, 4
+		LineNumberAlt1                618, 127
+		SetThisMemberValueString      "objname"
+		LineNumber                    47456, 4
+		LineNumberAlt1                619, 127
+		GetThisMemberValueString      "obj"
+		GetMemberValueString          "id"
+		CallGameFunctionString        "scslosifoundation", "identifiertostring", 1
+		LineNumber                    47456, 4
+		LineNumberAlt1                619, 127
+		SetThisMemberValueString      "name"
+		LineNumber                    47457, 4
+		LineNumberAlt1                620, 127
+		GetVariableValue              2                                            ; local
+		PushNothing
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    47458, 4
+		LineNumberAlt1                621, 127
+		PushConstantStringString      "fake"
+		SetThisMemberValueString      "area"
+		BranchAlwaysTarget            1, 0
+		; ->
+		; <-
+		BranchTarget                  0
+		LineNumber                    47460, 4
+		LineNumberAlt1                623, 127
+		GetVariableValue              2                                            ; local
+		SetThisMemberValueString      "area"
+		; <-
+		BranchTarget                  1
+		LineNumber                    47462, 4
+		LineNumberAlt1                625, 127
+		PushConstanti8                1
+		SetThisMemberValueString      "firsttouch"
+		LineNumber                    47463, 4
+		LineNumberAlt1                626, 127
+		PushConstant0
+		SetThisMemberValueString      "rotation"
+		LineNumber                    47464, 4
+		LineNumberAlt1                627, 127
+		PushNothing
+		SetThisMemberValueString      "interpfinishedid"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "initfull"
+		; address: 0x31b94
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 640:640
+		MemberFunctionArgumentCheck 1
+		LineNumber                  47477, 4
+		LineNumberAlt1              640, 127
+		GetThisMemberValueString    "obj"
+		Dup
+		GetMemberFunctionString     "initfull"
+		JumpAbsolute                1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "process"
+		; address: 0x31bac
+		MemberFunctionArgumentCheck 2
+		PushNothing
+		Return
+	end ; method
+
+	begin method "onevent"
+		; address: 0x31bb0
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 652:679
+		MemberFunctionArgumentCheck   2
+		LineNumber                    47489, 4
+		LineNumberAlt1                652, 127
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "eventid"
+		Dup
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    47493, 4
+		LineNumberAlt1                656, 127
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstanti8                1
+		GetArrayValue
+		CallGameFunctionString        "scslosifoundation", "identifiertostring", 1
+		LineNumber                    47493, 4
+		LineNumberAlt1                656, 127
+		Dup
+		PushConstantStringString      "lg01"
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    47495, 4
+		LineNumberAlt1                658, 127
+		GetThisMemberValueString      "firsttouch"
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    47497, 4
+		LineNumberAlt1                660, 127
+		PushConstantStringString      "I should only get this one at a time"
+		CallGameFunctionString        "debug", "print", 1
+		Pop
+		LineNumber                    47498, 4
+		LineNumberAlt1                661, 127
+		GetThisMemberValueString      "obj"
+		Dup
+		GetMemberFunctionString       "gety"
+		JumpAbsolute                  1
+		LineNumber                    47498, 4
+		LineNumberAlt1                661, 127
+		GetThisMemberValueString      "finalycoord"
+		GreaterThan
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    47499, 4
+		LineNumberAlt1                662, 127
+		GetThisMemberValueString      "obj"
+		Dup
+		Dup
+		GetMemberFunctionString       "getx"
+		JumpAbsolute                  1
+		LineNumber                    47499, 4
+		LineNumberAlt1                662, 127
+		GetThisMemberValueString      "finalycoord"
+		GetThisMemberValueString      "obj"
+		Dup
+		GetMemberFunctionString       "getz"
+		JumpAbsolute                  1
+		LineNumber                    47499, 4
+		LineNumberAlt1                662, 127
+		PushConstantf32               0.1599999964237213
+		Pull                          5
+		GetMemberFunctionString       "interpolate"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    47500, 4
+		LineNumberAlt1                663, 127
+		PushConstant0
+		SetThisMemberValueString      "firsttouch"
+		LineNumber                    47501, 4
+		LineNumberAlt1                664, 127
+		PushConstantStringString      "firstInterp"
+		SetThisMemberValueString      "interpfinishedid"
+		; <-
+		BranchTarget                  0
+		LineNumber                    47505, 4
+		LineNumberAlt1                668, 127
+		GetThisMemberValueString      "obj"
+		Dup
+		GetMemberFunctionString       "setcollide"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		Pop
+		BranchAlwaysTarget            4, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		Dup
+		PushConstanti8                12
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    47510, 4
+		LineNumberAlt1                673, 127
+		GetVariableValue              1                                            ; local
+		GetMemberValueString          "args"
+		PushConstant0
+		GetArrayValue
+		CallGameFunctionString        "scslosifoundation", "identifiertostring", 1
+		LineNumber                    47510, 4
+		LineNumberAlt1                673, 127
+		Dup
+		PushConstantStringString      "lg01"
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    47512, 4
+		LineNumberAlt1                675, 127
+		GetThisMemberValueString      "obj"
+		Dup
+		GetMemberFunctionString       "gety"
+		JumpAbsolute                  1
+		LineNumber                    47512, 4
+		LineNumberAlt1                675, 127
+		GetThisMemberValueString      "startingycoord"
+		LessThan
+		GetThisMemberValueString      "interpfinishedid"
+		PushConstantStringString      "firstInterp"
+		EqualTo
+		And
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		LineNumber                    47513, 4
+		LineNumberAlt1                676, 127
+		PushConstantStringString      "Caught the event...interping back"
+		CallGameFunctionString        "debug", "print", 1
+		Pop
+		LineNumber                    47515, 4
+		LineNumberAlt1                678, 127
+		GetThisMemberValueString      "obj"
+		Dup
+		Dup
+		GetMemberFunctionString       "getx"
+		JumpAbsolute                  1
+		LineNumber                    47515, 4
+		LineNumberAlt1                678, 127
+		GetThisMemberValueString      "startingycoord"
+		PushConstantf32               0.699999988079071
+		Subtract
+		GetThisMemberValueString      "obj"
+		Dup
+		GetMemberFunctionString       "getz"
+		JumpAbsolute                  1
+		LineNumber                    47515, 4
+		LineNumberAlt1                678, 127
+		PushConstantf32               0.3499999940395355
+		Pull                          5
+		GetMemberFunctionString       "interpolate"
+		JumpAbsolute                  5
+		Pop
+		LineNumber                    47516, 4
+		LineNumberAlt1                679, 127
+		PushConstantStringString      "secondInterp"
+		SetThisMemberValueString      "interpfinishedid"
+		; <-
+		BranchTarget                  3
+		Pop
+		; <-
+		BranchTarget                  4
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "cleanupfull"
+		; address: 0x31d7f
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 688:700
+		MemberFunctionArgumentCheck 1
+		LineNumber                  47525, 4
+		LineNumberAlt1              688, 127
+		PushNothing
+		SetThisMemberValueString    "id"
+		LineNumber                  47526, 4
+		LineNumberAlt1              689, 127
+		PushNothing
+		SetThisMemberValueString    "name"
+		LineNumber                  47527, 4
+		LineNumberAlt1              690, 127
+		GetThisMemberValueString    "obj"
+		Dup
+		GetMemberFunctionString     "cleanupfull"
+		JumpAbsolute                1
+		Pop
+		LineNumber                  47528, 4
+		LineNumberAlt1              691, 127
+		PushNothing
+		SetThisMemberValueString    "obj"
+		LineNumber                  47529, 4
+		LineNumberAlt1              692, 127
+		PushNothing
+		SetThisMemberValueString    "objid"
+		LineNumber                  47530, 4
+		LineNumberAlt1              693, 127
+		PushNothing
+		SetThisMemberValueString    "objname"
+		LineNumber                  47531, 4
+		LineNumberAlt1              694, 127
+		PushNothing
+		SetThisMemberValueString    "area"
+		LineNumber                  47532, 4
+		LineNumberAlt1              695, 127
+		PushNothing
+		SetThisMemberValueString    "locktheycoord"
+		LineNumber                  47533, 4
+		LineNumberAlt1              696, 127
+		PushNothing
+		SetThisMemberValueString    "startingycoord"
+		LineNumber                  47534, 4
+		LineNumberAlt1              697, 127
+		PushNothing
+		SetThisMemberValueString    "finalycoord"
+		LineNumber                  47535, 4
+		LineNumberAlt1              698, 127
+		PushNothing
+		SetThisMemberValueString    "firsttouch"
+		LineNumber                  47536, 4
+		LineNumberAlt1              699, 127
+		PushNothing
+		SetThisMemberValueString    "rotation"
+		LineNumber                  47537, 4
+		LineNumberAlt1              700, 127
+		PushNothing
+		SetThisMemberValueString    "interpfinishedid"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "setuptipfactor"
+		; address: 0x31e3f
+		MemberFunctionArgumentCheck 1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "setstartingycoord"
+		; address: 0x31e43
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 711:711
+		MemberFunctionArgumentCheck 2
+		LineNumber                  47548, 4
+		LineNumberAlt1              711, 127
+		GetVariableValue            1                ; local
+		SetThisMemberValueString    "startingycoord"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "setfinalycoord"
+		; address: 0x31e57
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 718:718
+		MemberFunctionArgumentCheck 2
+		LineNumber                  47555, 4
+		LineNumberAlt1              718, 127
+		GetVariableValue            1             ; local
+		SetThisMemberValueString    "finalycoord"
+		PushNothing
+		Return
+	end ; method
+
+	begin method "setfirsttouch"
+		; address: 0x31e6b
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 725:729
+		MemberFunctionArgumentCheck   2
+		LineNumber                    47562, 4
+		LineNumberAlt1                725, 127
+		GetVariableValue              1            ; local
+		PushConstantStringString      "true"
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		LineNumber                    47563, 4
+		LineNumberAlt1                726, 127
+		PushConstanti8                1
+		SetThisMemberValueString      "firsttouch"
+		; <-
+		BranchTarget                  0
+		LineNumber                    47565, 4
+		LineNumberAlt1                728, 127
+		GetVariableValue              1            ; local
+		PushConstantStringString      "false"
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    47566, 4
+		LineNumberAlt1                729, 127
+		PushConstant0
+		SetThisMemberValueString      "firsttouch"
+		; <-
+		BranchTarget                  1
+		PushNothing
+		Return
+	end ; method
+
+	begin method "exit"
+		; address: 0x31eb4
+		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 736:736
+		MemberFunctionArgumentCheck 1
+		CreateStackVariables        1
+		LineNumber                  47573, 4
+		LineNumberAlt1              736, 127
+		PushNothing
+		SetVariableValue            1        ; local
+		PushNothing
+		Return
+	end ; method
+end ; class
