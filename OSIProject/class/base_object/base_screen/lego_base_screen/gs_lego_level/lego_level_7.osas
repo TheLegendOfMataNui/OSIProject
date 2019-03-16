@@ -114,6 +114,7 @@ begin class "lego_level_7", "gs_lego_level"
 		LineNumberAlt1              46, 228
 		GetThisMemberValueString    "areas"
 		GetVariableValue            1                ; local
+		AppendToArray
 		PushNothing
 		Return
 	end ; method
