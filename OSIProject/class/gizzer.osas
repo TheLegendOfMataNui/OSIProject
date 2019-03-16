@@ -168,22 +168,6 @@ begin class "gizzer"
 		LineNumberAlt1              223, 140
 		PushConstant0
 		SetThisMemberValueString    "resetting"
-        GetVariableValueGlobalString "globalclass"
-        GetMemberValueString         "bgmusic"
-        PushConstantStringString     "Root/Data/sounds/MUSICGALITHEME"
-        Pull                         2
-        GetMemberFunctionString      "changefilename"
-        JumpAbsolute                 2
-        Pop
-        LineNumber                   37075, 4
-        LineNumberAlt1               52, 92
-        GetVariableValueGlobalString "globalclass"
-        GetMemberValueString         "bgmusic"
-        PushConstanti8               1
-        Pull                         2
-        GetMemberFunctionString      "play"
-        JumpAbsolute                 2
-        Pop		
 		PushNothing
 		Return
 	end ; method

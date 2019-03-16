@@ -44,6 +44,22 @@ begin class "bech2_puzzle"
 		; source: 127 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_bech.vbo" 128:280
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          10
+        GetVariableValueGlobalString "globalclass"
+        GetMemberValueString         "bgmusic"
+        PushConstantStringString     "Root/Data/sounds/MusicGaliAmbience"
+        Pull                         2
+        GetMemberFunctionString      "changefilename"
+        JumpAbsolute                 2
+        Pop
+        LineNumber                   37075, 4
+        LineNumberAlt1               52, 92
+        GetVariableValueGlobalString "globalclass"
+        GetMemberValueString         "bgmusic"
+        PushConstanti8               1
+        Pull                         2
+        GetMemberFunctionString      "play"
+        JumpAbsolute                 2
+        Pop
 		LineNumber                    46965, 4
 		LineNumberAlt1                128, 127
 		PushConstanti8                50
