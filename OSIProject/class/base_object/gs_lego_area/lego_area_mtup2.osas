@@ -107,6 +107,11 @@ begin class "lego_area_mtup2", "gs_lego_area"
 		GetThisMemberValueString      "cinema"
 		CallGameFunctionString        "gccinemaengine", "play", 1
 		Pop
+		GetThisMemberValueString      "cinema"
+		PushConstantStringString      "bech"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gccinemaengine", "setnextarea", 2
+		Pop
 		; <-
 		BranchTarget                  0
 		PushNothing
