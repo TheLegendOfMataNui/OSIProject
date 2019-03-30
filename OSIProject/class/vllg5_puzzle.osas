@@ -37,23 +37,6 @@ begin class "vllg5_puzzle"
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
-		LineNumber                    9635, 4
-		LineNumberAlt1                103, 200
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/sounds/MusicLewaTheme"
-		Pull                          2
-		GetMemberFunctionString       "changefilename"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    9636, 4
-		LineNumberAlt1                104, 200
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "bgmusic"
-		Dup
-		GetMemberFunctionString       "play"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    40993, 4
 		LineNumberAlt1                45, 114
 		PushConstantStringString      "cin4"
@@ -1231,6 +1214,33 @@ begin class "vllg5_puzzle"
 		LineNumber                    9693, 4
 		LineNumberAlt1                161, 200
 		PushConstantStringString      "vl12"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstantStringString      "vl13"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstantStringString      "vl14"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    9693, 4
+		LineNumberAlt1                161, 200
+		PushConstantStringString      "vl15"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    9693, 4
 		LineNumberAlt1                161, 200
