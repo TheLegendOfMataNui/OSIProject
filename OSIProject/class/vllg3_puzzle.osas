@@ -640,8 +640,8 @@ begin class "vllg3_puzzle"
 	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 	    PushConstant0
 	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-	    PushConstantColor8888		  0x009B00FF ; color2 = feet
-	    PushConstantColor8888		  0x009B00FF ; color3 = head
+	    PushConstantColor8888		  0x00D021FF ; color2 = feet
+	    PushConstantColor8888		  0x00D021FF ; color3 = head
 	    PushConstantColor8888		  0x660066FF ; color1 = body
 	    CallGameFunctionString		  "gccharacter", "setcolors", 4
 	    Pop		
@@ -938,6 +938,12 @@ begin class "vllg3_puzzle"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    65245, 4
 		LineNumberAlt1                53, 166
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
+		PushConstantStringString      "drs2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		CallGameFunctionString        "gcareadirector", "hide", 2
 		Pop
 		LineNumber                    37352, 4
@@ -1556,8 +1562,6 @@ begin class "vllg3_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 15, 0
 		; ->
-		LineNumber                    9762, 4
-		LineNumberAlt1                230, 200
 		GetThisMemberValueString      "coindoor"
 		Dup
 		GetMemberFunctionString       "hide"
@@ -1565,6 +1569,24 @@ begin class "vllg3_puzzle"
 		Pop
 		; <-
 		BranchTarget                  15
+		PushConstanti8				  60
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 16, 0
+		; ->
+		PushConstantStringString      "ar00"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstant0
+		CallGameFunctionString        "gccollisionphysicsgroup", "togglepickuponoff", 2
+		Pop
+		PushConstantStringString      "ar00"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "getcurrentarea", 0
+		CallGameFunctionString        "gcnolightdirector", "hide", 2
+		Pop
+		; <-
+		BranchTarget                  16
 		PushNothing
 		Return
 	end ; method
@@ -1807,6 +1829,12 @@ begin class "vllg3_puzzle"
 		PushConstanti8                1
 		CallGameFunctionString        "gcsaver", "setcondition", 2
 		Pop
+		PushConstantStringString      "drs2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		LineNumber                    37481, 4
 		LineNumberAlt1                313, 95
 		GetVariableValueGlobalString  "globalclass"
@@ -1927,25 +1955,16 @@ begin class "vllg3_puzzle"
 		And
 		CompareAndBranchIfFalseTarget 11, 0
 		; ->
-		LineNumber                    40997, 4
-		LineNumberAlt1                49, 114
 		PushConstanti8                1
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    40995, 4
-		LineNumberAlt1                47, 114
 		PushConstanti8                2
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    40995, 4
-		LineNumberAlt1                47, 114
+		And
 		PushConstanti8                4
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    40996, 4
-		LineNumberAlt1                48, 114
 		And
 		PushConstanti8                8
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    40997, 4
-		LineNumberAlt1                49, 114
 		And
 		CompareAndBranchIfFalseTarget 11, 0
 		; ->

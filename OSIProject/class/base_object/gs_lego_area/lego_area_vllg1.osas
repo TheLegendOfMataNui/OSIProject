@@ -108,6 +108,17 @@ begin class "lego_area_vllg1", "gs_lego_area"
 		GetMemberFunctionString       "stop"
 		JumpAbsolute                  1
 		Pop
+		PushConstantStringString      "ar00"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "getcurrentarea", 0
+		CallGameFunctionString        "gcnolightdirector", "hide", 2
+		Pop
+		PushConstantStringString      "dor2"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		LineNumber                    17310, 4
 		LineNumberAlt1                48, 225
 		CallGameFunctionString        "gccinemaengine", "create", 0

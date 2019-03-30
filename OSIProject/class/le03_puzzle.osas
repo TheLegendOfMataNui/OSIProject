@@ -140,22 +140,22 @@ begin class "le03_puzzle"
 		PushConstantColor8888         0xffffffff
 		PushConstant0
 		SetRedValue
-		PushConstanti16               150
+		PushConstant0
 		SetGreenValue
-		PushConstanti8                121
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
 		PushConstantColor8888         0xffffffff
 		PushConstant0
 		SetRedValue
-		PushConstanti16               150
+		PushConstant0
 		SetGreenValue
-		PushConstanti8                121
+		PushConstant0
 		SetBlueValue
-		PushConstanti16               255
+		PushConstant0
 		SetAlphaValue
-		PushConstantStringString      "mk4a"
+		PushConstantStringString      "mkaa"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    7686, 4
 		LineNumberAlt1                113, 190
@@ -172,6 +172,15 @@ begin class "le03_puzzle"
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
         Pop
+	    PushConstantStringString      "vlgr"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x027F1EFF ; color2 = feet
+	    PushConstantColor8888		  0xBBE785FF ; color3 = head
+	    PushConstantColor8888		  0x027F1EFF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+		Pop
 		PushNothing
 		Return
 	end ; method
