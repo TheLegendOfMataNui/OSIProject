@@ -164,14 +164,10 @@ begin class "vllg5_puzzle"
 		SetThisMemberValueString      "deadhives"
 		LineNumber                    9647, 4
 		LineNumberAlt1                115, 200
-		PushConstanti32               1073741824
+		PushConstanti32               4194304
 		CallGameFunctionString        "gcsaver", "isconditionset", 1
-		LineNumber                    9647, 4
-		LineNumberAlt1                115, 200
-		SetVariableValue              2                                                                                      ; local
-		LineNumber                    9648, 4
-		LineNumberAlt1                116, 200
-		GetVariableValue              2                                                                                      ; local
+		PushConstanti8                1
+		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
 		LineNumber                    9652, 4
@@ -2104,7 +2100,7 @@ begin class "vllg5_puzzle"
 		; ->
 		LineNumber                    9771, 4
 		LineNumberAlt1                239, 200
-		PushConstanti32               1073741824
+		PushConstanti32               4194304
 		PushConstanti8                1
 		CallGameFunctionString        "gcsaver", "setcondition", 2
 		Pop

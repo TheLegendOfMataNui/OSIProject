@@ -940,6 +940,12 @@ begin class "vllg3_puzzle"
 		LineNumberAlt1                53, 166
 		CallGameFunctionString        "gcareadirector", "hide", 2
 		Pop
+		PushConstantStringString      "fhv0"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		PushConstantStringString      "drs2"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		PushConstantStringString      "vllg"
@@ -1796,6 +1802,73 @@ begin class "vllg3_puzzle"
 		GetVariableValue              1                                             ; local
 		GetMemberValueString          "eventid"
 		Dup
+		PushConstanti8                46
+		EqualTo
+		CompareAndBranchIfFalseTarget 13, 0
+		; ->
+		LineNumber                    65340, 4
+		LineNumberAlt1                148, 166
+		PushConstantf32               1.2000000476837158
+		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
+		Pop
+		BranchAlwaysTarget            5, 0
+		; ->
+		; <-
+		BranchTarget                  13
+		Dup
+		PushConstanti8                27
+		EqualTo
+		CompareAndBranchIfFalseTarget 14, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "level"
+		GetMemberValueString          "cam"
+		PushConstanti8                11
+		Pull                          2
+		GetMemberFunctionString       "setaimode"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterstartid"
+		GetThisMemberValueString     "parent"
+		GetMemberValueString         "enterlookid"
+		Pull                         3
+		GetMemberFunctionString      "gotopos"
+		JumpAbsolute                 3
+		Pop
+		LineNumber                   16991, 4
+		LineNumberAlt1               86, 223
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstantStringString      "p000"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		Pull                          2
+		GetMemberFunctionString       "switchanimation"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstantStringString      "ninp"
+		Pull                          2
+		GetMemberFunctionString       "setinputstate"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            5, 0
+		; ->
+		; <-
+		BranchTarget                  14
+		Dup
 		PushConstanti8                51
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
@@ -1819,7 +1892,7 @@ begin class "vllg3_puzzle"
 		LineNumber                    37475, 4
 		LineNumberAlt1                307, 95
 		GetThisMemberValueString      "deadhives"
-		PushConstanti8                3
+		PushConstanti8                4
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->

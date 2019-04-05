@@ -130,77 +130,6 @@ begin class "lego_area_vllg3", "gs_lego_area"
 		GetMemberFunctionString       "onevent"
 		JumpAbsolute                  2
 		Pop
-		LineNumber                    65306, 4
-		LineNumberAlt1                114, 166
-		GetVariableValue              1                                            ; local
-		GetMemberValueString          "eventid"
-		Dup
-		PushConstanti8                46
-		EqualTo
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		LineNumber                    65340, 4
-		LineNumberAlt1                148, 166
-		PushConstantf32               1.2000000476837158
-		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
-		Pop
-		BranchAlwaysTarget            1, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		Dup
-		PushConstanti8                27
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		LineNumber                    65345, 4
-		LineNumberAlt1                153, 166
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "actor"
-		PushConstantStringString      "str0"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    65345, 4
-		LineNumberAlt1                153, 166
-		PushConstantStringString      "lok0"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    65345, 4
-		LineNumberAlt1                153, 166
-		Pull                          3
-		GetMemberFunctionString       "gotostartpos"
-		JumpAbsolute                  3
-		Pop
-		LineNumber                    65346, 4
-		LineNumberAlt1                154, 166
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		Dup
-		GetMemberFunctionString       "unkill"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    65347, 4
-		LineNumberAlt1                155, 166
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "actor"
-		PushConstantStringString      "ninp"
-		Pull                          2
-		GetMemberFunctionString       "setinputstate"
-		JumpAbsolute                  2
-		Pop
-		LineNumber                    65348, 4
-		LineNumberAlt1                156, 166
-		GetVariableValue              0                                            ; local
-		GetMemberValueString          "level"
-		GetMemberValueString          "cam"
-		PushConstanti8                11
-		Pull                          2
-		GetMemberFunctionString       "setaimode"
-		JumpAbsolute                  2
-		Pop
-		; <-
-		BranchTarget                  1
-		Pop
 		PushNothing
 		Return
 	end ; method
@@ -242,10 +171,6 @@ begin class "lego_area_vllg3", "gs_lego_area"
 		GetMemberFunctionString     "exit"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  37268, 4
-		LineNumberAlt1              100, 95
-		PushNothing
-		SetThisMemberValueString    "puzzle"
 		PushNothing
 		Return
 	end ; method

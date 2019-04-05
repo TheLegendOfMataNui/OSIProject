@@ -110,6 +110,10 @@ begin class "lego_area_vllg5", "gs_lego_area"
 		; address: 0xaeab0
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_vllg.vbo" 53:53
 		MemberFunctionArgumentCheck 1
+		GetVariableValue            0                       ; local
+		GetThisMemberFunctionString "lego_area_cleanupfull"
+		JumpAbsolute                1
+		Pop
 		LineNumber                  9585, 4
 		LineNumberAlt1              53, 200
 		GetThisMemberValueString    "puzzle"
