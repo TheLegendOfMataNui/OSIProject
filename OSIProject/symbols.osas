@@ -3938,4 +3938,5 @@ begin symbols
 	symbol "vllg3_puzzle"
 	symbol "drownsound"
 	symbol "drownsoundplayed"
+	symbol "vllg6_puzzle"
 end ; symbols
