@@ -1062,7 +1062,7 @@ begin class "vllg5_puzzle"
 	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
 	    PushConstantColor8888		  0x009679FF ; color2 = feet
 	    PushConstantColor8888		  0xBBE785FF ; color3 = head
-	    PushConstantColor8888		  0x272627FF ; color1 = body
+	    PushConstantColor8888		  0xBBE785FF ; color1 = body
 	    CallGameFunctionString		  "gccharacter", "setcolors", 4
 		Pop
 		LineNumber                    9650, 4
