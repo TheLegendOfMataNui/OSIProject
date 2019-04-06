@@ -42,6 +42,19 @@ begin class "lego_area_haka6", "gs_lego_area"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
+		PushConstanti8                1
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		PushConstanti8                2
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		And
+		PushConstanti8                4
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		And
+		PushConstanti8                8
+		CallGameFunctionString        "gcsaver", "isconditionset", 1
+		And
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
 		LineNumber                    17310, 4
 		LineNumberAlt1                48, 225
 		CallGameFunctionString        "gccinemaengine", "create", 0
