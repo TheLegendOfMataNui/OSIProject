@@ -191,7 +191,7 @@ begin class "vllg3_puzzle"
         CallGameFunctionString        "gccharacter", "setinputstate", 2
         Pop
         GetVariableValue              3                                            ; local
-        PushConstantStringString      "hak1"
+        PushConstantStringString      "hak3"
         CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
@@ -346,7 +346,7 @@ begin class "vllg3_puzzle"
         CallGameFunctionString        "gccharacter", "setinputstate", 2
         Pop
         GetVariableValue              3                                            ; local
-        PushConstantStringString      "hak1"
+        PushConstantStringString      "hak3"
         CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
@@ -584,7 +584,7 @@ begin class "vllg3_puzzle"
         CallGameFunctionString        "gccharacter", "setinputstate", 2
         Pop
         GetVariableValue              3                                            ; local
-        PushConstantStringString      "hak1"
+        PushConstantStringString      "hak3"
         CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
         PushConstanti8                -1
         CallGameFunctionString        "gccharacter", "switchanimation", 3
