@@ -2808,4 +2808,8 @@ begin strings
 	string "ar00"
 	string "fhv2"
 	string "fhv3"
+	string "hak3"
+	string "hak4"
+	string "hak5"
+	string "hak6"
 end ; strings
