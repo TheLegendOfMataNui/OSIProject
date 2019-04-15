@@ -2812,4 +2812,9 @@ begin strings
 	string "hak4"
 	string "hak5"
 	string "hak6"
+	string "prt1"
+	string "prt2"
+	string "prt3"
+	string "prt4"
+	string "prt5"
 end ; strings

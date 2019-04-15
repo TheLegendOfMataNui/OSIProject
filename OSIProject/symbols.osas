@@ -3939,4 +3939,11 @@ begin symbols
 	symbol "drownsound"
 	symbol "drownsoundplayed"
 	symbol "vllg6_puzzle"
+	symbol "platform1"
+	symbol "platform2"
+	symbol "platform3"
+	symbol "platform4"
+	symbol "platform5"
+	symbol "raise_bridge"
+	symbol "bridgeState"
 end ; symbols

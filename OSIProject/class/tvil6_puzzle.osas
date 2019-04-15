@@ -2,6 +2,12 @@ begin class "tvil6_puzzle"
 	property "parent"
 	property "upgradefruit"
 	property "upgradefruit_shown"
+	property "platform1"
+	property "platform2"
+	property "platform3"
+	property "platform4"
+	property "platform5"
+	property "bridgeState"
 
 	begin method "tvil6_puzzle"
 		; address: 0xbddd1
@@ -195,6 +201,183 @@ begin class "tvil6_puzzle"
         Pop
 		; <-
 		BranchTarget                  1
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "prt1"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    54358, 4
+		LineNumberAlt1                103, 141
+		SetThisMemberValueString      "platform1"
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform1"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform1"
+		Dup
+		GetMemberFunctionString       "settweakable"
+		JumpAbsolute                  1
+		Pop
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "prt2"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    54358, 4
+		LineNumberAlt1                103, 141
+		SetThisMemberValueString      "platform2"
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform2"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform2"
+		Dup
+		GetMemberFunctionString       "settweakable"
+		JumpAbsolute                  1
+		Pop
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "prt3"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    54358, 4
+		LineNumberAlt1                103, 141
+		SetThisMemberValueString      "platform3"
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform3"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform3"
+		Dup
+		GetMemberFunctionString       "settweakable"
+		JumpAbsolute                  1
+		Pop
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "prt4"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    54358, 4
+		LineNumberAlt1                103, 141
+		SetThisMemberValueString      "platform4"
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform4"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform4"
+		Dup
+		GetMemberFunctionString       "settweakable"
+		JumpAbsolute                  1
+		Pop
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "prt5"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    54358, 4
+		LineNumberAlt1                103, 141
+		SetThisMemberValueString      "platform5"
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform5"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    54360, 4
+		LineNumberAlt1                105, 141
+		GetThisMemberValueString      "platform5"
+		Dup
+		GetMemberFunctionString       "settweakable"
+		JumpAbsolute                  1
+		Pop
+		PushConstant0
+		SetThisMemberValueString      "bridgeState"
+		PushConstanti8				  64
+		CallGameFunctionString        "bettersaver", "getbooleanvalue", 1
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		GetThisMemberValueString     "platform1"
+		PushConstantf32              -114.491
+		PushConstantf32              -71.3708
+		PushConstantf32              385.759
+		PushConstantf32				 0
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform2"
+		PushConstantf32              -125.478
+		PushConstantf32              -71.3708
+		PushConstantf32              360.264
+		PushConstantf32				 0
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform3"
+		PushConstantf32              -134.103
+		PushConstantf32              -71.3708
+		PushConstantf32              335.037
+		PushConstantf32				 0
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform4"
+		PushConstantf32              -123.733
+		PushConstantf32              -71.3708
+		PushConstantf32              309.701
+		PushConstantf32				 0
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform5"
+		PushConstantf32              -111.871
+		PushConstantf32              -71.3708
+		PushConstantf32              284.253
+		PushConstantf32				 0
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		PushConstanti8               1
+		SetThisMemberValueString     "bridgeState"
+		; <-
+		BranchTarget                 2
 		PushNothing
 		Return
 	end ; method
@@ -223,6 +406,31 @@ begin class "tvil6_puzzle"
 		SetThisMemberValueString      "upgradefruit"
 		; <-
 		BranchTarget                  0
+		GetThisMemberValueString      "platform1"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "platform2"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "platform3"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "platform4"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "platform5"
+		Dup
+		GetMemberFunctionString       "cleanupfull"
+		JumpAbsolute                  1
+		Pop
 		PushNothing
 		Return
 	end ; method
@@ -343,6 +551,10 @@ begin class "tvil6_puzzle"
 		GetThisMemberFunctionString   "give_fruit"
 		JumpAbsolute                  1
 		Pop
+		GetVariableValue              0                                        ; local
+		GetThisMemberFunctionString   "raise_bridge"
+		JumpAbsolute                  1
+		Pop
 		; <-
 		BranchTarget                  5
 		; <-
@@ -377,6 +589,70 @@ begin class "tvil6_puzzle"
 		Pop
 		PushConstanti8                1
 		SetThisMemberValueString      "upgradefruit_shown"
+		; <-
+		BranchTarget                  0
+		PushNothing
+		Return
+	end ; method
+
+	begin method "raise_bridge"
+		MemberFunctionArgumentCheck   1
+		GetThisMemberValueString      "bridgeState"
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		GetThisMemberValueString     "platform1"
+		PushConstantf32              -114.491
+		PushConstantf32              -71.3708
+		PushConstantf32              385.759
+		PushConstantf32				 6
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform2"
+		PushConstantf32              -125.478
+		PushConstantf32              -71.3708
+		PushConstantf32              360.264
+		PushConstantf32				 7
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform3"
+		PushConstantf32              -134.103
+		PushConstantf32              -71.3708
+		PushConstantf32              335.037
+		PushConstantf32				 8
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform4"
+		PushConstantf32              -123.733
+		PushConstantf32              -71.3708
+		PushConstantf32              309.701
+		PushConstantf32				 9
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		GetThisMemberValueString     "platform5"
+		PushConstantf32              -111.871
+		PushConstantf32              -71.3708
+		PushConstantf32              284.253
+		PushConstantf32				 10
+		Pull						 5
+		GetMemberFunctionString      "interpolate"
+		JumpAbsolute                 5
+		Pop
+		PushConstanti8				 64
+		PushConstanti8               1
+		CallGameFunctionString       "bettersaver", "setbooleanvalue", 2
+		Pop
+		PushConstanti8               1
+		SetThisMemberValueString     "bridgeState"
 		; <-
 		BranchTarget                  0
 		PushNothing
