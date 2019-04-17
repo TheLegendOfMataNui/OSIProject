@@ -10,7 +10,6 @@ begin class "mudmonster_puzzle"
 	property "titletext1"
 	property "titletext2"
 	property "turaga"
-	property "turagashown"
 	property "mudmandead"
 	property "stone"
 
@@ -225,10 +224,6 @@ begin class "mudmonster_puzzle"
 		LineNumberAlt1              281, 111
 		PushConstant0
 		SetThisMemberValueString    "reacting"
-		LineNumber                  43568, 4
-		LineNumberAlt1              283, 111
-		PushConstant0
-		SetThisMemberValueString    "turagashown"
 		PushNothing
 		Return
 	end ; method

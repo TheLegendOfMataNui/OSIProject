@@ -3418,7 +3418,6 @@ begin symbols
 	symbol "lego_toa_initfull"
 	symbol "lego_toa_cleanupfull"
 	symbol "turaga"
-	symbol "turagashown"
 	symbol "rockmandead"
 	symbol "ending"
 	symbol "getthrowspeed"
