@@ -1076,6 +1076,15 @@ begin class "boss_puzzle"
 		PushConstant0
 		CallGameFunctionString        "gclightdirector", "setcavelighting", 1
 		Pop
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstantStringString      "lbld"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstant0
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		LineNumber                    61190, 4
 		LineNumberAlt1                321, 158
 		GetVariableValue              0                                                ; local
