@@ -2817,4 +2817,6 @@ begin strings
 	string "prt3"
 	string "prt4"
 	string "prt5"
+	string "vl16"
+	string "vl17"
 end ; strings

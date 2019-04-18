@@ -906,6 +906,100 @@ begin class "vllg6_puzzle"
 		PushConstanti8                -1
 		CallGameFunctionString        "gccharacter", "switchanimation", 3
 		Pop
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		PushConstantStringString      "vl16"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		SetVariableValue              1                                            ; local
+		LineNumber                    16983, 4
+		LineNumberAlt1                78, 223
+		GetVariableValue              1                                            ; local
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantStringString      "mk4a"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16983, 4
+		LineNumberAlt1                78, 223
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+	    PushConstantStringString      "vl16"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0x272627FF ; color2 = feet
+	    PushConstantColor8888		  0xFFF700FF ; color3 = head
+	    PushConstantColor8888		  0x272627FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+		Pop
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		PushConstantStringString      "vl17"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+		LineNumber                    16982, 4
+		LineNumberAlt1                77, 223
+		SetVariableValue              1                                            ; local
+		LineNumber                    16983, 4
+		LineNumberAlt1                78, 223
+		GetVariableValue              1                                            ; local
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantColor8888         0xffffffff
+		PushConstant0
+		SetRedValue
+		PushConstant0
+		SetGreenValue
+		PushConstant0
+		SetBlueValue
+		PushConstant0
+		SetAlphaValue
+		PushConstantStringString      "mkba"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    16983, 4
+		LineNumberAlt1                78, 223
+		CallGameFunctionString        "gccharacter", "settohunga", 4
+		Pop
+	    PushConstantStringString      "vl17"
+	    CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+	    PushConstant0
+	    CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
+	    PushConstantColor8888		  0xFFF700FF ; color2 = feet
+	    PushConstantColor8888		  0xFFF700FF ; color3 = head
+	    PushConstantColor8888		  0xFFF700FF ; color1 = body
+	    CallGameFunctionString		  "gccharacter", "setcolors", 4
+		Pop
 		PushConstantStringString      "fhv0"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		CallGameFunctionString        "gcareadirector", "getcurrentarea", 0
@@ -1091,6 +1185,24 @@ begin class "vllg6_puzzle"
 		LineNumber                    65265, 4
 		LineNumberAlt1                73, 166
 		PushConstantStringString      "vl15"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstantStringString      "vl16"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstant0
+		CallGameFunctionString        "gcmodeldirector", "hide", 2
+		Pop
+		LineNumber                    65265, 4
+		LineNumberAlt1                73, 166
+		PushConstantStringString      "vl17"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    65265, 4
 		LineNumberAlt1                73, 166
