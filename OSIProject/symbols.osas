@@ -3924,4 +3924,10 @@ begin symbols
 	symbol "platform5"
 	symbol "raise_bridge"
 	symbol "bridgeState"
+	symbol "audiodebugnames"
+	symbol "audiodebuginput"
+	symbol "audiodebugmenusetup"
+	symbol "jukeboxnames"
+	symbol "jukeboxinput"
+	symbol "jukeboxmenusetup"
 end ; symbols

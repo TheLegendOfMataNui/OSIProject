@@ -13,11 +13,13 @@ begin class "cheatlist"
 	property "masknames"
 	property "abilitynames"
 	property "letnames"
-	property "visualdebugnames"
 	property "newlevel"
 	property "levelnames"
 	property "levelareanames"
 	property "realdelta"
+	property "visualdebugnames"
+	property "audiodebugnames"
+	property "jukeboxnames"
 
 	begin method "cheatlist"
 		; address: 0x50fda
@@ -50,6 +52,9 @@ begin class "cheatlist"
 		AppendToArray
 		Dup
 		PushConstantStringString    "VISUAL DEBUGGER..."
+		AppendToArray
+		Dup
+		PushConstantStringString    "AUDIO DEBUGGER..."
 		AppendToArray
 		SetThisMemberValueString    "mainmenutext"
 		LineNumber                  26633, 4
@@ -183,6 +188,121 @@ begin class "cheatlist"
 		PushConstantStringString    "HUD"
 		AppendToArray
 		SetThisMemberValueString    "visualdebugnames"
+		CreateArray
+		Dup
+		PushConstantStringString    "Music On/Off"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Jukebox"
+		AppendToArray
+		SetThisMemberValueString    "audiodebugnames"
+		CreateArray
+		Dup
+		PushConstantStringString    "Onua Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Onua Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Onua Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Onua Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Gali Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Gali Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Gali Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Gali Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Pohatu Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Pohatu Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Pohatu Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Pohatu Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Kopaka Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Kopaka Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Kopaka Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Kopaka Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Lewa Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Lewa Drum and Bass"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Lewa Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Lewa Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Lewa Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Tahu Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Tahu Dance"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Tahu Completion"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Makuta Theme"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Low and Creepy Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Shrine"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Spiderweb Ambience"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Surf and Snowboard"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Techno Snowboard"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Underground"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Underground 2"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Village"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Bionicle Age"
+		AppendToArray
+		Dup
+		PushConstantStringString    "Green Hill Zone"
+		AppendToArray
+		SetThisMemberValueString    "jukeboxnames"
 		CreateArray
 		Dup
 		PushConstantStringString    "Lev1 - Onua"
@@ -972,6 +1092,78 @@ begin class "cheatlist"
 		LineNumberAlt1                274, 66
 		PushNothing
 		SetThisMemberValueString      "visualdebugnames"
+		LineNumber                    26807, 4
+		LineNumberAlt1                270, 66
+		GetThisMemberValueString      "audiodebugnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		SetVariableValue              1                  ; local
+		LineNumber                    26808, 4
+		LineNumberAlt1                271, 66
+		GetVariableValue              1                  ; local
+		PushConstant0
+		SetVariableValue              2                  ; local
+		; <-
+		BranchTarget                  50
+		Dup
+		GetVariableValue              2                  ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 51, 0
+		; ->
+		LineNumber                    26809, 4
+		LineNumberAlt1                272, 66
+		GetThisMemberValueString      "audiodebugnames"
+		GetVariableValue              1                  ; local
+		GetVariableValue              2                  ; local
+		Subtract
+		RemoveFromArray
+		IncrementVariable             2
+		BranchAlwaysTarget            50, 0
+		; ->
+		; <-
+		BranchTarget                  51
+		Pop
+		LineNumber                    26811, 4
+		LineNumberAlt1                274, 66
+		PushNothing
+		SetThisMemberValueString      "audiodebugnames"
+		LineNumber                    26807, 4
+		LineNumberAlt1                270, 66
+		GetThisMemberValueString      "jukeboxnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		SetVariableValue              1                  ; local
+		LineNumber                    26808, 4
+		LineNumberAlt1                271, 66
+		GetVariableValue              1                  ; local
+		PushConstant0
+		SetVariableValue              2                  ; local
+		; <-
+		BranchTarget                  52
+		Dup
+		GetVariableValue              2                  ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 53, 0
+		; ->
+		LineNumber                    26809, 4
+		LineNumberAlt1                272, 66
+		GetThisMemberValueString      "jukeboxnames"
+		GetVariableValue              1                  ; local
+		GetVariableValue              2                  ; local
+		Subtract
+		RemoveFromArray
+		IncrementVariable             2
+		BranchAlwaysTarget            52, 0
+		; ->
+		; <-
+		BranchTarget                  53
+		Pop
+		LineNumber                    26811, 4
+		LineNumberAlt1                274, 66
+		PushNothing
+		SetThisMemberValueString      "jukeboxnames"
 		LineNumber                    26813, 4
 		LineNumberAlt1                276, 66
 		GetThisMemberValueString      "levelnames"
@@ -1310,6 +1502,38 @@ begin class "cheatlist"
 		; <-
 		BranchTarget                  7
 		Dup
+		PushConstanti8                8
+		EqualTo
+		CompareAndBranchIfFalseTarget 70, 0
+		; ->
+		LineNumber                    26878, 4
+		LineNumberAlt1                341, 66
+		GetVariableValue              0                                         ; local
+		GetVariableValue              1                                         ; local
+		GetThisMemberFunctionString   "audiodebuginput"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            9, 0
+		; ->
+		; <-
+		BranchTarget                  70
+		Dup
+		PushConstanti8                9
+		EqualTo
+		CompareAndBranchIfFalseTarget 71, 0
+		; ->
+		LineNumber                    26878, 4
+		LineNumberAlt1                341, 66
+		GetVariableValue              0                                         ; local
+		GetVariableValue              1                                         ; local
+		GetThisMemberFunctionString   "jukeboxinput"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            9, 0
+		; ->
+		; <-
+		BranchTarget                  71
+		Dup
 		PushConstanti8                99
 		EqualTo
 		CompareAndBranchIfFalseTarget 9, 0
@@ -1514,7 +1738,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "areamenusetup"
 		JumpAbsolute                  2
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  0
@@ -1529,7 +1753,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "gotomenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  1
@@ -1544,7 +1768,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "charactermenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  2
@@ -1559,7 +1783,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "maskmenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  3
@@ -1574,7 +1798,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "abilitymenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  4
@@ -1589,7 +1813,7 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "letmenusetup"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            6, 0
+		BranchAlwaysTarget            21, 0
 		; ->
 		; <-
 		BranchTarget                  5
@@ -1604,8 +1828,38 @@ begin class "cheatlist"
 		GetThisMemberFunctionString   "visualdebugmenusetup"
 		JumpAbsolute                  1
 		Pop
+		BranchAlwaysTarget            21, 0
+		; ->
 		; <-
 		BranchTarget                  6
+		Dup
+		PushConstanti8                7
+		EqualTo
+		CompareAndBranchIfFalseTarget 20, 0
+		; ->
+		LineNumber                    26951, 4
+		LineNumberAlt1                414, 66
+		GetVariableValue              0                                ; local
+		GetThisMemberFunctionString   "audiodebugmenusetup"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            21, 0
+		; ->
+		; <-
+		BranchTarget                  20
+		Dup
+		PushConstanti8                8
+		EqualTo
+		CompareAndBranchIfFalseTarget 21, 0
+		; ->
+		LineNumber                    26951, 4
+		LineNumberAlt1                414, 66
+		GetVariableValue              0                                ; local
+		GetThisMemberFunctionString   "jukeboxmenusetup"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  21
 		Pop
 		BranchAlwaysTarget            9, 0
 		; ->
@@ -3200,6 +3454,959 @@ begin class "cheatlist"
 		Pop
 		; <-
 		BranchTarget                  12
+		PushNothing
+		Return
+	end ; method
+
+	begin method "audiodebuginput"
+		; address: 0x529f0
+		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 465:682
+		MemberFunctionArgumentCheck   2
+		LineNumber                    27002, 4
+		LineNumberAlt1                465, 66
+		GetVariableValue              1                                    ; local
+		GetMemberValueString          "event"
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 12, 0
+		; ->
+		LineNumber                    27003, 4
+		LineNumberAlt1                466, 66
+		GetVariableValue              1                                    ; local
+		GetMemberValueString          "button"
+		Dup
+		PushConstanti8                35
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		LineNumber                    27219, 4
+		LineNumberAlt1                682, 66
+		GetThisMemberValueString      "curidx"
+		Dup
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "stop"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  0
+		Pop
+		BranchAlwaysTarget            11, 0
+		; ->
+		; <-
+		BranchTarget                  4
+		Dup
+		PushConstanti8                36
+		EqualTo
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		LineNumber                    27219, 4
+		LineNumberAlt1                682, 66
+		GetThisMemberValueString      "curidx"
+		Dup
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 5, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            6, 0
+		; ->
+		; <-
+		BranchTarget                  5
+		Dup
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 6, 0
+		; ->
+		GetVariableValue              0                                    ; local
+		GetThisMemberFunctionString   "jukeboxmenusetup"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  6
+		Pop
+		BranchAlwaysTarget            11, 0
+		; ->
+		; <-
+		BranchTarget                  10
+		Dup
+		PushConstanti8                46
+		EqualTo
+		CompareAndBranchIfFalseTarget 11, 0
+		; ->
+		LineNumber                    27015, 4
+		LineNumberAlt1                478, 66
+		GetVariableValue              0                                    ; local
+		GetThisMemberFunctionString   "mainmenusetup"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  11
+		Pop
+		; <-
+		BranchTarget                  12
+		PushNothing
+		Return
+	end ; method
+
+	begin method "jukeboxinput"
+		; address: 0x522e6
+		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 548:611
+		MemberFunctionArgumentCheck   2
+		LineNumber                    27085, 4
+		LineNumberAlt1                548, 66
+		GetVariableValue              1               ; local
+		GetMemberValueString          "event"
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 16, 0
+		; ->
+		LineNumber                    27086, 4
+		LineNumberAlt1                549, 66
+		GetVariableValue              1               ; local
+		GetMemberValueString          "button"
+		Dup
+		PushConstanti8                36
+		EqualTo
+		CompareAndBranchIfFalseTarget 14, 0
+		; ->
+		LineNumber                    27089, 4
+		LineNumberAlt1                552, 66
+		GetThisMemberValueString      "curidx"
+		Dup
+		PushConstant0
+		EqualTo
+		CompareAndBranchIfFalseTarget 0, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicOnuaAmbience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  0
+		Dup
+		PushConstanti8                1
+		EqualTo
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MUSICONUATHEME"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  1
+		Dup
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocineHakaOnua"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		Dup
+		PushConstanti8                3
+		EqualTo
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/Sounds/OnuaCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  3
+		Dup
+		PushConstanti8                4
+		EqualTo
+		CompareAndBranchIfFalseTarget 4, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicGaliAmbience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  4
+		Dup
+		PushConstanti8                5
+		EqualTo
+		CompareAndBranchIfFalseTarget 5, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/Musicgalitheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  5
+		Dup
+		PushConstanti8                6
+		EqualTo
+		CompareAndBranchIfFalseTarget 6, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocineGaliDance"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  6
+		Dup
+		PushConstanti8                7
+		EqualTo
+		CompareAndBranchIfFalseTarget 7, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/GaliCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  1
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  7
+		Dup
+		PushConstanti8                8
+		EqualTo
+		CompareAndBranchIfFalseTarget 8, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicPohatuAmbience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  8
+		Dup
+		PushConstanti8                9
+		EqualTo
+		CompareAndBranchIfFalseTarget 9, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicPohatuTheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  9
+		Dup
+		PushConstanti8                10
+		EqualTo
+		CompareAndBranchIfFalseTarget 10, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocinePohatuDance"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  10
+		Dup
+		PushConstanti8                11
+		EqualTo
+		CompareAndBranchIfFalseTarget 11, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/Sounds/PohatuCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  11
+		Dup
+		PushConstanti8                12
+		EqualTo
+		CompareAndBranchIfFalseTarget 12, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicKopakaAmbience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  12
+		Dup
+		PushConstanti8                13
+		EqualTo
+		CompareAndBranchIfFalseTarget 30, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/Sounds/MUSICKopakaTheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  30
+		Dup
+		PushConstanti8                14
+		EqualTo
+		CompareAndBranchIfFalseTarget 31, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocineKopakaDance"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  31
+		Dup
+		PushConstanti8                15
+		EqualTo
+		CompareAndBranchIfFalseTarget 32, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/KopakaCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  32
+		Dup
+		PushConstanti8                16
+		EqualTo
+		CompareAndBranchIfFalseTarget 33, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicLewaAmbience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  33
+		Dup
+		PushConstanti8                17
+		EqualTo
+		CompareAndBranchIfFalseTarget 34, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicLewaDrumAndBass"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  34
+		Dup
+		PushConstanti8                18
+		EqualTo
+		CompareAndBranchIfFalseTarget 35, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicLewaTheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  35
+		Dup
+		PushConstanti8                19
+		EqualTo
+		CompareAndBranchIfFalseTarget 36, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocineLewaDance"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  36
+		Dup
+		PushConstanti8                20
+		EqualTo
+		CompareAndBranchIfFalseTarget 37, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/LewaCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  37
+		Dup
+		PushConstanti8                21
+		EqualTo
+		CompareAndBranchIfFalseTarget 38, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MUSICtahuTheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  38
+		Dup
+		PushConstanti8                22
+		EqualTo
+		CompareAndBranchIfFalseTarget 39, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/legocineTahuDance"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  39
+		Dup
+		PushConstanti8                23
+		EqualTo
+		CompareAndBranchIfFalseTarget 40, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/TahuCompletionMusic"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  40
+		Dup
+		PushConstanti8                24
+		EqualTo
+		CompareAndBranchIfFalseTarget 41, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  41
+		Dup
+		PushConstanti8                25
+		EqualTo
+		CompareAndBranchIfFalseTarget 42, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/Musiclowandcreepyambience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  42
+		Dup
+		PushConstanti8                26
+		EqualTo
+		CompareAndBranchIfFalseTarget 43, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicShrine"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  43
+		Dup
+		PushConstanti8                27
+		EqualTo
+		CompareAndBranchIfFalseTarget 44, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/spiderwebambience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  44
+		Dup
+		PushConstanti8                28
+		EqualTo
+		CompareAndBranchIfFalseTarget 45, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicSurfAndSnowboard"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  45
+		Dup
+		PushConstanti8                29
+		EqualTo
+		CompareAndBranchIfFalseTarget 46, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicTechnoSnowboard"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  46
+		Dup
+		PushConstanti8                30
+		EqualTo
+		CompareAndBranchIfFalseTarget 47, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MUSICLEGOUNDERGROUND"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  47
+		Dup
+		PushConstanti8                31
+		EqualTo
+		CompareAndBranchIfFalseTarget 48, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MUSICPart2LegoUNDERGROUND"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  48
+		Dup
+		PushConstanti8                32
+		EqualTo
+		CompareAndBranchIfFalseTarget 49, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicVillage"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  49
+		Dup
+		PushConstanti8                33
+		EqualTo
+		CompareAndBranchIfFalseTarget 50, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicBionicleAge"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		BranchAlwaysTarget            13, 0
+		; ->
+		; <-
+		BranchTarget                  50
+		Dup
+		PushConstanti8                34
+		EqualTo
+		CompareAndBranchIfFalseTarget 13, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/MusicGreenHillZone"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		; <-
+		BranchTarget                  13
+		Pop
+		BranchAlwaysTarget            15, 0
+		; ->
+		; <-
+		BranchTarget                  14
+		Dup
+		PushConstanti8                46
+		EqualTo
+		CompareAndBranchIfFalseTarget 15, 0
+		; ->
+		LineNumber                    27147, 4
+		LineNumberAlt1                610, 66
+		GetVariableValue              1               ; local
+		GetMemberValueString          "event"
+		PushConstanti8                2
+		EqualTo
+		CompareAndBranchIfFalseTarget 15, 0
+		; ->
+		LineNumber                    27148, 4
+		LineNumberAlt1                611, 66
+		GetVariableValue              0               ; local
+		GetThisMemberFunctionString   "audiodebugmenusetup"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  15
+		Pop
+		; <-
+		BranchTarget                  16
 		PushNothing
 		Return
 	end ; method
@@ -4841,6 +6048,266 @@ begin class "cheatlist"
 		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFont"
 		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
 		GetThisMemberValueString      "visualdebugnames"
+		GetVariableValue              1                                    ; local
+		GetArrayValue
+		GetThisMemberValueString      "x"
+		GetThisMemberValueString      "y"
+		GetVariableValue              2                                    ; local
+		Add
+		PushConstant0
+		PushConstantf32               1
+		PushConstant0
+		PushConstanti8                4
+		PushConstant0
+		Pull                          11
+		GetMemberFunctionString       "gs_legoactivetext"
+		JumpAbsolute                  11
+		Pop
+		LineNumber                    27557, 4
+		LineNumberAlt1                1020, 66
+		SetVariableValue              3                                    ; local
+		LineNumber                    27558, 4
+		LineNumberAlt1                1021, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27559, 4
+		LineNumberAlt1                1022, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "add"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27560, 4
+		LineNumberAlt1                1023, 66
+		GetVariableValue              1                                    ; local
+		GetThisMemberValueString      "showidx"
+		LessOrEqual
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    27561, 4
+		LineNumberAlt1                1024, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "show"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		LineNumber                    27563, 4
+		LineNumberAlt1                1026, 66
+		GetVariableValue              3                                    ; local
+		PushConstantf32               1.2000000476837158
+		Pull                          2
+		GetMemberFunctionString       "scalefont"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    27564, 4
+		LineNumberAlt1                1027, 66
+		GetThisMemberValueString      "activemenu"
+		GetVariableValue              3                                    ; local
+		AppendToArray
+		IncrementVariable             1
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		Pop
+		LineNumber                    27566, 4
+		LineNumberAlt1                1029, 66
+		GetThisMemberValueString      "activemenu"
+		PushConstant0
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "setactive"
+		JumpAbsolute                  1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "audiodebugmenusetup"
+		; address: 0x53ad3
+		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
+		MemberFunctionArgumentCheck   1
+		CreateStackVariables          3
+		LineNumber                    27552, 4
+		LineNumberAlt1                1015, 66
+		PushConstanti8                8
+		SetThisMemberValueString      "screen"
+		LineNumber                    27553, 4
+		LineNumberAlt1                1016, 66
+		GetThisMemberValueString      "audiodebugnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		SetThisMemberValueString      "maxidx"
+		LineNumber                    27554, 4
+		LineNumberAlt1                1017, 66
+		GetVariableValue              0                                    ; local
+		GetThisMemberFunctionString   "resetactivemenu"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27555, 4
+		LineNumberAlt1                1018, 66
+		GetThisMemberValueString      "audiodebugnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              1                                    ; local
+		; <-
+		BranchTarget                  0
+		Dup
+		GetVariableValue              1                                    ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    27556, 4
+		LineNumberAlt1                1019, 66
+		GetVariableValue              1                                    ; local
+		PushConstanti8                12
+		Multiply
+		SetVariableValue              2                                    ; local
+		LineNumber                    27557, 4
+		LineNumberAlt1                1020, 66
+		CreateObjectString            "gs_legoactivetext"
+		Dup
+		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFont"
+		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
+		GetThisMemberValueString      "audiodebugnames"
+		GetVariableValue              1                                    ; local
+		GetArrayValue
+		GetThisMemberValueString      "x"
+		GetThisMemberValueString      "y"
+		GetVariableValue              2                                    ; local
+		Add
+		PushConstant0
+		PushConstantf32               1
+		PushConstant0
+		PushConstanti8                4
+		PushConstant0
+		Pull                          11
+		GetMemberFunctionString       "gs_legoactivetext"
+		JumpAbsolute                  11
+		Pop
+		LineNumber                    27557, 4
+		LineNumberAlt1                1020, 66
+		SetVariableValue              3                                    ; local
+		LineNumber                    27558, 4
+		LineNumberAlt1                1021, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27559, 4
+		LineNumberAlt1                1022, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "add"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27560, 4
+		LineNumberAlt1                1023, 66
+		GetVariableValue              1                                    ; local
+		GetThisMemberValueString      "showidx"
+		LessOrEqual
+		CompareAndBranchIfFalseTarget 1, 0
+		; ->
+		LineNumber                    27561, 4
+		LineNumberAlt1                1024, 66
+		GetVariableValue              3                                    ; local
+		Dup
+		GetMemberFunctionString       "show"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  1
+		LineNumber                    27563, 4
+		LineNumberAlt1                1026, 66
+		GetVariableValue              3                                    ; local
+		PushConstantf32               1.2000000476837158
+		Pull                          2
+		GetMemberFunctionString       "scalefont"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    27564, 4
+		LineNumberAlt1                1027, 66
+		GetThisMemberValueString      "activemenu"
+		GetVariableValue              3                                    ; local
+		AppendToArray
+		IncrementVariable             1
+		BranchAlwaysTarget            0, 0
+		; ->
+		; <-
+		BranchTarget                  2
+		Pop
+		LineNumber                    27566, 4
+		LineNumberAlt1                1029, 66
+		GetThisMemberValueString      "activemenu"
+		PushConstant0
+		GetArrayValue
+		Dup
+		GetMemberFunctionString       "setactive"
+		JumpAbsolute                  1
+		Pop
+		PushNothing
+		Return
+	end ; method
+
+	begin method "jukeboxmenusetup"
+		; address: 0x53ad3
+		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
+		MemberFunctionArgumentCheck   1
+		CreateStackVariables          3
+		LineNumber                    27552, 4
+		LineNumberAlt1                1015, 66
+		PushConstanti8                9
+		SetThisMemberValueString      "screen"
+		LineNumber                    27553, 4
+		LineNumberAlt1                1016, 66
+		GetThisMemberValueString      "jukeboxnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		SetThisMemberValueString      "maxidx"
+		LineNumber                    27554, 4
+		LineNumberAlt1                1017, 66
+		GetVariableValue              0                                    ; local
+		GetThisMemberFunctionString   "resetactivemenu"
+		JumpAbsolute                  1
+		Pop
+		LineNumber                    27555, 4
+		LineNumberAlt1                1018, 66
+		GetThisMemberValueString      "jukeboxnames"
+		ElementsInArray
+		PushConstanti8                1
+		Subtract
+		PushConstant0
+		SetVariableValue              1                                    ; local
+		; <-
+		BranchTarget                  0
+		Dup
+		GetVariableValue              1                                    ; local
+		GreaterOrEqual
+		CompareAndBranchIfFalseTarget 2, 0
+		; ->
+		LineNumber                    27556, 4
+		LineNumberAlt1                1019, 66
+		GetVariableValue              1                                    ; local
+		PushConstanti8                12
+		Multiply
+		SetVariableValue              2                                    ; local
+		LineNumber                    27557, 4
+		LineNumberAlt1                1020, 66
+		CreateObjectString            "gs_legoactivetext"
+		Dup
+		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFont"
+		PushConstantStringString      "Root/Data/Art/Fonts/BionicleFontHi"
+		GetThisMemberValueString      "jukeboxnames"
 		GetVariableValue              1                                    ; local
 		GetArrayValue
 		GetThisMemberValueString      "x"
