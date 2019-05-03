@@ -1354,8 +1354,6 @@ begin strings
 	string "cin1"
 	string "drs0"
 	string "d000"
-	string "**** CONGRATS PUZZLE SOLVED"
-	string "********* YEAH YOU HAVE KILLED A HIVE!!"
 	string "Root/Data/sounds/Musicgalitheme"
 	string "drs1"
 	string "g054"
