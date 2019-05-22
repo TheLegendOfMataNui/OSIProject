@@ -2585,6 +2585,15 @@ begin class "gs_lego_screenfrontend"
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 814:910
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
+;		LineNumber                    61188, 4
+;		LineNumberAlt1                319, 158
+;		PushConstantStringString      "ttle"
+;		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+;		LineNumber                    61188, 4
+;		LineNumberAlt1                319, 158
+;		PushConstant0
+;		CallGameFunctionString        "gcareadirector", "hide", 2
+;		Pop
 		LineNumber                    36029, 4
 		LineNumberAlt1                814, 46
 		GetThisMemberValueString      "menuactive"
@@ -3914,6 +3923,15 @@ begin class "gs_lego_screenfrontend"
 		GetThisMemberFunctionString   "gotodifferentscreen"
 		JumpAbsolute                  3
 		Pop
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstantStringString      "ttle"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstant0
+		CallGameFunctionString        "gcareadirector", "hide", 2
+		Pop
 		BranchAlwaysTarget            2, 0
 		; ->
 		; <-
@@ -3930,6 +3948,15 @@ begin class "gs_lego_screenfrontend"
 		PushConstant0
 		GetThisMemberFunctionString   "gotodifferentscreen"
 		JumpAbsolute                  3
+		Pop
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstantStringString      "ttle"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstant0
+		CallGameFunctionString        "gcareadirector", "hide", 2
 		Pop
 		BranchAlwaysTarget            2, 0
 		; ->
@@ -4426,6 +4453,15 @@ begin class "gs_lego_screenfrontend"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstantStringString      "ttle"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                    61188, 4
+		LineNumberAlt1                319, 158
+		PushConstant0
+		CallGameFunctionString        "gcareadirector", "show", 2
+		Pop
 		LineNumber                    36400, 4
 		LineNumberAlt1                1185, 46
 		GetVariableValue              0                     ; local
