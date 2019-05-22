@@ -59,7 +59,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12318, 4
 		LineNumberAlt1                1059, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppybllonua"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpybllonua"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -75,7 +75,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12320, 4
 		LineNumberAlt1                1061, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppybllgali"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpybllgali"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -91,7 +91,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12322, 4
 		LineNumberAlt1                1063, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppybllpohatu"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpybllpohatu"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -107,7 +107,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12324, 4
 		LineNumberAlt1                1065, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppybllkopaka"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpybllkopaka"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -123,7 +123,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12326, 4
 		LineNumberAlt1                1067, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppyblllewa"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpyblllewa"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -139,7 +139,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12328, 4
 		LineNumberAlt1                1069, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppyblltahu"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpyblltahu"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -155,7 +155,7 @@ begin class "hudammo", "base_objectarray"
 		; ->
 		LineNumber                    12328, 4
 		LineNumberAlt1                1069, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppybllonua"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpybllonua"
 		SetVariableValue              4                                            ; local
 		BranchAlwaysTarget            7, 0
 		; ->
@@ -163,7 +163,7 @@ begin class "hudammo", "base_objectarray"
 		BranchTarget                  6
 		LineNumber                    12330, 4
 		LineNumberAlt1                1071, 28
-		PushConstantStringString      "Root/data/art/hud/elemrotate/hppyblltahu"
+		PushConstantStringString      "Root/data/art/hud/elemrotate/hpyblltahu"
 		SetVariableValue              4                                            ; local
 		; <-
 		BranchTarget                  7
