@@ -45,6 +45,7 @@ begin class "gs_lego_screenfrontend"
 	property "cameramode"
 	property "rotateval"
 	property "rotatedir"
+	property "titleimage"
 
 	begin method "gs_lego_screenfrontend"
 		; address: 0x5f5d6
@@ -1252,6 +1253,23 @@ begin class "gs_lego_screenfrontend"
 		PushConstantf32              5
 		GetThisMemberFunctionString  "adjustcamera"
 		JumpAbsolute                 5
+		Pop
+		CreateObjectString            "lego_moveableobject"
+		Dup
+		PushConstantStringString      "ttle"
+		Pull                          2
+		GetMemberFunctionString       "lego_moveableobject"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    37392, 4
+		LineNumberAlt1                224, 95
+		SetThisMemberValueString      "titleimage"
+		LineNumber                    37393, 4
+		LineNumberAlt1                225, 95
+		GetThisMemberValueString      "titleimage"
+		Dup
+		GetMemberFunctionString       "initfull"
+		JumpAbsolute                  1
 		Pop
 		PushNothing
 		Return
@@ -2585,15 +2603,6 @@ begin class "gs_lego_screenfrontend"
 		; source: 46 "C:\\projects\\lego\\Scripting\\VBO\\lego_frontend.vbo" 814:910
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
-;		LineNumber                    61188, 4
-;		LineNumberAlt1                319, 158
-;		PushConstantStringString      "ttle"
-;		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-;		LineNumber                    61188, 4
-;		LineNumberAlt1                319, 158
-;		PushConstant0
-;		CallGameFunctionString        "gcareadirector", "hide", 2
-;		Pop
 		LineNumber                    36029, 4
 		LineNumberAlt1                814, 46
 		GetThisMemberValueString      "menuactive"
@@ -2659,6 +2668,12 @@ begin class "gs_lego_screenfrontend"
 		GetVariableValue              0                                             ; local
 		GetThisMemberFunctionString   "forward"
 		JumpAbsolute                  1
+		Pop
+		GetThisMemberValueString      "titleimage"
+		PushConstantf32               0.5
+		Pull                          2
+		GetMemberFunctionString       "fadeout"
+		JumpAbsolute                  2
 		Pop
 		; <-
 		BranchTarget                  1
@@ -3923,15 +3938,6 @@ begin class "gs_lego_screenfrontend"
 		GetThisMemberFunctionString   "gotodifferentscreen"
 		JumpAbsolute                  3
 		Pop
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstantStringString      "ttle"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstant0
-		CallGameFunctionString        "gcareadirector", "hide", 2
-		Pop
 		BranchAlwaysTarget            2, 0
 		; ->
 		; <-
@@ -3948,15 +3954,6 @@ begin class "gs_lego_screenfrontend"
 		PushConstant0
 		GetThisMemberFunctionString   "gotodifferentscreen"
 		JumpAbsolute                  3
-		Pop
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstantStringString      "ttle"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstant0
-		CallGameFunctionString        "gcareadirector", "hide", 2
 		Pop
 		BranchAlwaysTarget            2, 0
 		; ->
@@ -4453,14 +4450,11 @@ begin class "gs_lego_screenfrontend"
 		EqualTo
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstantStringString      "ttle"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    61188, 4
-		LineNumberAlt1                319, 158
-		PushConstant0
-		CallGameFunctionString        "gcareadirector", "show", 2
+		GetThisMemberValueString      "titleimage"
+		PushConstantf32               1
+		Pull                          2
+		GetMemberFunctionString       "fadein"
+		JumpAbsolute                  2
 		Pop
 		LineNumber                    36400, 4
 		LineNumberAlt1                1185, 46
@@ -4479,6 +4473,12 @@ begin class "gs_lego_screenfrontend"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
+		GetThisMemberValueString      "titleimage"
+		PushConstantf32               1
+		Pull                          2
+		GetMemberFunctionString       "fadein"
+		JumpAbsolute                  2
+		Pop
 		LineNumber                    36402, 4
 		LineNumberAlt1                1187, 46
 		GetVariableValue              0                     ; local

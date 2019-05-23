@@ -3930,4 +3930,5 @@ begin symbols
 	symbol "jukeboxnames"
 	symbol "jukeboxinput"
 	symbol "jukeboxmenusetup"
+	symbol "titleimage"
 end ; symbols
