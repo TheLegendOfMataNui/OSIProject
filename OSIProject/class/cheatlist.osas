@@ -698,9 +698,6 @@ begin class "cheatlist"
 		PushConstantStringString    "kini"
 		AppendToArray
 		Dup
-		PushConstantStringString    "cvlg"
-		AppendToArray
-		Dup
 		PushConstantStringString    "gly1"
 		AppendToArray
 		Dup

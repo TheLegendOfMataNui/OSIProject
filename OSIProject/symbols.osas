@@ -3892,7 +3892,6 @@ begin symbols
 	symbol "upgradefruit"
 	symbol "lego_area_illu"
 	symbol "lego_area_lep3"
-	symbol "lego_area_cvlg"
 	symbol "lev8_gly1"
 	symbol "lego_area_gvlg"
 	symbol "lego_area_le10"

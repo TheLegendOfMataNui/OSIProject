@@ -2765,7 +2765,6 @@ begin strings
 	string "Root/data/art/Glossary/Wahi"
 	string "frut"
 	string "dsc6"
-	string "cvlg"
 	string "gvlg"
 	string "le10"
 	string "ta06"
