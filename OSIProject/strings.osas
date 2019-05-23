@@ -2865,4 +2865,9 @@ begin strings
 	string "Root/Data/sounds/LewaCompletionMusic"
 	string "Root/Data/sounds/legocineTahuDance"
 	string "Root/Data/sounds/TahuCompletionMusic"
+	string "ttle"
+	string "Root/data/art/hud/elemrotate/hpybllpohatu"
+	string "Root/data/art/hud/elemrotate/hpybllkopaka"
+	string "Root/data/art/hud/elemrotate/hpyblllewa"
+	string "Root/data/art/hud/elemrotate/hpyblltahu"
 end ; strings

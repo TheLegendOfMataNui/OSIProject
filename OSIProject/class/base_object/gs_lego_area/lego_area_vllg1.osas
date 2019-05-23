@@ -199,6 +199,12 @@ begin class "lego_area_vllg1", "gs_lego_area"
 		GetThisMemberValueString      "cinema"
 		CallGameFunctionString        "gccinemaengine", "stop", 1
 		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		Dup
+		GetMemberFunctionString       "stop"
+		JumpAbsolute                  1
+		Pop
 		; <-
 		BranchTarget                  0
 		Pop

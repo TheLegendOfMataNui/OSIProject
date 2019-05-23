@@ -162,8 +162,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 		; address: 0x75466
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 68:68
 		MemberFunctionArgumentCheck   1
-		CreateStackVariables          3
-		BranchTarget				  0														; English
+		CreateStackVariables          1
 		LineNumber                    37314, 4
 		LineNumberAlt1                146, 95
 		PushConstanti32               50
@@ -189,23 +188,15 @@ begin class "lego_area_tura1", "gs_lego_area"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
 		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  1														; French
@@ -225,23 +216,15 @@ begin class "lego_area_tura1", "gs_lego_area"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
 		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  2														; Spanish
@@ -257,27 +240,19 @@ begin class "lego_area_tura1", "gs_lego_area"
         ; ->
 		LineNumber                    35381, 4
 		LineNumberAlt1                166, 46
-		PushConstantStringString      "Root/Data/cinematics/LegendFMVSpa.bik"
+		PushConstantStringString      "Root/Data/cinematics/LegendFMVGer.bik"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
-		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
 		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  3														; Italian
@@ -293,27 +268,19 @@ begin class "lego_area_tura1", "gs_lego_area"
         ; ->
 		LineNumber                    35381, 4
 		LineNumberAlt1                166, 46
-		PushConstantStringString      "Root/Data/cinematics/LegendFMVIt.bik"
+		PushConstantStringString      "Root/Data/cinematics/LegendFMVDa.bik"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
-		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
 		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  4														; Dutch
@@ -333,23 +300,15 @@ begin class "lego_area_tura1", "gs_lego_area"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
 		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  5														; German
@@ -365,27 +324,19 @@ begin class "lego_area_tura1", "gs_lego_area"
         ; ->
 		LineNumber                    35381, 4
 		LineNumberAlt1                166, 46
-		PushConstantStringString      "Root/Data/cinematics/LegendFMVGer.bik"
+		PushConstantStringString      "Root/Data/cinematics/LegendFMVIt.bik"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
-		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
 		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  6														; Danish
@@ -401,27 +352,19 @@ begin class "lego_area_tura1", "gs_lego_area"
         ; ->
 		LineNumber                    35381, 4
 		LineNumberAlt1                166, 46
-		PushConstantStringString      "Root/Data/cinematics/LegendFMVDa.bik"
+		PushConstantStringString      "Root/Data/cinematics/LegendFMVSpa.bik"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
-		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
 		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  7														; Swedish
@@ -441,23 +384,15 @@ begin class "lego_area_tura1", "gs_lego_area"
 		PushConstanti8                1
 		CallGameFunctionString        "gchuddirector", "playcinematic", 2
 		Pop
-		LineNumber                    41003, 4
-		LineNumberAlt1                55, 114
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "hud"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
 		CallGameFunctionString        "gcconversationengine", "getconversationengine", 0
 		LineNumber                    43977, 4
 		LineNumberAlt1                692, 111
-		SetVariableValue              2                                                     ; local
+		SetVariableValue              1                                                     ; local
 		LineNumber                    43978, 4
 		LineNumberAlt1                693, 111
-		GetVariableValue              2                                                     ; local
+		GetVariableValue              1                                                     ; local
 		PushConstanti32               2003330414
 		CallGameFunctionString        "gcconversationengine", "forceconversation", 2
 		BranchTarget				  8														; N/A (Reserved for BetterSaver branch. Repoint above if utilizing this target)
